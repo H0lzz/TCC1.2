@@ -1,0 +1,2189 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2026.5.25)  25 MAY 2026 20:21
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**tcc.tex
+(./tcc.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-01-16> (./fixos/pacotes.tex
+(/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2.cls
+Document Class: abntex2 2018/11/24 v-1.9.7 abnTeX2
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/memoir/memoir.cls
+Document Class: memoir 2022/11/17 v3.7.19 configurable book, report, article do
+cument class
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count185
+)
+\onelineskip=\skip48
+\lxvchars=\skip49
+\xlvchars=\skip50
+\@memcnta=\count186
+\c@@memmarkcntra=\count187
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+\stockheight=\dimen140
+\stockwidth=\dimen141
+\trimtop=\skip51
+\trimedge=\skip52
+
+(/usr/share/texlive/texmf-dist/tex/latex/memoir/mem12.clo
+File: mem12.clo 2022/07/29 v0.5 memoir class 12pt size option
+)
+\binding=\skip53
+\spinemargin=\skip54
+\foremargin=\skip55
+\uppermargin=\skip56
+\lowermargin=\skip57
+\headdrop=\skip58
+\normalrulethickness=\skip59
+\mem@maxheadheight=\skip60
+\mem@maxfootheight=\skip61
+\headwidth=\skip62
+\c@storedpagenumber=\count188
+\memPD=\dimen142
+\m@mabparskip=\skip63
+\thanksmarkwidth=\skip64
+\thanksmarksep=\skip65
+\droptitle=\skip66
+\c@book=\count189
+\c@part=\count190
+\c@chapter=\count191
+\c@section=\count192
+\c@subsection=\count193
+\c@subsubsection=\count194
+\c@paragraph=\count195
+\c@subparagraph=\count196
+\beforechapskip=\skip67
+\midchapskip=\skip68
+\afterchapskip=\skip69
+\chapindent=\skip70
+\bottomsectionskip=\skip71
+\secindent=\skip72
+\beforesecskip=\skip73
+\aftersecskip=\skip74
+\subsecindent=\skip75
+\beforesubsecskip=\skip76
+\aftersubsecskip=\skip77
+\subsubsecindent=\skip78
+\beforesubsubsecskip=\skip79
+\aftersubsubsecskip=\skip80
+\paraindent=\skip81
+\beforeparaskip=\skip82
+\afterparaskip=\skip83
+\subparaindent=\skip84
+\beforesubparaskip=\skip85
+\aftersubparaskip=\skip86
+\pfbreakskip=\skip87
+\c@@ppsavesec=\count197
+\c@@ppsaveapp=\count198
+\ragrparindent=\dimen143
+\everylistparindent=\dimen144
+\parsepi=\skip88
+\topsepi=\skip89
+\itemsepi=\skip90
+\parsepii=\skip91
+\topsepii=\skip92
+\topsepiii=\skip93
+\itemsepii=\skip94
+\itemsepiii=\skip95
+\partopsepii=\skip96
+\partopsepiii=\skip97
+\m@msavetopsep=\skip98
+\m@msavepartopsep=\skip99
+\@enLab=\toks16
+\abstitleskip=\skip100
+\absleftindent=\skip101
+\abs@leftindent=\dimen145
+\absrightindent=\skip102
+\absparindent=\skip103
+\absparsep=\skip104
+\c@vslineno=\count199
+\c@poemline=\count266
+\c@modulo@vs=\count267
+\c@memfvsline=\count268
+\vleftskip=\skip105
+\vrightskip=\skip106
+\stanzaskip=\skip107
+\versewidth=\skip108
+\vgap=\skip109
+\vindent=\skip110
+\vleftmargin=\dimen146
+\c@verse=\count269
+\c@chrsinstr=\count270
+\beforepoemtitleskip=\skip111
+\afterpoemtitleskip=\skip112
+\c@poem=\count271
+\beforePoemTitleskip=\skip113
+\midPoemTitleskip=\skip114
+\afterPoemTitleskip=\skip115
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen147
+\ar@mcellbox=\box51
+\extrarowheight=\dimen148
+\NC@list=\toks17
+\extratabsurround=\skip116
+\backup@length=\skip117
+\ar@cellbox=\box52
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/delarray.sty
+Package: delarray 2014/10/28 v1.01 array delimiter package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen149
+\TX@old@table=\dimen150
+\TX@old@col=\dimen151
+\TX@target=\dimen152
+\TX@delta=\dimen153
+\TX@cols=\count272
+\TX@ftn=\toks18
+)
+\heavyrulewidth=\dimen154
+\lightrulewidth=\dimen155
+\cmidrulewidth=\dimen156
+\belowrulesep=\dimen157
+\belowbottomsep=\dimen158
+\aboverulesep=\dimen159
+\abovetopsep=\dimen160
+\cmidrulesep=\dimen161
+\cmidrulekern=\dimen162
+\defaultaddspace=\dimen163
+\@cmidla=\count273
+\@cmidlb=\count274
+\@aboverulesep=\dimen164
+\@belowrulesep=\dimen165
+\@thisruleclass=\count275
+\@lastruleclass=\count276
+\@thisrulewidth=\dimen166
+\ctableftskip=\skip118
+\ctabrightskip=\skip119
+\abovecolumnspenalty=\count277
+\@linestogo=\count278
+\@cellstogo=\count279
+\@cellsincolumn=\count280
+\crtok=\toks19
+\@mincolumnwidth=\dimen167
+\c@newflo@tctr=\count281
+\mem@margin@floatbox=\box53
+\@contcwidth=\skip120
+\@contindw=\skip121
+\abovecaptionskip=\skip122
+\belowcaptionskip=\skip123
+\subfloattopskip=\skip124
+\subfloatcapskip=\skip125
+\subfloatcaptopadj=\skip126
+\subfloatbottomskip=\skip127
+\subfloatlabelskip=\skip128
+\subfloatcapmargin=\dimen168
+\c@@contsubnum=\count282
+\m@mscap@capbox=\box54
+\m@mscap@fbox=\box55
+\sidecapsep=\dimen169
+\sidecapwidth=\dimen170
+\m@m@tempdima=\dimen171
+\m@mscapraise=\dimen172
+\sidecapraise=\dimen173
+\m@mscapmainwidth=\dimen174
+\m@mscaplkern=\dimen175
+\beforeepigraphskip=\skip129
+\afterepigraphskip=\skip130
+\epigraphwidth=\skip131
+\epigraphrule=\skip132
+LaTeX Info: Redefining \em on input line 7655.
+LaTeX Info: Redefining \emph on input line 7663.
+\tocentryskip=\skip133
+\tocbaseline=\skip134
+\cftparskip=\skip135
+\cftbeforebookskip=\skip136
+\cftbookindent=\dimen176
+\cftbooknumwidth=\dimen177
+\cftbeforepartskip=\skip137
+\cftpartindent=\skip138
+\cftpartnumwidth=\skip139
+\cftbeforechapterskip=\skip140
+\cftchapterindent=\skip141
+\cftchapternumwidth=\skip142
+\cftbeforesectionskip=\skip143
+\cftsectionindent=\skip144
+\cftsectionnumwidth=\skip145
+\cftbeforesubsectionskip=\skip146
+\cftsubsectionindent=\skip147
+\cftsubsectionnumwidth=\skip148
+\cftbeforesubsubsectionskip=\skip149
+\cftsubsubsectionindent=\skip150
+\cftsubsubsectionnumwidth=\skip151
+\cftbeforeparagraphskip=\skip152
+\cftparagraphindent=\skip153
+\cftparagraphnumwidth=\skip154
+\cftbeforesubparagraphskip=\skip155
+\cftsubparagraphindent=\skip156
+\cftsubparagraphnumwidth=\skip157
+\prechapterprecisshift=\dimen178
+\c@maxsecnumdepth=\count283
+\bibindent=\dimen179
+\bibitemsep=\skip158
+\indexcolsep=\skip159
+\indexrule=\skip160
+\indexmarkstyle=\toks20
+\@indexbox=\insert252
+\glossarycolsep=\dimen180
+\glossaryrule=\dimen181
+\sideparvshift=\skip161
+\sideins=\insert251
+\sidebartopsep=\skip162
+\sidebarhsep=\skip163
+\sidebarvsep=\skip164
+\sidebarwidth=\skip165
+\footmarkwidth=\skip166
+\footmarksep=\skip167
+\footparindent=\skip168
+\footinsdim=\skip169
+\footinsv@r=\insert250
+\@mpfootinsv@r=\insert249
+\m@m@k=\count284
+\m@m@h=\dimen182
+\m@mipn@skip=\skip170
+\sidefootins=\insert248
+\sidefootadjust=\skip171
+\sidefootheight=\skip172
+\sidefoothsep=\skip173
+\sidefootvsep=\skip174
+\sidefootwidth=\skip175
+\m@mdownsf=\skip176
+\c@sidefootnote=\count285
+\sidefootmarkwidth=\skip177
+\sidefootmarksep=\skip178
+\sidefootparindent=\skip179
+\c@pagenote=\count286
+\c@pagenoteshadow=\count287
+\mem@pn@lastkern=\skip180
+\every@verbatim=\toks21
+\afterevery@verbatim=\toks22
+\verbatim@line=\toks23
+\tab@position=\count288
+\verbatim@in@stream=\read2
+\verbatimindent=\skip181
+\verbatim@out=\write3
+\bvboxsep=\skip182
+\c@memfbvline=\count289
+\c@bvlinectr=\count290
+\bvnumlength=\skip183
+\fb@frw=\dimen183
+\fb@frh=\dimen184
+\FrameRule=\dimen185
+\FrameSep=\dimen186
+\c@cp@cntr=\count291
+\c@ism@mctr=\count292
+\c@xsm@mctr=\count293
+\c@csm@mctr=\count294
+\c@ksm@mctr=\count295
+\c@xksm@mctr=\count296
+\c@cksm@mctr=\count297
+\c@msm@mctr=\count298
+\c@xmsm@mctr=\count299
+\c@cmsm@mctr=\count300
+\c@bsm@mctr=\count301
+\c@workm@mctr=\count302
+\c@sheetsequence=\count303
+\c@lastsheet=\count304
+\c@lastpage=\count305
+
+(/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2022/07/10 v1.03 Text only upper/lower case changing (DPC)
+Package textcase Info: Defining Legacy names on input line 20.
+)
+\c@figure=\count306
+\c@lofdepth=\count307
+\cftbeforefigureskip=\skip184
+\cftfigureindent=\skip185
+\cftfigurenumwidth=\skip186
+\c@table=\count308
+\c@lotdepth=\count309
+\cftbeforetableskip=\skip187
+\cfttableindent=\skip188
+\cfttablenumwidth=\skip189
+Package abstract [2008/07/23] emulated by memoir.
+Package appendix [2008/07/23] emulated by memoir.
+Package booktabs [2016/05/16] emulated by memoir.
+Package ccaption [2008/07/23] emulated by memoir.
+Package changepage [2008/07/23] emulated by memoir.
+Package chngcntr [2008/07/23] emulated by memoir.
+Package chngpage [2008/07/23] emulated by memoir.
+Package crop emulated by memoir.
+Package enumerate [2008/07/23] emulated by memoir.
+Package epigraph [2008/07/23] emulated by memoir.
+Package ifmtarg [2008/07/23] emulated by memoir.
+Package index [2008/07/23] emulated by memoir.
+Package makeidx [2008/07/23] emulated by memoir.
+Package moreverb [2008/07/23] emulated by memoir.
+Package needspace [2008/07/23] emulated by memoir.
+Package newfile [2008/07/23] emulated by memoir.
+Package nextpage [2008/07/23] emulated by memoir.
+Package pagenote [2008/07/23] emulated by memoir.
+Package parskip [2008/07/23] emulated by memoir.
+Package patchcmd [2008/07/23] emulated by memoir.
+Package setspace [2008/07/23] emulated by memoir.
+Package shortvrb [2008/07/23] emulated by memoir.
+Package showidx [2008/07/23] emulated by memoir.
+Package titleref [2008/07/23] emulated by memoir.
+Package titling [2008/07/23] emulated by memoir.
+Package tocbibind [2008/07/23] emulated by memoir.
+Package tocloft [2008/07/23] emulated by memoir.
+Package tocvsec2 [2008/07/23] emulated by memoir.
+Package verbatim [2008/07/23] emulated by memoir.
+Package verse [2008/07/23] emulated by memoir.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2022-11-13 v7.00u Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks24
+)
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count310
+)
+\@linkdim=\dimen187
+\Hy@linkcounter=\count311
+\Hy@pagecounter=\count312
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2022-11-13 v7.00u Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count313
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2022-11-13 v7.00u Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4162.
+Package hyperref Info: Link nesting OFF on input line 4167.
+Package hyperref Info: Hyper index ON on input line 4170.
+Package hyperref Info: Plain pages OFF on input line 4177.
+Package hyperref Info: Backreferencing OFF on input line 4182.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4410.
+\c@Hy@tempcnt=\count314
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4748.
+\XeTeXLinkMargin=\dimen188
+
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count315
+\Field@Width=\dimen189
+\Fld@charsize=\dimen190
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count316
+\c@Item=\count317
+\c@Hfootnote=\count318
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2022-11-13 v7.00u Hyperref driver for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count319
+\c@bookmark@seq@number=\count320
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip190
+)
+(/usr/share/texlive/texmf-dist/tex/latex/memoir/memhfixc.sty
+Package: memhfixc 2022/11/17 v1.20 nameref/hyperref package fixes for memoir cl
+ass
+
+Redoing nameref's sectioning
+Redoing nameref's label
+LaTeX Info: Redefining \nameref on input line 106.
+\c@memhycontfloat=\count321
+\c@Hpagenote=\count322
+) (/usr/share/texlive/texmf-dist/tex/latex/bookmark/bookmark.sty
+Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
+File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
+\BKM@id=\count323
+))
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2022/12/26 3.84 The Babel package
+\babel@savecnt=\count324
+\U@D=\dimen191
+\l@unhyphenated=\language4
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read3
+\bbl@dirlevel=\count325
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'british' set to \l@english
+(babel)             (\language0). Reported on input line 82.
+Package babel Info: Hyphen rules for 'UKenglish' set to \l@english
+(babel)             (\language0). Reported on input line 83.
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@english
+(babel)             (\language0). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@english
+(babel)             (\language0). Reported on input line 108.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/brazil.ldf
+Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
+Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
+(babel)             (\language3). Reported on input line 111.
+Package babel Info: Making " an active character on input line 143.
+))
+(/usr/share/texlive/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip191
+\enit@outerparindent=\dimen192
+\enit@toks=\toks25
+\enit@inbox=\box56
+\enit@count@id=\count326
+\enitdp@description=\count327
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count328
+\calc@Bcount=\count329
+\calc@Adimen=\dimen193
+\calc@Bdimen=\dimen194
+\calc@Askip=\skip192
+\calc@Bskip=\skip193
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count330
+\calc@Cskip=\skip194
+)
+
+******************************************************
+Stock height and width: 845.04684pt by 597.50787pt
+Top and edge trims: 0pt and 0pt
+Page height and width: 845.04684pt by 597.50787pt
+Text height and width: 708pt by 455pt
+Spine and edge margins: 85.35826pt and 56.9055pt
+Upper and lower margins: 85.35826pt and 51.68858pt
+Headheight and headsep: 14.5pt and 19.8738pt
+Footskip: 30pt
+Columnsep and columnseprule: 10pt and 0pt
+Marginparsep and marginparwidth: 7pt and 42.9055pt
+Sidecapsep and sidecapwidth: 7pt and 92pt
+Sidebarhsep and sidebarwidth: 7pt and 92pt
+Sidebarvsep and sidebartopsep: 14.5pt and 0pt
+Sidebarheight: 590.14995pt
+Sidefoothsep and sidefootwidth: 7pt and 92pt
+Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
+******************************************************
+
+\c@abntex@bookmarkcounter=\count331
+\cftlastnumwidth=\skip195
+\chapternamenumlength=\skip196
+\ABNTEXcitacaorecuo=\skip197
+\c@alineasi=\count332
+\c@alineasii=\count333
+\enitdp@alineas=\count334
+\c@subalineasi=\count335
+\enitdp@subalineas=\count336
+\c@incisosi=\count337
+\enitdp@incisos=\count338
+\ABNTEXsignwidth=\skip198
+\ABNTEXsignthickness=\skip199
+\ABNTEXsignskip=\skip256
+) (/usr/share/texlive/texmf-dist/tex/latex/cmap/cmap.sty
+Package: cmap 2021/02/06 v1.0j CMap support: searchable PDF
+)
+(/usr/share/texmf/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
+2.
+
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)<<t1.cmap>>)
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks26
+\inpenc@posthook=\toks27
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2021/09/03 v1.2n Refers to last page's name (HMM; JPG)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen195
+\Gin@req@width=\dimen196
+)
+(/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf.sty
+Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/units/units.sty
+Package: units 1998/08/04 v0.9b Typesetting units
+
+(/usr/share/texlive/texmf-dist/tex/latex/units/nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip257
+\L@UnitsRaiseTextstyle=\skip258
+\L@UnitsRaiseScriptstyle=\skip259
+))
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/backref.sty
+Package: backref 2021/02/04 v1.41 Bibliographical back referencing
+)
+(/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2cite.sty
+Package: abntex2cite 2018/11/24 v-1.9.7 abnTeX2
+
+(/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
+\minimumbiblabelwidth=\skip260
+\ABCIauxlen=\skip261
+\c@ABCIaux=\count339
+\c@ABCImax=\count340
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\biblabelsep=\skip262
+LaTeX Info: Redefining \newblock on input line 591.
+LaTeX Info: Redefining \cite on input line 618.
+\ABCItoken=\toks28
+)
+(/usr/share/texlive/texmf-dist/tex/latex/bold-extra/bold-extra.sty
+Package: bold-extra 2001/11/13 v0.1 Use fonts from cm/mf-extra/bold
+)
+(/usr/share/texlive/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen197
+\ESO@tempdimb=\dimen198
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count341
+\float@exts=\toks29
+\float@box=\box57
+\@float@everytoks=\toks30
+\@floatcapt=\box58
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip263
+\LTright=\skip264
+\LTpre=\skip265
+\LTpost=\skip266
+\LTchunksize=\count342
+\LTcapwidth=\dimen199
+\LT@head=\box59
+\LT@firsthead=\box60
+\LT@foot=\box61
+\LT@lastfoot=\box62
+\LT@gbox=\box63
+\LT@cols=\count343
+\LT@rows=\count344
+\c@LT@tables=\count345
+\c@LT@chunks=\count346
+\LT@p@ftn=\toks31
+)
+(/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2021/07/05 v2.14 Sectioning titles
+\ttl@box=\box64
+\beforetitleunit=\skip267
+\aftertitleunit=\skip268
+\ttl@plus=\dimen256
+\ttl@minus=\dimen257
+\ttl@toksa=\toks32
+\titlewidth=\dimen258
+\titlewidthlast=\dimen259
+\titlewidthfirst=\dimen260
+))
+(./fixos/comandos.tex) (./fixos/customizacoes.sty) (./editaveis/informacoes.tex
+) (./fixos/informacoes.tex) (./fixos/setup.tex
+Package color Info: Redefining color blue on input line 1.
+Package hyperref Info: Option `colorlinks' set `true' on input line 16.
+)
+\tcc@idxfile=\write4
+\openout4 = `tcc.idx'.
+
+
+Writing index file tcc.idx 
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count347
+\l__pdf_internal_box=\box65
+)
+(./tcc.aux)
+\openout1 = `tcc.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+Package hyperref Info: Link coloring ON on input line 9.
+\myptabbox=\box66
+\myptabboxwidth=\skip269
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 9.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count348
+\scratchdimen=\dimen261
+\scratchbox=\box67
+\nofMPsegments=\count349
+\nofMParguments=\count350
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count351
+\MPscratchDim=\dimen262
+\MPnumerator=\count352
+\makeMPintoPDFobject=\count353
+\everyMPtoPDFconversion=\toks34
+)
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
+2.
+ (/usr/share/texmf/tex/latex/lm/t1lmss.fd
+File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package epstopdf Info: Source file: <figuras/capa.eps>
+(epstopdf)                    date: 2022-01-19 21:17:37
+(epstopdf)                    size: 12409969 bytes
+(epstopdf)             Output file: <figuras/capa-eps-converted-to.pdf>
+(epstopdf)                    date: 2026-05-25 19:27:40
+(epstopdf)                    size: 1515938 bytes
+(epstopdf)             Command: <epstopdf --outfile=figuras/capa-eps-converted-
+to.pdf figuras/capa.eps>
+(epstopdf)             \includegraphics on input line 12.
+Package epstopdf Info: Output file is already uptodate.
+<figuras/capa-eps-converted-to.pdf, id=5, 10037.5pt x 14194.02875pt>
+File: figuras/capa-eps-converted-to.pdf Graphic file (type pdf)
+<use figuras/capa-eps-converted-to.pdf>
+Package pdftex.def Info: figuras/capa-eps-converted-to.pdf  used on input line 
+12.
+(pdftex.def)             Requested size: 597.47607pt x 844.89091pt.
+ [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figuras/capa-eps-convert
+ed-to.pdf>] [2
+
+]
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+4.
+
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)<<ot1.cmap>>
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+4.
+
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)<<oml.cmap>>
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+14.
+
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)<<oms.cmap>>
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+14.
+
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 14.
+<<omx.cmap>>
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 14.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 14.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.14 
+      [1
+
+
+] (./fixos/fichaCatalografica.tex
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+
+Overfull \hbox (16.44858pt too wide) in paragraph at lines 16--19
+[]  [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 30.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 30.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 30.
+) (./editaveis/errata.tex) (./fixos/folhaDeAprovacao.tex
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2 
+     [2] [3
+
+] [4
+
+]) (./editaveis/dedicatoria.tex) (./editaveis/agradecimentos.tex) (./editaveis/
+epigrafe.tex) (./editaveis/resumo.tex [5] [6
+
+])
+(./editaveis/abstract.tex [7] [8
+
+]) (./fixos/listasAutomaticas.tex (./tcc.lof)
+[9] [10
+
+] (./tcc.lot) [11] [12
+
+]) (./editaveis/abreviaturas.tex [13
+
+] [14])
+(./fixos/indiceAutomatico.tex (./tcc.toc [15
+
+] [16]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 94.
+) [17] [18
+
+])
+(./editaveis/introducao.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19
+
+]
+Underfull \vbox (badness 1867) has occurred while \output is active []
+
+ [20]
+Underfull \vbox (badness 4556) has occurred while \output is active []
+
+ [21]
+Underfull \vbox (badness 3861) has occurred while \output is active []
+
+ [22]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 5
+2.
+
+(/usr/share/texmf/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)) (./editaveis/aspectosgerais.tex
+[23] [24
+
+] [25] [26] [27] [28] [29] [30]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31]
+[32]
+<Imagens/Aprovado.png, id=491, 431.6125pt x 442.65375pt>
+File: Imagens/Aprovado.png Graphic file (type png)
+<use Imagens/Aprovado.png>
+Package pdftex.def Info: Imagens/Aprovado.png  used on input line 227.
+(pdftex.def)             Requested size: 341.25pt x 349.9898pt.
+ [33
+
+]
+<Imagens/StudyTok.png, id=505, 371.3875pt x 388.45125pt>
+File: Imagens/StudyTok.png Graphic file (type png)
+<use Imagens/StudyTok.png>
+Package pdftex.def Info: Imagens/StudyTok.png  used on input line 241.
+(pdftex.def)             Requested size: 341.25pt x 356.93492pt.
+ [34
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.247 
+       <./Imagens/Aprovado.png>] [35
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.251 \clearpage
+                 <./Imagens/StudyTok.png>] [36
+
+] [37])
+(./editaveis/consideracoes.tex [38] [39] [40
+
+] [41] [42]
+<Imagens/BPMNTCC1.png, id=570, 1561.33313pt x 658.71094pt>
+File: Imagens/BPMNTCC1.png Graphic file (type png)
+<use Imagens/BPMNTCC1.png>
+Package pdftex.def Info: Imagens/BPMNTCC1.png  used on input line 41.
+(pdftex.def)             Requested size: 455.0pt x 191.95602pt.
+<Imagens/BPMNTCC2.png, id=571, 1543.26563pt x 327.47343pt>
+File: Imagens/BPMNTCC2.png Graphic file (type png)
+<use Imagens/BPMNTCC2.png>
+Package pdftex.def Info: Imagens/BPMNTCC2.png  used on input line 55.
+(pdftex.def)             Requested size: 455.0pt x 96.54886pt.
+<Imagens/BPMNCompletoTCC.png, id=572, 1651.67062pt x 1008.01593pt>
+File: Imagens/BPMNCompletoTCC.png Graphic file (type png)
+<use Imagens/BPMNCompletoTCC.png>
+Package pdftex.def Info: Imagens/BPMNCompletoTCC.png  used on input line 67.
+(pdftex.def)             Requested size: 409.49722pt x 249.91153pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [43
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.73 
+     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.73 
+      <./Imagens/BPMNTCC1.png> <./Imagens/BPMNTCC2.png>] [44
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.80 \subsection{Metodologia √Ågil}
+                                    <./Imagens/BPMNCompletoTCC.png>] [45]
+<Imagens/CicloTDD.png, id=596, 299.1175pt x 251.94125pt>
+File: Imagens/CicloTDD.png Graphic file (type png)
+<use Imagens/CicloTDD.png>
+Package pdftex.def Info: Imagens/CicloTDD.png  used on input line 101.
+(pdftex.def)             Requested size: 273.00278pt x 229.9627pt.
+
+[46
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.6}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.109 
+       <./Imagens/CicloTDD.png>] [47]
+<Imagens/BPMNSprint.png, id=621, 1102.1175pt x 566.86781pt>
+File: Imagens/BPMNSprint.png Graphic file (type png)
+<use Imagens/BPMNSprint.png>
+Package pdftex.def Info: Imagens/BPMNSprint.png  used on input line 125.
+(pdftex.def)             Requested size: 455.0pt x 234.02614pt.
+ [48
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.139 
+       <./Imagens/BPMNSprint.png>]
+<Imagens/BPMNKanban.png, id=630, 1306.8825pt x 709.14937pt>
+File: Imagens/BPMNKanban.png Graphic file (type png)
+<use Imagens/BPMNKanban.png>
+Package pdftex.def Info: Imagens/BPMNKanban.png  used on input line 143.
+(pdftex.def)             Requested size: 455.0pt x 246.88586pt.
+ [49
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.8}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.155 
+       <./Imagens/BPMNKanban.png>] [50] [51] [52] [53]
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+[]|\T1/lmr/bx/n/12 Etapa da
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+[]|\T1/lmr/bx/n/12 AÁ„o da
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--311
+\T1/lmr/bx/n/12 Per-sona
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--312
+[]|\T1/lmr/m/n/12 Ansiedade /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--312
+[]|\T1/lmr/m/n/12 Sentimento de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--312
+\T1/lmr/m/n/12 so-bre-carga e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--312
+[]|\T1/lmr/bx/n/12 Interface ami-
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 312--312
+\T1/lmr/bx/n/12 g·-vel: \T1/lmr/m/n/12 Con-vida o
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 313--313
+[]|\T1/lmr/m/n/12 Inicia a pri-
+ []
+
+
+Underfull \hbox (badness 5878) in paragraph at lines 313--313
+\T1/lmr/m/n/12 meira ses-s„o
+ []
+
+
+Underfull \hbox (badness 1609) in paragraph at lines 313--313
+[]|\T1/lmr/m/n/12 TendÍncia a se
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 313--313
+[]|\T1/lmr/bx/n/12 Timer Po-mo-
+ []
+
+
+Underfull \hbox (badness 1789) in paragraph at lines 313--313
+\T1/lmr/bx/n/12 doro: \T1/lmr/m/n/12 Ini-cia ci-clo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
+[]|\T1/lmr/m/n/12 Completa
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
+\T1/lmr/m/n/12 a pri-meira
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
+\T1/lmr/m/n/12 ro-dada de
+ []
+
+
+Underfull \hbox (badness 5533) in paragraph at lines 314--314
+[]|\T1/lmr/m/n/12 SatisfaÁ„o ini-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
+[]|\T1/lmr/m/n/12 Necessidade de
+ []
+
+
+Underfull \hbox (badness 3333) in paragraph at lines 314--314
+\T1/lmr/m/n/12 re-forÁo po-si-tivo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
+[]|\T1/lmr/bx/n/12 GamificaÁ„o /
+ []
+
+
+Underfull \hbox (badness 6348) in paragraph at lines 314--314
+\T1/lmr/bx/n/12 Se-Á„o de Pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
+\T1/lmr/bx/n/12 gresso: \T1/lmr/m/n/12 Exibe
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
+\T1/lmr/m/n/12 barra de pro-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--314
+\T1/lmr/m/n/12 gresso pre-en-chida
+ []
+
+
+Underfull \hbox (badness 8075) in paragraph at lines 315--315
+[]|\T1/lmr/m/n/12 4. Ma-nu-ten-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
+[]|\T1/lmr/m/n/12 VÍ o pro-
+ []
+
+
+Underfull \hbox (badness 4621) in paragraph at lines 315--315
+\T1/lmr/m/n/12 gresso di·-rio
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
+\T1/lmr/m/n/12 se acu-mu-
+ []
+
+
+Underfull \hbox (badness 2753) in paragraph at lines 315--315
+\T1/lmr/m/n/12 con-te˙-dos es-tu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
+[]|\T1/lmr/bx/n/12 NotificaÁıes:
+ []
+
+
+Underfull \hbox (badness 1215) in paragraph at lines 315--315
+\T1/lmr/m/n/12 ximo Po-mo-doro e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 315--315
+\T1/lmr/m/n/12 agenda au-to-ma-ti-
+ []
+
+
+Overfull \hbox (14.27443pt too wide) in paragraph at lines 309--317
+ [][] 
+ []
+
+[54]
+Underfull \hbox (badness 10000) in paragraph at lines 328--328
+[]|\T1/lmr/bx/n/12 Etapa da
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--328
+[]|\T1/lmr/bx/n/12 AÁ„o da
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 328--328
+\T1/lmr/bx/n/12 Per-sona
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
+[]|\T1/lmr/m/n/12 1. Pla-ne-ja-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
+\T1/lmr/m/n/12 o que re-vi-sar
+ []
+
+
+Underfull \hbox (badness 1412) in paragraph at lines 329--329
+\T1/lmr/m/n/12 para ma-xi-mi-zar
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
+[]|\T1/lmr/bx/n/12 IntegraÁ„o
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--329
+\T1/lmr/bx/n/12 SRS/Pomodoro:
+ []
+
+
+Underfull \hbox (badness 8151) in paragraph at lines 330--330
+[]|\T1/lmr/m/n/12 Dificuldade em
+ []
+
+
+Underfull \hbox (badness 1052) in paragraph at lines 330--330
+\T1/lmr/m/n/12 man-ter a dis-ci-
+ []
+
+
+Underfull \hbox (badness 1983) in paragraph at lines 330--330
+\T1/lmr/m/n/12 de-vido ao can-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--330
+[]|\T1/lmr/bx/n/12 Timer Po-mo-
+ []
+
+
+Underfull \hbox (badness 3514) in paragraph at lines 330--330
+\T1/lmr/bx/n/12 doro Adap-tado:
+ []
+
+
+Underfull \hbox (badness 2197) in paragraph at lines 330--330
+\T1/lmr/m/n/12 Exe-cuta um ci-clo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--330
+\T1/lmr/m/n/12 de foco in-tenso
+ []
+
+
+Underfull \hbox (badness 4739) in paragraph at lines 331--331
+[]|\T1/lmr/m/n/12 Completa as
+ []
+
+
+Underfull \hbox (badness 3601) in paragraph at lines 331--331
+[]|\T1/lmr/m/n/12 PreocupaÁ„o se
+ []
+
+
+Underfull \hbox (badness 2197) in paragraph at lines 331--331
+[]|\T1/lmr/bx/n/12 Algoritmo SRS:
+ []
+
+
+Underfull \hbox (badness 5667) in paragraph at lines 331--331
+\T1/lmr/m/n/12 Atu-a-liza o in-ter-
+ []
+
+
+Underfull \hbox (badness 3460) in paragraph at lines 331--331
+\T1/lmr/m/n/12 valo de re-pe-ti-Á„o
+ []
+
+
+Underfull \hbox (badness 1735) in paragraph at lines 331--331
+\T1/lmr/m/n/12 do con-te˙do re-vi-
+ []
+
+
+Underfull \hbox (badness 4886) in paragraph at lines 331--331
+\T1/lmr/m/n/12 rÌodo mais longo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--332
+[]|\T1/lmr/m/n/12 4. Check-in
+ []
+
+
+Underfull \hbox (badness 1552) in paragraph at lines 332--332
+\T1/lmr/m/n/12 ca-Á„o de re-
+ []
+
+
+Underfull \hbox (badness 7907) in paragraph at lines 332--332
+\T1/lmr/m/n/12 cer o agen-da-
+ []
+
+
+Underfull \hbox (badness 1337) in paragraph at lines 332--332
+\T1/lmr/m/n/12 mento no meio
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--332
+[]|\T1/lmr/bx/n/12 NotificaÁıes:
+ []
+
+
+Underfull \hbox (badness 3407) in paragraph at lines 332--332
+\T1/lmr/m/n/12 exato da re-vi-s„o,
+ []
+
+
+Underfull \hbox (badness 1708) in paragraph at lines 332--332
+\T1/lmr/m/n/12 eli-mi-nando a ges-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--332
+\T1/lmr/m/n/12 t„o ma-nual do
+ []
+
+
+Overfull \hbox (14.27443pt too wide) in paragraph at lines 326--334
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55
+pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.338 
+      ]
+Underfull \hbox (badness 10000) in paragraph at lines 345--345
+[]|\T1/lmr/bx/n/12 Etapa da
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 345--345
+[]|\T1/lmr/bx/n/12 AÁ„o da
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 345--345
+\T1/lmr/bx/n/12 Per-sona
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
+[]|\T1/lmr/m/n/12 1. Ava-li-a-Á„o
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
+[]|\T1/lmr/m/n/12 Prepara-se
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
+\T1/lmr/m/n/12 para uma
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
+\T1/lmr/m/n/12 longa ses-s„o
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
+\T1/lmr/m/n/12 em con-di-Áıes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
+\T1/lmr/m/n/12 emo-ci-o-nais de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
+\T1/lmr/m/n/12 ab-sor-ver con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 346--346
+[]|\T1/lmr/bx/n/12 Check-in de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
+[]|\T1/lmr/m/n/12 2. Es-tudo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
+[]|\T1/lmr/m/n/12 Recebe a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
+\T1/lmr/m/n/12 su-ges-t„o de
+ []
+
+
+Underfull \hbox (badness 4441) in paragraph at lines 347--347
+[]|\T1/lmr/m/n/12 Iniciar um tÛ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
+[]|\T1/lmr/bx/n/12 Sugest„o de
+ []
+
+
+Underfull \hbox (badness 4621) in paragraph at lines 347--347
+\T1/lmr/bx/n/12 Bem-Estar: \T1/lmr/m/n/12 Ofe-
+ []
+
+
+Underfull \hbox (badness 3612) in paragraph at lines 347--347
+\T1/lmr/m/n/12 re-vi-s„o mais leve
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
+\T1/lmr/m/n/12 ou su-gere uma
+ []
+
+
+Underfull \hbox (badness 2376) in paragraph at lines 347--347
+\T1/lmr/m/n/12 Ìn-dice de es-tresse
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--348
+[]|\T1/lmr/m/n/12 Executa a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--348
+\T1/lmr/m/n/12 re-vi-s„o via
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--348
+[]|\T1/lmr/m/n/12 Perder tempo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--348
+\T1/lmr/m/n/12 pro-cu-rando o
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--348
+\T1/lmr/m/n/12 prÛ-ximo con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--348
+[]|\T1/lmr/bx/n/12 Interface In-
+ []
+
+
+Underfull \hbox (badness 4995) in paragraph at lines 348--348
+\T1/lmr/bx/n/12 tui-tiva / SRS:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--349
+[]|\T1/lmr/m/n/12 4. Re-fle-x„o
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--349
+[]|\T1/lmr/m/n/12 Termina o
+ []
+
+
+Underfull \hbox (badness 2027) in paragraph at lines 349--349
+\T1/lmr/m/n/12 bloco de es-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--349
+[]|\T1/lmr/m/n/12 Necessidade de
+ []
+
+
+Underfull \hbox (badness 5446) in paragraph at lines 349--349
+\T1/lmr/m/n/12 ver o im-pacto
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--349
+[]|\T1/lmr/bx/n/12 RelatÛrio de
+ []
+
+
+Underfull \hbox (badness 7832) in paragraph at lines 349--349
+\T1/lmr/bx/n/12 gresso: \T1/lmr/m/n/12 Exibe a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--349
+\T1/lmr/m/n/12 cor-re-la-Á„o en-tre
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 349--349
+\T1/lmr/m/n/12 o hu-mor ini-cial e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--349
+\T1/lmr/m/n/12 a quan-ti-dade de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--349
+\T1/lmr/m/n/12 flash-cards re-vi-sa-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--349
+\T1/lmr/m/n/12 dos, fe-chando o
+ []
+
+
+Underfull \hbox (badness 2293) in paragraph at lines 349--349
+\T1/lmr/m/n/12 ci-clo da Apren-di-
+ []
+
+
+Underfull \hbox (badness 5711) in paragraph at lines 349--349
+\T1/lmr/m/n/12 za-gem Au-tor-re-gu-
+ []
+
+
+Overfull \hbox (14.27443pt too wide) in paragraph at lines 343--351
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [56
+pdfTeX warning (ext4): destination with the same identifier (name{table.3.2}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.355 
+      ] [57
+pdfTeX warning (ext4): destination with the same identifier (name{table.3.3}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.359 
+      ]
+<Imagens/BrainstormingFuncionalidades.jpg, id=685, 1788.6825pt x 3519.1475pt>
+File: Imagens/BrainstormingFuncionalidades.jpg Graphic file (type jpg)
+<use Imagens/BrainstormingFuncionalidades.jpg>
+Package pdftex.def Info: Imagens/BrainstormingFuncionalidades.jpg  used on inpu
+t line 363.
+(pdftex.def)             Requested size: 323.85947pt x 637.17807pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [59
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.9}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.376 
+       <./Imagens/BrainstormingFuncionalidades.jpg>]
+<Imagens/GraficoSemaforo.jpg, id=697, 2552.53625pt x 2466.21375pt>
+File: Imagens/GraficoSemaforo.jpg Graphic file (type jpg)
+<use Imagens/GraficoSemaforo.jpg>
+Package pdftex.def Info: Imagens/GraficoSemaforo.jpg  used on input line 384.
+(pdftex.def)             Requested size: 454.99658pt x 439.60934pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [60]
+[61
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.10})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.396 
+       <./Imagens/GraficoSemaforo.jpg>]
+<Imagens/Sequenciador.jpg, id=708, 1358.07375pt x 4635.3175pt>
+File: Imagens/Sequenciador.jpg Graphic file (type jpg)
+<use Imagens/Sequenciador.jpg>
+Package pdftex.def Info: Imagens/Sequenciador.jpg  used on input line 402.
+(pdftex.def)             Requested size: 176.30711pt x 601.76369pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [62]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [63
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.11})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.412 
+       <./Imagens/Sequenciador.jpg>]
+<Imagens/CanvasMVP.jpg, id=720, 2998.20125pt x 2099.845pt>
+File: Imagens/CanvasMVP.jpg Graphic file (type jpg)
+<use Imagens/CanvasMVP.jpg>
+Package pdftex.def Info: Imagens/CanvasMVP.jpg  used on input line 416.
+(pdftex.def)             Requested size: 455.0pt x 318.64787pt.
+
+Underfull \vbox (badness 1009) has occurred while \output is active []
+
+ [64
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.12})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.427 S
+       endo assim, para este projeto, foram utilizados artefatos do workshop...
+ <./Imagens/CanvasMVP.jpg>] [65] [66] [67]
+Overfull \hbox (10.52487pt too wide) in paragraph at lines 570--571
+[]\T1/lmr/m/n/12 Para or-ga-ni-zar os re-qui-si-tos n„o fun-ci-o-nais do pro-je
+to, utilizou-se o mo-delo FURPS+.
+ []
+
+[68
+pdfTeX warning (ext4): destination with the same identifier (name{table.3.4}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.577     \item \textbf
+                       {Supportability:} Refere-se a facilidade de manuten√ß...
+]) (./editaveis/textoepostexto.tex) (./editaveis/elementosdotexto.tex [69
+pdfTeX warning (ext4): destination with the same identifier (name{table.3.5}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1 \chapter
+            {Desenvolvimento}] [70
+
+] [71] [72] [73] [74]
+<Imagens/DiagramaClasses.drawio.png, id=820, 1435.3625pt x 1320.935pt>
+File: Imagens/DiagramaClasses.drawio.png Graphic file (type png)
+<use Imagens/DiagramaClasses.drawio.png>
+Package pdftex.def Info: Imagens/DiagramaClasses.drawio.png  used on input line
+ 104.
+(pdftex.def)             Requested size: 455.0pt x 418.71698pt.
+
+Underfull \vbox (badness 1478) has occurred while \output is active []
+
+ [75]
+<Imagens/DiagramaPacotesBackend.png, id=830, 773.89125pt x 482.80376pt>
+File: Imagens/DiagramaPacotesBackend.png Graphic file (type png)
+<use Imagens/DiagramaPacotesBackend.png>
+Package pdftex.def Info: Imagens/DiagramaPacotesBackend.png  used on input line
+ 118.
+(pdftex.def)             Requested size: 455.0pt x 283.85721pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [76
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.13})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.124 
+       <./Imagens/DiagramaClasses.drawio.png>]
+<Imagens/DiagramaPacotesFrontend.png, id=836, 783.92876pt x 483.8075pt>
+File: Imagens/DiagramaPacotesFrontend.png Graphic file (type png)
+<use Imagens/DiagramaPacotesFrontend.png>
+Package pdftex.def Info: Imagens/DiagramaPacotesFrontend.png  used on input lin
+e 128.
+(pdftex.def)             Requested size: 455.0pt x 280.80786pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [77
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.14})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.138 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.15})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.138 
+       <./Imagens/DiagramaPacotesBackend.png> <./Imagens/DiagramaPacotesFronten
+d.png>]
+<Imagens/DiagramaConceitual.png, id=846, 1107.13625pt x 538.01pt>
+File: Imagens/DiagramaConceitual.png Graphic file (type png)
+<use Imagens/DiagramaConceitual.png>
+Package pdftex.def Info: Imagens/DiagramaConceitual.png  used on input line 146
+.
+(pdftex.def)             Requested size: 455.0pt x 221.1027pt.
+
+Underfull \vbox (badness 7133) has occurred while \output is active []
+
+ [78
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.16})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.156 
+       <./Imagens/DiagramaConceitual.png>]
+<Imagens/DiagramaLogico.png, id=855, 767.86874pt x 549.05125pt>
+File: Imagens/DiagramaLogico.png Graphic file (type png)
+<use Imagens/DiagramaLogico.png>
+Package pdftex.def Info: Imagens/DiagramaLogico.png  used on input line 160.
+(pdftex.def)             Requested size: 455.0pt x 325.34491pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [79
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.17})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.170 
+       <./Imagens/DiagramaLogico.png>] [80])
+(./editaveis/elementosdopostexto.tex [81] [82
+
+] [83]) (./tcc.bbl (./tcc.brf)
+\tf@brf=\write5
+\openout5 = `tcc.brf'.
+
+
+[84]
+bibitemlist
+[85
+
+] [86] [87]) (./editaveis/apendices.tex [88]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\uppercase' on input line 4.
+
+[89
+
+
+] [90]
+<Imagens/PrototipoFigma/00_flashcards_empty.jpg, id=1017, 1084.05pt x 2409.0pt>
+
+File: Imagens/PrototipoFigma/00_flashcards_empty.jpg Graphic file (type jpg)
+<use Imagens/PrototipoFigma/00_flashcards_empty.jpg>
+Package pdftex.def Info: Imagens/PrototipoFigma/00_flashcards_empty.jpg  used o
+n input line 12.
+(pdftex.def)             Requested size: 223.00912pt x 495.59784pt.
+<Imagens/PrototipoFigma/01_onboarding_metodo.jpg, id=1018, 1084.05pt x 2409.0pt
+>
+File: Imagens/PrototipoFigma/01_onboarding_metodo.jpg Graphic file (type jpg)
+<use Imagens/PrototipoFigma/01_onboarding_metodo.jpg>
+Package pdftex.def Info: Imagens/PrototipoFigma/01_onboarding_metodo.jpg  used 
+on input line 22.
+(pdftex.def)             Requested size: 223.00912pt x 495.59784pt.
+
+Underfull \vbox (badness 7168) has occurred while \output is active []
+
+ [91
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.A.18})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.28 
+      <./Imagens/PrototipoFigma/00_flashcards_empty.jpg>]
+<Imagens/PrototipoFigma/02_onboarding_srs.jpg, id=1023, 1084.05pt x 2409.0pt>
+File: Imagens/PrototipoFigma/02_onboarding_srs.jpg Graphic file (type jpg)
+<use Imagens/PrototipoFigma/02_onboarding_srs.jpg>
+Package pdftex.def Info: Imagens/PrototipoFigma/02_onboarding_srs.jpg  used on 
+input line 32.
+(pdftex.def)             Requested size: 223.00912pt x 495.59784pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [92
+pdfTeX warning (ext4): destination with the same identifier (name{figure.A.19})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.38 
+      <./Imagens/PrototipoFigma/01_onboarding_metodo.jpg>]
+<Imagens/PrototipoFigma/03_onboarding_bemestar.jpg, id=1028, 1084.05pt x 2409.0
+pt>
+File: Imagens/PrototipoFigma/03_onboarding_bemestar.jpg Graphic file (type jpg)
+
+<use Imagens/PrototipoFigma/03_onboarding_bemestar.jpg>
+Package pdftex.def Info: Imagens/PrototipoFigma/03_onboarding_bemestar.jpg  use
+d on input line 42.
+(pdftex.def)             Requested size: 223.00912pt x 495.59784pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [93
+pdfTeX warning (ext4): destination with the same identifier (name{figure.A.20})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.48 
+      <./Imagens/PrototipoFigma/02_onboarding_srs.jpg>]
+<Imagens/PrototipoFigma/04_signup.jpg, id=1033, 1084.05pt x 2409.0pt>
+File: Imagens/PrototipoFigma/04_signup.jpg Graphic file (type jpg)
+<use Imagens/PrototipoFigma/04_signup.jpg>
+Package pdftex.def Info: Imagens/PrototipoFigma/04_signup.jpg  used on input li
+ne 52.
+(pdftex.def)             Requested size: 223.00912pt x 495.59784pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [94
+pdfTeX warning (ext4): destination with the same identifier (name{figure.A.21})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.58 
+      <./Imagens/PrototipoFigma/03_onboarding_bemestar.jpg>]
+<Imagens/PrototipoFigma/05_login.jpg, id=1038, 1084.05pt x 2409.0pt>
+File: Imagens/PrototipoFigma/05_login.jpg Graphic file (type jpg)
+<use Imagens/PrototipoFigma/05_login.jpg>
+Package pdftex.def Info: Imagens/PrototipoFigma/05_login.jpg  used on input lin
+e 62.
+(pdftex.def)             Requested size: 223.00912pt x 495.59784pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [95
+pdfTeX warning (ext4): destination with the same identifier (name{figure.A.22})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.68 
+      <./Imagens/PrototipoFigma/04_signup.jpg>]
+<Imagens/PrototipoFigma/06_home.jpg, id=1044, 1084.05pt x 2409.0pt>
+File: Imagens/PrototipoFigma/06_home.jpg Graphic file (type jpg)
+<use Imagens/PrototipoFigma/06_home.jpg>
+Package pdftex.def Info: Imagens/PrototipoFigma/06_home.jpg  used on input line
+ 72.
+(pdftex.def)             Requested size: 223.00912pt x 495.59784pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [96
+pdfTeX warning (ext4): destination with the same identifier (name{figure.A.23})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.78 
+      <./Imagens/PrototipoFigma/05_login.jpg>]
+<Imagens/PrototipoFigma/07_timer.jpg, id=1049, 1084.05pt x 2409.0pt>
+File: Imagens/PrototipoFigma/07_timer.jpg Graphic file (type jpg)
+<use Imagens/PrototipoFigma/07_timer.jpg>
+Package pdftex.def Info: Imagens/PrototipoFigma/07_timer.jpg  used on input lin
+e 82.
+(pdftex.def)             Requested size: 223.00912pt x 495.59784pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [97
+pdfTeX warning (ext4): destination with the same identifier (name{figure.A.24})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.88 
+      <./Imagens/PrototipoFigma/06_home.jpg>]
+<Imagens/PrototipoFigma/08_timer_settings.jpg, id=1054, 1084.05pt x 2409.0pt>
+File: Imagens/PrototipoFigma/08_timer_settings.jpg Graphic file (type jpg)
+<use Imagens/PrototipoFigma/08_timer_settings.jpg>
+Package pdftex.def Info: Imagens/PrototipoFigma/08_timer_settings.jpg  used on 
+input line 92.
+(pdftex.def)             Requested size: 223.00912pt x 495.59784pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [98
+pdfTeX warning (ext4): destination with the same identifier (name{figure.A.25})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.98 
+      <./Imagens/PrototipoFigma/07_timer.jpg>]
+<Imagens/PrototipoFigma/09_new_flashcard.jpg, id=1059, 1084.05pt x 2409.0pt>
+File: Imagens/PrototipoFigma/09_new_flashcard.jpg Graphic file (type jpg)
+<use Imagens/PrototipoFigma/09_new_flashcard.jpg>
+Package pdftex.def Info: Imagens/PrototipoFigma/09_new_flashcard.jpg  used on i
+nput line 102.
+(pdftex.def)             Requested size: 223.00912pt x 495.59784pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [99
+pdfTeX warning (ext4): destination with the same identifier (name{figure.A.26})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.108 
+       <./Imagens/PrototipoFigma/08_timer_settings.jpg>]
+<Imagens/PrototipoFigma/10_flashcards.jpg, id=1064, 1084.05pt x 2409.0pt>
+File: Imagens/PrototipoFigma/10_flashcards.jpg Graphic file (type jpg)
+<use Imagens/PrototipoFigma/10_flashcards.jpg>
+Package pdftex.def Info: Imagens/PrototipoFigma/10_flashcards.jpg  used on inpu
+t line 112.
+(pdftex.def)             Requested size: 223.00912pt x 495.59784pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [100
+pdfTeX warning (ext4): destination with the same identifier (name{figure.A.27})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.118 
+       <./Imagens/PrototipoFigma/09_new_flashcard.jpg>]
+<Imagens/PrototipoFigma/11_flashcard_delete.jpg, id=1069, 1084.05pt x 2409.0pt>
+
+File: Imagens/PrototipoFigma/11_flashcard_delete.jpg Graphic file (type jpg)
+<use Imagens/PrototipoFigma/11_flashcard_delete.jpg>
+Package pdftex.def Info: Imagens/PrototipoFigma/11_flashcard_delete.jpg  used o
+n input line 122.
+(pdftex.def)             Requested size: 223.00912pt x 495.59784pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [101
+pdfTeX warning (ext4): destination with the same identifier (name{figure.A.28})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.128 
+       <./Imagens/PrototipoFigma/10_flashcards.jpg>]
+<Imagens/PrototipoFigma/12_flashcard_front.jpg, id=1075, 1084.05pt x 2409.0pt>
+File: Imagens/PrototipoFigma/12_flashcard_front.jpg Graphic file (type jpg)
+<use Imagens/PrototipoFigma/12_flashcard_front.jpg>
+Package pdftex.def Info: Imagens/PrototipoFigma/12_flashcard_front.jpg  used on
+ input line 132.
+(pdftex.def)             Requested size: 223.00912pt x 495.59784pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [102
+pdfTeX warning (ext4): destination with the same identifier (name{figure.A.29})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.138 
+       <./Imagens/PrototipoFigma/11_flashcard_delete.jpg>]
+<Imagens/PrototipoFigma/13_flashcard_back.jpg, id=1080, 1084.05pt x 2409.0pt>
+File: Imagens/PrototipoFigma/13_flashcard_back.jpg Graphic file (type jpg)
+<use Imagens/PrototipoFigma/13_flashcard_back.jpg>
+Package pdftex.def Info: Imagens/PrototipoFigma/13_flashcard_back.jpg  used on 
+input line 142.
+(pdftex.def)             Requested size: 223.00912pt x 495.59784pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [103
+pdfTeX warning (ext4): destination with the same identifier (name{figure.A.30})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.148 
+       <./Imagens/PrototipoFigma/12_flashcard_front.jpg>]
+<Imagens/PrototipoFigma/14_session_done.jpg, id=1085, 1084.05pt x 2409.0pt>
+File: Imagens/PrototipoFigma/14_session_done.jpg Graphic file (type jpg)
+<use Imagens/PrototipoFigma/14_session_done.jpg>
+Package pdftex.def Info: Imagens/PrototipoFigma/14_session_done.jpg  used on in
+put line 152.
+(pdftex.def)             Requested size: 223.00912pt x 495.59784pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [104
+pdfTeX warning (ext4): destination with the same identifier (name{figure.A.31})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.158 
+       <./Imagens/PrototipoFigma/13_flashcard_back.jpg>]
+<Imagens/PrototipoFigma/15_progresso.jpg, id=1090, 1084.05pt x 2409.0pt>
+File: Imagens/PrototipoFigma/15_progresso.jpg Graphic file (type jpg)
+<use Imagens/PrototipoFigma/15_progresso.jpg>
+Package pdftex.def Info: Imagens/PrototipoFigma/15_progresso.jpg  used on input
+ line 162.
+(pdftex.def)             Requested size: 223.00912pt x 495.59784pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [105
+pdfTeX warning (ext4): destination with the same identifier (name{figure.A.32})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.168 
+       <./Imagens/PrototipoFigma/14_session_done.jpg>]
+<Imagens/PrototipoFigma/16_user.jpg, id=1095, 1084.05pt x 2409.0pt>
+File: Imagens/PrototipoFigma/16_user.jpg Graphic file (type jpg)
+<use Imagens/PrototipoFigma/16_user.jpg>
+Package pdftex.def Info: Imagens/PrototipoFigma/16_user.jpg  used on input line
+ 172.
+(pdftex.def)             Requested size: 223.00912pt x 495.59784pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [106
+pdfTeX warning (ext4): destination with the same identifier (name{figure.A.33})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.178 
+       <./Imagens/PrototipoFigma/15_progresso.jpg>]
+<Imagens/PrototipoFigma/17_user_checkin.jpg, id=1100, 1084.05pt x 2409.0pt>
+File: Imagens/PrototipoFigma/17_user_checkin.jpg Graphic file (type jpg)
+<use Imagens/PrototipoFigma/17_user_checkin.jpg>
+Package pdftex.def Info: Imagens/PrototipoFigma/17_user_checkin.jpg  used on in
+put line 182.
+(pdftex.def)             Requested size: 223.00912pt x 495.59784pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [107
+pdfTeX warning (ext4): destination with the same identifier (name{figure.A.34})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.188 
+       <./Imagens/PrototipoFigma/16_user.jpg>]) (./editaveis/anexos.tex)
+No file tcc.ind.
+
+AED: lastpage setting LastPage
+[108
+pdfTeX warning (ext4): destination with the same identifier (name{figure.A.35})
+ has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.45 \end{document}
+                    <./Imagens/PrototipoFigma/17_user_checkin.jpg>]
+\tf@lof=\write6
+\openout6 = `tcc.lof'.
+
+\tf@lot=\write7
+\openout7 = `tcc.lot'.
+
+\tf@toc=\write8
+\openout8 = `tcc.toc'.
+
+ (./tcc.aux)
+
+Package rerunfilecheck Warning: File `tcc.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
+
+Package rerunfilecheck Info: Checksums for `tcc.brf':
+(rerunfilecheck)             Before: 3AF59E20D24FA3B93CABBFB88F76108D;4566
+(rerunfilecheck)             After:  D6F49D641FBD263504AF8A93DA81C36C;4566.
+ ) 
+Here is how much of TeX's memory you used:
+ 17306 strings out of 478031
+ 280122 string characters out of 5840162
+ 1868330 words of memory out of 5000000
+ 36722 multiletter control sequences out of 15000+600000
+ 590582 words of font info for 75 fonts, out of 8000000 for 9000
+ 16 hyphenation exceptions out of 8191
+ 95i,13n,93p,1337b,687s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
+vips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/shar
+e/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/l
+m/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf
+/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri1
+2.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/font
+s/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb
+></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmsy10.pfb>
+Output written on tcc.pdf (110 pages, 8808331 bytes).
+PDF statistics:
+ 1479 PDF objects out of 1728 (max. 8388607)
+ 1287 compressed objects within 13 object streams
+ 288 named destinations out of 1000 (max. 500000)
+ 897 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,203 +1,183 @@
-\chapter[Elementos do Texto]{Elementos do Texto}
+\chapter{Desenvolvimento}
 
-\section{Corpo do Texto}
+Este capítulo expõe as decisões e os artefatos produzidos para o desenvolvimento do projeto. São evidenciados o suporte tecnológico, a arquitetura do sistema, a representação visual, o projeto de dados, a estratégia de testes de software e a prototipação de alta fidelidade.
 
-O estilo de redação deve atentar a boa prática da linguagem técnica. Para a 
-terminologia metrological usar o Vocabulário Internacional de Termos 
-Fundamentais e Gerais de Metrologia \cite{inmetro2003}.
+\section{Suporte Tecnológico}
 
-Grandezas dimensionais devem ser apresentadas em unidades consistentes com 
-o Sistema Internacional de Unidades  (SI). Outras unidades podem ser usadas 
-como unidades secundárias entre parenteses se necessário. Exceções são 
-relacionadas a unidades não-SI usadas como identificadores comerciais como 
-pro exemplo \lq\lq disquete de  3$\nicefrac{1}{2}$ polegadas\rq\rq. 
+Esta seção apresenta os recursos tecnológicos selecionados para o planejamento e a implementação técnica para este trabalho. As ferramentas foram escolhidas visando a metodologia ágil do desenvolvimento do MVP e a experiência prévia com tais ferramentas.
 
-Na apresentação de números ao longo do texto usar virgula para separar a 
-parte decimal de um número. Resultados experimentais devem ser apresentados 
-com sua respectiva incerteza de medição.
+\subsection{Miro}
 
-\section{Títulos de capítulos e seções}
+A ferramenta Miro permite criar diagramas ilustrativos e exportá-los em imagens. Além disso, a aplicação da metodologia Lean Inception exige um ambiente altamente colaborativo para a construção de artefatos como o Canvas MVP. O Miro foi utilizado para ilustrar os processos do Lean Inception, facilitando a visualização do produto e o alinhamento das expectativas.
 
-Recomendações de formatação de seções (texto informativo: o \LaTeX\
-\textbf{já formata as seções automaticamente, se utilizado o comando
-\texttt{\textbackslash section\{Nome da Seção\}}}):
+\subsection{Figma}
 
-\begin{description}
+O Figma é a ferramenta escolhida para a elaboração dos protótipos de alta fidelidade. Sua relevância reside na capacidade de criar componentes reutilizáveis e fluxos de interação que simulam a experiência real do usuário. Portanto, o Figma é essencial para validar a interface intuitiva exigida pelas Personas e testar a usabilidade das funcionalidades antes da codificação \cite{figma_2025}.
 
-	\item \textbf{1 SEÇÃO PRIMÁRIA - MAIÚSCULAS; NEGRITO; TAMANHO 12;}
+\subsection{Draw.io}
 
-	\item 1.1 SEÇÃO SECUNDÁRIA – MAIÚSCULAS; NORMAL; TAMANHO 12; 
+O Draw.io foi utilizado para a modelagem dos diagramas, como diagramas UML de casos de uso, diagramas de classe e diagramas de pacotes. A ferramenta permite documentar a arquitetura lógica do aplicativo, essencial para garantir que a integração entre os componentes e o banco de dados seja implementada de forma organizada \cite{drawio_2025}.
 
-	\item \textbf{1.1.1 Seção terciária - Minúsculas, com exceção da 
-	primeira letra; negrito; tamanho 12;}
+\subsection{React Native e Expo}
 
-	\item 1.1.1.1 Seção quaternária - Minúsculas, com exceção da primeira 
-	letra; normal tamanho 12; 
+Para o desenvolvimento mobile, escolheu-se o React Native junto com o framework Expo. Essa escolha justifica-se pela necessidade de uma aplicação multiplataforma que utilize uma base de código única. O Expo acelera o desenvolvimento ao fornecer APIs prontas para notificações e acesso ao hardware, além de permitir testes em tempo real em dispositivos físicos através do Expo Go \cite{expo_2025}.
 
- 	\item \textit{1.1.1.1.1 Seção quinária - Minúsculas, com exceção da 
-	primeira letra; itálico; tamanho 12.}
+\subsection{Node.js e Express}
 
-\end{description}
+Como tecnologia de backend, será utilizado o Node.js com o framework Express. Este conjunto tecnológico é reconhecido pela sua escalabilidade e alta performance em aplicações intensivas em dados, sendo ideal para gerenciar as requisições de check-ins de saúde e o processamento do algoritmo de repetição espaçada em tempo real.
 
-\section{Notas de rodapé}
+\subsection{PostgreSQL}
 
-Notas eventualmente necessárias devem ser numeradas de forma seqüencial ao 
-longo do texto no formato 1, 2, 3... sendo posicionadas no rodapé de cada 
-página na qual a nota é utilizada.\footnote{Como, por exemplo, esta nota. O \LaTeX\ tomará conta da numeração automaticamente.}
+Para a persistência dos dados, o PostgreSQL foi selecionado como Sistema Gerenciador de Banco de Dados Relacional. Suportando consultas complexas que são fundamentais para armazenar o histórico de estudos dos usuários, os cronogramas de revisão e os dados sensíveis de saúde mental, garantindo a integridade conforme as normas da LGPD.
 
-\section{Equações}
+\subsection{Git e GitHub}
 
-Equações matemáticas devem ser numeradas seqüencialmente e alinhadas a 
-esquerda com recuo de 0,6 cm. Usar numerais arábicos entre parênteses, 
-alinhado a direita, no formato Times New Roman de 9 pts. para numerara as 
-equações como mostrado na Eq. \ref{eqn01} (novamente, o \LaTeX\ formata as
-equações automaticamente).
+O controle de versionamento será realizado utilizando Git, com o armazenamento dos repositórios no GitHub. Essa prática é boa para a manutenção do histórico do código, permitindo o gerenciamento de branches para novas funcionalidades e assegurando a segurança e integridade do código durante o ciclo de desenvolvimento \cite{github_2025}.
 
-Referências a equações no corpo do texto devem ser feitas como \lq\lq Eq. 
-\ref{eqn01}\rq\rq\ quando no meio de uma frase ou como \lq\lq Equação 
-\ref{eqn01}\rq\rq\ quando no inicio de uma sentença. Um espaçamento de 11 
-pontos deve ser deixado acima, abaixo e entre equações subseqüentes. Para uma 
-apresentação compacta das equações deve-se usar os símbolos e expressões 
-matemáticos mais adequados e parênteses para evitar ambigüidades em 
-denominadores. Os símbolos usados nas equações citados no texto devem 
-apresentar exatamente a mesma formatação usada nas equações.
-\begin{equation}
-\label{eqn01}
-	\frac{d\mathbf{C}}{dw} = \frac{du}{dw}\cdot \mathbf{F}_u + 
-		\frac{dv}{dw}\cdot \mathbf{F}_v 
-\end{equation}
+\subsection{Trello}
 
-O significado de todos os símbolos mostrados nas equações deve ser apresentado 
-na lista de símbolos no inicio do trabalho, embora, em certas circunstancias o 
-autor possa para maior clareza descrever o significado de certos símbolos no 
-corpo do texto, logo após a equação.
+Para o gerenciamento ágil do projeto, o Trello será utilizado como a ferramenta do Kanban. Ele permitirá o acompanhamento das tarefas elicitadas no Sequenciador do Lean Inception, facilitando a organização das sprints de desenvolvimento e a visualização do progresso das features do MVP em tempo real.
 
-Se uma equação aparecer no meio do parágrafo, como esta
-\begin{equation}
-x^n + y^n = z^n,
-\end{equation}
-onde $x, y, z, n \in \mathbf{N}$, o texto subsequente faz parte do parágrafo e 
-não deve ser identado.
+\subsection{SonarQube}
 
-\section{Figuras e Gráficos}
+O SonarQube será utilizado para a análise estática de código, permitindo identificar automaticamente bugs, vulnerabilidades e code smells. Como destacam \citeonline{gobov_2025}, garantir atributos de qualidade como manutenibilidade e confiabilidade é crucial. O uso do SonarQube reduz a dívida técnica e assegura um software mais robusto \cite{sonarsource_2025}.
 
-As figuras devem ser centradas entre margens e identificadas por uma legenda 
-alinhada a esquerda com recuo especial de deslocamento de 1,8 cm, com mostrado 
-na Fig. (\ref{fig01}). O tamanho das fontes empregadas nos rótulos e anotações 
-usadas nas figuras deve ser compatível com o usado no corpo do texto. Rótulos e 
-anotações devem estar em português, com todas as grandezas mostradas em 
-unidades do SI (Sistema Internacional de unidades) (mais uma vez, o \LaTeX\
-cuidará dos aspectos de formatação e fonte das figuras).
+\subsection{BrModelo}
 
-Todas as figuras, gráficos e fotografias devem ser numeradas e referidas no 
-corpo do texto adotando uma numeração seqüencial de identificação. As figuras e 
-gráficos devem ser claras e com qualidade adequada para eventual reprodução 
-posterior tanto em cores quanto em preto-e-branco.
+A ferramenta BrModelo é utilizada como recurso de apoio à concepção do Banco de Dados Relacional. Através dela, realiza-se a modelagem conceitual e lógica do sistema, gerando seus devidos diagramas.
 
-As abscissas e ordenadas de todos os gráficos devem ser rotuladas com seus 
-respectivos títulos em português seguida da unidade no SI que caracteriza a 
-grandes entre colchetes. 
+\section{Arquitetura}
 
-A referência explícita no texto à uma figura deve ser feita como 
-\lq\lq Fig. \ref{fig01}\rq\rq\ quando no meio de uma frase ou como 
-\lq\lq Figura \ref{fig01}\rq\rq\ quando no início da mesma. Referencias 
-implícitas a uma dada figura devem ser feitas entre parênteses como 
-(Fig. \ref{fig01}). Para referências a mais de uma figura as mesmas regras 
-devem ser aplicadas usando-se o plural adequadamente. Exemplos:
+Segundo \citeonline{dipompeo_2025}, a arquitetura é uma abstração de alto nível que funciona como um guia para a implementação, sendo essencial para suportar aspectos críticos de qualidade, como performance, confiabilidade e manutenibilidade. Dessa forma, o modelo adotado busca equilibrar as necessidades de negócio e os objetivos técnicos do sistema.
+
+\subsection{Padrão Arquitetural em Camadas}
+
+A definição da estrutura arquitetural visa mitigar riscos identificados na fase de requisitos. Conforme destacado por \citeonline{khalid_2025}, a má gestão de requisitos e de sua tradução técnica é uma causa primária de falhas em projetos. Para evitar esse cenário, adotou-se uma organização em camadas que isola as preocupações de interface, lógica de negócio e persistência de dados.
+
+Esta separação permite que a arquitetura facilite a evolução do código sem comprometer a estabilidade do sistema \cite{dipompeo_2025}. As camadas são divididas em:
 
 \begin{itemize}
-	\item \lq\lq Após os ensaios experimentais, foram obtidos os resultados 
-	mostrados na Fig. \ref{fig01}, que ...\rq\rq
-	\item \lq\lq A Figura \ref{fig01} apresenta os resultados obtidos, onde 
-	pode-se observar que ...\rq\rq
-	\item \lq\lq As Figuras 1 a 3 apresentam os resultados obtidos, 
-	...\rq\rq
-	\item \lq\lq Verificou-se uma forte dependência entre as variáveis citadas 
-	(Fig. \ref{fig01}), comprovando ...\rq\rq
+    \item \textbf{Apresentação (View):} Interface móvel que interage com o usuário.
+    \item \textbf{Processamento (Controller/Service):} Onde as funções são validadas e executadas.
+    \item \textbf{Acesso a Dados (Repository/Model):} Camada que abstrai a complexidade do banco de dados relacional.
 \end{itemize}
 
-Cada figura deve ser posicionada o mais próxima possível da primeira citação 
-feita à mesma no texto, imediatamente após o parágrafo no qual é feita tal 
-citação, se possível, na mesma página. Em \LaTeX\, o comando \texttt{\textbackslash label} deve suceder o comando \texttt{\textbackslash caption} para que as referências às figuras fiquem com a numeração correta.
-\begin{figure}[h]
-	\centering
-	\includegraphics[keepaspectratio=true,scale=0.3]{figuras/fig01.eps}
-	\caption{Wavelets correlation coefficients}
-	\label{fig01}
+\subsection{Backend}
+
+O backend, desenvolvido em Node.js, atua como o motor central da aplicação. De acordo com \citeonline{dipompeo_2025}, a especificação cuidadosa do design arquitetural permite fortalecer a confiabilidade do software. Dessa forma, a lógica de agendamento de revisões e os cálculos são centralizados no servidor para garantir a integridade dos dados e o cumprimento dos requisitos de qualidade.
+
+A organização interna do backend foi estruturada para suportar atributos de qualidade como a manutenibilidade, distribuindo as responsabilidades da seguinte forma:
+
+\begin{itemize}
+    \item \textbf{Controllers:} Responsáveis por receber e responder às requisições da interface.
+    \item \textbf{Services:} Camada onde reside a lógica de domínio, isolada de interferências externas.
+    \item \textbf{Repositories:} Camada dedicada exclusivamente à interação com o SGBDR PostgreSQL.
+\end{itemize}
+
+\subsection{API RESTful e Segurança}
+
+A comunicação entre o cliente e o servidor é estabelecida através de uma API RESTful baseada no protocolo HTTP e no formato JSON. Essa escolha agrega performance conforme preconizado por \citeonline{gobov_2025} ao discutirem as características de eficiência de tempo. Para assegurar a confidencialidade e a integridade das informações dos usuários, a arquitetura implementa autenticação via JSON Web Token, alinhando-se às boas práticas de segurança mencionadas por \citeonline{dipompeo_2025} como táticas para preservação da qualidade arquitetural.
+
+\subsection{Mapeamento Objeto-Relacional (ORM)}
+
+Para garantir a qualidade na persistência dos dados, utiliza-se um mapeamento objeto-relacional (ORM) que faz a ligação entre o Node.js e o PostgreSQL. Essa camada de abstração é vital para a manutenção, pois permite que a estrutura do banco de dados evolua com baixo impacto na camada de serviços. Além disso, o uso do ORM facilita a implementação dos requisitos técnicos.
+
+\subsection{Frontend}
+
+O frontend representa a interface do sistema e deve satisfazer os atributos de usabilidade e experiência do usuário. Segundo \citeonline{gobov_2025}, a usabilidade é um atributo de qualidade externo que determina quanto o usuário final consegue operar a ferramenta. Portanto, a arquitetura do frontend foi desenhada para ser intuitiva, reduzindo a dificuldade do usuário durante o uso.
+
+\subsubsection{React Native e Expo}
+
+A escolha do React Native como base tecnológica permite a criação de componentes de software reutilizáveis, cujas propriedades e relacionamentos definem a dinâmica da interface. A utilização do framework Expo complementa essa estrutura ao facilitar o acesso a recursos nativos do hardware do dispositivo, garantindo que a arquitetura suporte as notificações, por exemplo. Essa abordagem multiplataforma assegura que a qualidade do software, conforme definida por \citeonline{khalid_2025}, seja mantida independentemente do sistema operacional utilizado pelo estudante, otimizando o processo de entrega de valor.
+
+\section{Representação Visual do Sistema}
+
+A representação visual do sistema constitui na implementação da arquitetura proposta, traduzindo abstrações conceituais em diagramas técnicos que orientam o desenvolvimento, a fim de gerenciar a complexidade do software. Através de modelos visuais padronizados, busca-se estabelecer um vocabulário comum que assegure a integridade entre os requisitos de software e a estrutura física do código, garantindo que os atributos de qualidade sejam preservados durante todo o ciclo de vida.
+
+\subsection{Diagrama de Classes}
+
+O Diagrama de Classes do sistema foi estruturado para definir as entidades fundamentais, seus atributos e os relacionamentos de dependência. De acordo com a pesquisa de \citeonline{kim_2024}, a eficácia de um diagrama de classe está diretamente ligada ao seu layout e controle de complexidade, uma vez que esses fatores impactam significativamente a compreensibilidade do modelo pelo desenvolvedor. Para garantir isso, o diagrama foi organizado seguindo um fluxo lógico de leitura, a seguir está representado o diagrama de classes deste projeto.
+
+\begin{figure}[H]
+    \centering
+    \caption{Diagrama de Classes}
+    \includegraphics[width=1\linewidth]{Imagens/DiagramaClasses.drawio.png}
+    \par
+    Fonte: Autoria própria.
+    \par
+    \label{fig:diagrama_classes}
 \end{figure}
 
-\section{Tabela}
+\subsection{Diagrama de Pacotes}
 
-As tabelas devem estar centradas entre margens e identificadas por uma legenda 
-alinhada a esquerda, com recuo especial de deslocamento de 1,8 cm, posicionada 
-acima da tabela com mostrado na Tab. \ref{tab01}, a título de 
-exemplo. O tamanho das fontes empregadas nos rótulos e anotações usadas nas 
-tabelas deve ser compatível com o usado no corpo do texto. Rótulos e anotações 
-devem estar em português. Um espaçamento de 11 pts deve ser deixado entre a 
-legenda e a tabela, bem como após a tabela. A numeração, a fonte e a formatação
-são automáticas quando se usa o \LaTeX.
+Os Diagramas de Pacotes organizam os elementos do sistema em módulos lógicos, isolando as necessidades do frontend e do backend. No frontend, a segmentação em pacotes de interface, lógica e serviços visa maximizar a manutenibilidade e a usabilidade externa \cite{gobov_2025}. No backend, a estruturação em camadas de rotas, controladores e serviços reflete o compromisso com o baixo acoplamento e a confiabilidade. Essa organização visual é essencial para mitigar falhas na tradução técnica dos requisitos \cite{khalid_2025}, permitindo que cada pacote evolua de forma independente sem comprometer a estabilidade do aplicativo. A seguir estão representados os diagramas de pacotes deste trabalho.
 
-As grandezas dimensionais mostradas em cada tabela devem apresentar unidades 
-consistentes com o SI. As unidades de cada variável devem ser mostradas apenas 
-na primeira linha e/ou coluna da tabela, entre colchetes 
+\begin{figure}[H]
+    \centering
+    \caption{Diagrama de Pacotes do Backend}
+    \includegraphics[width=1\linewidth]{Imagens/DiagramaPacotesBackend.png}
+    \par
+    Fonte: Autoria própria.
+    \par
+    \label{fig:diagrama_pacotes_backend}
+\end{figure}
 
-A referência explícita no texto à uma dada tabela deve ser feita como 
-\lq\lq Tab. \ref{tab01}\rq\rq\ quando no meio de uma frase ou como 
-\lq\lq Tabela \ref{tab01}\rq\rq\ quando no início da mesma. Referências 
-implícitas a uma dada tabela devem ser feitas entre parênteses como 
-(Tab. \ref{tab01}). Para referências a mais de uma tabela as mesmas 
-regras devem ser aplicadas usando-se o plural adequadamente. Exemplos:
-\begin{itemize}
-	\item \lq\lq Após os ensaios experimentais, foram obtidos os resultados 
-	mostrados na Tab. \ref{tab01}, que ...\rq\rq
-	\item \lq\lq A Tabela \ref{tab01} apresenta os resultados obtidos, onde 
-	pode-se observar que ...\rq\rq
-	\item \lq\lq As Tabelas 1 a 3 apresentam os resultados obtidos, ...\rq\rq
-	\item \lq\lq Verificou-se uma forte dependência entre as variáveis citadas 
-	(Tab. \ref{tab01}), comprovando ...\rq\rq
-\end{itemize}
+\begin{figure}[H]
+    \centering
+    \caption{Diagrama de Pacotes do Frontend}
+    \includegraphics[width=1\linewidth]{Imagens/DiagramaPacotesFrontend.png}
+    \par
+    Fonte: Autoria própria.
+    \par
+    \label{fig:diagrama_pacotes_frontend}
+\end{figure}
 
-Cada tabela deve ser posicionada o mais próxima possível da primeira citação 
-feita à mesma no texto, imediatamente após o parágrafo no qual é feita a 
-citação, se possível, na mesma página.
+\section{Projeto de Dados}
 
-\begin{table}[h]
-	\centering
-	\caption{Propriedades obtidades após processamento}
-	\label{tab01}
-	
-	\begin{tabular}{ccc}
-		\toprule
-		\textbf{Processing type} & \textbf{Property 1} (\%) & 
-		\textbf{Property 2} $[\mu m]$ \\
-		\midrule
-		Process 1 & 40.0 & 22.7 \\
-		Process 2 & 48.4 & 13.9 \\
-		Process 3 & 39.0 & 22.5 \\
-		Process 4 & 45.3 & 28.5 \\
-		\bottomrule
-	\end{tabular}
-\end{table}
+O Projeto de Dados tem como objetivo modelar a estrutura de persistência dos dados do aplicativo, definindo as entidades, atributos e relacionamentos do mesmo. A modelagem foi realizada em dois níveis: o Diagrama Entidade-Relacionamento, que representa de forma abstrata as entidades e seus relacionamentos, e o Diagrama Lógico, que traduz essa abstração em uma estrutura compatível com o Sistema Gerenciador de Banco de Dados Relacional. Todas decisões de modelagem foram guiadas pelos requisitos funcionais e não funcionais levantados anteriormente.
 
-\section{Citação de Referências}
+\subsection{Diagrama Conceitual}
 
-Referencias a outros trabalhos tais como artigos, teses, relatórios, etc. devem 
-ser feitas no corpo do texto devem estar de acordo com a norma corrente ABNT 
-NBR 6023:2002 (ABNT, 2000), esta última baseada nas normas ISO 690:1987:
-\begin{itemize}
-	\item \lq\lq \citeonline{bordalo1989}, mostraram que...\rq\rq
+A etapa conceitual da modelagem de dados é responsável por abstrair as entidades do sistema, seus atributos e os relacionamentos existentes entre elas, de forma universal e compatível com qualquer tecnologia de banco de dados através do Diagrama Entidade-Relacionamento (DE-R). Essa etapa exige a transformação dos requisitos em um modelo com regras, envolvendo uma abstração maior do que nas próximas etapas, sendo apontada como a principal fonte de dificuldades cognitivas no processo de modelagem \cite{shin_2025}. Para este trabalho, o DE-R foi construído a partir das entidades identificadas durante o Lean Inception e o levantamento de requisitos. A seguir está representado o DE-R deste projeto.
 
-	\item \lq\lq Resultados disponíveis em \cite{coimbra1978}, \cite{clark1986} 
-	e \cite{sparrow1980}, mostram que...\rq\rq
-\end{itemize}
+\begin{figure}[H]
+    \centering
+    \caption{Diagrama Entidade-Relacionamento (DE-R) do Projeto}
+    \includegraphics[width=1\linewidth]{Imagens/DiagramaConceitual.png}
+    \par
+    Fonte: Autoria própria.
+    \par
+    \label{fig:diagrama_conceitual}
+\end{figure}
 
-Para referências a trabalhos com até dois autores, deve-se citar o nome de 
-ambos os autores, por exemplo: \lq\lq \citeonline{soviero1997}, mostraram 
-que...\rq\rq
+\subsection{Diagrama Lógico}
 
-Para citação direta, o texto deve estar em fonte 10 com recuo de 4cm da margem esquerda:
+Já o Diagrama Lógico representa a segunda etapa da modelagem de dados, sendo responsável por transformar a abstração do DE-R em uma estrutura lógica compatível com o modelo relacional, definindo tabelas, colunas, chaves primárias, chaves estrangeiras e as restrições de integridade referencial entre as entidades. Essa transição do modelo conceitual para o modelo lógico segue um conjunto de regras de mapeamento bem definidas, onde cada entidade do diagrama conceitual é transformada em uma tabela, cada atributo em uma coluna e cada relacionamento em uma chave estrangeira alocada no lado correto da cardinalidade ou em uma nova relação. Esse processo de mudança do modelo entre níveis de abstração é um dos pilares do desenvolvimento orientado a modelos, no qual modelos universais são aperfeiçoados em modelos mais específicos por meio de regras de mapeamento \cite{lo_2012}. Para este trabalho, o Diagrama Lógico foi derivado diretamente do DE-R, respeitando as cardinalidades levantadas e as decisões de modelagem tomadas durante o Lean Inception, resultando em um esquema relacional normalizado, pronto para ser implementado no SGBD. A seguir está representado o Diagrama Lógico deste projeto.
 
-\begin{citacao}
-Foram desenvolvidos métodos eficazes de especificação, \textit{design} e implementação de software.  Novas notações e ferramentas reduziram o esforço necessário para produzir sistemas grandes e complexos \cite{Sommerville2007}.
-\end{citacao}
+\begin{figure}[H]
+    \centering
+    \caption{Diagrama Lógico do Projeto}
+    \includegraphics[width=1\linewidth]{Imagens/DiagramaLogico.png}
+    \par
+    Fonte: Autoria própria.
+    \par
+    \label{fig:diagrama_logico}
+\end{figure}
 
+\section{Testes de Software}
+
+A etapa de testes faz parte do ciclo de vida de desenvolvimento do software, sendo definido como o processo que engloba todas as atividades do ciclo de vida, estáticas e dinâmicas, relacionadas ao planejamento, preparação e avaliação do mesmo, com o objetivo de verificar se satisfaz os requisitos especificados, demonstrar que estão aptos para o uso e detectar defeitos \cite{goericke_2020}. A falta dessa etapa representa um risco ao sucesso do projeto, pois bugs são significativamente mais fáceis e baratos de corrigir em estágios iniciais do desenvolvimento do que em fases avançadas ou após a entrega ao usuário final \cite{goericke_2020}.
+
+O desenvolvimento deste projeto adota a prática de TDD como estratégia de qualidade, que desempenha um papel fundamental na definição da estratégia de testes ao longo de todo o desenvolvimento \cite{goericke_2020}. O TDD garante que cada módulo de alta complexidade do aplicativo, como o Algoritmo de Repetição Espaçada, seja coberto por testes, assegurando que as regras de negócio estejam sempre verificáveis e fiéis aos requisitos.
+
+A estratégia de testes adotada segue a pirâmide de testes, que divide os testes em três: os testes unitários, que podem ser executados em níveis baixos, os testes de integração que são mais lentos pois integram dois ou mais módulos e os testes de sistema que englobam todo o sistema. Dessa forma, os testes unitários, níveis mais baixos, são os mais adequados para automação \cite{goericke_2020}. Portanto, a base da pirâmide será composta por testes unitários automatizados para cobrir as regras de negócio do backend, seguidos de testes de integração para validar a comunicação entre os módulos e o banco de dados, e testes de sistema para verificar os fluxos em níveis de sistema.
+
+Para aplicações móveis, a amplitude de características de qualidade a serem consideradas representa o principal desafio dos testes, englobando não apenas a funcionalidade, mas também usabilidade, desempenho, segurança, interoperabilidade e confiabilidade \cite{goericke_2020}. Diante disso, apesar do aplicativo proposto ser desenvolvido para o sistema Android, não será possível cobrir todos os dispositivos e versões existentes. Portanto, os testes de usabilidade serão realizados em um número limitado de aparelhos Android, priorizando os modelos mais utilizados pelo público.
+
+\section{Prototipação}
+
+A prototipação é a etapa do desenvolvimento onde as interfaces de usuário são modeladas através de um processo iterativo de criação de representações visuais. Tais representações devem revelar como a interface deve ser e como os usuários devem interagir com ela, com base nos requisitos do software \cite{letaw_2024}. Essa abordagem oferece uma experimentação do design da interface e a identificação de problemas recentes. Logo, alterar um protótipo de alta fidelidade é mais fácil e rápido do que alterar sua implementação em código \cite{letaw_2024}.
+
+Conforme \citeonline{letaw_2024}, existem alguns níveis de fidelidade para protótipos, sendo os principais: o de baixa fidelidade, composto por esboços aproximados que permitem coletar feedback sobre funcionalidades de alto nível com grande flexibilidade para mudanças; o de média fidelidade, uma ilustração mais detalhada que permite coletar feedback sobre pequenas mudanças em funcionalidades já definidas; e o de alta fidelidade, uma ilustração polida e detalhada que se assemelha a uma interface finalizada, sendo criada em editores gráficos completos como o Figma, e que permite coletar feedback sobre ajustes específicos para melhorias incrementais.
+
+Para este projeto, será utilizado o Figma como ferramenta de criação de protótipos de alta fidelidade. Portanto, permitindo que os requisitos funcionais sejam validados a partir das jornadas de usuário levantadas, reduzindo o risco de retrabalho durante a fase de desenvolvimento do código. O protótipo desenvolvido está disponível no Apêndice~\ref{apendice:prototipo} deste trabalho.
