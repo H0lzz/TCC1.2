@@ -1,36 +1,36 @@
 \babel@toc {brazil}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Tela inicial do Aprovado}}{34}{figure.2.1}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Tela inicial do StudyTok}}{35}{figure.2.2}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Raia do TCC1 do BPMN do Processo Metodológico.}}{43}{figure.3.3}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Raia do TCC2 do BPMN do Processo Metodológico.}}{43}{figure.3.4}%
-\contentsline {figure}{\numberline {5}{\ignorespaces BPMN do Processo Metodológico}}{44}{figure.3.5}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Ciclo de desenvolvimento TDD}}{46}{figure.3.6}%
-\contentsline {figure}{\numberline {7}{\ignorespaces BPMN Sprint}}{48}{figure.3.7}%
-\contentsline {figure}{\numberline {8}{\ignorespaces BPMN Kanban}}{49}{figure.3.8}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Quadro do Brainstorming de Funcionalidades}}{59}{figure.3.9}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Gráfico do Semáforo}}{61}{figure.3.10}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Sequenciador}}{63}{figure.3.11}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Canvas MVP}}{64}{figure.3.12}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Diagrama de Classes}}{76}{figure.4.13}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Diagrama de Pacotes do Backend}}{77}{figure.4.14}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Diagrama de Pacotes do Frontend}}{77}{figure.4.15}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Diagrama Entidade-Relacionamento (DE-R) do Projeto}}{78}{figure.4.16}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Diagrama Lógico do Projeto}}{79}{figure.4.17}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Tela de Flashcards sem Cards.}}{91}{figure.A.18}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Tela de Onboarding 1.}}{92}{figure.A.19}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Tela de Onboarding 2.}}{93}{figure.A.20}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Tela de Onboarding 3.}}{94}{figure.A.21}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Tela de Criar Conta.}}{95}{figure.A.22}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Tela de Login.}}{96}{figure.A.23}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Tela de Home.}}{97}{figure.A.24}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Tela do Timer.}}{98}{figure.A.25}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Tela de Configurações do Timer.}}{99}{figure.A.26}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Tela de Novo Flashcard.}}{100}{figure.A.27}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Tela de Flashcards.}}{101}{figure.A.28}%
-\contentsline {figure}{\numberline {29}{\ignorespaces Tela de Exclusão de Flashcard.}}{102}{figure.A.29}%
-\contentsline {figure}{\numberline {30}{\ignorespaces Tela de Revisão — Frente.}}{103}{figure.A.30}%
-\contentsline {figure}{\numberline {31}{\ignorespaces Tela de Revisão — Verso.}}{104}{figure.A.31}%
-\contentsline {figure}{\numberline {32}{\ignorespaces Tela de Sessão Concluída.}}{105}{figure.A.32}%
-\contentsline {figure}{\numberline {33}{\ignorespaces Tela de Progresso.}}{106}{figure.A.33}%
-\contentsline {figure}{\numberline {34}{\ignorespaces Tela de Perfil.}}{107}{figure.A.34}%
-\contentsline {figure}{\numberline {35}{\ignorespaces Tela de Perfil com Check-in Registrado.}}{108}{figure.A.35}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Tela inicial do Aprovado}}{27}{figure.2.1}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Tela inicial do StudyTok}}{28}{figure.2.2}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Raia do TCC1 do BPMN do Processo Metodológico.}}{35}{figure.3.3}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Raia do TCC2 do BPMN do Processo Metodológico.}}{35}{figure.3.4}%
+\contentsline {figure}{\numberline {5}{\ignorespaces BPMN do Processo Metodológico}}{36}{figure.3.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Ciclo de desenvolvimento TDD}}{38}{figure.3.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces BPMN Sprint}}{40}{figure.3.7}%
+\contentsline {figure}{\numberline {8}{\ignorespaces BPMN Kanban}}{41}{figure.3.8}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Quadro do Brainstorming de Funcionalidades}}{51}{figure.3.9}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Gráfico do Semáforo}}{53}{figure.3.10}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Sequenciador}}{55}{figure.3.11}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Canvas MVP}}{56}{figure.3.12}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Diagrama de Classes}}{67}{figure.4.13}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Diagrama de Pacotes do Backend}}{68}{figure.4.14}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Diagrama de Pacotes do Frontend}}{68}{figure.4.15}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Diagrama Entidade-Relacionamento (DE-R) do Projeto}}{69}{figure.4.16}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Diagrama Lógico do Projeto}}{70}{figure.4.17}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Tela de Flashcards sem Cards.}}{80}{figure.A.18}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Tela de Onboarding 1.}}{81}{figure.A.19}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Tela de Onboarding 2.}}{82}{figure.A.20}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Tela de Onboarding 3.}}{83}{figure.A.21}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Tela de Criar Conta.}}{84}{figure.A.22}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Tela de Login.}}{85}{figure.A.23}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Tela de Home.}}{86}{figure.A.24}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Tela do Timer.}}{87}{figure.A.25}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Tela de Configurações do Timer.}}{88}{figure.A.26}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Tela de Novo Flashcard.}}{89}{figure.A.27}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Tela de Flashcards.}}{90}{figure.A.28}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Tela de Exclusão de Flashcard.}}{91}{figure.A.29}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Tela de Revisão — Frente.}}{92}{figure.A.30}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Tela de Revisão — Verso.}}{93}{figure.A.31}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Tela de Sessão Concluída.}}{94}{figure.A.32}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Tela de Progresso.}}{95}{figure.A.33}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Tela de Perfil.}}{96}{figure.A.34}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Tela de Perfil com Check-in Registrado.}}{97}{figure.A.35}%
