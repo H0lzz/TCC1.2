@@ -280,10 +280,10 @@ Enquanto o projeto visa uma solução completa que integra gestão do tempo, pr�
 \end{figure}
 
 De outra maneira, o StudyTok, mostrado na Figura~\ref{fig:studytok}, é uma plataforma mais dinâmica, utilizando a Inteligência Artificial (IA) para transformar materiais de estudo em componentes dentro da aplicação.
-Seu principal valor é a funcionalidade de geração de material de estudo, ou seja, o usuário pode enviar imagens, PDFs, PowerPoints e vídeos para a IA gerar questionários e flashcards.
-Essa capacidade de conversão de conteúdo em flashcards está diretamente ligada ao pilar de prática de recuperação ativa, permitindo que a IA crie os recursos necessários para a repetição espaçada ao invés do próprio aluno, otimizando o tempo que seria gasto na criação manual \cite{studytok_2026}.
+Seu principal valor é a funcionalidade de geração de material de estudo, em que o usuário envia imagens, PDFs, PowerPoints e vídeos para o aplicativo e, em seguida a IA gera questionários e flashcards.
+Essa funcionalidade está diretamente ligada ao valor da prática de recuperação ativa, permitindo que a IA crie os recursos necessários para a repetição espaçada ao invés do próprio aluno, otimizando o tempo que seria gasto na criação manual \cite{studytok_2026}.
 
-Além disso, o aplicativo possui a gamificação através de sequências diárias, placares de líderes e um sistema de recompensa por pontos a fim de manter a motivação. Portanto, em comparação com este trabalho, o StudyTok não possui os valores de gestão do tempo e controle da saúde mental que este trabalho pretende implementar \cite{studytok_2026}.
+Além disso, o aplicativo possui a gamificação através de placares de líderes e um sistema de recompensa por pontos a fim de manter a motivação do usuário. Portanto, em comparação com este trabalho, o StudyTok não possui os valores de gestão do tempo e controle da saúde mental que este trabalho pretende implementar \cite{studytok_2026}.
 
 \begin{figure}[H]
     \centering
@@ -296,73 +296,70 @@ Além disso, o aplicativo possui a gamificação através de sequências diária
 \end{figure}
 
 Portanto, o aplicativo proposto para este trabalho se diferencia dos concorrentes ao buscar uma integração completa de todos os valores mencionados anteriormente.
-Enquanto o Aprovado se restringe ao registro e à estatística da Gestão do Tempo, e não incorporando a Prática de Recuperação Ativa (Flashcards/SRS) e a Gamificação, e o StudyTok se destaca na geração de Flashcards por IA e Gamificação, mas falha na profundidade da Gestão do Tempo, a solução proposta se dá como uma plataforma completa e gratuita voltada para o estudante.
-O diferencial reside em combinar a eficácia algorítmica do SRS com uma ferramenta de Gestão do Tempo (Pomodoro/Ciclos de Estudo), elementos de Gamificação e check-ins de humor, oferecendo assim uma solução mais coesa e adaptada às demandas do estudante.
+Enquanto o Aprovado se restringe ao registro e à estatística da Gestão do Tempo e o StudyTok se destaca na geração de flashcards por IA e gamificação, o aplicativo proposto visa combinar esses valores com o controle de bem estar a fim de trazer um produto centralizado e desfragmentado.
+O diferencial está em combinar a eficácia da repetição espaçada com uma ferramenta de cronômetro Pomodoro (gestão do tempo), elementos de gamificação e check-ins de humor, oferecendo assim uma solução mais coesa e adaptada às demandas do estudante.
 
 \flushbottom
 \clearpage
 \section{Heurísticas de Nielsen}
 
-A boa usabilidade de um sistema é construída a partir de um conjunto de diretrizes amplamente reconhecido no campo da Interação Humano-Computador: as Dez Heurísticas de Nielsen.
-Estes dez princípios servem como um guia para a concepção de interfaces digitais intuitivas, eficientes e centradas nas necessidades do usuário.
+A boa usabilidade de um sistema é construída a partir de um conjunto de regras reconhecidas no campo da engenharia de softaware como as heurísticas de Nielsen.
+São dez princípios que servem como um guia para a implementação de interfaces digitais centradas nas necessidades do usuário.
 As heurísticas visam garantir que o sistema não apenas funcione, mas que seja acessível e fácil de usar.
 
-Dentre as diretrizes, destacam-se a visibilidade do status do sistema (manter o usuário sempre informado), o controle e liberdade do usuário (facilidade para desfazer ações) e a prevenção de erros (priorizar o design que impede falhas).
-Outros pontos cruciais incluem a correspondência com o mundo real, o uso de consistência e padrões e o reconhecimento em vez de memorização, que minimiza o esforço cognitivo do usuário.
-A arquitetura da interface também deve prezar pela estética e design minimalista e oferecer flexibilidade e eficiência para diferentes perfis de usuário.
-Finalmente, é essencial prover ajuda no diagnóstico e recuperação de erros e ajuda e documentação acessíveis.
+Segundo essas diretrizes, o sistema deve: (i) sempre manter o usuário informado sobre o que está acontecendo, com feedbacks; (ii) usar linguagens conhecidas pelo usuário enquanto segue convenções já estabelecidas; (iii) oferecer oportunidades de cancelamento de operações indesejadas; (iv) os elementos do aplicativo devem de comportar de forma semelhante; (v) evitar erros antes que eles surgam; (vi) tornar objetos, ações e opções visíveis; (vii) incluir atalhos para usuários experientes; (viii) excluir componentes com informações irrelevantes; (ix) informar especificamente qual erro ocorreu, em sua mensagem; e (x) implementar uma documentação de auxílio.
 
 Dessa forma, este trabalho se compromete a aplicar rigorosamente essas heurísticas para assegurar usabilidade e acessibilidade a todos os públicos.
-Adicionalmente, o projeto incorpora a adesão estrita às normas da Lei Geral de Proteção de Dados (LGPD) \cite{brasil2018lgpd}, garantindo a segurança, a privacidade e a transparência no tratamento das informações dos usuários.
+Adicionalmente, o projeto respeita a Lei Geral de Proteção de Dados (LGPD) \cite{brasil2018lgpd}, garantindo segurança, privacidade e transparência no tratamento das informações dos usuários.
 
 \section{Algoritmo de Repetição Espaçada (ARE)}
 
-A metodologia do Algoritmo de Repetição Espaçada (ARE) foca no princípio da memorização de longo prazo, buscando otimizar o tempo de estudo ao confrontar a curva do esquecimento.
-Diante disso, o ARE opera ao calcular um intervalo de revisão progressivamente maior, apresentando o conteúdo ao estudante precisamente quando ele está quase sendo esquecido, o que confere maior eficácia em comparação com a repetição excessiva.
-A implementação dessa metodologia tem encontrado um campo fértil em aplicações móveis, pois a portabilidade e a facilidade de abrir os smartphones eliminam as restrições de tempo e local, permitindo que os estudantes obtenham vantagens consideráveis ao estudar quando e onde quiserem.
-Nesse contexto, estudos como o de \citeonline{kose_2018} investigaram os efeitos de uma aplicação de flashcards móveis com sistema de repetição espaçada sobre o desenvolvimento do vocabulário e a motivação dos estudantes, demonstrando que essa implementação resulta em aumentos significativamente mais altos de vocabulário e maior motivação por parte dos estudantes.
+A metodologia do algoritmo de repetição espaçada (ARE) foca na ideia da memorização de longo prazo, buscando otimizar o tempo de estudo ao confrontar a curva do esquecimento.
+Diante disso, o ARE sempre calcula um intervalo de revisão adequado para o usuário conforme a dificuldade, apresentando o conteúdo no momento em que estaria sendo esquecido, o que é mais eficáz comparado com a repetição excessiva.
+A implementação dessa metodologia ganhou populariedade em aplicações móveis, pois a portabilidade dos smartphones eliminam os problemas de tempo e local, permitindo que estudantes estudem quando e onde quiserem.
+Nesse contexto, estudos como o de \citeonline{kose_2018} investigaram os efeitos de uma aplicação de flashcards móveis com sistema de repetição espaçada sobre o desenvolvimento do vocabulário e a motivação dos estudantes, demonstrando que essa implementação resulta em aumentos mais altos de vocabulário e maior motivação.
 
-Os dois principais tipos de algoritmos de repetição espaçada se diferem entre o espaçamento igual (intervalos uniformes) e o espaçamento expandido (intervalos crescentes).
-O objetivo dessas metodologias de intervalo, especialmente o espaçamento expandido, é capacitar os estudantes a dedicarem eficientemente mais tempo aos itens que exigem mais sessões de revisão para serem memorizados e menos tempo àqueles que já estão consolidados.
+Os algoritmos de repetição espaçada se classificam como uniforme ou dinâmico, este sendo mais eficiente já que calcular o tamanho ideal do intervalo da repetição conforme o feedback.
+O objetivo desses algoritmos, especialmente o espaçamento dinâmico, é capacitar os estudantes a dedicarem mais tempo aos itens que exigem mais sessões de revisão e menos tempo àqueles que já estão consolidados.
 
 \section{Pomodoro Timer}
 
-O Pomodoro Timer é uma metodologia de gestão do tempo que estrutura o trabalho ou estudo em intervalos de foco intenso, intercalados por pausas curtas e obrigatórias, com o objetivo de maximizar a produtividade e combater a fadiga mental.
-Criada por Francesco Cirillo, a técnica tradicionalmente divide o tempo em intervalos de 25 minutos de estudo, seguidos por 5 minutos de descanso.
-A cada quatro ciclos Pomodoro, uma pausa de 30 minutos é incentivada.
-Essa abordagem sistemática de divisão do tempo se alinha perfeitamente com o pilar de Gestão do Tempo deste trabalho, proporcionando ao estudante uma estrutura clara para planejar e executar as tarefas, facilitando o gerenciamento de grandes volumes de conteúdo.
+O  cronômetro Pomodoro é uma metodologia de gestão do tempo que estrutura o trabalho ou estudo em intervalos de foco, intercalados com pausas curtas e obrigatórias, com o objetivo de aumentar a produtividade e evitar a fadiga.
+Criada por Francesco Cirillo, a técnica divide o tempo em intervalos de 25 minutos de foco, seguidos por 5 minutos de descanso.
+A cada quatro ciclos completos, há uma pausa de 30 minutos.
+Essa abordagem se alinha com o valor de gestão do tempo deste trabalho, proporcionando ao estudante uma metodologia eficáz para ajudar no planejamento e execução das tarefas.
 
-A eficácia do Timer Pomodoro opera em diversos princípios, sendo o principal deles a promoção de descanso ativo e a manutenção da atenção.
+O cronômetro Pomodoro gera o incentivo de descanso na hora ideal a fim de ajudar na manutenção da atenção.
 Ao garantir pausas frequentes, a técnica permite que o cérebro se recupere, evitando a sobrecarga e o declínio na retenção de informações.
-Dessa forma, a relevância dessa metodologia no contexto educacional é crescente, com pesquisas que buscam avaliar sua aplicabilidade em campos de estudos.
+Dessa forma, a relevância dessa metodologia é crescente, com pesquisas que buscam avaliar sua aplicabilidade em campos de estudos.
 Um exemplo disso é a revisão de escopo realizada por \citeonline{ogut_2025}, que teve como objetivo avaliar a relevância da técnica Pomodoro na retenção de lições de anatomia demonstrando a busca por evidências da eficácia da técnica em ambientes acadêmicos.
 O estudo aponta que mesmo intervalos estruturados como 24 minutos de trabalho seguidos por 6 minutos de descanso ou 12 minutos de trabalho seguidos por 3 minutos de descanso levaram a resultados positivos em provas.
-Dessa forma, será implementado o Pomodoro com ciclos customizáveis, permitindo que o usuário ajuste os tempos de foco e pausa de acordo com sua capacidade de concentração, otimizando ainda mais a aplicação da técnica para a sua preparação.
+Dessa forma, será implementado o Pomodoro com ciclos customizáveis, permitindo que o usuário ajuste os tempos de foco e pausa de acordo com sua preferência.
 
 \section{Gamificação (Progress Bars)}
 
-A gamificação será utilizada para tornar estratégias que demandam esforço, como o uso de flashcards, mais atraentes.
-Em um estudo focado nessa intersecção, \citeonline{vandenbroek_2026} investigaram se o feedback gamificado em práticas adaptativas de recuperação, utilizando pontos e barras de progresso, poderia tornar a estratégia mais atrativa para os estudantes.
-Os resultados revelaram que esses elementos gamificados, de fato, melhoraram a motivação dos participantes, mas não resultaram em um aumento estatisticamente significativo na aprendizagem em si.
+A gamificação será utilizada para tornar o processo de estudos com o aplicativo mais atraente.
+Em um estudo focado nesse sentido, \citeonline{vandenbroek_2026} investigaram se o feedback gamificado em práticas adaptativas de recuperação, utilizando pontos e barras de progresso, poderia tornar a estratégia mais atrativa para os estudantes.
+Os resultados revelaram que esses elementos gamificados melhoraram a motivação dos participantes, mas não resultaram em um aumento estatisticamente significativo na aprendizagem em si.
 
 Dentre os elementos gamificados, as barras de progresso são importantes, pois fornecem aos usuários um feedback visual sobre o seu avanço em direção a uma meta.
-Elas exploram a psicologia do \textit{endowed progress effect}, onde a percepção de já ter iniciado e progredido em uma tarefa aumenta a motivação para completar o resto.
-No contexto de um aplicativo de estudos, uma barra de progresso visual de um tema ou disciplina ajuda o aluno a converter metas abstratas em marcos reais.
+Elas exploram a psicologia onde a percepção de já ter iniciado e progredido em uma tarefa aumenta a motivação para completar o resto.
+No contexto de um aplicativo de estudos, uma barra de progresso visual ajuda o aluno a converter metas em marcos reais.
 
-Apesar da ressalva de \citeonline{vandenbroek_2026} sobre a não melhoria direta do aprendizado por pontos e barras de progresso, a gamificação demonstra ser um forte pilar para o engajamento.
+Apesar da ressalva de \citeonline{vandenbroek_2026} sobre a não melhoria direta do aprendizado por pontos e barras de progresso, a gamificação demonstra ser um forte pilar para o engajamento e motivação.
 Um estudo, conduzido por \citeonline{hsu_2026}, por exemplo, desenvolveu um sistema de jogo online e explorou os efeitos da aprendizagem baseada em jogos, juntamente com diferentes métodos de orientação do pensamento, no pensamento computacional e na autoeficácia de estudantes do ensino fundamental.
-Isso sugere que, embora a barra de progresso sozinha não ensine o conteúdo, sua integração com metodologias pedagógicas pode criar um ambiente motivacional para que o estudante mantenha o engajamento, superando a taxa de abandono comum em preparações intensivas.
+Isso sugere que, embora a barra de progresso sozinha não ensine o conteúdo, sua integração com metodologias pode criar um ambiente motivacional para que o estudante mantenha o engajamento, superando a taxa de abandono.
 
 \section{Aprendizagem Autorregulada (Check-ins de Humor)}
 
-A Aprendizagem Autorregulada (\textit{Self-Regulated Learning} - SRL) descreve o processo pelo qual os estudantes monitoram e controlam ativamente seu aprendizado.
-A capacidade de autorregulação é essencial para a autonomia do estudante, permitindo que ele ajuste seu comportamento e planejamento de estudo em resposta às demandas e ao seu estado mental.
-Essa importância se tornou ainda mais evidente em contextos de estudo autodidata, como o ensino remoto causado pela COVID-19, onde o suporte direto do professor foi limitado, exigindo maior independência do aluno.
+A aprendizagem autorregulada (\textit{Self-Regulated Learning} - SRL) descreve o processo pelo qual os estudantes monitoram e controlam seu aprendizado.
+A capacidade de autorregulação permite que o estudante ajuste seu comportamento e planejamento de estudo em resposta às demandas e ao seu estado mental.
+Essa importância se tornou ainda mais evidente em contextos de estudo autodidata, como o ensino remoto causado pela COVID-19, onde o suporte do professor foi limitado, exigindo maior independência do aluno.
 
-O estado psicológico do estudante impacta diretamente a alocação de recursos cognitivos e o engajamento com a tarefa.
+O estado psicológico do estudante impacta diretamente a absorção de informação e o engajamento com a tarefa.
 A metodologia SRL diz que, se o estudante está ciente de que seu humor está baixo ou seu estresse alto, ele pode ativar estratégias de autorregulação para mitigar esse efeito negativo, como ajustar a dificuldade da tarefa, alterar o foco de estudo ou tirar uma pausa.
-O estudo de \citeonline{ebbes_2026}, ao entrevistar professores sobre o ensino remoto, destacou que um dos principais desafios enfrentados pelos educadores era justamente o suporte ao bem-estar emocional dos alunos.
+O estudo de \citeonline{ebbes_2026}, ao entrevistar professores sobre o ensino remoto, destacou que um dos principais desafios enfrentados pelos educadores era justamente o suporte ao bem estar emocional dos alunos.
 
-Dessa forma, a integração de dicas de bem-estar e a análise dos check-ins de humor transformam o aplicativo em um agente de suporte à SRL.
-Ao coletar dados sobre o estado emocional, o sistema pode oferecer mudanças adaptativas, fornecendo sugestões personalizadas de intervenção que promovem a saúde mental e otimizam a produtividade.
-Essa funcionalidade metodológica atende diretamente à necessidade, identificada em pesquisas como a de \citeonline{ebbes_2026}, de monitorar o engajamento e o bem-estar emocional do aluno em um ambiente de estudo individual, atuando como um professor que oferece o suporte necessário.
+Dessa forma, a integração de check-ins de bem-estar e a análise dos gráficos gerados transformam o aplicativo em um agente de suporte à SRL.
+Ao coletar dados sobre o estado emocional, o sistema pode oferecer uma oportunidade de análise desses índices, permitindo o surgimento de ideias de intervenção que promovem a saúde mental e otimizam a produtividade.
+Essa funcionalidade metodológica atende diretamente à necessidade, identificada em pesquisas como a de \citeonline{ebbes_2026}, de monitorar o engajamento e o bem estar emocional do aluno em um ambiente de estudo individual, atuando como um professor que oferece esse suporte.
