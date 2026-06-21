@@ -363,7 +363,7 @@ A seguir estão representadas as três personas deste trabalho.
 
 \subsubsection{Jornadas de Usuário}
 
-A atividade de mapeamento das Jornadas de Usuário no Lean Inception consiste em visualizar a sequência de passos, interações e emoções que cada Persona experimenta ao tentar atingir seus objetivos principais utilizando o produto.
+A atividade de mapeamento das Jornadas de Usuário do Lean Inception consiste em visualizar a sequência de passos, interações e emoções que cada Persona experimenta ao tentar atingir seus objetivos principais utilizando o produto.
 A seguir estão representadas as três jornadas.
 
 \begin{table}[H]
@@ -374,9 +374,9 @@ A seguir estão representadas as três jornadas.
 \hline
 \textbf{Etapa da Jornada} & \textbf{Ação da Persona (Icarus)} & \textbf{Sentimento} & \textbf{Ponto de Dor / Desafio} & \textbf{Ação do Aplicativo (Funcionalidade)} \\ \hline
 1. Início & Precisa começar a estudar, mas não sabe por onde. & Ansiedade / Tédio & Sentimento de sobrecarga e falta de direção. & \textbf{Interface amigável:} Convida o usuário a começar uma seção de estudos. \\ \hline
-2. Foco & Inicia a primeira sessão de estudos. & Expectativa & Tendência a se distrair após 10 minutos. & \textbf{Timer Pomodoro:} Inicia ciclo de 25/5 com alerta visual e sonoro. \\ \hline
-3. Busca por Motivação & Completa a primeira rodada de estudos. & Satisfação inicial & Necessidade de reforço positivo para continuar o ciclo. & \textbf{Gamificação / Seção de Progresso:} Exibe barra de progresso preenchida e contabiliza pontos/tempo de foco. \\ \hline
-4. Manutenção do Ritmo & Vê o progresso diário se acumulando. & Engajamento & Risco de esquecer a revisão dos conteúdos estudados. & \textbf{Notificações:} Alerta para o próximo Pomodoro e agenda automaticamente a revisão no SRS. \\ \hline
+2. Foco & Inicia a primeira sessão de estudos. & Expectativa & Tendência a se distrair após 10 minutos. & \textbf{Cronômetro Pomodoro:} Inicia ciclo de 25/5. \\ \hline
+3. Busca por Motivação & Completa a primeira rodada de estudos. & Satisfação inicial & Necessidade de motivação para continuar o ciclo. & \textbf{Gamificação / Seção de Progresso:} Exibe barra de progresso. \\ \hline
+4. Manutenção do Ritmo & Vê o progresso diário se acumulando. & Engajamento & Risco de esquecer a revisão dos conteúdos estudados. & \textbf{Flashcards com Repetição Espaçada:} O menu mostra as revisões daquele dia automaticamente. \\ \hline
 \end{tabular}
 \par
 \vspace{0.5em}
@@ -391,9 +391,9 @@ A seguir estão representadas as três jornadas.
 \hline
 \textbf{Etapa da Jornada} & \textbf{Ação da Persona (Hazel)} & \textbf{Sentimento} & \textbf{Ponto de Dor / Desafio} & \textbf{Ação do Aplicativo (Funcionalidade)} \\ \hline
 1. Planejamento & Tem apenas 2 horas disponíveis para estudar à noite. & Pressa / Stress & Perda de tempo tentando decidir o que revisar para maximizar o retorno. & \textbf{Integração SRS/Pomodoro:} O aplicativo sugere automaticamente o bloco de conteúdo mais urgente para revisão. \\ \hline
-2. Execução & Inicia a revisão do tópico sugerido. & Concentração & Dificuldade em manter a disciplina de revisão devido ao cansaço. & \textbf{Timer Pomodoro Adaptado:} Executa um ciclo de foco intenso com flashcards (25 min) seguido de um descanso rápido. \\ \hline
-3. Consolidação & Completa as sessões e encerra o dia. & Alívio & Preocupação se o esforço de hoje será retido daqui a uma semana. & \textbf{Algoritmo SRS:} Atualiza o intervalo de repetição do conteúdo revisado para um período mais longo (ex: 7 dias). \\ \hline
-4. Check-in de Revisão & Recebe notificação de revisão programada. & Confiança & Risco de esquecer o agendamento no meio da rotina. & \textbf{Notificações:} Alerta no momento exato da revisão, eliminando a gestão manual do cronograma. \\ \hline
+2. Execução & Inicia a revisão do tópico sugerido. & Concentração & Dificuldade em manter a disciplina de revisão devido ao cansaço. & \textbf{Cronômetro Pomodoro:} Executa um ciclo de foco seguido de um descanso rápido. \\ \hline
+3. Consolidação & Completa as sessões e encerra o dia. & Alívio & Preocupação se o esforço de hoje será retido daqui a uma semana. & \textbf{Algoritmo SRS:} Atualiza o intervalo de repetição do conteúdo revisado para um período mais longo. \\ \hline
+4. Execução após uma semana & Vê no menu a revisão programada. & Preocupação se as informações foram esquecidas. & \textbf{Algoritmo SRS:} Atualiza o novo intervalo de tempo para a próxima revisão baseado na nota de dificuldade. \\ \hline
 \end{tabular}
 \par
 \vspace{0.5em}
@@ -408,9 +408,9 @@ A seguir estão representadas as três jornadas.
 \hline
 \textbf{Etapa da Jornada} & \textbf{Ação da Persona (Arabella)} & \textbf{Sentimento} & \textbf{Ponto de Dor / Desafio} & \textbf{Ação do Aplicativo (Funcionalidade)} \\ \hline
 1. Avaliação do Humor & Prepara-se para uma longa sessão de revisão. & Fadiga / Ansiedade & Não sabe se está em condições emocionais de absorver conteúdo complexo. & \textbf{Check-in de Saúde:} Solicita ao usuário que avalie seu humor e nível de estresse (escala de 1 a 5). \\ \hline
-2. Estudo Adaptado & Recebe a sugestão de plano para o dia. & Aceitação & Iniciar um tópico muito difícil pode causar mais estresse. & \textbf{Sugestão de Bem-Estar:} Oferece um plano de revisão mais leve ou sugere uma pausa de 15 minutos baseada no alto índice de estresse reportado. \\ \hline
+2. Estudo Adaptado & Começa seus estudos com a sabedoria do seu estado mental. & Aceitação & Iniciar um tópico muito difícil pode causar mais estresse. & \textbf{Cronômetro Pomodoro Configurável:} O usuário configura o cronômetro para ciclos mais curtos com pausas mais longas. \\ \hline
 3. Revisão & Executa a revisão via flashcards. & Foco & Perder tempo procurando o próximo conteúdo a revisar. & \textbf{Interface Intuitiva / SRS:} Apresenta o flashcard mais crítico na tela de forma clara, com botões visuais para a autoavaliação (fácil/difícil). \\ \hline
-4. Reflexão Pós-Sessão & Termina o bloco de estudo. & Alívio & Necessidade de ver o impacto das emoções no desempenho. & \textbf{Relatório de Check-in e Progresso:} Exibe a correlação entre o humor inicial e a quantidade de flashcards revisados, fechando o ciclo da Aprendizagem Autorregulada. \\ \hline
+4. Reflexão Pós-Sessão & Termina o bloco de estudo. & Alívio & Necessidade de ver o impacto das emoções no desempenho. & \textbf{Relatório de Check-in e Progresso:} Exibe vários gráficos na tela de progresso a fim do usuário obter uma análise de como sua saúde mental impacta no seu rendimento. \\ \hline
 \end{tabular}
 \par
 \vspace{0.5em}
@@ -420,8 +420,8 @@ A seguir estão representadas as três jornadas.
 \subsubsection{Brainstorming de Funcionalidades}
 
 A partir das personas, objetivos e necessidades pode-se começar a etapa de brainstorming de funcionalidades.
-O objetivo desta atividade é gerar um grande número de ideias em um tempo pequeno incentivando a criatividade.
-O processo começa com a releitura das Jornadas de Usuário, e para cada passo crítico da jornada, os participantes sugerem funcionalidades que ajudariam a Persona a ter uma melhor experiência.
+O objetivo desta atividade é gerar um grande número de ideias em um tempo determinado incentivando a criatividade.
+O processo começa com a releitura das Jornadas de Usuário, e para cada passo da jornada, os participantes sugerem funcionalidades que ajudariam a corrigir os problemas.
 A seguir está representado o quadro com todas as ideias iniciais.
 
 \begin{figure}[H]
@@ -439,17 +439,17 @@ A seguir está representado o quadro com todas as ideias iniciais.
 \subsubsection{Revisão Técnica, de Negócio e de Experiência do Usuário}
 }
 
-A revisão de negócio atua como o primeiro filtro, questionando o valor de cada funcionalidade sob a ótica dos Objetivos de Negócio definidos anteriormente.
+A revisão de negócio atua como o primeiro filtro, questionando o valor de cada funcionalidade sob a visão dos objetivos de negócio definidos anteriormente.
 A análise é feita inserindo de um a três símbolos de dólar em cada ideia, conforme seu nível técnico.
 
-Em seguida, a revisão técnica e a revisão de experiência do usuário (UX) agem como filtros de viabilidade e desejabilidade.
+Em seguida, a revisão técnica e a revisão de experiência do usuário (UX) agem como filtros de viabilidade e desejabilidade, respectivamente.
 A revisão técnica avalia a complexidade e o esforço de implementação de cada funcionalidade, considerando os recursos disponíveis.
-Para medir, deve-se inserir de um a três símbolos de esforço (letra E) conforme o nível do esforço em cada ideia.
-Já a revisão de experiência do usuário (UX), essencial para manter o foco no usuário, avalia se a funcionalidade é simples de usar e se ela resolve o problema da Persona de forma eficaz.
+Para medir, deve-se inserir de um a três símbolos de esforço (letra E) conforme o nível do esforço em cada ideia do brainstormming de funcionalidades.
+Já a revisão de experiência do usuário (UX) avalia se a funcionalidade é simples de usar e se ela resolve o problema da Persona de forma eficaz.
 Da mesma forma, a medição é feita inserindo de um a três símbolos de coração em cada ideia, conforme seus níveis.
 
-Após essa avaliação, devemos reagrupar as idéias em áreas específicas conforme sua agregação ao escopo do projeto, no chamado Gráfico do Semáforo, segundo \citeonline{caroli_2017}.
-Onde, as idéias agrupadas na zona crítica, três quadrantes do canto inferior esquerdo, serão excluídas do escopo enquanto as demais permanecem.
+Após essa avaliação, deve-se agrupas essas idéias com suas avaliações em áreas específicas conforme sua agregação ao escopo do projeto, no chamado Gráfico do Semáforo, segundo \citeonline{caroli_2017}.
+Onde, as idéias agrupadas na zona crítica, três quadrantes do canto inferior esquerdo, serão excluídas do escopo do MVP enquanto as demais permanecem.
 A seguir está representado o Gráfico do Semáforo deste trabalho.
 
 \begin{figure}[H]
@@ -468,13 +468,13 @@ O sequenciador é a ferramenta do Lean Inception responsável por dizer a ordem 
 O propósito dessa organização é garantir que o trabalho seja distribuído de maneira incremental e equilibrada, prevenindo a sobrecarga do desenvolvedor e assegurando que o produto evolua de forma sustentável.
 Conforme \citeonline{caroli_2017}, o sequenciamento não é aleatório, ele deve respeitar regras lógicas que levam em conta o valor entregue ao usuário e sua complexidade técnica para cada item.
 
-Para assegurar esse equilíbrio, cada onda de desenvolvimento deve aderir a alguns critérios de formação.
-Primeiramente, limita-se a densidade de, no máximo, três funcionalidades por onda.
-Também não se pode ter uma onda composta exclusivamente por itens de alto esforço, sendo permitido, no máximo, um cartão vermelho por ciclo.
-Além disso, a soma total do esforço técnico por onda deve ser limitada a 5 pontos, garantindo que o volume de trabalho seja coerente.
+Para assegurar o equilíbrio, cada onda de desenvolvimento deve aderir a alguns critérios de formação.
+Primeiramente, deve respeitar o limite de três funcionalidades por onda.
+Também não se pode ter uma onda composta exclusivamente por itens de alto esforço e somente pode haver no um cartão vermelho por ciclo.
+Além disso, a soma total do esforço técnico por onda deve ser limitada a 5 pontos, garantindo que o volume de trabalho seja adequado.
 
-Cada onda deve atingir uma soma mínima de 4 pontos tanto para o valor de negócio quanto para a experiência do usuário (UX), assegurando que nenhum ciclo de desenvolvimento irá ser somente técnico ou sem utilidade para o cliente final.
-Por fim, a metodologia exige atenção à arquitetura do software, determinando que funcionalidades com dependências técnicas diretas sejam alocadas em ondas diferentes.
+Cada onda deve atingir uma soma mínima de 4 pontos tanto para o valor de negócio quanto para a experiência do usuário (UX), garantindo que todos os ciclo de gerarão utilidade para o cliente final.
+Finalmente, a metodologia exige atenção à funcionalidades que possuem pré-requisitos de outras funcionalidades, ou seja uma funcionalidade que depende de outra deve ser implementada em uma onda posterior.
 
 \begin{figure}[H]
     \centering
@@ -488,8 +488,8 @@ Por fim, a metodologia exige atenção à arquitetura do software, determinando 
 
 \subsubsection{Canvas MVP}
 
-Finalmente, a última etapa do Lean Inception é a elaboração do Canvas MVP, um quadro visual que sintetiza as decisões estratégicas do workshop para garantir o alinhamento sobre o que será construído e como o sucesso será medido.
-De acordo com \citeonline{caroli_2017}, este artefato condensa a essência do produto mínimo viável em sete componentes fundamentais: a definição clara da proposta do MVP, a identificação das personas atendidas e suas respectivas jornadas, a listagem das funcionalidades prioritárias, os resultados almejados e as métricas para a validação das hipóteses de negócio, finalizando com a estimativa de custos e o cronograma previsto.
+Finalmente, a última etapa do Lean Inception é a elaboração do Canvas MVP, que é um quadro visual que resume as decisões das etapas anteriores para garantir o alinhamento sobre o que será construído e como prosseguir.
+De acordo com \citeonline{caroli_2017}, este artefato resume o valor do MVP em sete componentes fundamentais: a definição clara da proposta do MVP, a identificação das personas atendidas e suas respectivas jornadas, a listagem das funcionalidades prioritárias, os resultados almejados e as métricas para a validação das hipóteses de negócio, finalizando com a estimativa de custos e o cronograma previsto.
 A seguir está representado o canvas MVP deste trabalho.
 
 \begin{figure}[H]
@@ -504,28 +504,28 @@ A seguir está representado o canvas MVP deste trabalho.
 
 \section{Requisitos}
 
-Os requisitos são especificações do sistema que visam suprir as necessidades dos usuários, sendo a sua elicitação uma etapa crucial para o desenvolvimento de software.
-De acordo com \citeonline{khalid_2025}, requisitos mal gerenciados são uma das principais causas de falha em projetos de software e aumento de custos, o que torna a engenharia de requisitos uma fase fundamental para garantir a qualidade e a satisfação do usuário final.
+Os requisitos são especificações do sistema que devem suprir as necessidades dos usuários, sendo a sua elicitação uma etapa fundamental para o desenvolvimento do software.
+De acordo com \citeonline{khalid_2025}, requisitos mal gerenciados são uma das principais causas de falha em projetos de software e aumento de custos, o que torna a engenharia de requisitos uma fase crítica para garantir a qualidade e a satisfação do usuário final.
 
-Sendo assim, para este projeto, foram utilizados artefatos do workshop Lean Inception, como Personas, Brainstorming de Funcionalidades e Jornadas de Usuário para elicitar os requisitos.
-Além disso, utilizou-se o método MoSCoW para a priorização das funcionalidades levantadas, proporcionando uma visão do que compõe o MVP e garantindo que o desenvolvimento foque no valor do aplicativo.
+Sendo assim, para este projeto, foram utilizados os artefatos do Lean Inception para elicitar os requisitos.
+Além disso, utilizou-se o método MoSCoW para a priorização das funcionalidades levantadas, proporcionando uma visão do que compõe o MVP e garantindo que o desenvolvimento foque nas funcionalidades ideais.
 
 \subsection{Requisitos Funcionais}
 
 Os requisitos funcionais representam as funcionalidades que o sistema deve oferecer para atender às necessidades dos usuários.
-Eles descrevem comportamentos, serviços e regras de negócio que o sistema deverá executar para auxiliar o estudante em sua jornada de preparação.
+Eles descrevem comportamentos, serviços e regras de negócio que o sistema deverá executar.
 
 \subsubsection{Histórias de Usuário}
 
-As histórias de usuário têm como principal objetivo descrever as funcionalidades necessárias do ponto de vista do usuário.
-Para este projeto, elas foram divididas em épicos, que representam grandes conjuntos de funcionalidades, e features, que são funcionalidades específicas derivadas desses épicos.
+As histórias de usuário têm como seu principal objetivo descrever as funcionalidades necessárias do ponto de vista do usuário.
+Para este projeto, elas foram divididas em épicos, grandes conjuntos de funcionalidades, e features, funcionalidades específicas derivadas desses épicos.
 
 A fim de proporcionar maior controle sobre o escopo do MVP, utilizou-se o método de priorização MoSCoW, que classifica os requisitos nas seguintes categorias:
 
 \begin{itemize}
     \item \textbf{Must (Deve ter):} requisitos obrigatórios para o funcionamento do MVP;
     \item \textbf{Should (Deveria ter):} requisitos importantes, mas que podem ser postergados;
-    \item \textbf{Could (Poderia ter):} requisitos desejáveis, mas não essenciais no momento;
+    \item \textbf{Could (Poderia ter):} requisitos desejáveis, mas não essenciais;
     \item \textbf{Won't (Não terá):} requisitos que não serão implementados nesta versão.
 \end{itemize}
 
@@ -536,7 +536,7 @@ A seguir, apresentam-se as funcionalidades desenvolvidas usando histórias de us
 \begin{itemize}
     \item \textbf{Feature F01: Registro e Acesso.}
     \begin{itemize}
-        \item \textit{US01:} Eu, como usuário, desejo me cadastrar informando nome, e-mail e senha, e realizar login no aplicativo, para que meu progresso de estudo seja salvo na nuvem e acessível de qualquer dispositivo.
+        \item \textit{US01:} Eu, como usuário, desejo me cadastrar informando nome, e-mail e senha, e realizar login no aplicativo, para que meu progresso de estudo seja salvo e acessível de qualquer dispositivo.
         \item \textit{Prioridade:} deve ter.
     \end{itemize}
     \item \textbf{Feature F02: Edição de Perfil.}
@@ -649,14 +649,14 @@ FUNC11 & Sistema de gamificação com pontuação por XP, níveis e streak de di
 
 \subsection{Requisitos Não Funcionais}
 
-Os requisitos não funcionais são especificações que não se referem diretamente às funcionalidades específicas do sistema, mas sim a como o software deve funcionar.
+Os requisitos não funcionais são especificações que não se referem às funcionalidades específicas do sistema, mas sim a como o software deve funcionar e seu desempenho.
 Segundo \citeonline{sommerville_2011}, esses requisitos descrevem restrições e propriedades do sistema, como desempenho, segurança e usabilidade, sendo essenciais para a aceitação do produto.
 Dessa maneira, \citeonline{gobov_2025} destacam que os atributos de qualidade de software são determinantes para o valor do produto final, e a falta desses requisitos durante a engenharia de software é uma das causas primárias de insatisfação do usuário e de falhas.
 
 \subsubsection{FURPS+}
 
 Para organizar os requisitos não funcionais do projeto, utilizou-se o modelo FURPS+.
-Este modelo, adotado no Rational Unified Process, categoriza os atributos de qualidade em cinco dimensões principais, além de uma extensão para restrições adicionais:
+Esse modelo, adotado no Rational Unified Process, categoriza os atributos de qualidade em seis tópicos:
 
 \begin{itemize}
     \item \textbf{Functionality:} Trata dos requisitos funcionais, já abordados.
@@ -668,7 +668,7 @@ Este modelo, adotado no Rational Unified Process, categoriza os atributos de qua
     \item \textbf{Plus:} Inclui restrições de implementação, interface, requisitos físicos e observações legais.
 \end{itemize}
 
-A partir das métricas de qualidade sugeridas por \citeonline{gobov_2025}, os requisitos não funcionais do aplicativo foram identificados e classificados na Tabela~\ref{tab:requisitosnaofunc}.
+A partir das métricas do modelo, os requisitos não funcionais do aplicativo foram identificados e classificados na Tabela~\ref{tab:requisitosnaofunc}.
 
 \begin{table}[H]
 \centering
@@ -690,7 +690,7 @@ USAB05 & O check-in de humor deve ser concluído em no máximo três interaçõe
 \hline
 CONF01 & O sistema deve garantir a persistência dos dados do usuário mesmo após reinicialização do dispositivo. \\
 \hline
-CONF02 & O aplicativo deve estar em conformidade com a Lei Geral de Proteção de Dados (LGPD), coletando apenas dados necessários. \\
+CONF02 & O aplicativo deve estar em conformidade com a Lei Geral de Proteção de Dados (LGPD). \\
 \hline
 CONF03 & O sistema deve garantir disponibilidade mínima de 99\% do tempo. \\
 \hline
@@ -702,11 +702,11 @@ PERF03 & O aplicativo deve sincronizar dados com o servidor em menos de 5 segund
 \hline
 SUPO01 & O aplicativo deve operar no sistema operacional Android. \\
 \hline
-SUPO02 & O código-fonte deve ser documentado, modular e organizado. \\
+SUPO02 & O código fonte deve ser documentado, modular e organizado. \\
 \hline
 SUPO03 & O sistema deve suportar atualizações do banco de dados sem necessidade de reinstalação do aplicativo. \\
 \hline
-PLUS01 & O aplicativo deve ocupar, preferencialmente, menos de 100 MB de armazenamento no dispositivo. \\
+PLUS01 & O aplicativo deve ocupar menos de 100 MB de armazenamento no dispositivo. \\
 \hline
 \multicolumn{2}{r}{\small Fonte: Autoria própria.} \\
 \end{tabularx}
