@@ -114,7 +114,7 @@ Entretanto, devido ao escopo do projeto, não é viável adotar todas as prátic
 \subsection{Test-Driven Development}
 
 O \textit{Test-Driven Development} (TDD), ou Desenvolvimento Orientado por Testes, é uma prática essencial das metodologias ágeis que inverte a ordem normal da codificação.
-Em vez de escrever o código e testá-lo, o TDD exige que os desenvolvedores escrevam o teste que falhe antes de escrever seu código.
+Em vez de escrever o código e testá-lo, o TDD exige que os desenvolvedores escrevam o teste antes de escrever seu código.
 O processo segue o ciclo: o teste falha, o desenvolvedor escreve o código necessário para fazer o teste passar, e, em seguida, refatora o código.
 Essa prática assegura que cada parte do software atenda a um requisito específico e seja verificável, promovendo uma base de código com alta taxa de testes.
 
@@ -128,29 +128,28 @@ Essa prática assegura que cada parte do software atenda a um requisito específ
     \label{fig:ciclo_tdd}
 \end{figure}
 
-A contribuição do TDD para a qualidade do software reside em duas áreas cruciais: qualidade externa e produtividade do desenvolvedor.
-Ao forçar o desenvolvedor a pensar nas especificações e em cenários de uso antes de codificar, o TDD resulta em um design mais simples e modular, pois o código se torna mais fácil de testar.
+A contribuição do TDD para o software é a qualidade do produto final e a geração de um código modular para outros desenvolvedores.
+Ao forçar o desenvolvedor a pensar nas especificações antes de codificar, o TDD resulta em um design mais simples e modular, pois o código se torna mais fácil de testar.
 Essa modularidade simplifica a manutenção e a inclusão de novas funcionalidades no futuro.
-Embora a aplicação do TDD seja amplamente aceita no desenvolvimento de software genérico, seu uso em sistemas mais complexos, como sistemas embarcados, tem sido objeto de investigação.
-\citeonline{cassieri_2025}, por exemplo, investigaram os benefícios alegados do TDD, como o aumento da qualidade e da produtividade, e a forma como os desenvolvedores aplicam essa técnica em ambientes de Sistemas Embarcados.
+Embora a aplicação do TDD seja amplamente aceita no desenvolvimento de software, seu uso em sistemas embarcados tem sido objeto de investigação, conforme \citeonline{cassieri_2025} investigaram.
 
-A metodologia TDD é fundamental para o sucesso do aplicativo proposto neste trabalho, especialmente na implementação de módulos de alta complexidade, como o Algoritmo de Repetição Espaçada (SRS).
-A precisão dos cálculos do SRS e a correta integração do Timer Pomodoro com Gamificação não podem depender de testes manuais.
-O TDD garantirá que cada regra de negócio do algoritmo seja coberta por um teste, minimizando a probabilidade de erros de cálculo que poderiam comprometer todo o plano de estudo do usuário.
-Dessa forma, a adesão ao TDD não só eleva a qualidade do código, conforme discutido por \citeonline{cassieri_2025}, mas também fornece uma garantia metodológica de que as funcionalidades do sistema estão operando de acordo com o referencial teórico e os requisitos definidos.
+A metodologia TDD é fundamental para o sucesso do aplicativo proposto neste trabalho, especialmente na implementação de módulos como o algoritmo de repetição espaçada (SRS).
+A precisão dos cálculos do SRS e a integração do cronônmetro Pomodoro com a gamificação não podem depender de testes manuais.
+O TDD garantirá que cada regra de negócio do algoritmo seja coberta por um teste, diminuindo a probabilidade de erros de cálculo.
+Dessa forma, a adesão ao TDD não só eleva a qualidade do código, conforme discutido por \citeonline{cassieri_2025}, mas também garante que as funcionalidades do sistema estão operando de acordo com o referencial teórico e os requisitos definidos.
 
 \subsection{Scrum}
 
-O Scrum é um framework ágil adaptável e muito utilizado que estabelece uma estrutura iterativa e incremental para o gerenciamento de projetos, ideal para o desenvolvimento de software.
-O Scrum opera através de ciclos de trabalho curtos e repetitivos chamados Sprints, geralmente com duração de duas a quatro semanas.
-A principal função do Scrum é facilitar a entrega rápida de valor, garantindo que o produto seja constantemente refinado com base no feedback do cliente e nos novos requisitos.
-O framework define papéis específicos e eventos estruturados que mantém a equipe focada e alinhada com os objetivos do projeto.
+O Scrum é um framework ágil e muito utilizado que estabelece uma estrutura iterativa e incremental para o gerenciamento de projetos, ideal para o desenvolvimento de software.
+O Scrum é composto por ciclos repetitivos de trabalho chamados Sprints, com duração de duas a quatro semanas.
+Sua principal função é facilitar a entrega rápida de valor, permitindo que o produto seja refinado com base no feedback do cliente e nos novos requisitos a cada iteração do ciclo.
+O framework define papéis e eventos que mantém a equipe alinhada com os objetivos do projeto.
 
-A metodologia Scrum é fundamental para este trabalho, pois o projeto exige a integração de múltiplas funcionalidades pedagógicas e tecnológicas que precisam ser desenvolvidas em fases paralelas.
-A aplicação do Scrum permite que cada Sprint se concentre na entrega de um incremento funcional do produto, mitigando o risco de desvios de escopo comuns em projetos de longo prazo.
-\citeonline{ibarra_2025} destacam em seus estudos que a aplicação do Scrum pode ser uma ferramenta eficaz para a transferência de conhecimento entre desenvolvedores, especialmente através dos eventos como o Daily Scrum e as sessões de Pair Programming.
+A metodologia Scrum é fundamental para este trabalho, pois este exige a integração de múltiplas funcionalidades que precisam ser desenvolvidas em fases paralelas.
+O uso do Scrum permite que cada Sprint se concentre na entrega de apenas um incremento, mitigando o risco de desvios de escopo para projetos de longo prazo.
+\citeonline{ibarra_2025} destacam em seus estudos que a aplicação do Scrum pode ser uma ferramenta eficaz para a transferência de conhecimento entre desenvolvedores, especialmente através dos eventos como o Daily Scrum (reuniões curtas e diárias) e as sessões de programação em pares.
 
-Dessa forma, a Sprint Review será utilizada para demonstrar o incremento do software e coletar feedback do orientador, a Sprint Retrospective garantirá a melhoria contínua do processo de desenvolvimento, e, apesar do trabalho ser realizado por uma única pessoa, a documentação dos processos e impedimentos arquivam conhecimentos importantes para manter o cronograma de desenvolvimento.
+Dessa forma, o Scrum será utilizado para demonstrar o incremento do software ao orientador e coletar o feedback dele, garantindo a melhoria contínua do processo de desenvolvimento. Apesar do trabalho ser realizado por uma pessoa, a documentação dos processos e impedimentos guardam conhecimentos importantes para manter o cronograma em dia.
 A adoção do Scrum adaptado como sugerido por \citeonline{ibarra_2025}, fornece a estrutura ideal para gerenciar a complexidade técnica e pedagógica do aplicativo, assegurando que o resultado final seja de alta qualidade e alinhado com o referencial teórico do trabalho.
 
 A seguir está representado o fluxo de atividades da sprint deste trabalho.
@@ -167,18 +166,17 @@ A seguir está representado o fluxo de atividades da sprint deste trabalho.
 
 \subsection{Kanban}
 
-O Kanban é uma metodologia ágil que se concentra na gestão visual do fluxo de trabalho e na limitação do trabalho em progresso.
-Originado na indústria automobilística japonesa, o Kanban foi adaptado para o desenvolvimento de software, onde o trabalho só é iniciado quando há capacidade disponível na próxima etapa do processo.
-A ideia central do Kanban é o seu quadro, que divide o trabalho em colunas representando os estágios do processo.
-Ao visualizar o fluxo, a equipe pode identificar gargalos, reduzir o desperdício de tempo e focar na entrega contínua e rápida de funcionalidades.
+O Kanban é uma metodologia ágil que foca na gestão visual do fluxo de trabalho e na limitação do trabalho em progresso.
+Originl da indústria automobilística japonesa, o Kanban foi adaptado para o desenvolvimento de software, onde o trabalho só é iniciado quando há disponibilidade.
+O valor central do Kanban é o seu quadro, que divide o trabalho em colunas representando os estágios do processo.
+Ao visualizar o fluxo, a equipe pode identificar problemas, otimizar o tempo e focar na entrega contínua.
 
-Ao limitar o trabalho em progresso, o Kanban impede que a equipe inicie múltiplas tarefas simultaneamente, o que levaria à perda de foco e a longos tempos de ciclo.
-Essa ideia é crucial para um projeto acadêmico com prazos definidos.
+Ao limitar o trabalho em progresso, o Kanban impede que a equipe inicie múltiplas tarefas simultaneamente, o que leva à perda de foco e a longos tempos de ciclo.
 Em um estudo sobre o impacto do Kanban na Aprendizagem Baseada em Problemas (ABP), \citeonline{trinidad_2025} concluíram que a aplicação do método Kanban em estudantes universitários demonstrou efeitos positivos, destacando o potencial da ferramenta para organizar e visualizar o desenvolvimento de tarefas complexas em um contexto acadêmico.
 
 Para o desenvolvimento deste trabalho, o Kanban será empregado como um sistema visual de acompanhamento, complementando o framework Scrum e atuando como o principal mecanismo de gestão do fluxo de trabalho.
 Dessa forma, o quadro Kanban será usado para rastrear o progresso das tarefas de desenvolvimento do aplicativo.
-A utilização do Kanban permitirá ao desenvolvedor e ao orientador inspecionar o andamento do projeto de forma transparente, facilitando a identificação de quaisquer bloqueios ou atrasos e garantindo que a capacidade de trabalho esteja sempre focada na próxima funcionalidade de maior valor.
+A utilização do Kanban permitirá ao desenvolvedor e ao orientador inspecionar o andamento do projeto de forma transparente, facilitando a identificação de bloqueios ou atrasos e garantindo que a capacidade de trabalho esteja sempre focada na próxima funcionalidade de maior valor.
 A seguir está representado o fluxo de atividades da atualização do quadro Kanban do projeto.
 
 \begin{figure}[H]
@@ -195,80 +193,75 @@ A seguir está representado o fluxo de atividades da atualização do quadro Kan
 
 O Lean Inception é uma abordagem estruturada, idealizada por Paulo Caroli, que se destina a alinhar o desenvolvedor, os stakeholders e o cliente em torno da visão de um Produto Mínimo Viável (MVP) em um período de tempo.
 Essa metodologia combina os princípios do Design Thinking, Lean Startup e Metodologias Ágeis.
-O principal objetivo é garantir que o esforço de desenvolvimento de software comece com uma compreensão clara do problema a ser resolvido e do valor que a solução deve entregar.
-Em projetos ágeis, onde os requisitos podem evoluir, o Lean Inception atua como uma fase crucial de definição para evitar o desperdício de recursos na construção de funcionalidades desnecessárias.
+O principal objetivo é garantir que o desenvolvimento de um software comece com uma compreensão clara do problema a ser resolvido e do valor que a solução deve entregar.
+Em projetos ágeis, onde os requisitos podem evoluir, o Lean Inception atua como uma fase crucial de definição dos requisitos, a fim de evitar o desperdício de recursos na implementação de funcionalidades desnecessárias.
 
-Dessa forma, as metodologias ágeis às vezes não incluem os usuários finais na participação direta nas etapas iniciais de definição do projeto.
+Normalmente as metodologias de desenvolvimento não incluem os usuários finais na participação das etapas iniciais de definição do projeto.
 Em vez disso, a visão é definida por clientes relacionados apenas ao negócio, o que pode levar a um produto que não atenda às necessidades reais do usuário final.
-É neste ponto que o Lean Inception se destaca, fornecendo uma série de atividades estruturadas que buscam integrar a perspectiva do usuário desde o início.
+É neste ponto que o Lean Inception se destaca, fornecendo uma série de atividades estruturadas que buscam integrar a perspectiva do usuário desde o início, além de incluir as visões dos desenvolvedores e dos stakeholders.
 Conforme apontado por \citeonline{ferreira_2025}, o Lean Inception representa uma metodologia que combina o Design Thinking e o Lean Startup para apoiar a definição do problema focado nas necessidades do usuário e a produção de software eficaz.
 
 Portanto, a adoção do framework Lean Inception é essencial para a fase de planejamento, garantindo que a proposta de valor do aplicativo seja clara, validada e centrada nas necessidades do usuário final.
 O Lean Inception serve como um guia para transformar os requisitos em artefatos para o desenvolvimento.
-Ao passar por todas as etapas, o projeto garantirá que o MVP a ser desenvolvido na etapa do TCC2 seja o menor conjunto de funcionalidades capaz de entregar o maior valor possível, reduzindo o risco de construir um produto que não satisfaça as demandas reais do projeto.
-A estrutura do Lean Inception é a garantia de que o projeto terá uma definição certa do problema e um alto grau de envolvimento do usuário, conforme investigado por \citeonline{ferreira_2025}.
+Ao passar por todas as etapas, o projeto garantirá que o MVP a ser desenvolvido na etapa seguinte do trabalho de conclusão de curso seja o menor conjunto de funcionalidades capaz de entregar o maior valor possível, reduzindo o risco de construir um produto que não satisfaça as demandas reais do projeto.
+A estrutura do Lean Inception é a garantia de que o projeto terá uma definição certa do problema e um alto grau de envolvimento do usuário, conforme investigado por \citeonline{ferreira_2025}. Para este trabalho o Lean Inception foi realizado por duas pessoas (representantes de usuários finais) e o autor (representante de negócio e desenvolvimento) em um período de 5 dias. Ao final do processo, houve a validação do orientador sobre todos os artefatos gerados. A seguir será explicado cada etapa do framework assim como será mostrado todas as definições acordadas.
 
 \subsubsection{Kick-off}
 
-O Kick-off é a etapa inicial e fundamental do Lean Inception, atuando como o ponto de partida para alinhar todos os participantes em relação ao propósito e às regras.
+O Kick-off é a etapa inicial do Lean Inception, atuando como o ponto de partida para alinhar todos os participantes em relação ao propósito e às regras.
 De acordo com \citeonline{caroli_2017}, o principal objetivo deste momento é garantir que a equipe e os stakeholders compartilhem uma compreensão única sobre o que será feito e sobre o porquê de o projeto existir.
-Essa seção introdutória é onde são apresentados os participantes, o contexto do projeto, e a agenda das atividades do framework.
-A clareza alcançada nessa etapa é vital para eliminar ambiguidades e evitar realinhamentos nas próximas fases do desenvolvimento.
-
-Portanto, o Kick-off será conduzido com o próprio autor e o orientador acadêmico, sendo essencial para validar o entendimento do problema e a proposta de valor do aplicativo para os usuários finais.
-Dessa forma, garantindo que a Visão de Produto seja construída sobre uma base de conhecimento compartilhado e alinhamento de expectativas.
-Ao finalizar o Kick-off, o projeto estabelece o tom ágil e colaborativo necessário para a construção do MVP, minimizando o risco de que o produto final não reflita os objetivos acadêmicos e as necessidades práticas do usuário, conforme orienta a metodologia \cite{caroli_2017}.
+Essa seção introdutória é onde são apresentados os participantes, o contexto do projeto, e a agenda das atividades do framework. Ao finalizar o Kick-off, o projeto estabelece o tom ágil e colaborativo necessário para a construção do MVP, minimizando o risco de que o produto final não reflita os objetivos e as necessidades práticas do usuário, conforme orienta a metodologia \cite{caroli_2017}.
 
 \subsubsection{Visão de Produto}
 
-A Visão de Produto é o primeiro artefato de alto nível que surge do Lean Inception e serve como a idéia estratégica do projeto, englobando o propósito do aplicativo e o impacto que se espera causar no público-alvo.
+A Visão de Produto é o primeiro artefato de alto nível que surge do Lean Inception e serve como a idéia estratégica do projeto, englobando o propósito do aplicativo e o impacto que se espera causar nos usuários.
 Segundo \citeonline{caroli_2017}, uma visão de produto eficaz deve ser concisa, inspiradora e orientada ao valor, atuando como um guia para a tomada de decisões futuras sobre o que incluir ou excluir do escopo do MVP.
-Ela responde à pergunta fundamental: "Qual é o produto que vai ser construído e por que ele importa?".
+Ela responde à seguinte pergunta: "Qual é o produto que vai ser construído e por que ele importa?".
 
 Para estruturar essa visão, o Lean Inception utiliza o formato de template "Visão de Produto" de Geoffrey Moore, que preenche as seguintes perguntas: público-alvo, problema, nome, categoria do produto, principal benefício, concorrentes e diferencial primário.
-A clareza ao preencher essas perguntas é essencial, pois ela garante que o time de desenvolvimento compreenda o valor de negócio antes de se aprofundar na lista de funcionalidades.
+A clareza ao preencher essas perguntas garante que o time de desenvolvimento compreenda o valor de negócio antes de se aprofundar na lista de funcionalidades.
 A seguir estão documentadas as respostas da visão de produto.
 
 \begin{itemize}
     \item \textbf{Público-alvo:} Estudantes de concursos e estudantes acadêmicos.
-    \item \textbf{Problema:} Inexistência de aplicativos gratuitos que integram Timer Pomodoro, Flashcards, Gamificação e Check-ins de humor.
+    \item \textbf{Problema:} Inexistência de aplicativos gratuitos que integram cronômetro Pomodoro, flashcards com repetição espaçada, gamificação e check-ins de humor.
     \item \textbf{Nome:} Focus.
     \item \textbf{Categoria:} Aplicativo mobile.
     \item \textbf{Benefício:} Aprimorar a rotina de estudos do usuário.
     \item \textbf{Concorrentes:} Aprovado e StudyTok.
-    \item \textbf{Diferencial:} Integra as diferentes idéias em um único aplicativo gratuito.
+    \item \textbf{Diferencial:} Integra as diferentes idéias em um único aplicativo.
 \end{itemize}
 
 \subsubsection{É - Não é - Faz - Não faz}
 
-A matriz "É – Não É – Faz – Não Faz" é uma que delimita o escopo do MVP.
+A matriz "É – Não É – Faz – Não Faz" é a etapa que delimita o escopo do MVP.
 Esta matriz força a equipe e os stakeholders a criarem clareza e consenso sobre o que o produto será e o que ele fará em sua primeira versão.
-Segundo \citeonline{caroli_2017}, o uso desta matriz é um exercício de priorização e alinhamento, pois, ao declarar o que o produto não é e o que ele não faz, a equipe está definindo limites cruciais que protegem o projeto contra o desvio de escopo.
+Segundo \citeonline{caroli_2017}, o uso dessa matriz é uma atividade de priorização e alinhamento, pois, ao declarar o que o produto não é e o que ele não faz, a equipe está definindo limites que protegem o projeto contra o desvio de escopo (scope creep).
 
-A matriz é dividida em quatro quadrantes que exploram a identidade e o comportamento do produto.
-A coluna "É" define a categoria e a natureza do produto, enquanto a coluna "Não É" estabelece fronteiras sobre o que o aplicativo não contempla.
+A matriz é dividida em quatro quadrantes que explicam a identidade e o comportamento do produto.
+A coluna "É" define a categoria do produto, enquanto a coluna "Não É" estabelece limites sobre o que o aplicativo não seria.
 De forma similar, a coluna "Faz" lista as ações principais do produto, já a coluna "Não Faz" lista funcionalidades que poderiam ser esperadas, mas não estão no escopo.
 A seguir está listada essa matriz para o presente trabalho.
 
 \begin{itemize}
     \item \textbf{É:} Aplicativo mobile, gratuito e open source.
     \item \textbf{Não é:} Um banco de questões para estudo de concursos.
-    \item \textbf{Faz:} Integra o Timer Pomodoro, Flashcards, Gamificação e Check-ins de humor para auxiliar na rotina de estudos dos usuários.
+    \item \textbf{Faz:} Integra o cronômetro Pomodoro, flashcards com repetição espaçada, gamificação e check-ins de humor para auxiliar na rotina de estudos dos usuários.
     \item \textbf{Não faz:} Não corrige questões, não possui uma base de dados de questões ou conteúdos, não cria atividades, não gera conteúdo e não utiliza inteligência artificial.
 \end{itemize}
 
 \subsubsection{Objetivos do Negócio}
 
-Para este trabalho foram acordados os seguintes objetivos de negócio: Eficácia da integração das metodologias, Minimizar a taxa de abandono, Fornecer uma interface intuitiva, Fornecer check-ins de saúde, Seção de progresso e Notificações.
+Para este trabalho foram acordados os seguintes objetivos de negócio: eficácia da integração das metodologias, minimizar a taxa de abandono, fornecer uma interface intuitiva, fornecer check-ins de saúde e seção de progresso.
 
 \textbf{Eficácia da integração das metodologias}
 
-Este objetivo será atingido ao entrelaçar o uso da Repetição Espaçada com os ciclos de foco do Timer Pomodoro, garantindo que o estudante revise o material certo no momento ideal.
+Este objetivo será atingido ao implementar o uso da repetição espaçada com os ciclos de foco do cronômetro Pomodoro, garantindo que o estudante revise o material correto no momento ideal.
 
 \textbf{Minimizar a taxa de abandono}
 
 Este objetivo será alcançado através dos elementos de gamificação.
-Ao utilizar barras de progresso, pontos e badges de conquista, o aplicativo busca transformar o esforço em uma experiência progressiva.
+Ao utilizar barras de progresso e pontos, o aplicativo busca transformar o esforço em uma experiência progressiva.
 
 \textbf{Fornecer uma interface intuitiva}
 
@@ -277,18 +270,18 @@ O foco deve estar em simplificar a navegação e a interação, permitindo que o
 
 \textbf{Fornecer check-ins de saúde}
 
-A funcionalidade permite que o aplicativo monitore o estado psicológico do usuário antes e após as sessões de estudo.
-Essa informação é vital para o processo de autorregulação.
+A funcionalidade permite que o aplicativo monitore o estado psicológico do usuário diariamente.
+Essa informação é vital para o processo de autorregulação e análise dos gráficos gerados.
 
 \textbf{Seção de progresso}
 
-Essa seção deve mostrar o progresso numa visão macro e o avanço dentro de cada disciplina ou tópico.
+Essa seção deve mostrar o progresso e as estatísticas do usuário de forma intuitiva.
 
 \subsubsection{Personas}
 
 A atividade de definição de Personas dentro do Lean Inception é um exercício focado no usuário final.
-Uma Persona é um usuário fictício, mas detalhado e realista, que representa um segmento de usuários.
-Segundo \citeonline{caroli_2017}, o desenvolvimento de Personas transforma as necessidades abstratas do estudante em características, metas e dores concretas.
+Uma Persona é um usuário fictício que representa um conjunto de usuários.
+Segundo \citeonline{caroli_2017}, o desenvolvimento de Personas transforma as necessidades abstratas do usuário final em características, metas e dores concretas.
 Ao criar essas representações, a equipe de desenvolvimento consegue tomar decisões de design e funcionalidade baseadas em quem realmente usará o produto e quais são seus desafios específicos, garantindo que o aplicativo seja centrado no usuário.
 A seguir estão representadas as três personas deste trabalho.
 
