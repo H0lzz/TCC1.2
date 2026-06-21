@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2026.6.11)  19 JUN 2026 20:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2026.6.11)  21 JUN 2026 21:38
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -977,7 +977,7 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 <Imagens/Aprovado.png, id=455, 431.6125pt x 442.65375pt>
 File: Imagens/Aprovado.png Graphic file (type png)
 <use Imagens/Aprovado.png>
-Package pdftex.def Info: Imagens/Aprovado.png  used on input line 276.
+Package pdftex.def Info: Imagens/Aprovado.png  used on input line 275.
 (pdftex.def)             Requested size: 341.25pt x 349.9898pt.
  [26
 
@@ -985,37 +985,37 @@ Package pdftex.def Info: Imagens/Aprovado.png  used on input line 276.
 <Imagens/StudyTok.png, id=469, 371.3875pt x 388.45125pt>
 File: Imagens/StudyTok.png Graphic file (type png)
 <use Imagens/StudyTok.png>
-Package pdftex.def Info: Imagens/StudyTok.png  used on input line 292.
+Package pdftex.def Info: Imagens/StudyTok.png  used on input line 291.
 (pdftex.def)             Requested size: 341.25pt x 356.93492pt.
  [27
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.298 
+l.297 
        <./Imagens/Aprovado.png>] [28
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.304 \clearpage
+l.303 \clearpage
                  <./Imagens/StudyTok.png>] [29
 
 ] [30])
-(./editaveis/consideracoes.tex [31] [32] [33
+(./editaveis/consideracoes.tex [31] [32
 
-] [34]
-<Imagens/BPMNTCC1.png, id=530, 1561.33313pt x 658.71094pt>
+] [33]
+<Imagens/BPMNTCC1.png, id=525, 1561.33313pt x 658.71094pt>
 File: Imagens/BPMNTCC1.png Graphic file (type png)
 <use Imagens/BPMNTCC1.png>
 Package pdftex.def Info: Imagens/BPMNTCC1.png  used on input line 44.
 (pdftex.def)             Requested size: 455.0pt x 191.95602pt.
-<Imagens/BPMNTCC2.png, id=531, 1543.26563pt x 327.47343pt>
+<Imagens/BPMNTCC2.png, id=526, 1543.26563pt x 327.47343pt>
 File: Imagens/BPMNTCC2.png Graphic file (type png)
 <use Imagens/BPMNTCC2.png>
 Package pdftex.def Info: Imagens/BPMNTCC2.png  used on input line 58.
 (pdftex.def)             Requested size: 455.0pt x 96.54886pt.
-<Imagens/BPMNCompletoTCC.png, id=532, 1651.67062pt x 1008.01593pt>
+<Imagens/BPMNCompletoTCC.png, id=527, 1651.67062pt x 1008.01593pt>
 File: Imagens/BPMNCompletoTCC.png Graphic file (type png)
 <use Imagens/BPMNCompletoTCC.png>
 Package pdftex.def Info: Imagens/BPMNCompletoTCC.png  used on input line 70.
@@ -1023,7 +1023,7 @@ Package pdftex.def Info: Imagens/BPMNCompletoTCC.png  used on input line 70.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [35
+ [34
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) 
@@ -1037,370 +1037,514 @@ has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.76 
-      <./Imagens/BPMNTCC1.png> <./Imagens/BPMNTCC2.png>] [36
+      <./Imagens/BPMNTCC1.png> <./Imagens/BPMNTCC2.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.89 \subsection{Metodologia √Ågil}
-                                    <./Imagens/BPMNCompletoTCC.png>] [37]
-<Imagens/CicloTDD.png, id=557, 299.1175pt x 251.94125pt>
+l.93 
+      <./Imagens/BPMNCompletoTCC.png>] [36]
+<Imagens/CicloTDD.png, id=552, 299.1175pt x 251.94125pt>
 File: Imagens/CicloTDD.png Graphic file (type png)
 <use Imagens/CicloTDD.png>
-Package pdftex.def Info: Imagens/CicloTDD.png  used on input line 125.
+Package pdftex.def Info: Imagens/CicloTDD.png  used on input line 124.
 (pdftex.def)             Requested size: 273.00278pt x 229.9627pt.
-
-[38
+ [37
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.6}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.137 
-       <./Imagens/CicloTDD.png>] [39]
-<Imagens/BPMNSprint.png, id=580, 1102.1175pt x 566.86781pt>
+l.140 
+       <./Imagens/CicloTDD.png>]
+<Imagens/BPMNSprint.png, id=570, 1102.1175pt x 566.86781pt>
 File: Imagens/BPMNSprint.png Graphic file (type png)
 <use Imagens/BPMNSprint.png>
-Package pdftex.def Info: Imagens/BPMNSprint.png  used on input line 162.
+Package pdftex.def Info: Imagens/BPMNSprint.png  used on input line 160.
 (pdftex.def)             Requested size: 455.0pt x 234.02614pt.
- [40
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38]
+<Imagens/BPMNKanban.png, id=580, 1306.8825pt x 709.14937pt>
+File: Imagens/BPMNKanban.png Graphic file (type png)
+<use Imagens/BPMNKanban.png>
+Package pdftex.def Info: Imagens/BPMNKanban.png  used on input line 185.
+(pdftex.def)             Requested size: 455.0pt x 246.88586pt.
+
+[39
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.184 
-       <./Imagens/BPMNSprint.png>]
-<Imagens/BPMNKanban.png, id=589, 1306.8825pt x 709.14937pt>
-File: Imagens/BPMNKanban.png Graphic file (type png)
-<use Imagens/BPMNKanban.png>
-Package pdftex.def Info: Imagens/BPMNKanban.png  used on input line 188.
-(pdftex.def)             Requested size: 455.0pt x 246.88586pt.
- [41
+l.190 \end{figure}
+                   <./Imagens/BPMNSprint.png>] [40
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.8}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.206 
-       <./Imagens/BPMNKanban.png>] [42] [43]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [44]
-[45]
-Underfull \hbox (badness 10000) in paragraph at lines 383--383
+l.208 
+       <./Imagens/BPMNKanban.png>] [41] [42] [43] [44]
+Underfull \hbox (badness 10000) in paragraph at lines 375--375
 []|\T1/lmr/bx/n/12 Etapa da
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--383
+Underfull \hbox (badness 10000) in paragraph at lines 375--375
 []|\T1/lmr/bx/n/12 AÁ„o da
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 383--383
+Underfull \hbox (badness 10000) in paragraph at lines 375--375
 \T1/lmr/bx/n/12 Per-sona
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--384
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
 []|\T1/lmr/m/n/12 Ansiedade /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--384
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
 []|\T1/lmr/m/n/12 Sentimento de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--384
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
 \T1/lmr/m/n/12 so-bre-carga e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 384--384
+Underfull \hbox (badness 10000) in paragraph at lines 376--376
 []|\T1/lmr/bx/n/12 Interface ami-
  []
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 384--384
+Underfull \hbox (badness 1708) in paragraph at lines 376--376
 \T1/lmr/bx/n/12 g·-vel: \T1/lmr/m/n/12 Con-vida o
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 385--385
+Underfull \hbox (badness 2065) in paragraph at lines 377--377
 []|\T1/lmr/m/n/12 Inicia a pri-
  []
 
 
-Underfull \hbox (badness 5878) in paragraph at lines 385--385
+Underfull \hbox (badness 5878) in paragraph at lines 377--377
 \T1/lmr/m/n/12 meira ses-s„o
  []
 
 
-Underfull \hbox (badness 1609) in paragraph at lines 385--385
+Underfull \hbox (badness 1609) in paragraph at lines 377--377
 []|\T1/lmr/m/n/12 TendÍncia a se
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 385--385
-[]|\T1/lmr/bx/n/12 Timer Po-mo-
- []
-
-
-Underfull \hbox (badness 1789) in paragraph at lines 385--385
-\T1/lmr/bx/n/12 doro: \T1/lmr/m/n/12 Ini-cia ci-clo
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
+Underfull \hbox (badness 10000) in paragraph at lines 378--378
 []|\T1/lmr/m/n/12 Completa
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
+Underfull \hbox (badness 10000) in paragraph at lines 378--378
 \T1/lmr/m/n/12 a pri-meira
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
+Underfull \hbox (badness 10000) in paragraph at lines 378--378
 \T1/lmr/m/n/12 ro-dada de
  []
 
 
-Underfull \hbox (badness 5533) in paragraph at lines 386--386
+Underfull \hbox (badness 5533) in paragraph at lines 378--378
 []|\T1/lmr/m/n/12 SatisfaÁ„o ini-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
-[]|\T1/lmr/m/n/12 Necessidade de
+Underfull \hbox (badness 10000) in paragraph at lines 378--378
+[]|\T1/lmr/m/n/12 Necessidade
  []
 
 
-Underfull \hbox (badness 3333) in paragraph at lines 386--386
-\T1/lmr/m/n/12 re-forÁo po-si-tivo
+Underfull \hbox (badness 10000) in paragraph at lines 378--378
+\T1/lmr/m/n/12 de mo-ti-va-Á„o
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
+Underfull \hbox (badness 10000) in paragraph at lines 378--378
 []|\T1/lmr/bx/n/12 GamificaÁ„o /
  []
 
 
-Underfull \hbox (badness 6348) in paragraph at lines 386--386
+Underfull \hbox (badness 6348) in paragraph at lines 378--378
 \T1/lmr/bx/n/12 Se-Á„o de Pro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
+Underfull \hbox (badness 10000) in paragraph at lines 378--378
 \T1/lmr/bx/n/12 gresso: \T1/lmr/m/n/12 Exibe
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
-\T1/lmr/m/n/12 barra de pro-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--386
-\T1/lmr/m/n/12 gresso pre-en-chida
- []
-
-
-Underfull \hbox (badness 8075) in paragraph at lines 387--387
+Underfull \hbox (badness 8075) in paragraph at lines 379--379
 []|\T1/lmr/m/n/12 4. Ma-nu-ten-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--387
+Underfull \hbox (badness 10000) in paragraph at lines 379--379
 []|\T1/lmr/m/n/12 VÍ o pro-
  []
 
 
-Underfull \hbox (badness 4621) in paragraph at lines 387--387
+Underfull \hbox (badness 4621) in paragraph at lines 379--379
 \T1/lmr/m/n/12 gresso di·-rio
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--387
+Underfull \hbox (badness 10000) in paragraph at lines 379--379
 \T1/lmr/m/n/12 se acu-mu-
  []
 
 
-Underfull \hbox (badness 2753) in paragraph at lines 387--387
+Underfull \hbox (badness 2753) in paragraph at lines 379--379
 \T1/lmr/m/n/12 con-te˙-dos es-tu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 387--387
-[]|\T1/lmr/bx/n/12 NotificaÁıes:
+Underfull \hbox (badness 5490) in paragraph at lines 379--379
+[]|\T1/lmr/bx/n/12 Flashcards com
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 387--387
-\T1/lmr/m/n/12 ximo Po-mo-doro e
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 387--387
-\T1/lmr/m/n/12 agenda au-to-ma-ti-
- []
-
-
-Overfull \hbox (14.27443pt too wide) in paragraph at lines 381--389
+Overfull \hbox (14.27443pt too wide) in paragraph at lines 373--381
  [][] 
  []
 
-[46]
-Underfull \hbox (badness 10000) in paragraph at lines 400--400
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45]
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
 []|\T1/lmr/bx/n/12 Etapa da
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--400
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
 []|\T1/lmr/bx/n/12 AÁ„o da
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 400--400
+Underfull \hbox (badness 10000) in paragraph at lines 392--392
 \T1/lmr/bx/n/12 Per-sona
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--401
+Underfull \hbox (badness 10000) in paragraph at lines 393--393
 []|\T1/lmr/m/n/12 1. Pla-ne-ja-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--401
+Underfull \hbox (badness 10000) in paragraph at lines 393--393
 \T1/lmr/m/n/12 o que re-vi-sar
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 401--401
+Underfull \hbox (badness 1412) in paragraph at lines 393--393
 \T1/lmr/m/n/12 para ma-xi-mi-zar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--401
+Underfull \hbox (badness 10000) in paragraph at lines 393--393
 []|\T1/lmr/bx/n/12 IntegraÁ„o
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--401
+Underfull \hbox (badness 10000) in paragraph at lines 393--393
 \T1/lmr/bx/n/12 SRS/Pomodoro:
  []
 
 
-Underfull \hbox (badness 8151) in paragraph at lines 402--402
+Underfull \hbox (badness 8151) in paragraph at lines 394--394
 []|\T1/lmr/m/n/12 Dificuldade em
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 402--402
+Underfull \hbox (badness 1052) in paragraph at lines 394--394
 \T1/lmr/m/n/12 man-ter a dis-ci-
  []
 
 
-Underfull \hbox (badness 1983) in paragraph at lines 402--402
+Underfull \hbox (badness 1983) in paragraph at lines 394--394
 \T1/lmr/m/n/12 de-vido ao can-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 402--402
-[]|\T1/lmr/bx/n/12 Timer Po-mo-
+Underfull \hbox (badness 2111) in paragraph at lines 394--394
+\T1/lmr/bx/n/12 mo-doro: \T1/lmr/m/n/12 Exe-cuta
  []
 
 
-Underfull \hbox (badness 3514) in paragraph at lines 402--402
-\T1/lmr/bx/n/12 doro Adap-tado:
- []
-
-
-Underfull \hbox (badness 2197) in paragraph at lines 402--402
-\T1/lmr/m/n/12 Exe-cuta um ci-clo
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 402--402
-\T1/lmr/m/n/12 de foco in-tenso
- []
-
-
-Underfull \hbox (badness 4739) in paragraph at lines 403--403
+Underfull \hbox (badness 4739) in paragraph at lines 395--395
 []|\T1/lmr/m/n/12 Completa as
  []
 
 
-Underfull \hbox (badness 3601) in paragraph at lines 403--403
+Underfull \hbox (badness 3601) in paragraph at lines 395--395
 []|\T1/lmr/m/n/12 PreocupaÁ„o se
  []
 
 
-Underfull \hbox (badness 2197) in paragraph at lines 403--403
+Underfull \hbox (badness 2197) in paragraph at lines 395--395
 []|\T1/lmr/bx/n/12 Algoritmo SRS:
  []
 
 
-Underfull \hbox (badness 5667) in paragraph at lines 403--403
+Underfull \hbox (badness 5667) in paragraph at lines 395--395
 \T1/lmr/m/n/12 Atu-a-liza o in-ter-
  []
 
 
-Underfull \hbox (badness 3460) in paragraph at lines 403--403
+Underfull \hbox (badness 3460) in paragraph at lines 395--395
 \T1/lmr/m/n/12 valo de re-pe-ti-Á„o
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 403--403
+Underfull \hbox (badness 1735) in paragraph at lines 395--395
 \T1/lmr/m/n/12 do con-te˙do re-vi-
  []
 
 
-Underfull \hbox (badness 4886) in paragraph at lines 403--403
-\T1/lmr/m/n/12 rÌodo mais longo
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
+[]|\T1/lmr/m/n/12 4. Exe-cu-Á„o
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
-[]|\T1/lmr/m/n/12 4. Check-in
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
+\T1/lmr/m/n/12 apÛs uma
  []
 
 
-Underfull \hbox (badness 1552) in paragraph at lines 404--404
-\T1/lmr/m/n/12 ca-Á„o de re-
+Underfull \hbox (badness 1400) in paragraph at lines 396--396
+[]|\T1/lmr/m/n/12 VÍ no menu
  []
 
 
-Underfull \hbox (badness 7907) in paragraph at lines 404--404
-\T1/lmr/m/n/12 cer o agen-da-
+Underfull \hbox (badness 1184) in paragraph at lines 396--396
+\T1/lmr/m/n/12 as in-for-ma-Áıes
  []
 
 
-Underfull \hbox (badness 1337) in paragraph at lines 404--404
-\T1/lmr/m/n/12 mento no meio
+Underfull \hbox (badness 2644) in paragraph at lines 396--396
+\T1/lmr/m/n/12 fo-ram es-que-ci-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
-[]|\T1/lmr/bx/n/12 NotificaÁıes:
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
+[]|\T1/lmr/bx/n/12 Algoritmo
  []
 
 
-Underfull \hbox (badness 3407) in paragraph at lines 404--404
-\T1/lmr/m/n/12 exato da re-vi-s„o,
+Underfull \hbox (badness 10000) in paragraph at lines 396--396
+\T1/lmr/bx/n/12 SRS: \T1/lmr/m/n/12 Atu-a-liza
  []
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 404--404
-\T1/lmr/m/n/12 eli-mi-nando a ges-
+Overfull \hbox (14.27443pt too wide) in paragraph at lines 390--398
+ [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 404--404
-\T1/lmr/m/n/12 t„o ma-nual do
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [46
+pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}) h
+as been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.402 
+      ]
+Underfull \hbox (badness 10000) in paragraph at lines 409--409
+[]|\T1/lmr/bx/n/12 Etapa da
  []
 
 
-Overfull \hbox (14.27443pt too wide) in paragraph at lines 398--406
+Underfull \hbox (badness 10000) in paragraph at lines 409--409
+[]|\T1/lmr/bx/n/12 AÁ„o da
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--409
+\T1/lmr/bx/n/12 Per-sona
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
+[]|\T1/lmr/m/n/12 1. Ava-li-a-Á„o
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
+[]|\T1/lmr/m/n/12 Prepara-se
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
+\T1/lmr/m/n/12 para uma
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
+\T1/lmr/m/n/12 longa ses-s„o
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
+\T1/lmr/m/n/12 em con-di-Áıes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
+\T1/lmr/m/n/12 emo-ci-o-nais de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
+\T1/lmr/m/n/12 ab-sor-ver con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 410--410
+[]|\T1/lmr/bx/n/12 Check-in de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 411--411
+[]|\T1/lmr/m/n/12 2. Es-tudo
+ []
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 411--411
+[]|\T1/lmr/m/n/12 ComeÁa seus
+ []
+
+
+Underfull \hbox (badness 7704) in paragraph at lines 411--411
+\T1/lmr/m/n/12 es-tu-dos com
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 411--411
+\T1/lmr/m/n/12 a sa-be-do-ria
+ []
+
+
+Underfull \hbox (badness 4441) in paragraph at lines 411--411
+[]|\T1/lmr/m/n/12 Iniciar um tÛ-
+ []
+
+
+Underfull \hbox (badness 3849) in paragraph at lines 411--411
+\T1/lmr/bx/n/12 r·-vel: \T1/lmr/m/n/12 O usu·-rio
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 411--411
+\T1/lmr/m/n/12 me-tro para ci-clos
+ []
+
+
+Underfull \hbox (badness 6675) in paragraph at lines 411--411
+\T1/lmr/m/n/12 mais cur-tos com
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--412
+[]|\T1/lmr/m/n/12 Executa a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--412
+\T1/lmr/m/n/12 re-vi-s„o via
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--412
+[]|\T1/lmr/m/n/12 Perder tempo
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--412
+\T1/lmr/m/n/12 pro-cu-rando o
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--412
+\T1/lmr/m/n/12 prÛ-ximo con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--412
+[]|\T1/lmr/bx/n/12 Interface In-
+ []
+
+
+Underfull \hbox (badness 4995) in paragraph at lines 412--412
+\T1/lmr/bx/n/12 tui-tiva / SRS:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--413
+[]|\T1/lmr/m/n/12 4. Re-fle-x„o
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--413
+[]|\T1/lmr/m/n/12 Termina o
+ []
+
+
+Underfull \hbox (badness 2027) in paragraph at lines 413--413
+\T1/lmr/m/n/12 bloco de es-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--413
+[]|\T1/lmr/m/n/12 Necessidade de
+ []
+
+
+Underfull \hbox (badness 5446) in paragraph at lines 413--413
+\T1/lmr/m/n/12 ver o im-pacto
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--413
+[]|\T1/lmr/bx/n/12 RelatÛrio de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--413
+\T1/lmr/bx/n/12 gresso: \T1/lmr/m/n/12 Exibe
+ []
+
+
+Underfull \hbox (badness 2213) in paragraph at lines 413--413
+\T1/lmr/m/n/12 v·-rios gr·-fi-cos na
+ []
+
+
+Underfull \hbox (badness 3895) in paragraph at lines 413--413
+\T1/lmr/m/n/12 tela de pro-gresso
+ []
+
+
+Underfull \hbox (badness 1997) in paragraph at lines 413--413
+\T1/lmr/m/n/12 a fim do usu·-rio
+ []
+
+
+Overfull \hbox (14.27443pt too wide) in paragraph at lines 407--415
  [][] 
  []
 
@@ -1408,338 +1552,122 @@ Overfull \hbox (14.27443pt too wide) in paragraph at lines 398--406
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [47
-pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.410 
-      ]
-Underfull \hbox (badness 10000) in paragraph at lines 417--417
-[]|\T1/lmr/bx/n/12 Etapa da
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 417--417
-[]|\T1/lmr/bx/n/12 AÁ„o da
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 417--417
-\T1/lmr/bx/n/12 Per-sona
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 418--418
-[]|\T1/lmr/m/n/12 1. Ava-li-a-Á„o
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 418--418
-[]|\T1/lmr/m/n/12 Prepara-se
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 418--418
-\T1/lmr/m/n/12 para uma
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 418--418
-\T1/lmr/m/n/12 longa ses-s„o
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 418--418
-\T1/lmr/m/n/12 em con-di-Áıes
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 418--418
-\T1/lmr/m/n/12 emo-ci-o-nais de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 418--418
-\T1/lmr/m/n/12 ab-sor-ver con-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 418--418
-[]|\T1/lmr/bx/n/12 Check-in de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 419--419
-[]|\T1/lmr/m/n/12 2. Es-tudo
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 419--419
-[]|\T1/lmr/m/n/12 Recebe a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 419--419
-\T1/lmr/m/n/12 su-ges-t„o de
- []
-
-
-Underfull \hbox (badness 4441) in paragraph at lines 419--419
-[]|\T1/lmr/m/n/12 Iniciar um tÛ-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 419--419
-[]|\T1/lmr/bx/n/12 Sugest„o de
- []
-
-
-Underfull \hbox (badness 4621) in paragraph at lines 419--419
-\T1/lmr/bx/n/12 Bem-Estar: \T1/lmr/m/n/12 Ofe-
- []
-
-
-Underfull \hbox (badness 3612) in paragraph at lines 419--419
-\T1/lmr/m/n/12 re-vi-s„o mais leve
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 419--419
-\T1/lmr/m/n/12 ou su-gere uma
- []
-
-
-Underfull \hbox (badness 2376) in paragraph at lines 419--419
-\T1/lmr/m/n/12 Ìn-dice de es-tresse
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 420--420
-[]|\T1/lmr/m/n/12 Executa a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 420--420
-\T1/lmr/m/n/12 re-vi-s„o via
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 420--420
-[]|\T1/lmr/m/n/12 Perder tempo
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 420--420
-\T1/lmr/m/n/12 pro-cu-rando o
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 420--420
-\T1/lmr/m/n/12 prÛ-ximo con-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 420--420
-[]|\T1/lmr/bx/n/12 Interface In-
- []
-
-
-Underfull \hbox (badness 4995) in paragraph at lines 420--420
-\T1/lmr/bx/n/12 tui-tiva / SRS:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 421--421
-[]|\T1/lmr/m/n/12 4. Re-fle-x„o
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 421--421
-[]|\T1/lmr/m/n/12 Termina o
- []
-
-
-Underfull \hbox (badness 2027) in paragraph at lines 421--421
-\T1/lmr/m/n/12 bloco de es-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 421--421
-[]|\T1/lmr/m/n/12 Necessidade de
- []
-
-
-Underfull \hbox (badness 5446) in paragraph at lines 421--421
-\T1/lmr/m/n/12 ver o im-pacto
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 421--421
-[]|\T1/lmr/bx/n/12 RelatÛrio de
- []
-
-
-Underfull \hbox (badness 7832) in paragraph at lines 421--421
-\T1/lmr/bx/n/12 gresso: \T1/lmr/m/n/12 Exibe a
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 421--421
-\T1/lmr/m/n/12 cor-re-la-Á„o en-tre
- []
-
-
-Underfull \hbox (badness 1102) in paragraph at lines 421--421
-\T1/lmr/m/n/12 o hu-mor ini-cial e
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 421--421
-\T1/lmr/m/n/12 a quan-ti-dade de
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 421--421
-\T1/lmr/m/n/12 flash-cards re-vi-sa-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 421--421
-\T1/lmr/m/n/12 dos, fe-chando o
- []
-
-
-Underfull \hbox (badness 2293) in paragraph at lines 421--421
-\T1/lmr/m/n/12 ci-clo da Apren-di-
- []
-
-
-Underfull \hbox (badness 5711) in paragraph at lines 421--421
-\T1/lmr/m/n/12 za-gem Au-tor-re-gu-
- []
-
-
-Overfull \hbox (14.27443pt too wide) in paragraph at lines 415--423
- [][] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [48
 pdfTeX warning (ext4): destination with the same identifier (name{table.3.2}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.427 
-      ] [49
+l.419 
+      ]
+<Imagens/BrainstormingFuncionalidades.jpg, id=639, 1788.6825pt x 3519.1475pt>
+File: Imagens/BrainstormingFuncionalidades.jpg Graphic file (type jpg)
+<use Imagens/BrainstormingFuncionalidades.jpg>
+Package pdftex.def Info: Imagens/BrainstormingFuncionalidades.jpg  used on inpu
+t line 430.
+(pdftex.def)             Requested size: 323.85947pt x 637.17807pt.
+
+Underfull \vbox (badness 1127) has occurred while \output is active []
+
+ [48
 pdfTeX warning (ext4): destination with the same identifier (name{table.3.3}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.434 
+l.436 
       ]
-<Imagens/BrainstormingFuncionalidades.jpg, id=646, 1788.6825pt x 3519.1475pt>
-File: Imagens/BrainstormingFuncionalidades.jpg Graphic file (type jpg)
-<use Imagens/BrainstormingFuncionalidades.jpg>
-Package pdftex.def Info: Imagens/BrainstormingFuncionalidades.jpg  used on inpu
-t line 438.
-(pdftex.def)             Requested size: 323.85947pt x 637.17807pt.
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [51
+ [49
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.9}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.452 
+l.444 
        <./Imagens/BrainstormingFuncionalidades.jpg>]
-<Imagens/GraficoSemaforo.jpg, id=657, 2552.53625pt x 2466.21375pt>
+<Imagens/GraficoSemaforo.jpg, id=651, 2552.53625pt x 2466.21375pt>
 File: Imagens/GraficoSemaforo.jpg Graphic file (type jpg)
 <use Imagens/GraficoSemaforo.jpg>
-Package pdftex.def Info: Imagens/GraficoSemaforo.jpg  used on input line 466.
+Package pdftex.def Info: Imagens/GraficoSemaforo.jpg  used on input line 458.
 (pdftex.def)             Requested size: 454.99658pt x 439.60934pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52]
-[53
+ [50]
+[51
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.10})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.483 
+l.475 
        <./Imagens/GraficoSemaforo.jpg>]
-<Imagens/Sequenciador.jpg, id=668, 1358.07375pt x 4635.3175pt>
+<Imagens/Sequenciador.jpg, id=662, 1358.07375pt x 4635.3175pt>
 File: Imagens/Sequenciador.jpg Graphic file (type jpg)
 <use Imagens/Sequenciador.jpg>
-Package pdftex.def Info: Imagens/Sequenciador.jpg  used on input line 490.
+Package pdftex.def Info: Imagens/Sequenciador.jpg  used on input line 482.
 (pdftex.def)             Requested size: 176.30711pt x 601.76369pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [54]
+ [52]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [55
+ [53
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.11})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.502 
+l.494 
        <./Imagens/Sequenciador.jpg>]
-<Imagens/CanvasMVP.jpg, id=680, 2998.20125pt x 2099.845pt>
+<Imagens/CanvasMVP.jpg, id=673, 2998.20125pt x 2099.845pt>
 File: Imagens/CanvasMVP.jpg Graphic file (type jpg)
 <use Imagens/CanvasMVP.jpg>
-Package pdftex.def Info: Imagens/CanvasMVP.jpg  used on input line 506.
+Package pdftex.def Info: Imagens/CanvasMVP.jpg  used on input line 498.
 (pdftex.def)             Requested size: 455.0pt x 318.64787pt.
-
-Underfull \vbox (badness 1009) has occurred while \output is active []
-
- [56
+ [54
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.12})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.518 S
-       endo assim, para este projeto, foram utilizados artefatos do workshop...
- <./Imagens/CanvasMVP.jpg>] [57] [58] [59]
-Overfull \hbox (10.52487pt too wide) in paragraph at lines 666--668
+l.512 
+       <./Imagens/CanvasMVP.jpg>] [55] [56]
+Underfull \vbox (badness 1960) has occurred while \output is active []
+
+ [57]
+Overfull \hbox (10.52487pt too wide) in paragraph at lines 658--660
 []\T1/lmr/m/n/12 Para or-ga-ni-zar os re-qui-si-tos n„o fun-ci-o-nais do pro-je
 to, utilizou-se o mo-delo FURPS+.
  []
 
-[60
+[58
 pdfTeX warning (ext4): destination with the same identifier (name{table.3.4}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.675     \item \textbf
+l.667     \item \textbf
                        {Supportability:} Refere-se a facilidade de manuten√ß...
-]) (./editaveis/textoepostexto.tex) (./editaveis/elementosdotexto.tex [61
+]) (./editaveis/textoepostexto.tex) (./editaveis/elementosdotexto.tex [59
 pdfTeX warning (ext4): destination with the same identifier (name{table.3.5}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.1 \chapter
-            {Desenvolvimento}] [62
+            {Desenvolvimento}] [60
 
-] [63] [64] [65]
-<Imagens/DiagramaClasses.drawio.png, id=775, 1435.3625pt x 1320.935pt>
+]
+Underfull \vbox (badness 1817) has occurred while \output is active []
+
+ [61]
+[62] [63]
+<Imagens/DiagramaClasses.drawio.png, id=766, 1435.3625pt x 1320.935pt>
 File: Imagens/DiagramaClasses.drawio.png Graphic file (type png)
 <use Imagens/DiagramaClasses.drawio.png>
 Package pdftex.def Info: Imagens/DiagramaClasses.drawio.png  used on input line
  137.
 (pdftex.def)             Requested size: 455.0pt x 418.71698pt.
 
-Underfull \vbox (badness 1478) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [66]
-<Imagens/DiagramaPacotesBackend.png, id=786, 773.89125pt x 482.80376pt>
+ [64]
+<Imagens/DiagramaPacotesBackend.png, id=776, 773.89125pt x 482.80376pt>
 File: Imagens/DiagramaPacotesBackend.png Graphic file (type png)
 <use Imagens/DiagramaPacotesBackend.png>
 Package pdftex.def Info: Imagens/DiagramaPacotesBackend.png  used on input line
@@ -1748,14 +1676,14 @@ Package pdftex.def Info: Imagens/DiagramaPacotesBackend.png  used on input line
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [67
+ [65
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.13})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.161 
        <./Imagens/DiagramaClasses.drawio.png>]
-<Imagens/DiagramaPacotesFrontend.png, id=792, 783.92876pt x 483.8075pt>
+<Imagens/DiagramaPacotesFrontend.png, id=783, 783.92876pt x 483.8075pt>
 File: Imagens/DiagramaPacotesFrontend.png Graphic file (type png)
 <use Imagens/DiagramaPacotesFrontend.png>
 Package pdftex.def Info: Imagens/DiagramaPacotesFrontend.png  used on input lin
@@ -1764,7 +1692,7 @@ e 165.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [68
+ [66
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.14})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1778,7 +1706,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.15})
 l.177 
        <./Imagens/DiagramaPacotesBackend.png> <./Imagens/DiagramaPacotesFronten
 d.png>]
-<Imagens/DiagramaConceitual.png, id=801, 1107.13625pt x 538.01pt>
+<Imagens/DiagramaConceitual.png, id=793, 1107.13625pt x 538.01pt>
 File: Imagens/DiagramaConceitual.png Graphic file (type png)
 <use Imagens/DiagramaConceitual.png>
 Package pdftex.def Info: Imagens/DiagramaConceitual.png  used on input line 188
@@ -1787,14 +1715,14 @@ Package pdftex.def Info: Imagens/DiagramaConceitual.png  used on input line 188
 
 Underfull \vbox (badness 7133) has occurred while \output is active []
 
- [69
+ [67
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.16})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.202 
        <./Imagens/DiagramaConceitual.png>]
-<Imagens/DiagramaLogico.png, id=811, 767.86874pt x 549.05125pt>
+<Imagens/DiagramaLogico.png, id=803, 767.86874pt x 549.05125pt>
 File: Imagens/DiagramaLogico.png Graphic file (type png)
 <use Imagens/DiagramaLogico.png>
 Package pdftex.def Info: Imagens/DiagramaLogico.png  used on input line 206.
@@ -1802,39 +1730,39 @@ Package pdftex.def Info: Imagens/DiagramaLogico.png  used on input line 206.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [70
+ [68
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.17})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.217 
-       <./Imagens/DiagramaLogico.png>] [71])
-(./editaveis/elementosdopostexto.tex [72] [73
+       <./Imagens/DiagramaLogico.png>] [69])
+(./editaveis/elementosdopostexto.tex [70] [71
 
 ]) (./tcc.bbl (./tcc.brf)
 \tf@brf=\write5
 \openout5 = `tcc.brf'.
 
- [74]
+ [72]
 bibitemlist
-[75
+[73
 
-] [76] [77]) (./editaveis/apendices.tex [78]
+] [74] [75]) (./editaveis/apendices.tex [76]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uppercase' on input line 4.
 
-[79
+[77
 
 
 ]
-<Imagens/PrototipoFigma/00_flashcards_empty.jpg, id=965, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/00_flashcards_empty.jpg, id=954, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/00_flashcards_empty.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/00_flashcards_empty.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/00_flashcards_empty.jpg  used o
 n input line 12.
 (pdftex.def)             Requested size: 223.00912pt x 495.59784pt.
-<Imagens/PrototipoFigma/01_onboarding_metodo.jpg, id=966, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/01_onboarding_metodo.jpg, id=955, 1084.05pt x 2409.0pt>
 
 File: Imagens/PrototipoFigma/01_onboarding_metodo.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/01_onboarding_metodo.jpg>
@@ -1844,7 +1772,7 @@ on input line 22.
 
 Underfull \vbox (badness 7168) has occurred while \output is active []
 
- [80
+ [78
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A.18})
@@ -1853,7 +1781,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.A.18})
                                                   \__shipout_drop_firstpage_...
 l.28 
       <./Imagens/PrototipoFigma/00_flashcards_empty.jpg>]
-<Imagens/PrototipoFigma/02_onboarding_srs.jpg, id=971, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/02_onboarding_srs.jpg, id=961, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/02_onboarding_srs.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/02_onboarding_srs.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/02_onboarding_srs.jpg  used on 
@@ -1862,14 +1790,14 @@ input line 32.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [81
+ [79
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A.19})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.38 
       <./Imagens/PrototipoFigma/01_onboarding_metodo.jpg>]
-<Imagens/PrototipoFigma/03_onboarding_bemestar.jpg, id=977, 1084.05pt x 2409.0p
+<Imagens/PrototipoFigma/03_onboarding_bemestar.jpg, id=966, 1084.05pt x 2409.0p
 t>
 File: Imagens/PrototipoFigma/03_onboarding_bemestar.jpg Graphic file (type jpg)
 
@@ -1880,14 +1808,14 @@ d on input line 42.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [82
+ [80
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A.20})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.48 
       <./Imagens/PrototipoFigma/02_onboarding_srs.jpg>]
-<Imagens/PrototipoFigma/04_signup.jpg, id=982, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/04_signup.jpg, id=971, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/04_signup.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/04_signup.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/04_signup.jpg  used on input li
@@ -1896,14 +1824,14 @@ ne 52.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [83
+ [81
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A.21})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.58 
       <./Imagens/PrototipoFigma/03_onboarding_bemestar.jpg>]
-<Imagens/PrototipoFigma/05_login.jpg, id=987, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/05_login.jpg, id=977, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/05_login.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/05_login.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/05_login.jpg  used on input lin
@@ -1912,14 +1840,14 @@ e 62.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [84
+ [82
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A.22})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.68 
       <./Imagens/PrototipoFigma/04_signup.jpg>]
-<Imagens/PrototipoFigma/06_home.jpg, id=993, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/06_home.jpg, id=982, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/06_home.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/06_home.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/06_home.jpg  used on input line
@@ -1928,14 +1856,14 @@ Package pdftex.def Info: Imagens/PrototipoFigma/06_home.jpg  used on input line
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [85
+ [83
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A.23})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.78 
       <./Imagens/PrototipoFigma/05_login.jpg>]
-<Imagens/PrototipoFigma/07_timer.jpg, id=998, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/07_timer.jpg, id=987, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/07_timer.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/07_timer.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/07_timer.jpg  used on input lin
@@ -1944,14 +1872,14 @@ e 82.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [86
+ [84
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A.24})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.88 
       <./Imagens/PrototipoFigma/06_home.jpg>]
-<Imagens/PrototipoFigma/08_timer_settings.jpg, id=1003, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/08_timer_settings.jpg, id=993, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/08_timer_settings.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/08_timer_settings.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/08_timer_settings.jpg  used on 
@@ -1960,14 +1888,14 @@ input line 92.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [87
+ [85
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A.25})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.98 
       <./Imagens/PrototipoFigma/07_timer.jpg>]
-<Imagens/PrototipoFigma/09_new_flashcard.jpg, id=1008, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/09_new_flashcard.jpg, id=998, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/09_new_flashcard.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/09_new_flashcard.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/09_new_flashcard.jpg  used on i
@@ -1976,14 +1904,14 @@ nput line 102.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [88
+ [86
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A.26})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.108 
        <./Imagens/PrototipoFigma/08_timer_settings.jpg>]
-<Imagens/PrototipoFigma/10_flashcards.jpg, id=1013, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/10_flashcards.jpg, id=1003, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/10_flashcards.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/10_flashcards.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/10_flashcards.jpg  used on inpu
@@ -1992,14 +1920,14 @@ t line 112.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [89
+ [87
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A.27})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.118 
        <./Imagens/PrototipoFigma/09_new_flashcard.jpg>]
-<Imagens/PrototipoFigma/11_flashcard_delete.jpg, id=1018, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/11_flashcard_delete.jpg, id=1008, 1084.05pt x 2409.0pt>
 
 File: Imagens/PrototipoFigma/11_flashcard_delete.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/11_flashcard_delete.jpg>
@@ -2009,14 +1937,14 @@ n input line 122.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [90
+ [88
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A.28})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.128 
        <./Imagens/PrototipoFigma/10_flashcards.jpg>]
-<Imagens/PrototipoFigma/12_flashcard_front.jpg, id=1024, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/12_flashcard_front.jpg, id=1013, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/12_flashcard_front.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/12_flashcard_front.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/12_flashcard_front.jpg  used on
@@ -2025,14 +1953,14 @@ Package pdftex.def Info: Imagens/PrototipoFigma/12_flashcard_front.jpg  used on
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [91
+ [89
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A.29})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.138 
        <./Imagens/PrototipoFigma/11_flashcard_delete.jpg>]
-<Imagens/PrototipoFigma/13_flashcard_back.jpg, id=1029, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/13_flashcard_back.jpg, id=1018, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/13_flashcard_back.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/13_flashcard_back.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/13_flashcard_back.jpg  used on 
@@ -2041,14 +1969,14 @@ input line 142.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [92
+ [90
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A.30})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.148 
        <./Imagens/PrototipoFigma/12_flashcard_front.jpg>]
-<Imagens/PrototipoFigma/14_session_done.jpg, id=1034, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/14_session_done.jpg, id=1024, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/14_session_done.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/14_session_done.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/14_session_done.jpg  used on in
@@ -2057,14 +1985,14 @@ put line 152.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [93
+ [91
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A.31})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.158 
        <./Imagens/PrototipoFigma/13_flashcard_back.jpg>]
-<Imagens/PrototipoFigma/15_progresso.jpg, id=1039, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/15_progresso.jpg, id=1029, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/15_progresso.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/15_progresso.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/15_progresso.jpg  used on input
@@ -2073,14 +2001,14 @@ Package pdftex.def Info: Imagens/PrototipoFigma/15_progresso.jpg  used on input
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [94
+ [92
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A.32})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.168 
        <./Imagens/PrototipoFigma/14_session_done.jpg>]
-<Imagens/PrototipoFigma/16_user.jpg, id=1044, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/16_user.jpg, id=1034, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/16_user.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/16_user.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/16_user.jpg  used on input line
@@ -2089,14 +2017,14 @@ Package pdftex.def Info: Imagens/PrototipoFigma/16_user.jpg  used on input line
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [95
+ [93
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A.33})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.178 
        <./Imagens/PrototipoFigma/15_progresso.jpg>]
-<Imagens/PrototipoFigma/17_user_checkin.jpg, id=1049, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/17_user_checkin.jpg, id=1039, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/17_user_checkin.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/17_user_checkin.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/17_user_checkin.jpg  used on in
@@ -2105,7 +2033,7 @@ put line 182.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [96
+ [94
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A.34})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -2115,7 +2043,7 @@ l.188
 No file tcc.ind.
 
 AED: lastpage setting LastPage
-[97
+[95
 pdfTeX warning (ext4): destination with the same identifier (name{figure.A.35})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -2137,12 +2065,12 @@ Package rerunfilecheck Warning: File `tcc.brf' has changed.
 (rerunfilecheck)                Rerun to get bibliographical references right.
 
 Package rerunfilecheck Info: Checksums for `tcc.brf':
-(rerunfilecheck)             Before: 7EA02378E10BDD26B689C541161DDEBA;4516
-(rerunfilecheck)             After:  4591F81E99B1B744C8A3A68FE410ACE4;4516.
+(rerunfilecheck)             Before: 6CBC522D4E5D6055BB544977B8149255;4455
+(rerunfilecheck)             After:  4AE0A63536426F022F72D89A9471CB9B;4455.
  ) 
 Here is how much of TeX's memory you used:
- 17293 strings out of 478031
- 280006 string characters out of 5840162
+ 17291 strings out of 478031
+ 279992 string characters out of 5840162
  1868330 words of memory out of 5000000
  36720 multiletter control sequences out of 15000+600000
  590582 words of font info for 75 fonts, out of 8000000 for 9000
@@ -2157,10 +2085,10 @@ m/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf
 s/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb
 ></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/t
 ype1/public/lm/lmsy10.pfb>
-Output written on tcc.pdf (98 pages, 8801424 bytes).
+Output written on tcc.pdf (96 pages, 8797841 bytes).
 PDF statistics:
- 1426 PDF objects out of 1440 (max. 8388607)
- 1246 compressed objects within 13 object streams
- 277 named destinations out of 1000 (max. 500000)
+ 1414 PDF objects out of 1440 (max. 8388607)
+ 1236 compressed objects within 13 object streams
+ 275 named destinations out of 1000 (max. 500000)
  897 words of extra memory for PDF output out of 10000 (max. 10000000)
 
