@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2026.6.11)  23 JUN 2026 14:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2026.6.11)  23 JUN 2026 14:36
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1756,13 +1756,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 ]
-<Imagens/PrototipoFigma/00_flashcards_empty.jpg, id=954, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/00_flashcards_empty.jpg, id=957, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/00_flashcards_empty.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/00_flashcards_empty.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/00_flashcards_empty.jpg  used o
 n input line 12.
 (pdftex.def)             Requested size: 223.00912pt x 495.59784pt.
-<Imagens/PrototipoFigma/01_onboarding_metodo.jpg, id=955, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/01_onboarding_metodo.jpg, id=958, 1084.05pt x 2409.0pt>
 
 File: Imagens/PrototipoFigma/01_onboarding_metodo.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/01_onboarding_metodo.jpg>
@@ -1781,7 +1781,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.A.18})
                                                   \__shipout_drop_firstpage_...
 l.28 
       <./Imagens/PrototipoFigma/00_flashcards_empty.jpg>]
-<Imagens/PrototipoFigma/02_onboarding_srs.jpg, id=961, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/02_onboarding_srs.jpg, id=964, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/02_onboarding_srs.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/02_onboarding_srs.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/02_onboarding_srs.jpg  used on 
@@ -1797,7 +1797,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.A.19})
                                                   \__shipout_drop_firstpage_...
 l.38 
       <./Imagens/PrototipoFigma/01_onboarding_metodo.jpg>]
-<Imagens/PrototipoFigma/03_onboarding_bemestar.jpg, id=966, 1084.05pt x 2409.0p
+<Imagens/PrototipoFigma/03_onboarding_bemestar.jpg, id=969, 1084.05pt x 2409.0p
 t>
 File: Imagens/PrototipoFigma/03_onboarding_bemestar.jpg Graphic file (type jpg)
 
@@ -1815,7 +1815,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.A.20})
                                                   \__shipout_drop_firstpage_...
 l.48 
       <./Imagens/PrototipoFigma/02_onboarding_srs.jpg>]
-<Imagens/PrototipoFigma/04_signup.jpg, id=971, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/04_signup.jpg, id=975, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/04_signup.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/04_signup.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/04_signup.jpg  used on input li
@@ -1831,7 +1831,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.A.21})
                                                   \__shipout_drop_firstpage_...
 l.58 
       <./Imagens/PrototipoFigma/03_onboarding_bemestar.jpg>]
-<Imagens/PrototipoFigma/05_login.jpg, id=977, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/05_login.jpg, id=980, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/05_login.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/05_login.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/05_login.jpg  used on input lin
@@ -1847,7 +1847,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.A.22})
                                                   \__shipout_drop_firstpage_...
 l.68 
       <./Imagens/PrototipoFigma/04_signup.jpg>]
-<Imagens/PrototipoFigma/06_home.jpg, id=982, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/06_home.jpg, id=985, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/06_home.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/06_home.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/06_home.jpg  used on input line
@@ -1863,7 +1863,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.A.23})
                                                   \__shipout_drop_firstpage_...
 l.78 
       <./Imagens/PrototipoFigma/05_login.jpg>]
-<Imagens/PrototipoFigma/07_timer.jpg, id=987, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/07_timer.jpg, id=990, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/07_timer.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/07_timer.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/07_timer.jpg  used on input lin
@@ -1879,7 +1879,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.A.24})
                                                   \__shipout_drop_firstpage_...
 l.88 
       <./Imagens/PrototipoFigma/06_home.jpg>]
-<Imagens/PrototipoFigma/08_timer_settings.jpg, id=993, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/08_timer_settings.jpg, id=996, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/08_timer_settings.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/08_timer_settings.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/08_timer_settings.jpg  used on 
@@ -1895,7 +1895,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.A.25})
                                                   \__shipout_drop_firstpage_...
 l.98 
       <./Imagens/PrototipoFigma/07_timer.jpg>]
-<Imagens/PrototipoFigma/09_new_flashcard.jpg, id=998, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/09_new_flashcard.jpg, id=1001, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/09_new_flashcard.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/09_new_flashcard.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/09_new_flashcard.jpg  used on i
@@ -1911,7 +1911,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.A.26})
                                                   \__shipout_drop_firstpage_...
 l.108 
        <./Imagens/PrototipoFigma/08_timer_settings.jpg>]
-<Imagens/PrototipoFigma/10_flashcards.jpg, id=1003, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/10_flashcards.jpg, id=1006, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/10_flashcards.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/10_flashcards.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/10_flashcards.jpg  used on inpu
@@ -1927,7 +1927,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.A.27})
                                                   \__shipout_drop_firstpage_...
 l.118 
        <./Imagens/PrototipoFigma/09_new_flashcard.jpg>]
-<Imagens/PrototipoFigma/11_flashcard_delete.jpg, id=1008, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/11_flashcard_delete.jpg, id=1011, 1084.05pt x 2409.0pt>
 
 File: Imagens/PrototipoFigma/11_flashcard_delete.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/11_flashcard_delete.jpg>
@@ -1944,7 +1944,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.A.28})
                                                   \__shipout_drop_firstpage_...
 l.128 
        <./Imagens/PrototipoFigma/10_flashcards.jpg>]
-<Imagens/PrototipoFigma/12_flashcard_front.jpg, id=1013, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/12_flashcard_front.jpg, id=1016, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/12_flashcard_front.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/12_flashcard_front.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/12_flashcard_front.jpg  used on
@@ -1960,7 +1960,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.A.29})
                                                   \__shipout_drop_firstpage_...
 l.138 
        <./Imagens/PrototipoFigma/11_flashcard_delete.jpg>]
-<Imagens/PrototipoFigma/13_flashcard_back.jpg, id=1018, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/13_flashcard_back.jpg, id=1021, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/13_flashcard_back.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/13_flashcard_back.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/13_flashcard_back.jpg  used on 
@@ -1976,7 +1976,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.A.30})
                                                   \__shipout_drop_firstpage_...
 l.148 
        <./Imagens/PrototipoFigma/12_flashcard_front.jpg>]
-<Imagens/PrototipoFigma/14_session_done.jpg, id=1024, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/14_session_done.jpg, id=1027, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/14_session_done.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/14_session_done.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/14_session_done.jpg  used on in
@@ -1992,7 +1992,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.A.31})
                                                   \__shipout_drop_firstpage_...
 l.158 
        <./Imagens/PrototipoFigma/13_flashcard_back.jpg>]
-<Imagens/PrototipoFigma/15_progresso.jpg, id=1029, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/15_progresso.jpg, id=1032, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/15_progresso.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/15_progresso.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/15_progresso.jpg  used on input
@@ -2008,7 +2008,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.A.32})
                                                   \__shipout_drop_firstpage_...
 l.168 
        <./Imagens/PrototipoFigma/14_session_done.jpg>]
-<Imagens/PrototipoFigma/16_user.jpg, id=1034, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/16_user.jpg, id=1037, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/16_user.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/16_user.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/16_user.jpg  used on input line
@@ -2024,7 +2024,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.A.33})
                                                   \__shipout_drop_firstpage_...
 l.178 
        <./Imagens/PrototipoFigma/15_progresso.jpg>]
-<Imagens/PrototipoFigma/17_user_checkin.jpg, id=1039, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/17_user_checkin.jpg, id=1042, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/17_user_checkin.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/17_user_checkin.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/17_user_checkin.jpg  used on in
@@ -2085,10 +2085,10 @@ m/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf
 s/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb
 ></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/t
 ype1/public/lm/lmsy10.pfb>
-Output written on tcc.pdf (96 pages, 8797887 bytes).
+Output written on tcc.pdf (96 pages, 8798088 bytes).
 PDF statistics:
- 1414 PDF objects out of 1440 (max. 8388607)
- 1236 compressed objects within 13 object streams
+ 1417 PDF objects out of 1440 (max. 8388607)
+ 1239 compressed objects within 13 object streams
  275 named destinations out of 1000 (max. 500000)
  897 words of extra memory for PDF output out of 10000 (max. 10000000)
 
