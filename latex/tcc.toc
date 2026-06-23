@@ -23,9 +23,9 @@
 \contentsline {section}{\numberline {2.6}Aplicativos Similares}{26}{section.2.6}%
 \contentsline {section}{\numberline {2.7}Heurísticas de Nielsen}{29}{section.2.7}%
 \contentsline {section}{\numberline {2.8}Algoritmo de Repetição Espaçada (ARE)}{29}{section.2.8}%
-\contentsline {section}{\numberline {2.9}Pomodoro Timer}{30}{section.2.9}%
-\contentsline {section}{\numberline {2.10}Gamificação (Progress Bars)}{30}{section.2.10}%
-\contentsline {section}{\numberline {2.11}Aprendizagem Autorregulada (Check-ins de Humor)}{31}{section.2.11}%
+\contentsline {section}{\numberline {2.9}Pomodoro \textit {Timer}}{30}{section.2.9}%
+\contentsline {section}{\numberline {2.10}Gamificação (\textit {Progress Bars})}{30}{section.2.10}%
+\contentsline {section}{\numberline {2.11}Aprendizagem Autorregulada (\textit {Check-ins} de Humor)}{31}{section.2.11}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {3}\MakeUppercase []{Metodologia}}{32}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Processo Metodológico}{32}{section.3.1}%
@@ -33,21 +33,21 @@
 \contentsline {subsubsection}{\numberline {3.1.0.2}TCC2}{34}{subsubsection.3.1.0.2}%
 \contentsline {section}{\numberline {3.2}Metodologia de Desenvolvimento}{35}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Metodologia Ágil}{36}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Extreme Programming (XP)}{36}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Test-Driven Development}{37}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Scrum}{38}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.2}\textit {Extreme Programming} (XP)}{36}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}\textit {Test-Driven Development}}{37}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}\textit {Scrum}}{38}{subsection.3.2.4}%
 \contentsline {subsection}{\numberline {3.2.5}Kanban}{39}{subsection.3.2.5}%
-\contentsline {subsection}{\numberline {3.2.6}Lean Inception}{40}{subsection.3.2.6}%
-\contentsline {subsubsection}{\numberline {3.2.6.1}Kick-off}{41}{subsubsection.3.2.6.1}%
+\contentsline {subsection}{\numberline {3.2.6}\textit {Lean Inception}}{40}{subsection.3.2.6}%
+\contentsline {subsubsection}{\numberline {3.2.6.1}\textit {Kick-off}}{41}{subsubsection.3.2.6.1}%
 \contentsline {subsubsection}{\numberline {3.2.6.2}Visão de Produto}{41}{subsubsection.3.2.6.2}%
 \contentsline {subsubsection}{\numberline {3.2.6.3}É - Não é - Faz - Não faz}{42}{subsubsection.3.2.6.3}%
 \contentsline {subsubsection}{\numberline {3.2.6.4}Objetivos do Negócio}{43}{subsubsection.3.2.6.4}%
 \contentsline {subsubsection}{\numberline {3.2.6.5}Personas}{43}{subsubsection.3.2.6.5}%
 \contentsline {subsubsection}{\numberline {3.2.6.6}Jornadas de Usuário}{45}{subsubsection.3.2.6.6}%
-\contentsline {subsubsection}{\numberline {3.2.6.7}Brainstorming de Funcionalidades}{48}{subsubsection.3.2.6.7}%
+\contentsline {subsubsection}{\numberline {3.2.6.7}\textit {Brainstorming} de Funcionalidades}{48}{subsubsection.3.2.6.7}%
 \contentsline {subsubsection}{\numberline {3.2.6.8}Revisão Técnica, de Negócio e de Experiência do Usuário}{50}{subsubsection.3.2.6.8}%
 \contentsline {subsubsection}{\numberline {3.2.6.9}Sequenciador}{51}{subsubsection.3.2.6.9}%
-\contentsline {subsubsection}{\numberline {3.2.6.10}Canvas MVP}{54}{subsubsection.3.2.6.10}%
+\contentsline {subsubsection}{\numberline {3.2.6.10}\textit {Canvas} MVP}{54}{subsubsection.3.2.6.10}%
 \contentsline {section}{\numberline {3.3}Requisitos}{54}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Requisitos Funcionais}{55}{subsection.3.3.1}%
 \contentsline {subsubsection}{\numberline {3.3.1.1}Histórias de Usuário}{55}{subsubsection.3.3.1.1}%
@@ -68,10 +68,10 @@
 \contentsline {subsection}{\numberline {4.1.10}BrModelo}{62}{subsection.4.1.10}%
 \contentsline {section}{\numberline {4.2}Arquitetura}{62}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Padrão Arquitetural em Camadas}{62}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Backend}{63}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.2}\textit {Backend}}{63}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3}API RESTful e Segurança}{63}{subsection.4.2.3}%
 \contentsline {subsection}{\numberline {4.2.4}Mapeamento Objeto-Relacional (ORM)}{63}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}Frontend}{63}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.5}\textit {Frontend}}{63}{subsection.4.2.5}%
 \contentsline {subsubsection}{\numberline {4.2.5.1}React Native e Expo}{64}{subsubsection.4.2.5.1}%
 \contentsline {section}{\numberline {4.3}Representação Visual do Sistema}{64}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Diagrama de Classes}{64}{subsection.4.3.1}%
