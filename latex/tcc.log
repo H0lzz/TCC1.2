@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2026.6.11)  23 JUN 2026 21:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2026.6.11)  23 JUN 2026 21:53
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -841,6 +841,8 @@ LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
  (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <20.74> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 12.
 Package epstopdf Info: Source file: <figuras/capa.eps>
 (epstopdf)                    date: 2022-01-19 21:17:37
 (epstopdf)                    size: 12409969 bytes
@@ -861,6 +863,8 @@ Package pdftex.def Info: figuras/capa-eps-converted-to.pdf  used on input line
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figuras/capa-eps-convert
 ed-to.pdf>]
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <17.28> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 14.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
 4.
 
@@ -981,7 +985,7 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [16]) (./editaveis/aspectosgerais.tex [17] [18
 
 ] [19] [20] [21] [22] [23] [24] [25]
-<Imagens/Aprovado.png, id=459, 431.6125pt x 442.65375pt>
+<Imagens/Aprovado.png, id=460, 431.6125pt x 442.65375pt>
 File: Imagens/Aprovado.png Graphic file (type png)
 <use Imagens/Aprovado.png>
 Package pdftex.def Info: Imagens/Aprovado.png  used on input line 275.
@@ -989,7 +993,7 @@ Package pdftex.def Info: Imagens/Aprovado.png  used on input line 275.
  [26
 
 ]
-<Imagens/StudyTok.png, id=473, 371.3875pt x 388.45125pt>
+<Imagens/StudyTok.png, id=474, 371.3875pt x 388.45125pt>
 File: Imagens/StudyTok.png Graphic file (type png)
 <use Imagens/StudyTok.png>
 Package pdftex.def Info: Imagens/StudyTok.png  used on input line 291.
@@ -1015,17 +1019,17 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <17.28> not available
 (./editaveis/consideracoes.tex [31] [32
 
 ] [33]
-<Imagens/BPMNTCC1.png, id=530, 1561.33313pt x 658.71094pt>
+<Imagens/BPMNTCC1.png, id=531, 1561.33313pt x 658.71094pt>
 File: Imagens/BPMNTCC1.png Graphic file (type png)
 <use Imagens/BPMNTCC1.png>
 Package pdftex.def Info: Imagens/BPMNTCC1.png  used on input line 44.
 (pdftex.def)             Requested size: 455.0pt x 191.95602pt.
-<Imagens/BPMNTCC2.png, id=531, 1543.26563pt x 327.47343pt>
+<Imagens/BPMNTCC2.png, id=532, 1543.26563pt x 327.47343pt>
 File: Imagens/BPMNTCC2.png Graphic file (type png)
 <use Imagens/BPMNTCC2.png>
 Package pdftex.def Info: Imagens/BPMNTCC2.png  used on input line 58.
 (pdftex.def)             Requested size: 455.0pt x 96.54886pt.
-<Imagens/BPMNCompletoTCC.png, id=532, 1651.67062pt x 1008.01593pt>
+<Imagens/BPMNCompletoTCC.png, id=533, 1651.67062pt x 1008.01593pt>
 File: Imagens/BPMNCompletoTCC.png Graphic file (type png)
 <use Imagens/BPMNCompletoTCC.png>
 Package pdftex.def Info: Imagens/BPMNCompletoTCC.png  used on input line 70.
@@ -1060,7 +1064,7 @@ l.93
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 98.
  [36]
-<Imagens/CicloTDD.png, id=557, 299.1175pt x 251.94125pt>
+<Imagens/CicloTDD.png, id=558, 299.1175pt x 251.94125pt>
 File: Imagens/CicloTDD.png Graphic file (type png)
 <use Imagens/CicloTDD.png>
 Package pdftex.def Info: Imagens/CicloTDD.png  used on input line 124.
@@ -1072,7 +1076,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.140 
        <./Imagens/CicloTDD.png>]
-<Imagens/BPMNSprint.png, id=575, 1102.1175pt x 566.86781pt>
+<Imagens/BPMNSprint.png, id=576, 1102.1175pt x 566.86781pt>
 File: Imagens/BPMNSprint.png Graphic file (type png)
 <use Imagens/BPMNSprint.png>
 Package pdftex.def Info: Imagens/BPMNSprint.png  used on input line 160.
@@ -1081,7 +1085,7 @@ Package pdftex.def Info: Imagens/BPMNSprint.png  used on input line 160.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [38]
-<Imagens/BPMNKanban.png, id=585, 1306.8825pt x 709.14937pt>
+<Imagens/BPMNKanban.png, id=586, 1306.8825pt x 709.14937pt>
 File: Imagens/BPMNKanban.png Graphic file (type png)
 <use Imagens/BPMNKanban.png>
 Package pdftex.def Info: Imagens/BPMNKanban.png  used on input line 185.
@@ -2092,11 +2096,11 @@ Package rerunfilecheck Info: Checksums for `tcc.brf':
 (rerunfilecheck)             After:  4AE0A63536426F022F72D89A9471CB9B;4455.
  ) 
 Here is how much of TeX's memory you used:
- 17313 strings out of 478031
- 280322 string characters out of 5840162
+ 17321 strings out of 478031
+ 280463 string characters out of 5840162
  1868330 words of memory out of 5000000
- 36731 multiletter control sequences out of 15000+600000
- 608903 words of font info for 81 fonts, out of 8000000 for 9000
+ 36736 multiletter control sequences out of 15000+600000
+ 618778 words of font info for 84 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
  95i,13n,93p,1410b,680s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
@@ -2111,7 +2115,7 @@ pe1/public/lm/lmssbo10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb
 ></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmsso12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso17.pfb><
 /usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on tcc.pdf (96 pages, 8913315 bytes).
+Output written on tcc.pdf (96 pages, 8914648 bytes).
 PDF statistics:
  1438 PDF objects out of 1440 (max. 8388607)
  1255 compressed objects within 13 object streams
