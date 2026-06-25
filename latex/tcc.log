@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2026.6.24)  25 JUN 2026 19:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2026.6.24)  25 JUN 2026 19:53
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1610,11 +1610,11 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.444 
        <./Imagens/BrainstormingFuncionalidades.jpg>]
-<Imagens/GraficoSemaforo.jpg, id=658, 2552.53625pt x 2466.21375pt>
+<Imagens/GraficoSemaforo.jpg, id=658, 2609.75pt x 2412.01125pt>
 File: Imagens/GraficoSemaforo.jpg Graphic file (type jpg)
 <use Imagens/GraficoSemaforo.jpg>
 Package pdftex.def Info: Imagens/GraficoSemaforo.jpg  used on input line 458.
-(pdftex.def)             Requested size: 454.99658pt x 439.60934pt.
+(pdftex.def)             Requested size: 455.00078pt x 420.52571pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1626,11 +1626,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.10})
                                                   \__shipout_drop_firstpage_...
 l.475 
        <./Imagens/GraficoSemaforo.jpg>]
-<Imagens/Sequenciador.jpg, id=669, 1358.07375pt x 4635.3175pt>
+<Imagens/Sequenciador.jpg, id=669, 1342.01375pt x 4691.5275pt>
 File: Imagens/Sequenciador.jpg Graphic file (type jpg)
 <use Imagens/Sequenciador.jpg>
 Package pdftex.def Info: Imagens/Sequenciador.jpg  used on input line 482.
-(pdftex.def)             Requested size: 176.30711pt x 601.76369pt.
+(pdftex.def)             Requested size: 172.13348pt x 601.7591pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1644,11 +1644,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.11})
                                                   \__shipout_drop_firstpage_...
 l.494 
        <./Imagens/Sequenciador.jpg>]
-<Imagens/CanvasMVP.jpg, id=680, 2998.20125pt x 2099.845pt>
+<Imagens/CanvasMVP.jpg, id=680, 3033.3325pt x 2074.75125pt>
 File: Imagens/CanvasMVP.jpg Graphic file (type jpg)
 <use Imagens/CanvasMVP.jpg>
 Package pdftex.def Info: Imagens/CanvasMVP.jpg  used on input line 498.
-(pdftex.def)             Requested size: 455.0pt x 318.64787pt.
+(pdftex.def)             Requested size: 455.0pt x 311.19926pt.
  [54
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.12})
  has been already used, duplicate ignored
@@ -2115,7 +2115,7 @@ pe1/public/lm/lmssbo10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb
 ></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmsso12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso17.pfb><
 /usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on tcc.pdf (96 pages, 8914454 bytes).
+Output written on tcc.pdf (96 pages, 8917592 bytes).
 PDF statistics:
  1439 PDF objects out of 1440 (max. 8388607)
  1256 compressed objects within 13 object streams
