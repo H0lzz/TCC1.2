@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2026.6.24)  27 JUN 2026 21:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2026.6.24)  27 JUN 2026 21:53
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2092,7 +2092,7 @@ Package rerunfilecheck Warning: File `tcc.brf' has changed.
 (rerunfilecheck)                Rerun to get bibliographical references right.
 
 Package rerunfilecheck Info: Checksums for `tcc.brf':
-(rerunfilecheck)             Before: 30F2F7CEE7BEFBE84509D959734E1366;4247
+(rerunfilecheck)             Before: 48D5FDB6FF6D6161E97858A8E09B975A;4247
 (rerunfilecheck)             After:  8E606EC746F91B52E0D082147927FC79;4247.
  ) 
 Here is how much of TeX's memory you used:
@@ -2115,7 +2115,7 @@ pe1/public/lm/lmssbo10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb
 ></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/ty
 pe1/public/lm/lmsso12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso17.pfb><
 /usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on tcc.pdf (96 pages, 8913274 bytes).
+Output written on tcc.pdf (96 pages, 8913245 bytes).
 PDF statistics:
  1421 PDF objects out of 1440 (max. 8388607)
  1238 compressed objects within 13 object streams
