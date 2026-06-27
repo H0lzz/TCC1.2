@@ -24,8 +24,7 @@
 \contentsline {section}{\numberline {2.7}Heurísticas de Nielsen}{29}{section.2.7}%
 \contentsline {section}{\numberline {2.8}Algoritmo de Repetição Espaçada (ARE)}{29}{section.2.8}%
 \contentsline {section}{\numberline {2.9}Pomodoro \textit {Timer}}{30}{section.2.9}%
-\contentsline {section}{\numberline {2.10}Gamificação (\textit {Progress Bars})}{30}{section.2.10}%
-\contentsline {section}{\numberline {2.11}Aprendizagem Autorregulada (\textit {Check-ins} de Humor)}{31}{section.2.11}%
+\contentsline {section}{\numberline {2.10}Aprendizagem Autorregulada (\textit {Check-ins} de Humor)}{30}{section.2.10}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {3}\MakeUppercase []{Metodologia}}{32}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Processo Metodológico}{32}{section.3.1}%
