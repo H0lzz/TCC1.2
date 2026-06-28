@@ -65,7 +65,7 @@ Através dessa ferramenta, realiza-se a modelagem conceitual e lógica do sistem
 \section{Arquitetura}
 
 Segundo \citeonline{dipompeo_2025}, a arquitetura é uma abstração de alto nível que funciona como um guia para a implementação, sendo essencial para os aspectos de qualidade, como performance, confiabilidade e manutenibilidade.
-Dessa forma, o modelo adotado busca equilibrar as necessidades de negócio e os objetivos técnicos do sistema. Foi definido que o modelo Arquitetural em Camadas será seguido no desenvolvimento.
+Dessa forma, o modelo adotado busca equilibrar as necessidades de negócio e os objetivos técnicos do sistema. Foi definido que o modelo de arquitetura em camadas será seguido no desenvolvimento.
 
 \subsection{Padrão Arquitetural em Camadas}
 
@@ -99,7 +99,7 @@ A organização interna do \textit{backend} será estruturada para suportar atri
 \subsection{API RESTful e Segurança}
 
 A comunicação entre o cliente e o servidor será estabelecida através de uma API RESTful baseada no protocolo HTTP e no formato JSON.
-Essa escolha agrega performance conforme preconizado por \citeonline{gobov_2025} ao discutirem as características de eficiência de tempo.
+Essa escolha agrega performance conforme dito por \citeonline{gobov_2025} ao discutirem as características de eficiência de tempo.
 Para assegurar a confidencialidade e a integridade das informações dos usuários, a arquitetura implementará autenticação via JSON Web Token, alinhando-se às boas práticas de segurança mencionadas por \citeonline{dipompeo_2025} como técnicas para preservação da qualidade arquitetural.
 
 \subsection{Mapeamento Objeto-Relacional (ORM)}
@@ -127,7 +127,7 @@ Através de modelos visuais, busca-se estabelecer um modelo que assegura a integ
 
 \subsection{Diagrama de Classes}
 
-O Diagrama de Classes do sistema foi estruturado para definir as entidades fundamentais, seus atributos e seus relacionamentos de dependência.
+O diagrama de classes do sistema foi estruturado para definir as entidades fundamentais, seus atributos e seus relacionamentos de dependência.
 De acordo com a pesquisa de \citeonline{kim_2024}, a eficácia de um diagrama de classe está diretamente ligada ao seu \textit{layout} e controle de complexidade, uma vez que esses fatores impactam significativamente a compreensibilidade do modelo pelo desenvolvedor.
 Para garantir isso, o diagrama foi organizado seguindo um fluxo lógico de leitura, a seguir está representado o diagrama de classes deste projeto.
 
@@ -172,12 +172,12 @@ A seguir estão representados os diagramas de pacotes deste trabalho.
 \section{Projeto de Dados}
 
 O Projeto de Dados tem como objetivo modelar a estrutura de persistência dos dados do aplicativo, definindo as entidades, atributos e relacionamentos do mesmo.
-A modelagem foi realizada em dois níveis: o Diagrama Entidade-Relacionamento, que representa de forma abstrata as entidades e seus relacionamentos, e o Diagrama Lógico, que traduz essa abstração em uma estrutura compatível com o Sistema Gerenciador de Banco de Dados Relacional.
+A modelagem foi realizada em dois níveis: o diagrama entidade-relacionamento, que representa de forma abstrata as entidades e seus relacionamentos, e o diagrama lógico, que traduz essa abstração em uma estrutura compatível com o sistema gerenciador de banco de dados relacional.
 Todas decisões de modelagem foram guiadas pelos requisitos funcionais e não funcionais levantados anteriormente.
 
 \subsection{Diagrama Conceitual}
 
-A etapa conceitual da modelagem de dados é responsável por abstrair as entidades do sistema, seus atributos e os relacionamentos existentes entre elas, de forma universal e compatível com qualquer tecnologia de banco de dados através do Diagrama Entidade-Relacionamento (DE-R).
+A etapa conceitual da modelagem de dados é responsável por abstrair as entidades do sistema, seus atributos e os relacionamentos existentes entre elas, de forma universal e compatível com qualquer tecnologia de banco de dados através do diagrama entidade-relacionamento (DE-R).
 Essa etapa exige a transformação dos requisitos em um modelo com regras, envolvendo uma abstração maior do que nas próximas etapas, sendo apontada como a principal fonte de dificuldades cognitivas no processo de modelagem \cite{shin_2025}.
 Para este trabalho, o DE-R foi construído a partir das entidades identificadas durante o \textit{Lean Inception} e o levantamento de requisitos.
 A seguir está representado o DE-R deste projeto.
@@ -194,11 +194,11 @@ A seguir está representado o DE-R deste projeto.
 
 \subsection{Diagrama Lógico}
 
-Já o Diagrama Lógico representa a segunda etapa da modelagem de dados, sendo responsável por transformar a abstração do DE-R em uma estrutura lógica compatível com o modelo relacional, definindo tabelas, colunas, chaves primárias, chaves estrangeiras e as restrições de integridade referencial entre as entidades.
+Já o diagrama lógico representa a segunda etapa da modelagem de dados, sendo responsável por transformar a abstração do DE-R em uma estrutura lógica compatível com o modelo relacional, definindo tabelas, colunas, chaves primárias, chaves estrangeiras e as restrições de integridade referencial entre as entidades.
 Essa transição do modelo conceitual para o modelo lógico segue um conjunto de regras de mapeamento bem definidas, onde cada entidade do diagrama conceitual é transformada em uma tabela, cada atributo em uma coluna e cada relacionamento em uma chave estrangeira alocada no lado correto da cardinalidade ou em uma nova relação.
 Esse processo de mudança do modelo entre níveis de abstração é um dos pilares do desenvolvimento orientado a modelos, no qual modelos universais são aperfeiçoados em modelos mais específicos por meio de regras de mapeamento \cite{lo_2012}.
-Para este trabalho, o Diagrama Lógico foi derivado diretamente do DE-R, respeitando as cardinalidades levantadas e as decisões de modelagem tomadas durante o \textit{Lean Inception}, resultando em um esquema relacional normalizado, pronto para ser implementado no SGBD.
-A seguir está representado o Diagrama Lógico deste projeto.
+Para este trabalho, o diagrama lógico foi derivado diretamente do DE-R, respeitando as cardinalidades levantadas e as decisões de modelagem tomadas durante o \textit{Lean Inception}, resultando em um esquema relacional normalizado, pronto para ser implementado no SGBD.
+A seguir está representado o diagrama lógico deste projeto.
 
 \begin{figure}[H]
     \centering
