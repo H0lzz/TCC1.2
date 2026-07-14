@@ -41,10 +41,15 @@ Este conjunto tecnológico é reconhecido pela sua escalabilidade e alta perform
 Para a persistência dos dados, planeja-se usar o PostgreSQL como o Sistema Gerenciador de Banco de Dados Relacional do aplicativo.
 Suportando consultas complexas e garantindo a integridade conforme as normas da LGPD.
 
-\subsection{Git e GitHub}
+\subsection{Git, GitHub e Licenciamento}
 
 O controle de versionamento do código será realizado utilizando Git, com o armazenamento dos repositórios no GitHub.
-Essa prática é ideal para a manutenção do histórico do código, permitindo o gerenciamento de ramos para novas funcionalidades e assegurando a segurança e integridade do código durante o ciclo de desenvolvimento \cite{github_2025}.
+Essa prática apoia a manutenção do histórico do código, permitindo o gerenciamento de ramos para novas funcionalidades e contribuindo para a rastreabilidade e a integridade do código ao longo do ciclo de desenvolvimento \cite{github_2025}.
+O código-fonte e a documentação deste trabalho estão disponíveis no repositório público \url{https://github.com/H0lzz/TCC1.2}, que também hospedará o código do aplicativo Focus na etapa de desenvolvimento.
+
+Por se tratar de um projeto gratuito e \textit{open source}, conforme definido nos objetivos deste trabalho, o código do aplicativo Focus será distribuído sob a licença permissiva MIT.
+Essa licença permite que qualquer pessoa utilize, copie, modifique e redistribua o código, inclusive para fins comerciais, desde que mantido o aviso de \textit{copyright} original, favorecendo a democratização do acesso às metodologias de estudo implementadas.
+O repositório deverá conter um arquivo de licença (\texttt{LICENSE}) e um \texttt{README} com instruções de instalação, configuração do ambiente de desenvolvimento e diretrizes de contribuição, de modo a documentar o projeto para outros desenvolvedores interessados em utilizá-lo ou estendê-lo.
 
 \subsection{Trello}
 
@@ -65,7 +70,13 @@ Através dessa ferramenta, realiza-se a modelagem conceitual e lógica do sistem
 \section{Arquitetura}
 
 Segundo \citeonline{dipompeo_2025}, a arquitetura é uma abstração de alto nível que funciona como um guia para a implementação, sendo essencial para os aspectos de qualidade, como performance, confiabilidade e manutenibilidade.
-Dessa forma, o modelo adotado busca equilibrar as necessidades de negócio e os objetivos técnicos do sistema. Foi definido que o modelo de arquitetura em camadas será seguido no desenvolvimento.
+Dessa forma, o modelo adotado busca equilibrar as necessidades de negócio e os objetivos técnicos do sistema.
+Foi definido que um modelo de arquitetura em camadas, com processamento centralizado em um \textit{backend} \textit{cliente-servidor}, será seguido no desenvolvimento.
+Essa escolha se justifica pela necessidade de centralizar, em um único local, o cálculo do algoritmo de repetição espaçada e a persistência consistente dos dados de progresso e de \textit{check-in} entre diferentes dispositivos do mesmo usuário, o que seria mais difícil de garantir em uma arquitetura totalmente local ao dispositivo.
+
+Cabe destacar que, durante o \textit{Lean Inception} (Seção~\ref{sec:lean_inception_sequenciador}), a funcionalidade de acesso totalmente \textit{offline} foi avaliada pela equipe e classificada na zona crítica do Gráfico do Semáforo (Figura~\ref{fig:semaforo}), sendo excluída do escopo do MVP em razão do esforço técnico elevado frente ao valor percebido nesta primeira versão.
+Por esse motivo, a arquitetura \textit{cliente-servidor} aqui adotada não é contraditória com esse recorte de escopo: o aplicativo depende de conectividade para sincronizar dados com o \textit{backend}, mas interações locais e sensíveis à latência, como a contagem do cronômetro Pomodoro e a virada do \textit{flashcard} durante uma revisão, são executadas no próprio dispositivo, reduzindo a necessidade de comunicação constante com o servidor durante uma sessão de estudo.
+Um modo \textit{offline-first}, com armazenamento local e sincronização posterior, é indicado na Seção~\ref{sec:trabalhos_futuros} como direção para trabalhos futuros.
 
 \subsection{Padrão Arquitetural em Camadas}
 
@@ -96,11 +107,16 @@ A organização interna do \textit{backend} será estruturada para suportar atri
     \item \textbf{\textit{Repositories}:} Camada dedicada exclusivamente à interação com o SGBDR PostgreSQL.
 \end{itemize}
 
-\subsection{API RESTful e Segurança}
+\subsection{API RESTful, Segurança e Privacidade}
+\label{sec:seguranca_privacidade}
 
 A comunicação entre o cliente e o servidor será estabelecida através de uma API RESTful baseada no protocolo HTTP e no formato JSON.
 Essa escolha agrega performance conforme dito por \citeonline{gobov_2025} ao discutirem as características de eficiência de tempo.
-Para assegurar a confidencialidade e a integridade das informações dos usuários, a arquitetura implementará autenticação via JSON Web Token, alinhando-se às boas práticas de segurança mencionadas por \citeonline{dipompeo_2025} como técnicas para preservação da qualidade arquitetural.
+Para apoiar a confidencialidade e a integridade das informações dos usuários, a arquitetura planeja adotar autenticação via \textit{JSON Web Token} (JWT) com expiração configurável, alinhando-se às boas práticas de segurança mencionadas por \citeonline{dipompeo_2025} como técnicas para preservação da qualidade arquitetural.
+
+A privacidade dos usuários é um requisito central deste projeto, dada a natureza sensível dos dados de \textit{check-in} de humor e estresse coletados pelo aplicativo.
+Em conformidade com a LGPD \cite{brasil2018lgpd}, planeja-se adotar as seguintes medidas técnicas: (i) toda comunicação entre cliente e servidor deverá ocorrer via HTTPS/TLS, protegendo os dados em trânsito; (ii) as senhas dos usuários serão armazenadas com funções de \textit{hash} criptográfico (nunca em texto plano); (iii) a coleta de dados será limitada ao estritamente necessário para o funcionamento das funcionalidades descritas nos requisitos (princípio da minimização de dados); e (iv) o usuário deverá poder solicitar a exportação ou a exclusão definitiva de seus dados pessoais armazenados, atendendo aos direitos previstos na lei.
+Essas medidas representam o planejamento de segurança para a fase de implementação e deverão ser verificadas e ajustadas durante o desenvolvimento e os testes do sistema.
 
 \subsection{Mapeamento Objeto-Relacional (ORM)}
 
@@ -114,7 +130,7 @@ O \textit{frontend} representa a interface do sistema e deve satisfazer os atrib
 Segundo \citeonline{gobov_2025}, a usabilidade é um atributo de qualidade externo que determina quanto o usuário final consegue operar a ferramenta.
 Portanto, a arquitetura do \textit{frontend} foi desenhada para ser intuitiva, reduzindo a dificuldade do usuário durante o uso.
 
-\subsubsection{React Native e Expo}
+\textbf{React Native e Expo}
 
 A escolha do React Native como base tecnológica permite a criação de componentes de \textit{software} reutilizáveis, cujas propriedades e relacionamentos definem a dinâmica da interface.
 A utilização do \textit{framework} Expo complementa essa estrutura ao facilitar o acesso a recursos nativos do \textit{hardware} do dispositivo.
@@ -136,7 +152,7 @@ Para garantir isso, o diagrama foi organizado seguindo um fluxo lógico de leitu
     \caption{Diagrama de Classes}
     \includegraphics[width=1\linewidth]{Imagens/DiagramaClasses.drawio.png}
     \par
-    Fonte: Autoria própria.
+    Fonte: autoria própria.
     \par
     \label{fig:diagrama_classes}
 \end{figure}
@@ -154,7 +170,7 @@ A seguir estão representados os diagramas de pacotes deste trabalho.
     \caption{Diagrama de Pacotes do \textit{Backend}}
     \includegraphics[width=1\linewidth]{Imagens/DiagramaPacotesBackend.png}
     \par
-    Fonte: Autoria própria.
+    Fonte: autoria própria.
     \par
     \label{fig:diagrama_pacotes_backend}
 \end{figure}
@@ -164,7 +180,7 @@ A seguir estão representados os diagramas de pacotes deste trabalho.
     \caption{Diagrama de Pacotes do \textit{Frontend}}
     \includegraphics[width=1\linewidth]{Imagens/DiagramaPacotesFrontend.png}
     \par
-    Fonte: Autoria própria.
+    Fonte: autoria própria.
     \par
     \label{fig:diagrama_pacotes_frontend}
 \end{figure}
@@ -187,7 +203,7 @@ A seguir está representado o DE-R deste projeto.
     \caption{Diagrama Entidade-Relacionamento (DE-R) do Projeto}
     \includegraphics[width=1\linewidth]{Imagens/DiagramaConceitual.png}
     \par
-    Fonte: Autoria própria.
+    Fonte: autoria própria.
     \par
     \label{fig:diagrama_conceitual}
 \end{figure}
@@ -205,7 +221,7 @@ A seguir está representado o diagrama lógico deste projeto.
     \caption{Diagrama Lógico do Projeto}
     \includegraphics[width=1\linewidth]{Imagens/DiagramaLogico.png}
     \par
-    Fonte: Autoria própria.
+    Fonte: autoria própria.
     \par
     \label{fig:diagrama_logico}
 \end{figure}
