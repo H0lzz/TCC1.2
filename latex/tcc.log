@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2026.7.14)  14 JUL 2026 16:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2026.7.14)  14 JUL 2026 16:42
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -2112,7 +2112,7 @@ Package rerunfilecheck Info: Checksums for `tcc.brf':
 Here is how much of TeX's memory you used:
  17366 strings out of 478031
  281259 string characters out of 5840162
- 1871330 words of memory out of 5000000
+ 1870330 words of memory out of 5000000
  36788 multiletter control sequences out of 15000+600000
  613521 words of font info for 83 fonts, out of 8000000 for 9000
  16 hyphenation exceptions out of 8191
@@ -2128,7 +2128,7 @@ b></usr/share/texmf/fonts/type1/public/lm/lmssbo10.pfb></usr/share/texmf/fonts/
 type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso12.pf
 b></usr/share/texmf/fonts/type1/public/lm/lmsso17.pfb></usr/share/texmf/fonts/t
 ype1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on tcc.pdf (97 pages, 8908006 bytes).
+Output written on tcc.pdf (97 pages, 8908001 bytes).
 PDF statistics:
  1386 PDF objects out of 1440 (max. 8388607)
  1203 compressed objects within 13 object streams
