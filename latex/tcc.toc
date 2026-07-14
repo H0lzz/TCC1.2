@@ -19,7 +19,7 @@
 \contentsline {section}{\numberline {2.2}Rastros das Consultas}{18}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Gestão do Tempo}{22}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Metodologias de Aprendizado}{23}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Gamificação}{23}{section.2.5}%
+\contentsline {section}{\numberline {2.5}Gamificação}{24}{section.2.5}%
 \contentsline {section}{\numberline {2.6}Aplicativos Similares}{25}{section.2.6}%
 \contentsline {section}{\numberline {2.7}Heurísticas de Nielsen}{28}{section.2.7}%
 \contentsline {section}{\numberline {2.8}Algoritmo de Repetição Espaçada (ARE)}{28}{section.2.8}%
