@@ -56,7 +56,7 @@
 \contentsline {section}{\numberline {4.2}Arquitetura}{61}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Padrão Arquitetural em Camadas}{62}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}\textit {Backend}}{62}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}API RESTful, Segurança e Privacidade}{63}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.3}API RESTful, Segurança e Privacidade}{62}{subsection.4.2.3}%
 \contentsline {subsection}{\numberline {4.2.4}Mapeamento Objeto-Relacional (ORM)}{63}{subsection.4.2.4}%
 \contentsline {subsection}{\numberline {4.2.5}\textit {Frontend}}{63}{subsection.4.2.5}%
 \contentsline {section}{\numberline {4.3}Representação Visual do Sistema}{64}{section.4.3}%

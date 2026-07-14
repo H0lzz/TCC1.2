@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2026.7.14)  14 JUL 2026 17:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2026.7.14)  14 JUL 2026 18:22
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1017,21 +1017,21 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <17.28> not available
 (./editaveis/consideracoes.tex [30] [31
 
 ] [32]
-<Imagens/BPMNTCC1.png, id=506, 1561.33313pt x 658.71094pt>
+<Imagens/BPMNTCC1.png, id=506, 748.7975pt x 316.18124pt>
 File: Imagens/BPMNTCC1.png Graphic file (type png)
 <use Imagens/BPMNTCC1.png>
 Package pdftex.def Info: Imagens/BPMNTCC1.png  used on input line 44.
-(pdftex.def)             Requested size: 455.0pt x 191.95602pt.
+(pdftex.def)             Requested size: 455.0pt x 192.12729pt.
 <Imagens/BPMNTCC2.png, id=507, 1543.26563pt x 327.47343pt>
 File: Imagens/BPMNTCC2.png Graphic file (type png)
 <use Imagens/BPMNTCC2.png>
 Package pdftex.def Info: Imagens/BPMNTCC2.png  used on input line 58.
 (pdftex.def)             Requested size: 455.0pt x 96.54886pt.
-<Imagens/BPMNCompletoTCC.png, id=508, 1651.67062pt x 1008.01593pt>
+<Imagens/BPMNCompletoTCC.png, id=508, 801.99625pt x 489.83pt>
 File: Imagens/BPMNCompletoTCC.png Graphic file (type png)
 <use Imagens/BPMNCompletoTCC.png>
 Package pdftex.def Info: Imagens/BPMNCompletoTCC.png  used on input line 70.
-(pdftex.def)             Requested size: 409.49722pt x 249.91153pt.
+(pdftex.def)             Requested size: 409.49722pt x 250.10896pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1062,7 +1062,7 @@ l.93
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 98.
  [35]
-<Imagens/CicloTDD.png, id=532, 299.1175pt x 251.94125pt>
+<Imagens/CicloTDD.png, id=530, 299.1175pt x 251.94125pt>
 File: Imagens/CicloTDD.png Graphic file (type png)
 <use Imagens/CicloTDD.png>
 Package pdftex.def Info: Imagens/CicloTDD.png  used on input line 124.
@@ -1074,7 +1074,7 @@ has been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.139 
        <./Imagens/CicloTDD.png>]
-<Imagens/BPMNSprint.png, id=548, 1102.1175pt x 566.86781pt>
+<Imagens/BPMNSprint.png, id=546, 1102.1175pt x 566.86781pt>
 File: Imagens/BPMNSprint.png Graphic file (type png)
 <use Imagens/BPMNSprint.png>
 Package pdftex.def Info: Imagens/BPMNSprint.png  used on input line 159.
@@ -1083,7 +1083,7 @@ Package pdftex.def Info: Imagens/BPMNSprint.png  used on input line 159.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [37]
-<Imagens/BPMNKanban.png, id=558, 1306.8825pt x 709.14937pt>
+<Imagens/BPMNKanban.png, id=556, 1306.8825pt x 709.14937pt>
 File: Imagens/BPMNKanban.png Graphic file (type png)
 <use Imagens/BPMNKanban.png>
 Package pdftex.def Info: Imagens/BPMNKanban.png  used on input line 184.
@@ -1587,7 +1587,7 @@ as been already used, duplicate ignored
                                                   \__shipout_drop_firstpage_...
 l.422 
       ]
-<Imagens/BrainstormingFuncionalidades.jpg, id=617, 1790.69pt x 3515.1325pt>
+<Imagens/BrainstormingFuncionalidades.jpg, id=615, 1790.69pt x 3515.1325pt>
 File: Imagens/BrainstormingFuncionalidades.jpg Graphic file (type jpg)
 <use Imagens/BrainstormingFuncionalidades.jpg>
 Package pdftex.def Info: Imagens/BrainstormingFuncionalidades.jpg  used on inpu
@@ -1613,27 +1613,29 @@ has been already used, duplicate ignored
 l.444 A
         revisão de negócio atua como o primeiro filtro, questionando o val...
  <./Imagens/BrainstormingFuncionalidades.jpg>]
-<Imagens/GraficoSemaforo.jpg, id=629, 2609.75pt x 2412.01125pt>
+<Imagens/GraficoSemaforo.jpg, id=627, 2593.69pt x 2427.0675pt>
 File: Imagens/GraficoSemaforo.jpg Graphic file (type jpg)
 <use Imagens/GraficoSemaforo.jpg>
 Package pdftex.def Info: Imagens/GraficoSemaforo.jpg  used on input line 460.
-(pdftex.def)             Requested size: 455.00078pt x 420.52571pt.
+(pdftex.def)             Requested size: 454.97112pt x 425.7431pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [49]
-[50
+Underfull \vbox (badness 4120) has occurred while \output is active []
+
+ [50
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.10})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.477 
        <./Imagens/GraficoSemaforo.jpg>]
-<Imagens/Sequenciador.jpg, id=640, 1342.01375pt x 4691.5275pt>
+<Imagens/Sequenciador.jpg, id=638, 1345.025pt x 4680.48625pt>
 File: Imagens/Sequenciador.jpg Graphic file (type jpg)
 <use Imagens/Sequenciador.jpg>
 Package pdftex.def Info: Imagens/Sequenciador.jpg  used on input line 484.
-(pdftex.def)             Requested size: 172.13348pt x 601.7591pt.
+(pdftex.def)             Requested size: 172.93018pt x 601.77126pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1645,7 +1647,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.11})
                                                   \__shipout_drop_firstpage_...
 l.496 
        <./Imagens/Sequenciador.jpg>]
-<Imagens/CanvasMVP.jpg, id=651, 3033.3325pt x 2074.75125pt>
+<Imagens/CanvasMVP.jpg, id=649, 3033.3325pt x 2074.75125pt>
 File: Imagens/CanvasMVP.jpg Graphic file (type jpg)
 <use Imagens/CanvasMVP.jpg>
 Package pdftex.def Info: Imagens/CanvasMVP.jpg  used on input line 500.
@@ -1690,22 +1692,26 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 5
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-[60] [61] [62] [63]
-<Imagens/DiagramaClasses.drawio.png, id=757, 1435.3625pt x 1320.935pt>
+[60]
+Underfull \vbox (badness 1189) has occurred while \output is active []
+
+ [61]
+[62] [63]
+<Imagens/DiagramaClasses.drawio.png, id=752, 1435.3625pt x 1320.935pt>
 File: Imagens/DiagramaClasses.drawio.png Graphic file (type png)
 <use Imagens/DiagramaClasses.drawio.png>
 Package pdftex.def Info: Imagens/DiagramaClasses.drawio.png  used on input line
- 153.
+ 149.
 (pdftex.def)             Requested size: 455.0pt x 418.71698pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [64]
-<Imagens/DiagramaPacotesBackend.png, id=767, 773.89125pt x 482.80376pt>
+<Imagens/DiagramaPacotesBackend.png, id=762, 773.89125pt x 482.80376pt>
 File: Imagens/DiagramaPacotesBackend.png Graphic file (type png)
 <use Imagens/DiagramaPacotesBackend.png>
 Package pdftex.def Info: Imagens/DiagramaPacotesBackend.png  used on input line
- 171.
+ 167.
 (pdftex.def)             Requested size: 455.0pt x 283.85721pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1715,13 +1721,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.13})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.177 
+l.173 
        <./Imagens/DiagramaClasses.drawio.png>]
-<Imagens/DiagramaPacotesFrontend.png, id=774, 783.92876pt x 483.8075pt>
+<Imagens/DiagramaPacotesFrontend.png, id=769, 783.92876pt x 483.8075pt>
 File: Imagens/DiagramaPacotesFrontend.png Graphic file (type png)
 <use Imagens/DiagramaPacotesFrontend.png>
 Package pdftex.def Info: Imagens/DiagramaPacotesFrontend.png  used on input lin
-e 181.
+e 177.
 (pdftex.def)             Requested size: 455.0pt x 280.80786pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1731,19 +1737,19 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.14})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.193 
+l.189 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.15})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.193 
+l.189 
        <./Imagens/DiagramaPacotesBackend.png> <./Imagens/DiagramaPacotesFronten
 d.png>]
-<Imagens/DiagramaConceitual.png, id=784, 1107.13625pt x 538.01pt>
+<Imagens/DiagramaConceitual.png, id=779, 1107.13625pt x 538.01pt>
 File: Imagens/DiagramaConceitual.png Graphic file (type png)
 <use Imagens/DiagramaConceitual.png>
-Package pdftex.def Info: Imagens/DiagramaConceitual.png  used on input line 204
+Package pdftex.def Info: Imagens/DiagramaConceitual.png  used on input line 200
 .
 (pdftex.def)             Requested size: 455.0pt x 221.1027pt.
 
@@ -1754,12 +1760,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.16})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.218 
+l.214 
        <./Imagens/DiagramaConceitual.png>]
-<Imagens/DiagramaLogico.png, id=793, 767.86874pt x 549.05125pt>
+<Imagens/DiagramaLogico.png, id=788, 767.86874pt x 549.05125pt>
 File: Imagens/DiagramaLogico.png Graphic file (type png)
 <use Imagens/DiagramaLogico.png>
-Package pdftex.def Info: Imagens/DiagramaLogico.png  used on input line 222.
+Package pdftex.def Info: Imagens/DiagramaLogico.png  used on input line 218.
 (pdftex.def)             Requested size: 455.0pt x 325.34491pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1769,7 +1775,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.17})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.233 
+l.229 
        <./Imagens/DiagramaLogico.png>] [69])
 (./editaveis/elementosdopostexto.tex [70]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1794,13 +1800,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 ]
-<Imagens/PrototipoFigma/00_flashcards_empty.jpg, id=949, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/00_flashcards_empty.jpg, id=945, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/00_flashcards_empty.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/00_flashcards_empty.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/00_flashcards_empty.jpg  used o
 n input line 12.
 (pdftex.def)             Requested size: 223.00912pt x 495.59784pt.
-<Imagens/PrototipoFigma/01_onboarding_metodo.jpg, id=950, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/01_onboarding_metodo.jpg, id=946, 1084.05pt x 2409.0pt>
 
 File: Imagens/PrototipoFigma/01_onboarding_metodo.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/01_onboarding_metodo.jpg>
@@ -1819,7 +1825,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.A.18})
                                                   \__shipout_drop_firstpage_...
 l.28 
       <./Imagens/PrototipoFigma/00_flashcards_empty.jpg>]
-<Imagens/PrototipoFigma/02_onboarding_srs.jpg, id=956, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/02_onboarding_srs.jpg, id=952, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/02_onboarding_srs.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/02_onboarding_srs.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/02_onboarding_srs.jpg  used on 
@@ -1835,7 +1841,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.A.19})
                                                   \__shipout_drop_firstpage_...
 l.38 
       <./Imagens/PrototipoFigma/01_onboarding_metodo.jpg>]
-<Imagens/PrototipoFigma/03_onboarding_bemestar.jpg, id=961, 1084.05pt x 2409.0p
+<Imagens/PrototipoFigma/03_onboarding_bemestar.jpg, id=957, 1084.05pt x 2409.0p
 t>
 File: Imagens/PrototipoFigma/03_onboarding_bemestar.jpg Graphic file (type jpg)
 
@@ -1853,7 +1859,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.A.20})
                                                   \__shipout_drop_firstpage_...
 l.48 
       <./Imagens/PrototipoFigma/02_onboarding_srs.jpg>]
-<Imagens/PrototipoFigma/04_signup.jpg, id=966, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/04_signup.jpg, id=962, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/04_signup.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/04_signup.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/04_signup.jpg  used on input li
@@ -1869,7 +1875,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.A.21})
                                                   \__shipout_drop_firstpage_...
 l.58 
       <./Imagens/PrototipoFigma/03_onboarding_bemestar.jpg>]
-<Imagens/PrototipoFigma/05_login.jpg, id=971, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/05_login.jpg, id=967, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/05_login.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/05_login.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/05_login.jpg  used on input lin
@@ -1885,7 +1891,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.A.22})
                                                   \__shipout_drop_firstpage_...
 l.68 
       <./Imagens/PrototipoFigma/04_signup.jpg>]
-<Imagens/PrototipoFigma/06_home.jpg, id=976, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/06_home.jpg, id=972, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/06_home.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/06_home.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/06_home.jpg  used on input line
@@ -1901,7 +1907,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.A.23})
                                                   \__shipout_drop_firstpage_...
 l.78 
       <./Imagens/PrototipoFigma/05_login.jpg>]
-<Imagens/PrototipoFigma/07_timer.jpg, id=982, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/07_timer.jpg, id=977, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/07_timer.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/07_timer.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/07_timer.jpg  used on input lin
@@ -1917,7 +1923,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.A.24})
                                                   \__shipout_drop_firstpage_...
 l.88 
       <./Imagens/PrototipoFigma/06_home.jpg>]
-<Imagens/PrototipoFigma/08_timer_settings.jpg, id=988, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/08_timer_settings.jpg, id=984, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/08_timer_settings.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/08_timer_settings.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/08_timer_settings.jpg  used on 
@@ -1933,7 +1939,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.A.25})
                                                   \__shipout_drop_firstpage_...
 l.98 
       <./Imagens/PrototipoFigma/07_timer.jpg>]
-<Imagens/PrototipoFigma/09_new_flashcard.jpg, id=993, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/09_new_flashcard.jpg, id=989, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/09_new_flashcard.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/09_new_flashcard.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/09_new_flashcard.jpg  used on i
@@ -1949,7 +1955,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.A.26})
                                                   \__shipout_drop_firstpage_...
 l.108 
        <./Imagens/PrototipoFigma/08_timer_settings.jpg>]
-<Imagens/PrototipoFigma/10_flashcards.jpg, id=998, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/10_flashcards.jpg, id=994, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/10_flashcards.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/10_flashcards.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/10_flashcards.jpg  used on inpu
@@ -1965,8 +1971,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.A.27})
                                                   \__shipout_drop_firstpage_...
 l.118 
        <./Imagens/PrototipoFigma/09_new_flashcard.jpg>]
-<Imagens/PrototipoFigma/11_flashcard_delete.jpg, id=1003, 1084.05pt x 2409.0pt>
-
+<Imagens/PrototipoFigma/11_flashcard_delete.jpg, id=999, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/11_flashcard_delete.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/11_flashcard_delete.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/11_flashcard_delete.jpg  used o
@@ -1982,7 +1987,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.A.28})
                                                   \__shipout_drop_firstpage_...
 l.128 
        <./Imagens/PrototipoFigma/10_flashcards.jpg>]
-<Imagens/PrototipoFigma/12_flashcard_front.jpg, id=1008, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/12_flashcard_front.jpg, id=1004, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/12_flashcard_front.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/12_flashcard_front.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/12_flashcard_front.jpg  used on
@@ -1998,7 +2003,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.A.29})
                                                   \__shipout_drop_firstpage_...
 l.138 
        <./Imagens/PrototipoFigma/11_flashcard_delete.jpg>]
-<Imagens/PrototipoFigma/13_flashcard_back.jpg, id=1013, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/13_flashcard_back.jpg, id=1009, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/13_flashcard_back.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/13_flashcard_back.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/13_flashcard_back.jpg  used on 
@@ -2014,7 +2019,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.A.30})
                                                   \__shipout_drop_firstpage_...
 l.148 
        <./Imagens/PrototipoFigma/12_flashcard_front.jpg>]
-<Imagens/PrototipoFigma/14_session_done.jpg, id=1019, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/14_session_done.jpg, id=1015, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/14_session_done.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/14_session_done.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/14_session_done.jpg  used on in
@@ -2030,7 +2035,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.A.31})
                                                   \__shipout_drop_firstpage_...
 l.158 
        <./Imagens/PrototipoFigma/13_flashcard_back.jpg>]
-<Imagens/PrototipoFigma/15_progresso.jpg, id=1024, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/15_progresso.jpg, id=1020, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/15_progresso.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/15_progresso.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/15_progresso.jpg  used on input
@@ -2046,7 +2051,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.A.32})
                                                   \__shipout_drop_firstpage_...
 l.168 
        <./Imagens/PrototipoFigma/14_session_done.jpg>]
-<Imagens/PrototipoFigma/16_user.jpg, id=1029, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/16_user.jpg, id=1025, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/16_user.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/16_user.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/16_user.jpg  used on input line
@@ -2062,7 +2067,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.A.33})
                                                   \__shipout_drop_firstpage_...
 l.178 
        <./Imagens/PrototipoFigma/15_progresso.jpg>]
-<Imagens/PrototipoFigma/17_user_checkin.jpg, id=1034, 1084.05pt x 2409.0pt>
+<Imagens/PrototipoFigma/17_user_checkin.jpg, id=1030, 1084.05pt x 2409.0pt>
 File: Imagens/PrototipoFigma/17_user_checkin.jpg Graphic file (type jpg)
 <use Imagens/PrototipoFigma/17_user_checkin.jpg>
 Package pdftex.def Info: Imagens/PrototipoFigma/17_user_checkin.jpg  used on in
@@ -2106,7 +2111,7 @@ Package rerunfilecheck Warning: File `tcc.brf' has changed.
 (rerunfilecheck)                Rerun to get bibliographical references right.
 
 Package rerunfilecheck Info: Checksums for `tcc.brf':
-(rerunfilecheck)             Before: CDD0CE0A13D30E5A7F876B219A9EF1E8;4364
+(rerunfilecheck)             Before: ADC73D4123801B290C3268B0F97B2F24;4364
 (rerunfilecheck)             After:  970F1E795DC37ADD211FF146309B6CDB;4364.
  ) 
 Here is how much of TeX's memory you used:
@@ -2128,10 +2133,10 @@ b></usr/share/texmf/fonts/type1/public/lm/lmssbo10.pfb></usr/share/texmf/fonts/
 type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso12.pf
 b></usr/share/texmf/fonts/type1/public/lm/lmsso17.pfb></usr/share/texmf/fonts/t
 ype1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on tcc.pdf (96 pages, 8906839 bytes).
+Output written on tcc.pdf (96 pages, 8804539 bytes).
 PDF statistics:
- 1377 PDF objects out of 1440 (max. 8388607)
- 1196 compressed objects within 12 object streams
+ 1373 PDF objects out of 1440 (max. 8388607)
+ 1194 compressed objects within 12 object streams
  265 named destinations out of 1000 (max. 500000)
  785 words of extra memory for PDF output out of 10000 (max. 10000000)
 

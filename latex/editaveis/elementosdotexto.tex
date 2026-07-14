@@ -74,10 +74,6 @@ Dessa forma, o modelo adotado busca equilibrar as necessidades de negócio e os 
 Foi definido que um modelo de arquitetura em camadas, com processamento centralizado em um \textit{backend} \textit{cliente-servidor}, será seguido no desenvolvimento.
 Essa escolha se justifica pela necessidade de centralizar, em um único local, o cálculo do algoritmo de repetição espaçada e a persistência consistente dos dados de progresso e de \textit{check-in} entre diferentes dispositivos do mesmo usuário, o que seria mais difícil de garantir em uma arquitetura totalmente local ao dispositivo.
 
-Cabe destacar que, durante o \textit{Lean Inception} (Seção~\ref{sec:lean_inception_sequenciador}), a funcionalidade de acesso totalmente \textit{offline} foi avaliada pela equipe e classificada na zona crítica do Gráfico do Semáforo (Figura~\ref{fig:semaforo}), sendo excluída do escopo do MVP em razão do esforço técnico elevado frente ao valor percebido nesta primeira versão.
-Por esse motivo, a arquitetura \textit{cliente-servidor} aqui adotada não é contraditória com esse recorte de escopo: o aplicativo depende de conectividade para sincronizar dados com o \textit{backend}, mas interações locais e sensíveis à latência, como a contagem do cronômetro Pomodoro e a virada do \textit{flashcard} durante uma revisão, são executadas no próprio dispositivo, reduzindo a necessidade de comunicação constante com o servidor durante uma sessão de estudo.
-Um modo \textit{offline-first}, com armazenamento local e sincronização posterior, é indicado na Seção~\ref{sec:trabalhos_futuros} como direção para trabalhos futuros.
-
 \subsection{Padrão Arquitetural em Camadas}
 
 A definição da estrutura arquitetural visa mitigar riscos.
