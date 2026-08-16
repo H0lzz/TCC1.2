@@ -10,13 +10,14 @@
 {AMGHAR, A.; BENCHEKROUN, B.~A. A comprehensive framework for higher education
   4.0.
 \emph{Multidisciplinary Reviews}, 2025.
-Disponível em: https://doi.org/10.31893/multirev.2026193. Acesso em: 10 dez.
-  2025.}
+Disponível em: https://doi.org/10.31893/multirev.2026193. Acesso em: 23 jun.
+  2026.}
 
 \bibitem[{APROVADO} 2026]{aprovado_2026}
 \abntrefinfo{{APROVADO}}{{APROVADO}}{2026}
 {{APROVADO}. \emph{Aprovado - Controle de Estudos}. 2026.
-Acesso em: 2026.}
+Acesso em: 23 jun. 2026.
+Dispon{\'\i}vel em: \url{https://aprovadoapp.com/pt}.}
 
 \bibitem[Bickerdike et al. 2016]{bickerdike_2016}
 \abntrefinfo{Bickerdike et al.}{BICKERDIKE et al.}{2016}
@@ -28,7 +29,7 @@ Acesso em: 2026.}
 \abntrefinfo{Brasil}{BRASIL}{2018}
 {BRASIL. \emph{Lei nº 13.709, de 14 de agosto de 2018. {Lei Geral de
   Proteção de Dados Pessoais (LGPD)}}. 2018.
-Acesso em: 2018.
+Acesso em: 23 jun. 2026.
 Dispon{\'\i}vel em:
   \url{https://www.planalto.gov.br/ccivil\_03/\_ato2015-2018/2018/lei/l13709.htm}.}
 
@@ -49,11 +50,16 @@ Dispon{\'\i}vel em:
   systems.
 \emph{Information and Software Technology}, v.~187, p. 107779, 2025.}
 
+\bibitem[Cirillo 2018]{cirillo_2018}
+\abntrefinfo{Cirillo}{CIRILLO}{2018}
+{CIRILLO, F. \emph{The Pomodoro Technique: The Life-Changing Time-Management
+  System}. New York: Currency, 2018.}
+
 \bibitem[{DRAW.IO} 2025]{drawio_2025}
 \abntrefinfo{{DRAW.IO}}{{DRAW.IO}}{2025}
 {{DRAW.IO}. \emph{Draw.io Documentation}. 2025.
-Acesso em: 1 jul. 2025.
-Dispon{\'\i}vel em: \url{https://www.drawio.com/doc/}.}
+Acesso em: 23 jun. 2026.
+Dispon{\'\i}vel em: \url{https://www.drawio.com/docs/}.}
 
 \bibitem[Ebbes et al. 2026]{ebbes_2026}
 \abntrefinfo{Ebbes et al.}{EBBES et al.}{2026}
@@ -65,7 +71,7 @@ Dispon{\'\i}vel em: \url{https://www.drawio.com/doc/}.}
 \bibitem[{EXPO} 2025]{expo_2025}
 \abntrefinfo{{EXPO}}{{EXPO}}{2025}
 {{EXPO}. \emph{Expo Documentation}. 2025.
-Acesso em: 1 jul. 2025.
+Acesso em: 23 jun. 2026.
 Dispon{\'\i}vel em: \url{https://docs.expo.dev/}.}
 
 \bibitem[Fernández et al. 2026]{salazar_2026}
@@ -83,7 +89,7 @@ Dispon{\'\i}vel em: \url{https://docs.expo.dev/}.}
 \bibitem[{FIGMA} 2025]{figma_2025}
 \abntrefinfo{{FIGMA}}{{FIGMA}}{2025}
 {{FIGMA}. \emph{Figma Learn}. 2025.
-Acesso em: 1 jul. 2025.
+Acesso em: 23 jun. 2026.
 Dispon{\'\i}vel em: \url{https://help.figma.com/hc/pt-br}.}
 
 \bibitem[Fu et al. 2025]{fu_2025}
@@ -95,7 +101,7 @@ Dispon{\'\i}vel em: \url{https://help.figma.com/hc/pt-br}.}
 \bibitem[{GITHUB} 2025]{github_2025}
 \abntrefinfo{{GITHUB}}{{GITHUB}}{2025}
 {{GITHUB}. \emph{About Git}. 2025.
-Acesso em: 27 jun. 2025.
+Acesso em: 23 jun. 2026.
 Dispon{\'\i}vel em:
   \url{https://docs.github.com/en/get-started/using-git/about-git}.}
 
@@ -103,8 +109,7 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Gobov e Zuieva}{GOBOV; ZUIEVA}{2025}
 {GOBOV, D.; ZUIEVA, O. Software quality attributes in requirements engineering.
 \emph{International Journal of Information Technology and Computer Science
-  (IJITCS)}, v.~17, n.~4, p. 38--48, 2025.
-Acesso em: 18 dez. 2025.}
+  (IJITCS)}, v.~17, n.~4, p. 38--48, 2025.}
 
 \bibitem[Goericke 2020]{goericke_2020}
 \abntrefinfo{Goericke}{GOERICKE}{2020}
@@ -168,7 +173,7 @@ ISBN 978-3-030-29509-7.}
 \bibitem[Letaw 2024]{letaw_2024}
 \abntrefinfo{Letaw}{LETAW}{2024}
 {LETAW, L. \emph{Handbook of Software Engineering Methods}. 2. ed. Corvallis:
-  Oregon State University, 2024. Acesso em: 30 mar. 2026. Dispon{\'\i}vel em:
+  Oregon State University, 2024. Acesso em: 23 jun. 2026. Dispon{\'\i}vel em:
   \url{https://open.oregonstate.education/setextbook}.}
 
 \bibitem[Liu, Lu e Yan 2025]{liu_2025}
@@ -197,6 +202,11 @@ ISBN 978-3-030-29509-7.}
   education for e-learning optimization and soft skills assessment through a
   cross-study synthesis.
 \emph{Frontiers in Computer Science}, v.~7, p. 1587040, 2025.}
+
+\bibitem[Nielsen 1994]{nielsen_1994}
+\abntrefinfo{Nielsen}{NIELSEN}{1994}
+{NIELSEN, J. \emph{Usability Engineering}. San Francisco: Morgan Kaufmann,
+  1994.}
 
 \bibitem[Ogut 2025]{ogut_2025}
 \abntrefinfo{Ogut}{OGUT}{2025}
@@ -239,19 +249,20 @@ ISBN 9780137035151.}
 \bibitem[{SonarSource} 2025]{sonarsource_2025}
 \abntrefinfo{{SonarSource}}{{SonarSource}}{2025}
 {{SonarSource}. \emph{SonarQube Documentation}. 2025.
-Acesso em: 1 jul. 2025.
+Acesso em: 23 jun. 2026.
 Dispon{\'\i}vel em:
   \url{https://docs.sonarsource.com/sonarqube-server/latest/}.}
 
 \bibitem[{STUDYTOK} 2026]{studytok_2026}
 \abntrefinfo{{STUDYTOK}}{{STUDYTOK}}{2026}
 {{STUDYTOK}. \emph{StudyTok}. 2026.
-Acesso em: 2026.}
+Acesso em: 23 jun. 2026.
+Dispon{\'\i}vel em: \url{https://studytok.com/}.}
 
 \bibitem[{TESTDRIVEN} 2025]{testdriven_2025}
 \abntrefinfo{{TESTDRIVEN}}{{TESTDRIVEN}}{2025}
 {{TESTDRIVEN}. \emph{Test-Driven Development}. 2025.
-Acesso em: 13 dez. 2025.
+Acesso em: 23 jun. 2026.
 Dispon{\'\i}vel em: \url{https://testdriven.io/test-driven-development/}.}
 
 \bibitem[Wang e Du 2026]{wang_2026}
@@ -260,6 +271,12 @@ Dispon{\'\i}vel em: \url{https://testdriven.io/test-driven-development/}.}
   for enhanced personalization and learning efficiency.
 \emph{Journal of Circuits, Systems, and Computers}, v.~35, n.~1, p. 2550372,
   2026.}
+
+\bibitem[Wozniak e Gorzelanczyk 1994]{wozniak_1994}
+\abntrefinfo{Wozniak e Gorzelanczyk}{WOZNIAK; GORZELANCZYK}{1994}
+{WOZNIAK, P.~A.; GORZELANCZYK, E.~J. Optimization of repetition spacing in the
+  practice of learning.
+\emph{Acta Neurobiologiae Experimentalis}, v.~54, p. 59--62, 1994.}
 
 \bibitem[Zhou, Graham e West 2016]{zhou_2016}
 \abntrefinfo{Zhou, Graham e West}{ZHOU; GRAHAM; WEST}{2016}

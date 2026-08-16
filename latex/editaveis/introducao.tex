@@ -1,47 +1,90 @@
 \chapter{Introdução}
 \label{cap:introducao}
 
-A preparação para concursos públicos caracteriza-se como um processo educacional intensivo e de alto risco, no qual a simples dedicação de tempo não garante o sucesso. A jornada do estudante é marcada pela necessidade de dominar grandes volumes de conteúdo e de converter esse conhecimento em resultados sob a pressão do exame. Portanto, o tema deste trabalho é o desenvolvimento de uma solução tecnológica que aborda a gestão do processo de estudo. A eficácia na preparação exige que o estudante demonstre tanto competência no material quanto a habilidade de lidar com o contexto de avaliação. A Competência em Testes e a Gestão do Tempo estão entre os fatores com as correlações mais significativas com a performance acadêmica \cite{kleijn_1994}, evidenciando que a falha em qualquer um destes componentes é uma causa primária de baixo rendimento.
+A preparação para concursos públicos ou provas acadêmicas caracteriza-se como um processo intenso, em que apenas a dedicação não garante o sucesso.
+A jornada do estudante é marcada pela necessidade de dominar grandes quantidades de conteúdo e de converter esse conhecimento em resultados sob a pressão do exame.
+Dessa maneira, o tema deste trabalho é o desenvolvimento de uma tecnologia que engloba a gestão do processo de estudo e o bem-estar do usuário.
+A eficácia na preparação para provas exige que o estudante demonstre habilidades na gestão do seu tempo de estudos e habilidades em lidar com a ansiedade causada pela avaliação.
+A competência em provas e a gestão do tempo são um dos fatores mais correlatos com a performance acadêmica \cite{kleijn_1994}, evidenciando que a falha em qualquer um desses componentes é uma causa de baixo rendimento.
 
-As causas do baixo desempenho na preparação podem ser rastreadas em hábitos de estudo ineficazes. Muitos estudantes negligenciam o valor da prática de recuperação ativa e da autoavaliação contínua, utilizando estratégias passivas que não se traduzem em sucesso na hora da prova. O desenvolvimento de um alto desempenho está ligado à execução de estratégias de estudo específicas. Por exemplo, estudos que utilizam o inventário LASSI (\textit{Learning and Study Strategies Inventory}) apontaram que as subescalas de Estratégias de Teste e Concentração são significativos para a performance acadêmica \cite{zhou_2016}. A ausência de um sistema estruturado para fomentar o \textit{self-testing} (como flashcards inteligentes) e a falta de foco (como o método Pomodoro) são, portanto, causas comportamentais diretas da ineficiência do estudo.
+As causas do baixo rendimento na preparação para provas podem ser explicadas pelos hábitos de estudo ineficientes.
+Muitos estudantes deixam de lado o valor da prática de recuperação ativa e da autoavaliação contínua, utilizando estratégias passivas que não trazem sucesso na hora da prova.
+O desenvolvimento de um alto desempenho está ligado à execução de estratégias de estudo específicas.
+Por exemplo, estudos que utilizam o inventário LASSI (\textit{Learning and Study Strategies Inventory}) apontaram que os componentes de estratégias de prova e concentração são significativos para um bom rendimento \cite{zhou_2016}.
+Portanto, a ausência de sistemas de repetição espaçada de conteúdos e cronogramas bem definidos são causas da ineficiência do estudo.
 
-Como consequência direta do estudo desorganizado e da pressão proveniente dos concursos, os estudantes enfrentam uma elevada pressão psicológica. A gestão ineficiente do tempo e a baixa confiança nas estratégias de estudo resultam em altos níveis de ansiedade e estresse. Este quadro psicológico negativo tem um efeito prejudicial no desempenho. Dessa maneira, a autorregulação e a resiliência são destacadas como dimensões cruciais que mitigam esses desafios afetivos, sugerindo que a preparação não pode ignorar a saúde mental do candidato \cite{liu_2025}.
+Como consequência do estudo desorganizado e da ansiedade trazida pelas avaliações, os estudantes enfrentam uma elevada pressão psicológica.
+A gestão ineficiente do tempo e a baixa utilização das estratégias de estudo resultam em altos níveis de ansiedade e estresse.
+Esse quadro psicológico tem um efeito prejudicial no desempenho e no bem-estar do estudante.
+Dessa maneira, a autorregulação e a resiliência são destacadas como dimensões que mitigam esses desafios, sugerindo que a preparação não pode ignorar a saúde mental do indivíduo \cite{liu_2025}.
 
-Diante desses desafios, o mercado de aplicativos de estudo tem crescido, mas geralmente de forma segmentada. Existem aplicativos dedicados à gestão do tempo (Pomodoro), outros à memorização (Flashcards) e outros à motivação (Gamificação). Contudo, essa fragmentação exige que o usuário integre manualmente diferentes ferramentas, limitando a eficácia e a análise geral do progresso. A oportunidade de inovação surge, portanto, na unificação inteligente dessas funcionalidades. A necessidade de incluir a Gamificação é corroborada pela literatura, que reconhece o valor da integração da mesma para a otimização do e-learning e o aumento do engajamento \cite{marengo_2025}.
+Diante disso, o mercado de aplicativos \textit{mobile} de estudo tem crescido, mas de forma segmentada.
+Existem aplicativos dedicados à gestão do tempo, à repetição espaçada de conteúdos e à motivação, porém sempre de forma unicamente dedicada àquele componente.
+Contudo, essa fragmentação exige que o usuário integre manualmente diferentes aplicativos a sua rotina, prejudicando a eficácia e a análise geral do progresso.
+Portanto, a oportunidade de inovação surge na unificação dessas funcionalidades em um único aplicativo, além de trazer novos campos como a gamificação e análises de estresse.
+A necessidade de incluir a gamificação é incentivada pela comunidade acadêmica, que otimiza o aprendizado e o aumento do engajamento \cite{marengo_2025}.
 
-Portanto, este trabalho se posiciona para preencher essa lacuna ao desenvolver um aplicativo integrado e inteligente. Dessa maneira, o trabalho propõe o Desenvolvimento de um Aplicativo Mobile Gratuito para Otimização do Aprendizado em Preparação para Concursos Públicos, com o objetivo de integrar as metodologias de estudo mais validadas pela pesquisa acadêmica em uma única aplicação gratuita. As estratégias de aprendizado e os hábitos de estudo estão diretamente ligados ao desempenho acadêmico \cite{bickerdike_2016}. O presente trabalho busca, assim, desenvolver a engenharia de software para uma ferramenta que atenda à demanda por uma preparação eficaz, organizada e psicologicamente sustentável.
+Portanto, este trabalho visa preencher essa lacuna ao desenvolver um aplicativo integrado e eficiente.
+Dessa maneira, o trabalho propõe o desenvolvimento de um aplicativo \textit{mobile}, \textit{open source} e gratuito para otimização do aprendizado em preparações para provas, com o objetivo de integrar as metodologias de estudo mais validadas pela comunidade acadêmica em uma única aplicação, já que
+as estratégias de aprendizado e os hábitos de estudo estão diretamente ligados ao desempenho acadêmico \cite{bickerdike_2016}.
+Assim, o presente trabalho busca desenvolver a engenharia de \textit{software} para uma ferramenta que atenda à demanda por uma preparação eficaz, organizada e psicologicamente saudável.
 
 \section{Contextualização}
 
-A preparação para concursos públicos ou provas insere-se no campo da educação de pessoas, onde a excelência no desempenho é uma necessidade. O estudante, muitas vezes inserido em uma rotina de múltiplas demandas, precisa converter tempo de estudo em retenção de longo prazo e sucesso nessas avaliações. Este cenário competitivo exige que o candidato desenvolva, de forma consciente, o que a literatura denomina como estratégias de aprendizagem e hábitos de estudo. A relevância de uma abordagem focada em habilidades, e não apenas em conteúdo, é suportada por estudos que confirmam uma associação significativa entre as estratégias de aprendizado, os hábitos de estudo e o desempenho acadêmico \cite{bickerdike_2016}. Portanto, o desenvolvimento de uma ferramenta digital deve ter como foco principal a otimização dessas metodologias.
+A preparação para avaliações está presente no campo da educação e da qualidade de vida das pessoas, onde o desempenho está relativamente ligado à profissão que esse indivíduo pode alcançar.
+O estudante, muitas vezes sobrecarregado, precisa converter tempo de estudo em retenção a longo prazo e bom desempenho nessas avaliações.
+Esse cenário competitivo exige que o candidato desenvolva estratégias de aprendizagem e hábitos de estudo a fim de alcançar bons resultados.
+Abordagens focadas em habilidades, e não apenas em conteúdo, são suportadas por estudos que confirmam uma associação entre as estratégias de aprendizado, os hábitos de estudo e o desempenho acadêmico \cite{bickerdike_2016}.
+Portanto, o desenvolvimento de uma ferramenta deve ter como foco principal a otimização dessas metodologias.
 
-Um dos principais desafios que a preparação prolongada impõe é a gestão da ansiedade e o foco. O estudo desorganizado e a sensação de perda de controle sobre o volume de material são fatores que intensificam a tensão. Embora o efeito prejudicial da ansiedade no desempenho seja um fenômeno documentado, a literatura sugere que para melhorar o desempenho deve-se focar nas causas subjacentes da ansiedade, que geralmente estão ligadas à falta de técnicas de estudo adequadas \cite{kleijn_1994}. Isso justifica a necessidade de o aplicativo integrar recursos de foco, como o Pomodoro, e de organização de tarefas, visando sanar as causas comportamentais da ansiedade, e não apenas seus sintomas.
+Um dos desafios que a preparação para provas traz é a gestão da ansiedade e o foco.
+O estudo desorganizado e a sensação de perda de controle sobre o volume de material são fatores que intensificam o estresse.
+Embora o efeito prejudicial da ansiedade no desempenho seja um fenômeno documentado, a comunidade acadêmica sugere que para melhorar o desempenho deve-se focar nas causas dessa ansiedade, que geralmente estão ligadas à falta de técnicas de estudo adequadas \cite{kleijn_1994}.
+Isso justifica a necessidade de o aplicativo integrar recursos de foco, como um \textit{timer} cíclico de sessões de estudo, e de gráficos de níveis de estresse ao longo do tempo, com o objetivo de apoiar o planejamento das sessões e possibilitar uma análise geral do bem-estar do estudante, respectivamente.
 
-No domínio cognitivo, o sucesso na prova não vem da quantidade de informações absorvidas, mas sim da eficiência em recuperá-las eficazmente. A eficácia das técnicas de estudo integradas propostas no aplicativo, como Flashcards, é comprovada pela sua capacidade de forçar a recuperação ativa. Ao analisar os fatores de desempenho, foi demonstrado que as subescalas de Gerenciamento do Tempo (\textit{Time Management}) e Autoavaliação (\textit{Self-Testing}) são fatores mais fortes no desempenho acadêmico \cite{zhou_2016}. Isso valida o foco em funcionalidades que promovam a autodisciplina e a prática constante de recuperação de informações, elementos centrais na autorregulação e na retenção.
+O sucesso na prova não vem apenas da quantidade de informações absorvidas, mas sim da eficiência em recuperá-las com qualidade.
+A eficácia das técnicas de estudo propostas no aplicativo, como \textit{flashcards} com repetição espaçada, é comprovada pela sua capacidade de forçar a recuperação ativa.
+Ao analisar os fatores de desempenho, foi demonstrado que o gerenciamento do tempo e a autoavaliação são fatores fortes no desempenho acadêmico \cite{zhou_2016}.
+Isso valida o foco em funcionalidades que promovam a prática constante de recuperação de informações, elemento central na autorregulação e na retenção de informação.
 
-Finalmente, a sustentabilidade da preparação para provas depende da atenção ao Bem-Estar e à saúde mental. O estudante não pode ser tratado apenas como um recipiente de informações, mas como um indivíduo que precisa de suporte para lidar com o estresse. Os recursos de check-ins de humor se baseiam na ideia de que a resiliência é um fator protetor. Estudos sobre essa área indicam que as três dimensões da resiliência na aprendizagem (autorregulação, sociabilidade e empatia) têm um efeito positivo direto no desempenho acadêmico \cite{liu_2025}. Ao fornecer ferramentas para que o estudante monitore e gerencie sua autorregulação e seu estado emocional, o aplicativo se estabelece como um facilitador de um estudo mais equilibrado e, consequentemente, mais eficiente.
+Finalmente, a qualidade da preparação para provas depende da atenção ao bem-estar e à saúde mental.
+O estudante deve ser tratado como um indivíduo que precisa de suporte para lidar com o estresse.
+Os recursos de autorregistro de humor (\textit{check-ins}) que o aplicativo visa oferecer, a fim de gerar gráficos intuitivos, buscam apoiar o estudante a perceber, ao longo do tempo, possíveis relações entre suas técnicas de estudo e seu nível de estresse.
+Estudos sobre essa área indicam que as três dimensões da resiliência na aprendizagem (autorregulação, sociabilidade e empatia) têm um efeito positivo direto no desempenho acadêmico \cite{liu_2025}.
+Ao fornecer ferramentas para que o estudante monitore e gerencie sua autorregulação e seu estado mental, o aplicativo representa um facilitador de um estudo mais equilibrado e eficiente.
 
 \section{Justificativa}
 
-O desenvolvimento deste aplicativo se justifica primariamente pela necessidade de superar a ineficiência inerente aos métodos de estudo passivos e desorganizados, que são frequentemente adotados pelos estudantes. A mera dedicação de horas à leitura de materiais não garante a retenção nem a aplicação do conhecimento em situações de teste. O trabalho se propõe a transformar o estudo em um processo ativo e estruturado, baseado em evidências de sucesso. A urgência dessa intervenção é reforçada pela pesquisa, que demonstra que o aprimoramento das habilidades de estratégias de estudo/aprendizagem está associado ao sucesso acadêmico tanto em exames internos quanto em exames externos \cite{khalil_2024}.
+O desenvolvimento desse aplicativo se justifica pela necessidade de superar a ineficiência dos métodos de estudo passivos e desorganizados, que são normalmente adotados pelos estudantes.
+A dedicação à leitura de materiais não garante a retenção nem a aplicação do conhecimento em situações de avaliações.
+Nesse sentido, o trabalho propõe transformar o estudo em um processo ativo e estruturado, baseado em evidências da comunidade acadêmica.
+A importância dessa intervenção é reforçada pela pesquisa, que demonstra que o aprimoramento das habilidades de estratégias de estudo está associado ao sucesso acadêmico em provas \cite{khalil_2024}.
 
-O principal foco que o projeto visa englobar é a falta de um sistema integrado que promova a autorregulação completa do estudante. O sucesso acadêmico depende de três componentes estratégicos: \textit{Skill} (habilidade), \textit{Will} (vontade) e \textit{Self-Regulation} (autorregulação). As funcionalidades de Gestão de Cronograma, Pomodoro e \textit{Self-Testing} (Autoavaliação) do aplicativo visam construir esse último componente. A literatura, ao analisar o Inventário de Estratégias de Aprendizagem e Estudo (LASSI), especifica que as subescalas de Gerenciamento do Tempo (\textit{Time Management}) e Autoavaliação (\textit{Self-Testing}) são fatores mais fortes no desempenho acadêmico em períodos iniciais \cite{zhou_2016}. Isso justifica a seleção destas funcionalidades como elementos centrais e não periféricos do software.
+O principal princípio que o projeto visa corrigir é a falta de um sistema integrado que promova a organização do estudante, atentando também à sua saúde mental.
+O sucesso acadêmico é influenciado por componentes estratégicos como habilidade, vontade e autorregulação, portanto as funcionalidades de gestão de tempo, cronômetro cíclico e autoavaliação do aplicativo visam apoiar esse último componente.
+A literatura, ao analisar o LASSI, especifica que as subescalas de gerenciamento do tempo e autoavaliação são fatores mais fortes no desempenho acadêmico em períodos iniciais \cite{zhou_2016}.
+Isso justifica a seleção destas funcionalidades como elementos centrais do \textit{software}.
 
-No mercado atual de e-learning, as ferramentas de otimização de estudo são predominantemente fragmentadas. Existem aplicativos de pomodoro, gerenciadores de tarefas, e plataformas de flashcards, mas a ausência de uma plataforma unificada que colete dados de todas essas interações impede uma visão ideal do progresso. A justificativa técnica e de inovação deste trabalho reside exatamente na unificação dessas áreas com a preocupação psicológica do estudante, contendo check-ins de humor para regular o nível de ansiedade e estresse do mesmo. Outra adição do aplicativo é a gamificação, que é uma estratégia validada para a otimização do e-learning e aumento do engajamento \cite{marengo_2025}.
+No mercado atual de ferramentas de otimização de estudo, as opções são normalmente fragmentadas.
+Existem aplicativos de cronômetros cíclicos, gerenciadores de tarefas e plataformas de \textit{flashcards} com repetição espaçada, mas há a ausência de uma plataforma unificada que colete dados de todas essas interações, impedindo uma visão mais completa do progresso.
+A justificativa deste trabalho visa a unificação dessas áreas com a atenção ao bem-estar do estudante, contendo \textit{check-ins} de humor para o autorregistro do nível de ansiedade e estresse percebidos.
+Outra adição do aplicativo é a gamificação, que é uma estratégia validada para a otimização do aprendizado e aumento do engajamento \cite{marengo_2025}.
 
-Finalmente, o desenvolvimento deste trabalho representa uma contribuição prática e teórica significativa para a área de Engenharia de Software e Educação. Ao projetar uma engenharia de software para um aplicativo gratuito e baseado em pesquisa, o trabalho democratiza o acesso a metodologias de estudo de alta eficácia. Este projeto é, portanto, uma aplicação tangível e socialmente relevante da ciência da computação para a otimização educacional.
+Finalmente, o desenvolvimento deste trabalho representa uma contribuição ideal para a área de engenharia de \textit{software} e educação.
+Ao projetar uma engenharia de \textit{software} em um aplicativo \textit{open source} e gratuito, o trabalho democratiza o acesso a metodologias de estudo além de disponibilizar um código fonte estruturado conforme as normas da engenharia de \textit{software} para o aprendizado de qualquer pessoa.
+Portanto, este projeto é uma aplicação socialmente relevante da ciência da computação para a otimização educacional.
 
 \section{Questão de Pesquisa}
 
-Para fundamentar o desenvolvimento deste trabalho, a questão de pesquisa foi formalmente definida: Como promover intervenções personalizadas na rotina de estudos de estudantes por meio de um aplicativo mobile gratuito baseado em metodologias eficazes, gamificação e controle psicológico?
+Para fundamentar o desenvolvimento deste trabalho, a questão de pesquisa foi formalmente definida: Como desenvolver um aplicativo móvel integrando ciclos de foco, repetição espaçada, gamificação e autorregistro de bem-estar para apoiar a organização da rotina de estudos de estudantes em preparação para avaliações?
 
 \section{Objetivos}
 
-Este trabalho possui um objetivo geral e outros seis objetivos específicos que serão aprofundados nesta seção.
+Este trabalho possui um objetivo geral e outros cinco objetivos específicos que serão aprofundados nesta seção.
 
 \subsection{Objetivo Geral}
 
-Este trabalho possui como objetivo geral o desenvolvimento de um aplicativo \textit{open source} mobile gratuito que visa o aprimoramento da rotina de estudos de estudantes, por meio de metodologias eficazes, gamificação e controle psicológico para o bem-estar.
+Este trabalho possui como objetivo geral desenvolver e avaliar um aplicativo móvel gratuito e de código aberto que integre técnicas de gestão do tempo, repetição espaçada, gamificação e autorregistro de bem-estar para apoiar a organização da rotina de estudos.
 
 \subsection{Objetivos Específicos}
 
@@ -49,15 +92,15 @@ São objetivos específicos deste trabalho:
 
 \begin{itemize}
 
-\item Fornecer metodologias de estudo eficazes e comprovadas pela pesquisa aos estudantes;
+\item Identificar, na literatura e junto a potenciais usuários, necessidades relacionadas à organização dos estudos;
 
-\item Aplicar o conceito de gamificação no aplicativo a fim de tornar a jornada mais motivadora;
+\item Definir método de priorização de requisitos funcionais e não funcionais para um MVP;
 
-\item Disponibilizar gráficos de progressos individuais para os usuários do aplicativo;
+\item Definir um método de desenvolvimento da solução;
 
-\item Integrar todos os objetivos acima em um único aplicativo gratuito;
+\item Projetar a arquitetura, o modelo de dados e as interfaces do aplicativo;
 
-\item Servir como uma ferramenta gratuita e \textit{open source} para disseminação de bons hábitos de aprendizado.
+\item Iniciar a implementação das funcionalidades priorizadas.
 
 \end{itemize}
 
@@ -67,13 +110,15 @@ O presente trabalho está dividido nos seguintes capítulos:
 
 \begin{itemize}
 
-\item \textbf{Capítulo 1 - Introdução:} A função do capítulo introdutório é preparar o leitor ao descrever o cenário em que a proposta será implementada, apresentar o porquê da pesquisa, mostrar a pergunta-chave do trabalho, listar os resultados esperados e resumir as estratégias empregadas.
+\item \textbf{Capítulo 1 - Introdução:} A função do capítulo introdutório é preparar o leitor ao descrever o cenário em que a proposta será implementada, apresentar o porquê da pesquisa, mostrar a pergunta-chave do trabalho e resumir as estratégias empregadas.
 
-\item \textbf{Capítulo 2 - Referencial Teórico:} Dividido em pontos-chave, este capítulo desenvolve a base teórica do estudo, introduzindo conceitos importantes relacionados à temática. Os tópicos abordados englobam desde a gestão de tempo e metodologias de estudo até a gamificação, além de uma revisão sobre aplicativos já existentes e noções afins.
+\item \textbf{Capítulo 2 - Referencial Teórico:} Dividido em tópicos, este capítulo desenvolve a base teórica do estudo, introduzindo conceitos importantes relacionados ao tema.
+Os tópicos abordados englobam desde a gestão de tempo e metodologias de estudo até a gamificação, além de uma revisão sobre aplicativos já existentes.
 
-\item \textbf{Capítulo 3 - Metodologia:} Neste capítulo, é detalhado a metodologia de pesquisa e desenvolvimento do projeto. Nele, são explicadas as abordagens que garantiram a implementação eficaz da ferramenta de software.
+\item \textbf{Capítulo 3 - Metodologia:} Neste capítulo, é detalhado a metodologia de pesquisa e desenvolvimento do projeto.
+Diante disso, são explicadas as abordagens que visam apoiar a implementação da ferramenta de \textit{software}.
 
-\item \textbf{Capítulo 4 - Desenvolvimento:} O capítulo aprofunda os detalhes da fase de desenvolvimento do software, incluindo as otimizações e modificações planejadas para assegurar uma implementação de sucesso.
+\item \textbf{Capítulo 4 - Desenvolvimento:} O capítulo aprofunda os detalhes previstos para a fase de desenvolvimento do \textit{software}, incluindo as otimizações e modificações planejadas para assegurar uma implementação de sucesso.
 
 \item \textbf{Capítulo 5 - Considerações Finais:} O capítulo final resume os resultados obtidos pelo trabalho e indica sugestões para projetos ou estudos subsequentes.
 
