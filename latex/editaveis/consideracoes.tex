@@ -226,12 +226,12 @@ As respostas dessas perguntas garantem que o time de desenvolvimento compreenda 
 A seguir estão documentadas as respostas da visão de produto.
 
 \begin{itemize}
-    \item \textbf{Público-alvo:} Estudantes de concursos e estudantes acadêmicos.
+    \item \textbf{Público-alvo:} Estudantes universitários.
     \item \textbf{Problema:} Inexistência de aplicativos gratuitos que integram cronômetro Pomodoro, \textit{flashcards} com repetição espaçada, gamificação e \textit{check-ins} de humor.
     \item \textbf{Nome:} Focus.
     \item \textbf{Categoria:} Aplicativo \textit{mobile}.
     \item \textbf{Benefício:} Aprimorar a rotina de estudos do usuário.
-    \item \textbf{Concorrentes:} Aprovado e StudyTok.
+    \item \textbf{Concorrentes:} Aprovado, StudyTok, Anki e Habitica.
     \item \textbf{Diferencial:} Integra as diferentes ideias em um único aplicativo.
 \end{itemize}
 
@@ -248,7 +248,7 @@ A seguir está listada essa matriz para o presente trabalho.
 
 \begin{itemize}
     \item \textbf{É:} Aplicativo \textit{mobile}, gratuito e \textit{open source}.
-    \item \textbf{Não é:} Um banco de questões para estudo de concursos.
+    \item \textbf{Não é:} Um banco de questões ou conteúdos prontos de disciplinas.
     \item \textbf{Faz:} Integra o cronômetro Pomodoro, \textit{flashcards} com repetição espaçada, gamificação e \textit{check-ins} de humor para auxiliar na rotina de estudos dos usuários.
     \item \textbf{Não faz:} Não corrige questões, não possui uma base de dados de questões ou conteúdos, não cria atividades, não gera conteúdo e não utiliza inteligência artificial.
 \end{itemize}
@@ -263,7 +263,7 @@ Este objetivo será atingido ao implementar o uso da repetição espaçada com o
 
 \textbf{Minimizar a taxa de abandono}
 
-Este objetivo será alcançado através dos elementos de gamificação.
+Este objetivo será alcançado através dos elementos de gamificação e de mecanismos específicos de combate à autossabotagem (Seção~\ref{sec:autossabotagem}): o congelamento semanal de \textit{streak}, a limitação do lote de revisões pendentes exibidas por sessão e os alertas de intervenção emitidos a partir de \textit{check-ins} de bem-estar recorrentemente negativos.
 Ao utilizar barras de progresso e pontos, o aplicativo busca transformar o esforço em uma experiência progressiva.
 
 \textbf{Fornecer uma interface intuitiva}
@@ -320,7 +320,7 @@ A seguir estão representadas as três proto-personas deste trabalho.
     \begin{itemize}
         \item Nome: Hazel.
         \item Idade: 27 anos.
-        \item Profissão: Jornalista.
+        \item Profissão: Estudante de pós-graduação.
     \end{itemize}
     \item Objetivos:
     \begin{itemize}
@@ -380,6 +380,7 @@ A seguir estão representadas as três jornadas.
 2. Foco & Inicia a primeira sessão de estudos. & Expectativa & Tendência a se distrair após 10 minutos. & \textbf{Cronômetro Pomodoro:} Inicia ciclo de 25/5. \\ \hline
 3. Busca por Motivação & Completa a primeira rodada de estudos. & Satisfação inicial & Necessidade de motivação para continuar o ciclo. & \textbf{Gamificação / Seção de Progresso:} Exibe barra de progresso. \\ \hline
 4. Manutenção do Ritmo & Vê o progresso diário se acumulando. & Engajamento & Risco de esquecer a revisão dos conteúdos estudados. & \textbf{\textit{Flashcards} com Repetição Espaçada:} O menu mostra as revisões daquele dia automaticamente. \\ \hline
+5. Recaída na Procrastinação & Perde um dia de estudo e volta a se sentir desmotivado. & Culpa / Vontade de desistir & Efeito "que se dane": encarar a falha pontual como o fim do esforço (\textit{what the hell effect}). & \textbf{Congelamento de \textit{Streak} / Lote de Revisões:} Perdoa a sequência quebrada e evita mostrar todas as revisões acumuladas de uma vez, reduzindo a sobrecarga do retorno. \\ \hline
 \end{tabular}
 \par
 \vspace{0.5em}
@@ -611,6 +612,21 @@ A seguir, apresentam-se as funcionalidades desenvolvidas usando histórias de us
         \item \textit{US11:} Eu, como usuário, desejo visualizar na tela de Progresso gráficos e indicadores sobre meu desempenho.
         \item \textit{Prioridade:} deveria ter.
     \end{itemize}
+    \item \textbf{\textit{Feature} F12: Congelamento de \textit{Streak}.}
+    \begin{itemize}
+        \item \textit{US12:} Eu, como usuário, desejo que minha sequência de dias (\textit{streak}) seja perdoada uma vez por semana quando eu perder um dia de estudo, para que uma falha pontual não me faça desistir do meu progresso acumulado.
+        \item \textit{Prioridade:} poderia ter.
+    \end{itemize}
+    \item \textbf{\textit{Feature} F13: Limitação do Lote de Revisões Pendentes.}
+    \begin{itemize}
+        \item \textit{US13:} Eu, como usuário, desejo que a lista de \textit{flashcards} pendentes de revisão seja exibida em lotes limitados por sessão, em vez de todas de uma vez, para não me sentir sobrecarregado ao retomar os estudos após um período de ausência.
+        \item \textit{Prioridade:} deveria ter.
+    \end{itemize}
+    \item \textbf{\textit{Feature} F14: Alertas de Intervenção de Bem-Estar.}
+    \begin{itemize}
+        \item \textit{US14:} Eu, como usuário, desejo receber um alerta com uma sugestão de ação quando meus \textit{check-ins} de humor ou estresse indicarem um padrão negativo recorrente, para que eu possa ajustar minha rotina antes de me sentir sobrecarregado.
+        \item \textit{Prioridade:} poderia ter.
+    \end{itemize}
 \end{itemize}
 
 Portanto, a seguir estão representados todos os requisitos funcionais deste trabalho.
@@ -644,6 +660,12 @@ FUNC09 & Visualização de estatísticas de desempenho. \\
 FUNC10 & Visualização de dados de bem-estar. \\
 \hline
 FUNC11 & Sistema de gamificação com pontuação por XP, níveis e \textit{streak} de dias consecutivos. \\
+\hline
+FUNC12 & Congelamento semanal de \textit{streak} em caso de dia de estudo perdido. \\
+\hline
+FUNC13 & Limitação do lote de \textit{flashcards} pendentes exibidos por sessão de revisão. \\
+\hline
+FUNC14 & Emissão de alertas de intervenção a partir de padrões negativos recorrentes nos \textit{check-ins} de bem-estar. \\
 \hline
 \multicolumn{2}{r}{\small Fonte: autoria própria.} \\
 \end{tabularx}
@@ -680,6 +702,12 @@ Para tornar explícita a relação entre as necessidades levantadas junto às pr
 5 & US10 & F10 -- Sistema de XP, Níveis e \textit{Streaks} & FUNC11 & Poderia ter \\
 \hline
 5 & US11 & F11 -- Visualização de Progresso & FUNC09 & Deveria ter \\
+\hline
+5 & US12 & F12 -- Congelamento de \textit{Streak} & FUNC12 & Poderia ter \\
+\hline
+5 & US13 & F13 -- Limitação do Lote de Revisões Pendentes & FUNC13 & Deveria ter \\
+\hline
+5 & US14 & F14 -- Alertas de Intervenção de Bem-Estar & FUNC14 & Poderia ter \\
 \hline
 \multicolumn{5}{r}{\small Fonte: autoria própria.} \\
 \end{tabularx}

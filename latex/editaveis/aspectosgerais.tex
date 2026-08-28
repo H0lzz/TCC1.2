@@ -299,8 +299,17 @@ Além disso, o aplicativo possui a gamificação através de placares de lídere
     \label{fig:studytok}
 \end{figure}
 
-Portanto, o aplicativo proposto para este trabalho se diferencia dos concorrentes ao buscar uma integração completa de todos os valores mencionados anteriormente.
-Enquanto o Aprovado se restringe ao registro e à estatística da gestão do tempo e o StudyTok se destaca na geração de \textit{flashcards} por IA e gamificação, o aplicativo proposto visa combinar esses valores com o controle de bem-estar a fim de trazer um produto centralizado e desfragmentado.
+Ampliando a análise para além de aplicativos de nicho voltados à rotina de estudos, também foram considerados dois \textit{softwares} amplamente adotados que representam, isoladamente, dois dos pilares deste trabalho: o Anki e o Habitica.
+
+O Anki é a referência mais consolidada em repetição espaçada, oferecendo um sistema de \textit{flashcards} com algoritmo adaptativo que agenda a revisão de cada cartão "para quando o usuário está mais propenso a esquecer a informação" \cite{anki_2026}.
+Apesar de ser o padrão de mercado nesse pilar específico, o Anki não possui nenhum recurso nativo de gestão de tempo (como um cronômetro Pomodoro), de gamificação ou de monitoramento de bem-estar, concentrando-se exclusivamente na otimização da memorização \cite{anki_2026}.
+
+Já o Habitica adota a abordagem oposta: é uma plataforma de gamificação de hábitos e tarefas no formato de um jogo de RPG, na qual o usuário ganha experiência, ouro e itens ao concluir tarefas do cotidiano, além de poder participar de grupos (\textit{guilds}) e missões em equipe \cite{habitica_2026}.
+Por ser uma ferramenta de produtividade genérica, e não voltada especificamente ao estudo, o Habitica não possui repetição espaçada, \textit{flashcards}, cronômetro Pomodoro ou \textit{check-ins} de humor — sua gamificação se aplica a qualquer tipo de tarefa que o usuário cadastre, sem qualquer relação com técnicas de aprendizagem \cite{habitica_2026}.
+
+Portanto, o aplicativo proposto para este trabalho se diferencia dos concorrentes ao buscar uma integração completa de todos os valores mencionados anteriormente, em vez de se aprofundar isoladamente em um único pilar.
+Enquanto o Aprovado se restringe ao registro e à estatística da gestão do tempo, o StudyTok se destaca na geração de \textit{flashcards} por IA e gamificação, o Anki é o padrão de excelência isolado em repetição espaçada e o Habitica é o padrão de excelência isolado em gamificação de hábitos, nenhum dos quatro combina esses pilares com o controle de bem-estar do estudante.
+O aplicativo proposto visa unir esses valores a fim de trazer um produto centralizado e desfragmentado, evidenciando de forma mais robusta a lacuna de mercado que motiva este trabalho.
 O diferencial está em combinar a eficácia da repetição espaçada com uma ferramenta de cronômetro Pomodoro, elementos de gamificação e \textit{check-ins} de humor, oferecendo assim uma solução mais coesa e adaptada às demandas do estudante.
 
 \flushbottom
@@ -355,3 +364,23 @@ O estudo de \citeonline{ebbes_2026}, ao entrevistar professores sobre o ensino r
 Dessa forma, a integração de \textit{check-ins} de bem-estar e a análise dos gráficos gerados transformam o aplicativo em um agente de suporte à SRL.
 Ao coletar dados sobre o estado emocional, o sistema pode oferecer uma oportunidade de análise desses índices, permitindo o surgimento de ideias de intervenção que promovem a saúde mental e otimizam a produtividade.
 Essa funcionalidade metodológica atende diretamente à necessidade, identificada em pesquisas como a de \citeonline{ebbes_2026}, de monitorar o engajamento e o bem-estar emocional do aluno em um ambiente de estudo individual, atuando como um professor que oferece esse suporte.
+
+\section{Autossabotagem e Adesão ao Uso do Aplicativo}
+\label{sec:autossabotagem}
+
+Além de organizar a rotina de estudos, um aplicativo desse tipo precisa lidar com um problema comportamental documentado na literatura: o abandono do próprio aplicativo antes que seus benefícios se consolidem.
+Uma revisão de escopo recente, que analisou dezoito estudos e mais de quinhentos mil participantes, identificou que aproximadamente 70\% dos usuários interrompem o uso de aplicativos de comportamento e saúde mental dentro dos primeiros 100 dias, com desistências mais acentuadas logo nos estágios iniciais \cite{kidman_2024}.
+Esse padrão de abandono precoce está diretamente ligado ao objetivo de negócio deste trabalho de minimizar a taxa de abandono, e motiva a incorporação de mecanismos de \textit{design} que combatam formas específicas de autossabotagem do usuário, e não apenas elementos de gamificação.
+
+O primeiro desses mecanismos combate o chamado \textit{what the hell effect} (efeito "que se dane"), descrito originalmente por \citeonline{polivy_1985} no contexto de dietas: ao perceber uma pequena falha (por exemplo, pular um dia de dieta), o indivíduo tende a interpretá-la como uma quebra total do compromisso e abandona o esforço por completo, em vez de simplesmente retomá-lo no dia seguinte.
+O mesmo padrão se manifesta em sistemas de sequências (\textit{streaks}) de hábitos e estudo: ao perder um único dia, o usuário frequentemente vê sua sequência zerada como prova de fracasso e desiste de continuar usando o aplicativo.
+Para mitigar esse efeito, o aplicativo planeja implementar um mecanismo de congelamento de \textit{streak}, que perdoa a perda de um único dia por semana sem zerar a sequência do usuário, permitindo que uma falha pontual seja tratada como uma exceção esperada, e não como o fim do esforço.
+
+O segundo mecanismo busca reduzir a sobrecarga de decisão no momento em que o usuário retoma os estudos após um período de ausência.
+A literatura sobre sobrecarga de escolha (\textit{choice overload}) demonstra que, quando confrontado com um número excessivo de opções ou itens pendentes, o indivíduo tende a adiar ou evitar a decisão de agir, em vez de se sentir motivado por ela \cite{chernev_2015}.
+Aplicado ao contexto deste trabalho, um usuário que se ausenta por alguns dias e retorna ao aplicativo para encontrar dezenas de revisões de \textit{flashcards} acumuladas tende a se sentir sobrecarregado e a adiar ou evitar a sessão de estudo.
+Por isso, em vez de exibir de uma só vez todas as revisões pendentes, o aplicativo planeja limitar a lista exibida por sessão a um lote reduzido e gerenciável, revelando o restante apenas gradualmente, à medida que o usuário avança.
+
+Por fim, o terceiro mecanismo estende a funcionalidade de \textit{check-in} de humor descrita na seção anterior de um simples registro passivo para uma intervenção ativa.
+Quando o sistema identifica um padrão recorrente de \textit{check-ins} negativos (níveis de estresse elevados ou humor baixo ao longo de vários registros consecutivos), o aplicativo planeja emitir um alerta com uma sugestão concreta e de baixo esforço, como encurtar a próxima sessão de foco ou fazer uma pausa, em vez de deixar que o usuário continue se cobrando no mesmo ritmo.
+Essa resposta é coerente com a própria lógica da SRL descrita anteriormente: ao tornar visível o próprio estado emocional, o usuário ganha a oportunidade de ajustar seu comportamento antes que o desgaste o leve a abandonar os estudos por completo \cite{liu_2025}.

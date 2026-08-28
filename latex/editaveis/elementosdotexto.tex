@@ -73,6 +73,7 @@ Segundo \citeonline{dipompeo_2025}, a arquitetura é uma abstração de alto ní
 Dessa forma, o modelo adotado busca equilibrar as necessidades de negócio e os objetivos técnicos do sistema.
 Foi definido que um modelo de arquitetura em camadas, com processamento centralizado em um \textit{backend} \textit{cliente-servidor}, será seguido no desenvolvimento.
 Essa escolha se justifica pela necessidade de centralizar, em um único local, o cálculo do algoritmo de repetição espaçada e a persistência consistente dos dados de progresso e de \textit{check-in} entre diferentes dispositivos do mesmo usuário, o que seria mais difícil de garantir em uma arquitetura totalmente local ao dispositivo.
+Essa opção também é favorecida pela delimitação do público-alvo a estudantes universitários, que, ao contrário de um público mais heterogêneo, tendem a ter acesso a conectividade estável durante boa parte da rotina de estudos (redes \textit{wi-fi} do campus, bibliotecas e residências), reduzindo o impacto da ausência de um modo \textit{offline} nesta primeira versão do produto.
 
 \subsection{Padrão Arquitetural em Camadas}
 

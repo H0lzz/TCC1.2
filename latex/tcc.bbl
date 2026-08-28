@@ -13,6 +13,12 @@
 Disponível em: https://doi.org/10.31893/multirev.2026193. Acesso em: 23 jun.
   2026.}
 
+\bibitem[{ANKI} 2026]{anki_2026}
+\abntrefinfo{{ANKI}}{{ANKI}}{2026}
+{{ANKI}. \emph{Anki - powerful, intelligent flashcards}. 2026.
+Acesso em: 25 ago. 2026.
+Dispon{\'\i}vel em: \url{https://apps.ankiweb.net/}.}
+
 \bibitem[{APROVADO} 2026]{aprovado_2026}
 \abntrefinfo{{APROVADO}}{{APROVADO}}{2026}
 {{APROVADO}. \emph{Aprovado - Controle de Estudos}. 2026.
@@ -49,6 +55,13 @@ Dispon{\'\i}vel em:
 {CASSIERI, P. et al. On the use of test-driven development for embedded
   systems.
 \emph{Information and Software Technology}, v.~187, p. 107779, 2025.}
+
+\bibitem[Chernev, B{\"o}ckenholt e Goodman 2015]{chernev_2015}
+\abntrefinfo{Chernev, B{\"o}ckenholt e Goodman}{CHERNEV; B{\"O}CKENHOLT;
+  GOODMAN}{2015}
+{CHERNEV, A.; B{\"O}CKENHOLT, U.; GOODMAN, J. Choice overload: A conceptual
+  review and meta-analysis.
+\emph{Journal of Consumer Psychology}, v.~25, n.~2, p. 333--358, 2015.}
 
 \bibitem[Cirillo 2018]{cirillo_2018}
 \abntrefinfo{Cirillo}{CIRILLO}{2018}
@@ -117,6 +130,12 @@ Dispon{\'\i}vel em:
   Springer Nature Switzerland, 2020.
 ISBN 978-3-030-29509-7.}
 
+\bibitem[{HABITICA} 2026]{habitica_2026}
+\abntrefinfo{{HABITICA}}{{HABITICA}}{2026}
+{{HABITICA}. \emph{Habitica - Gamify Your Life}. 2026.
+Acesso em: 25 ago. 2026.
+Dispon{\'\i}vel em: \url{https://habitica.com/static/home}.}
+
 \bibitem[Harvey et al. 2025]{harvey_2025}
 \abntrefinfo{Harvey et al.}{HARVEY et al.}{2025}
 {HARVEY, C.-J. et al. Improving medical students' learning strategies,
@@ -150,6 +169,12 @@ ISBN 978-3-030-29509-7.}
 {KHALIL, M.~K.; WILLIAMS, S.~E.; HAWKINS, H.~G. Learning and study strategies
   correlate with medical students' performance in anatomical sciences.
 \emph{The Anatomical Record}, p.~1--7, 2024.}
+
+\bibitem[Kidman et al. 2024]{kidman_2024}
+\abntrefinfo{Kidman et al.}{KIDMAN et al.}{2024}
+{KIDMAN, P.~G. et al. When and why adults abandon lifestyle behavior and mental
+  health mobile apps: Scoping review.
+\emph{Journal of Medical Internet Research}, v.~26, p. e56897, 2024.}
 
 \bibitem[Kim e Kook 2024]{kim_2024}
 \abntrefinfo{Kim e Kook}{KIM; KOOK}{2024}
@@ -213,6 +238,11 @@ ISBN 978-3-030-29509-7.}
 {OGUT, E. Assessing the efficacy of the pomodoro technique in enhancing anatomy
   lesson retention during study sessions: a scoping review.
 \emph{BMC Medical Education}, v.~25, p.~1440, 2025.}
+
+\bibitem[Polivy e Herman 1985]{polivy_1985}
+\abntrefinfo{Polivy e Herman}{POLIVY; HERMAN}{1985}
+{POLIVY, J.; HERMAN, C.~P. Dieting and binging: A causal analysis.
+\emph{American Psychologist}, v.~40, n.~2, p. 193--201, 1985.}
 
 \bibitem[Pompeo, Tucci e Hoorn 2025]{dipompeo_2025}
 \abntrefinfo{Pompeo, Tucci e Hoorn}{POMPEO; TUCCI; HOORN}{2025}
