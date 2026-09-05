@@ -264,7 +264,7 @@ Portanto, enquanto a gamificação fornece a estrutura motivacional, a inclusão
 \raggedbottom
 \section{Aplicativos Similares}
 
-Foi feita uma coleta de dados acerca de \textit{softwares} similares com objetivos análogos de auxiliar no fluxo de estudos de estudantes.
+Foi feito um \textit{benchmark} sobre aplicativos similares com objetivos de auxiliar na rotina de estudos dos estudantes.
 
 Um deles é o Aprovado, mostrado na Figura~\ref{fig:aprovado}, cujo seu propósito é atuar como uma ferramenta de produtividade e controle de tempo voltada para o estudante.
 Seu principal recurso é o gerenciamento das horas de estudo, permitindo que o usuário registre o tempo dedicado a cada matéria, gerando gráficos e relatórios sobre a evolução e o desempenho nessas matérias.
@@ -299,18 +299,76 @@ Além disso, o aplicativo possui a gamificação através de placares de lídere
     \label{fig:studytok}
 \end{figure}
 
-Ampliando a análise para além de aplicativos de nicho voltados à rotina de estudos, também foram considerados dois \textit{softwares} amplamente adotados que representam, isoladamente, dois dos pilares deste trabalho: o Anki e o Habitica.
+Além disso, o aplicativo Anki, mostrado na Figura~\ref{fig:anki}, é referência em repetição espaçada, oferecendo um sistema de \textit{flashcards} com algoritmo que agenda a revisão de cada cartão para quando o usuário está mais propenso a esquecer a informação{} \cite{anki_2026}.
+Apesar de ser o padrão de mercado nesse pilar específico, o Anki não possui algum recurso nativo de gestão de tempo, de gamificação ou de monitoramento de bem-estar, concentrando-se exclusivamente na otimização da memorização \cite{anki_2026}.
 
-O Anki é a referência mais consolidada em repetição espaçada, oferecendo um sistema de \textit{flashcards} com algoritmo adaptativo que agenda a revisão de cada cartão "para quando o usuário está mais propenso a esquecer a informação" \cite{anki_2026}.
-Apesar de ser o padrão de mercado nesse pilar específico, o Anki não possui nenhum recurso nativo de gestão de tempo (como um cronômetro Pomodoro), de gamificação ou de monitoramento de bem-estar, concentrando-se exclusivamente na otimização da memorização \cite{anki_2026}.
+\begin{figure}[H]
+    \centering
+    \caption{Tela inicial do Anki (AnkiDroid)}
+    \includegraphics[width=0.75\linewidth]{Imagens/Anki.jpg}
+    \par
+    Fonte: \cite{anki_2026}.
+    \par
+    \label{fig:anki}
+\end{figure}
 
-Já o Habitica adota a abordagem oposta: é uma plataforma de gamificação de hábitos e tarefas no formato de um jogo de RPG, na qual o usuário ganha experiência, ouro e itens ao concluir tarefas do cotidiano, além de poder participar de grupos (\textit{guilds}) e missões em equipe \cite{habitica_2026}.
-Por ser uma ferramenta de produtividade genérica, e não voltada especificamente ao estudo, o Habitica não possui repetição espaçada, \textit{flashcards}, cronômetro Pomodoro ou \textit{check-ins} de humor — sua gamificação se aplica a qualquer tipo de tarefa que o usuário cadastre, sem qualquer relação com técnicas de aprendizagem \cite{habitica_2026}.
+Outro exemplo é o aplicativo Habitica, que adota a abordagem de ser uma plataforma de gamificação de hábitos e tarefas no formato de um jogo, na qual o usuário ganha experiência, ouro e itens ao concluir tarefas do cotidiano, além de poder participar de grupos e missões em equipe \cite{habitica_2026}.
+Por ser uma ferramenta de produtividade genérica, e não voltada especificamente ao estudo, o Habitica não possui repetição espaçada, \textit{flashcards}, cronômetro Pomodoro ou \textit{check-ins} de humor. Sua gamificação se aplica a qualquer tipo de tarefa que o usuário cadastre, sem qualquer relação com técnicas de aprendizagem \cite{habitica_2026}.
 
-Portanto, o aplicativo proposto para este trabalho se diferencia dos concorrentes ao buscar uma integração completa de todos os valores mencionados anteriormente, em vez de se aprofundar isoladamente em um único pilar.
-Enquanto o Aprovado se restringe ao registro e à estatística da gestão do tempo, o StudyTok se destaca na geração de \textit{flashcards} por IA e gamificação, o Anki é o padrão de excelência isolado em repetição espaçada e o Habitica é o padrão de excelência isolado em gamificação de hábitos, nenhum dos quatro combina esses pilares com o controle de bem-estar do estudante.
+\begin{figure}[H]
+    \centering
+    \caption{Tela inicial do Habitica}
+    \includegraphics[width=0.75\linewidth]{Imagens/Habitica.jpg}
+    \par
+    Fonte: \cite{habitica_2026}.
+    \par
+    \label{fig:habitica}
+\end{figure}
+
+Por fim, o aplicativo Koki \textit{FlashCards}, mostrado na Figura~\ref{fig:koki}, é um aplicativo que aplica um algoritmo de repetição espaçada similar ao Anki, porém voltado à memorização de vocabulário de idiomas, com baralhos prontos para exames \cite{koki_2026}.
+Diferentemente do Anki, o Koki incorpora elementos leves de gamificação, como sequência de dias de uso (\textit{streak}) e pontuação, além de um plano de assinatura \textit{premium} \cite{koki_2026}.
+Ainda assim, por ser voltado exclusivamente à aprendizagem de vocabulário de idiomas, o Koki não possui cronômetro Pomodoro, gestão geral de tempo de estudo ou \textit{check-ins} de bem-estar, e seus baralhos prontos não se aplicam ao conteúdo específico de disciplinas universitárias.
+
+\begin{figure}[H]
+    \centering
+    \caption{Tela inicial do Koki \textit{FlashCards}}
+    \includegraphics[width=0.75\linewidth]{Imagens/KokiFlashcards.jpg}
+    \par
+    Fonte: \cite{koki_2026}.
+    \par
+    \label{fig:koki}
+\end{figure}
+
+Portanto, o aplicativo proposto para este trabalho se diferencia dos concorrentes ao buscar uma integração completa de todos os valores mencionados anteriormente, em vez de se aprofundar isoladamente em um ou dois pilares.
+Enquanto o Aprovado se restringe ao registro e à estatística da gestão do tempo, o StudyTok se destaca na geração de \textit{flashcards} por IA e gamificação, o Anki é o padrão de repetição espaçada, o Habitica é o padrão de gamificação de hábitos e o Koki combina repetição espaçada com gamificação leve voltada exclusivamente a vocabulário de idiomas, nenhum deles combina todos os propósitos com o controle de bem-estar do estudante.
 O aplicativo proposto visa unir esses valores a fim de trazer um produto centralizado e desfragmentado, evidenciando de forma mais robusta a lacuna de mercado que motiva este trabalho.
-O diferencial está em combinar a eficácia da repetição espaçada com uma ferramenta de cronômetro Pomodoro, elementos de gamificação e \textit{check-ins} de humor, oferecendo assim uma solução mais coesa e adaptada às demandas do estudante.
+O diferencial está em combinar a eficácia da repetição espaçada com uma ferramenta de cronômetro Pomodoro, elementos de gamificação e \textit{check-ins} de humor, oferecendo uma solução mais adaptada às demandas do estudante universitário.
+
+A Tabela~\ref{tab:benchmark} resume comparativamente os propósitos deste trabalho presentes em cada um dos cinco concorrentes analisados, evidenciando visualmente a lacuna de mercado descrita ao longo desta seção.
+
+\begin{table}[H]
+\centering
+\caption{Comparativo entre o aplicativo proposto e os concorrentes analisados}
+\label{tab:benchmark}
+\begin{tabularx}{\textwidth}{|X|>{\centering\arraybackslash}p{2.1cm}|>{\centering\arraybackslash}p{2.1cm}|>{\centering\arraybackslash}p{2.4cm}|>{\centering\arraybackslash}p{2.1cm}|>{\centering\arraybackslash}p{2.3cm}|}
+\hline
+\textbf{Aplicativo} & \textbf{Gestão do tempo} & \textbf{SRS / \textit{Flashcards}} & \textbf{Gamificação} & \textbf{Bem-estar} & \textbf{Conteúdo genérico universitário} \\
+\hline
+Aprovado & Sim & Não & Não & Não & Sim \\
+\hline
+StudyTok & Não & Sim & Sim & Não & Sim \\
+\hline
+Anki & Não & Sim & Não & Não & Sim \\
+\hline
+Habitica & Não & Não & Sim & Não & Sim \\
+\hline
+Koki \textit{FlashCards} & Não & Sim & Sim & Não & Não \\
+\hline
+\textbf{Focus (proposto)} & Sim & Sim & Sim & Sim & Sim \\
+\hline
+\multicolumn{6}{r}{\small Fonte: autoria própria.} \\
+\end{tabularx}
+\end{table}
 
 \flushbottom
 \clearpage
