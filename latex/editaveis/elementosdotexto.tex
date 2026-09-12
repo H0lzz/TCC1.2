@@ -5,7 +5,7 @@ Este capítulo mostra as decisões e os artefatos produzidos para o desenvolvime
 
 \section{Suporte Tecnológico}
 
-Esta seção apresenta as ferramentas usadas nesta etapa do trabalho de conclusão de curso assim como as ferramentas planejadas para o desenvolvimento do \textit{software} na segunda etapa do projeto.
+Esta seção apresenta as ferramentas utilizadas ao longo de todo o desenvolvimento do \textit{software}, desde o planejamento até a implementação do MVP.
 As ferramentas foram escolhidas visando a metodologia ágil do desenvolvimento do MVP e a experiência prévia com as mesmas.
 
 \subsection{Miro}
@@ -27,40 +27,34 @@ A ferramenta permite documentar a arquitetura lógica do aplicativo, essencial p
 
 \subsection{React Native e Expo}
 
-Para o desenvolvimento, planeja-se o uso do React Native junto com o \textit{framework} Expo.
+Para o desenvolvimento, foi utilizado o React Native junto com o \textit{framework} Expo.
 Essa escolha justifica-se pela necessidade de uma aplicação \textit{mobile} (Android) que utilize uma base de código única.
 O Expo acelera o desenvolvimento ao fornecer APIs prontas para notificações e acesso ao \textit{hardware}, além de permitir testes em tempo real em dispositivos físicos através do Expo Go \cite{expo_2025}.
 
 \subsection{Node.js e Express}
 
-Como tecnologia de \textit{backend}, planeja-se a utilização do Node.js com o \textit{framework} Express.
+Como tecnologia de \textit{backend}, foi utilizado o Node.js com o \textit{framework} Express.
 Este conjunto tecnológico é reconhecido pela sua escalabilidade e alta performance em aplicações com bancos de dados, sendo ideal para gerenciar as requisições de \textit{check-ins} de saúde e o processamento do algoritmo de repetição espaçada em tempo real.
 
 \subsection{PostgreSQL}
 
-Para a persistência dos dados, planeja-se usar o PostgreSQL como o Sistema Gerenciador de Banco de Dados Relacional do aplicativo.
+Para a persistência dos dados, foi utilizado o PostgreSQL como o Sistema Gerenciador de Banco de Dados Relacional do aplicativo.
 Suportando consultas complexas e garantindo a integridade conforme as normas da LGPD.
 
 \subsection{Git, GitHub e Licenciamento}
 
-O controle de versionamento do código será realizado utilizando Git, com o armazenamento dos repositórios no GitHub.
+O controle de versionamento do código foi realizado utilizando Git, com o armazenamento dos repositórios no GitHub.
 Essa prática apoia a manutenção do histórico do código, permitindo o gerenciamento de ramos para novas funcionalidades e contribuindo para a rastreabilidade e a integridade do código ao longo do ciclo de desenvolvimento \cite{github_2025}.
-O código-fonte e a documentação deste trabalho estão disponíveis no repositório público \url{https://github.com/H0lzz/TCC1.2}, que também hospedará o código do aplicativo Focus na etapa de desenvolvimento.
+A documentação deste trabalho está disponível no repositório público \url{https://github.com/H0lzz/TCC1.2}, enquanto o código-fonte do aplicativo Focus está organizado em dois repositórios próprios, um para o \textit{backend} (\url{https://github.com/H0lzz/focus-backend}) e outro para o \textit{frontend} (\url{https://github.com/H0lzz/focus-mobile}).
 
-Por se tratar de um projeto gratuito e \textit{open source}, conforme definido nos objetivos deste trabalho, o código do aplicativo Focus será distribuído sob a licença permissiva MIT.
+Por se tratar de um projeto gratuito e \textit{open source}, conforme definido nos objetivos deste trabalho, o código do aplicativo Focus é distribuído sob a licença permissiva MIT.
 Essa licença permite que qualquer pessoa utilize, copie, modifique e redistribua o código, inclusive para fins comerciais, desde que mantido o aviso de \textit{copyright} original, favorecendo a democratização do acesso às metodologias de estudo implementadas.
-O repositório deverá conter um arquivo de licença (\texttt{LICENSE}) e um \texttt{README} com instruções de instalação, configuração do ambiente de desenvolvimento e diretrizes de contribuição, de modo a documentar o projeto para outros desenvolvedores interessados em utilizá-lo ou estendê-lo.
+Cada repositório contém um arquivo de licença (\texttt{LICENSE}) e um \texttt{README} com instruções de instalação, configuração do ambiente de desenvolvimento e diretrizes de contribuição, de modo a documentar o projeto para outros desenvolvedores interessados em utilizá-lo ou estendê-lo.
 
 \subsection{Trello}
 
-Para o gerenciamento ágil do projeto, o Trello será utilizado como a ferramenta do quadro do Kanban.
-Ele permitirá o acompanhamento das tarefas elicitadas no Sequenciador do \textit{Lean Inception}, facilitando a organização das \textit{sprints} de desenvolvimento e a visualização do progresso das \textit{features} do MVP em tempo real.
-
-\subsection{SonarQube}
-
-O SonarQube será utilizado para a análise estática de código, permitindo identificar \textit{bugs} e vulnerabilidades.
-Como destacam \citeonline{gobov_2025}, garantir atributos de qualidade como manutenibilidade e confiabilidade é crucial.
-O uso do SonarQube reduz o risco e assegura um \textit{software} mais confiável \cite{sonarsource_2025}.
+Para o gerenciamento ágil do projeto, o Trello foi utilizado como a ferramenta do quadro do Kanban.
+Ele permitiu o acompanhamento das tarefas elicitadas no Sequenciador do \textit{Lean Inception}, facilitando a organização das \textit{sprints} de desenvolvimento e a visualização do progresso das \textit{features} do MVP em tempo real.
 
 \subsection{BrModelo}
 
@@ -71,7 +65,7 @@ Através dessa ferramenta, realiza-se a modelagem conceitual e lógica do sistem
 
 Segundo \citeonline{dipompeo_2025}, a arquitetura é uma abstração de alto nível que funciona como um guia para a implementação, sendo essencial para os aspectos de qualidade, como performance, confiabilidade e manutenibilidade.
 Dessa forma, o modelo adotado busca equilibrar as necessidades de negócio e os objetivos técnicos do sistema.
-Foi definido que um modelo de arquitetura em camadas, com processamento centralizado em um \textit{backend} \textit{cliente-servidor}, será seguido no desenvolvimento.
+Foi definido que um modelo de arquitetura em camadas, com processamento centralizado em um \textit{backend} \textit{cliente-servidor}, seria seguido no desenvolvimento, decisão que foi mantida até a implementação final.
 Essa escolha se justifica pela necessidade de centralizar, em um único local, o cálculo do algoritmo de repetição espaçada e a persistência consistente dos dados de progresso e de \textit{check-in} entre diferentes dispositivos do mesmo usuário, o que seria mais difícil de garantir em uma arquitetura totalmente local ao dispositivo.
 Essa opção também é favorecida pela delimitação do público-alvo a estudantes universitários, que, ao contrário de um público mais heterogêneo, tendem a ter acesso a conectividade estável durante boa parte da rotina de estudos (redes \textit{wi-fi} do campus, bibliotecas e residências), reduzindo o impacto da ausência de um modo \textit{offline} nesta primeira versão do produto.
 
@@ -96,7 +90,7 @@ O \textit{backend}, desenvolvido em Node.js, atua como o núcleo da aplicação.
 De acordo com \citeonline{dipompeo_2025}, a especificação cuidadosa do \textit{design} arquitetural permite fortalecer a confiabilidade do \textit{software}.
 Dessa forma, a lógica de agendamento de revisões e os cálculos são centralizados no servidor para garantir a integridade dos dados e o cumprimento dos requisitos de qualidade.
 
-A organização interna do \textit{backend} será estruturada para suportar atributos de qualidade como a manutenibilidade, distribuindo as responsabilidades da seguinte forma:
+A organização interna do \textit{backend} foi estruturada para suportar atributos de qualidade como a manutenibilidade, distribuindo as responsabilidades da seguinte forma:
 
 \begin{itemize}
     \item \textbf{\textit{Controllers}:} Responsáveis por receber e responder às requisições da interface.
@@ -107,23 +101,23 @@ A organização interna do \textit{backend} será estruturada para suportar atri
 \subsection{API RESTful, Segurança e Privacidade}
 \label{sec:seguranca_privacidade}
 
-A comunicação entre o cliente e o servidor será estabelecida através de uma API RESTful baseada no protocolo HTTP e no formato JSON.
+A comunicação entre o cliente e o servidor é estabelecida através de uma API RESTful baseada no protocolo HTTP e no formato JSON.
 Essa escolha agrega performance conforme dito por \citeonline{gobov_2025} ao discutirem as características de eficiência de tempo.
-Para apoiar a confidencialidade e a integridade das informações dos usuários, a arquitetura planeja adotar autenticação via \textit{JSON Web Token} (JWT) com expiração configurável, alinhando-se às boas práticas de segurança mencionadas por \citeonline{dipompeo_2025} como técnicas para preservação da qualidade arquitetural.
+Para apoiar a confidencialidade e a integridade das informações dos usuários, a arquitetura adota autenticação via \textit{JSON Web Token} (JWT) com expiração configurável, alinhando-se às boas práticas de segurança mencionadas por \citeonline{dipompeo_2025} como técnicas para preservação da qualidade arquitetural.
 
 A privacidade dos usuários é um requisito central deste projeto, dada a natureza sensível dos dados de \textit{check-in} de humor e estresse coletados pelo aplicativo.
-Em conformidade com a LGPD \cite{brasil2018lgpd}, planeja-se adotar as seguintes medidas técnicas: (i) toda comunicação entre cliente e servidor deverá ocorrer via HTTPS/TLS, protegendo os dados em trânsito; (ii) as senhas dos usuários serão armazenadas com funções de \textit{hash} criptográfico (nunca em texto plano); (iii) a coleta de dados será limitada ao estritamente necessário para o funcionamento das funcionalidades descritas nos requisitos (princípio da minimização de dados); e (iv) o usuário deverá poder solicitar a exportação ou a exclusão definitiva de seus dados pessoais armazenados, atendendo aos direitos previstos na lei.
-Essas medidas representam o planejamento de segurança para a fase de implementação e deverão ser verificadas e ajustadas durante o desenvolvimento e os testes do sistema.
+Em conformidade com a LGPD \cite{brasil2018lgpd}, foram adotadas as seguintes medidas técnicas: (i) em produção, toda comunicação entre cliente e servidor ocorre via HTTPS/TLS, protegendo os dados em trânsito; (ii) as senhas dos usuários são armazenadas com funções de \textit{hash} criptográfico (nunca em texto plano); (iii) a coleta de dados é limitada ao estritamente necessário para o funcionamento das funcionalidades descritas nos requisitos (princípio da minimização de dados); e (iv) o usuário pode solicitar, a partir da tela de Perfil, a exportação de todos os seus dados pessoais em formato JSON ou a exclusão definitiva da conta, mediante confirmação de senha, atendendo aos direitos previstos pela lei.
+A exclusão é propagada automaticamente a todos os dados relacionados ao usuário (\textit{flashcards}, disciplinas, revisões, \textit{check-ins} e sessões de foco) por meio de restrições de exclusão em cascata (\textit{cascade delete}) definidas no modelo de dados, dispensando rotinas adicionais de limpeza manual.
 
 \subsection{Mapeamento Objeto-Relacional (ORM)}
 
-Para garantir a qualidade na persistência dos dados, utilizará um mapeamento objeto-relacional (ORM) que faz a ligação entre o Node.js e o PostgreSQL.
+Para garantir a qualidade na persistência dos dados, foi utilizado o Prisma como mapeamento objeto-relacional (ORM), fazendo a ligação entre o Node.js e o PostgreSQL.
 Essa camada de abstração é útil para a manutenção, pois permite que a estrutura do banco de dados evolua com baixo impacto na camada de serviços.
 Além disso, o uso do ORM facilita a implementação dos requisitos técnicos.
 
 \subsection{\textit{Frontend}}
 
-O \textit{frontend} representa a interface do sistema e deve satisfazer os atributos de usabilidade e experiência do usuário.
+O \textit{frontend} representa a interface do sistema e satisfaz os atributos de usabilidade e experiência do usuário.
 Segundo \citeonline{gobov_2025}, a usabilidade é um atributo de qualidade externo que determina quanto o usuário final consegue operar a ferramenta.
 Portanto, a arquitetura do \textit{frontend} foi desenhada para ser intuitiva, reduzindo a dificuldade do usuário durante o uso.
 
@@ -135,7 +129,7 @@ Essa abordagem assegura que a qualidade do \textit{software}, conforme definida 
 
 \section{Representação Visual do Sistema}
 
-A representação visual do sistema constitui na implementação da arquitetura proposta, traduzindo abstrações conceituais em diagramas técnicos que orientam o desenvolvimento, a fim de gerenciar a complexidade do \textit{software}.
+A representação visual do sistema constitui a implementação da arquitetura desenvolvida, traduzindo abstrações conceituais em diagramas técnicos que orientaram o desenvolvimento, a fim de gerenciar a complexidade do \textit{software}.
 Através de modelos visuais, busca-se estabelecer um modelo que assegura a integridade entre os requisitos de \textit{software} e a estrutura física do código, garantindo que os atributos de qualidade sejam preservados durante todo o ciclo de vida.
 
 \subsection{Diagrama de Classes}
@@ -157,7 +151,7 @@ Para garantir isso, o diagrama foi organizado seguindo um fluxo lógico de leitu
 \subsection{Diagrama de Pacotes}
 
 Os Diagramas de Pacotes organizam os elementos do sistema em módulos lógicos, isolando as necessidades do \textit{frontend} e do \textit{backend}.
-No \textit{frontend}, a segmentação em pacotes de interface, lógica e serviços visa maximizar a manutenibilidade e a usabilidade \cite{gobov_2025}.
+No \textit{frontend}, a segmentação em pacotes de interface, lógica e serviços maximiza a manutenibilidade e a usabilidade \cite{gobov_2025}.
 No \textit{backend}, a estruturação em camadas de rotas, controladores e serviços reflete o compromisso com o baixo acoplamento e a confiabilidade.
 Essa organização visual é essencial para mitigar falhas na tradução dos requisitos \cite{khalid_2025}, permitindo que cada pacote evolua de forma independente sem comprometer a estabilidade do aplicativo.
 A seguir estão representados os diagramas de pacotes deste trabalho.
@@ -229,15 +223,16 @@ A etapa de testes faz parte do ciclo de vida de desenvolvimento do \textit{softw
 A falta dessa etapa representa um risco ao projeto, pois \textit{bugs} são significativamente mais fáceis e baratos de corrigir em estágios iniciais do desenvolvimento do que em fases avançadas ou após a entrega ao usuário final \cite{goericke_2020}.
 
 O desenvolvimento deste projeto adota a prática de TDD como estratégia de qualidade, que desempenha um papel fundamental na definição da estratégia de testes ao longo de todo o desenvolvimento \cite{goericke_2020}.
-O TDD garante que cada módulo do aplicativo, como o algoritmo de repetição espaçada, seja coberto por testes, assegurando que as regras de negócio estejam sempre verificáveis e coerentes aos requisitos.
+O TDD garante que cada módulo de regra de negócio do aplicativo seja coberto por testes, assegurando que as regras de negócio estejam sempre verificáveis e coerentes aos requisitos.
 
 A estratégia de testes adotada segue a pirâmide de testes, que divide os testes em três: os testes unitários, que podem ser executados em níveis unitários, os testes de integração que são mais lentos pois integram dois ou mais módulos e os testes de sistema que englobam todo o sistema.
 Dessa forma, os testes unitários, níveis mais baixos, são os mais adequados para automação \cite{goericke_2020}.
-Portanto, a base da pirâmide será composta por testes unitários automatizados para cobrir as regras de negócio do \textit{backend}, seguidos de testes de integração para validar a comunicação entre os módulos e o banco de dados, e testes de sistema para verificar os fluxos em níveis de sistema.
+Seguindo esse princípio, a base da pirâmide foi composta por testes unitários automatizados com o \textit{framework} Jest, cobrindo a totalidade da camada de serviços do \textit{backend} (100\% de \textit{statements}, \textit{branches} e funções): o algoritmo de repetição espaçada (SRS), o cálculo de \textit{streak} com congelamento, a geração de alertas de bem-estar, a validação de e-mail e a autenticação de usuários (cadastro e \textit{login}), validando tanto os cálculos de negócio quanto os cenários de erro (credenciais inválidas, e-mail já cadastrado, formatos e domínios inválidos).
+A automação de testes de integração e de sistema, que exercitam as rotas HTTP e a camada de controladores do \textit{backend} de ponta a ponta, permanece como um trabalho futuro deste projeto.
 
 Para aplicações móveis, a quantidade de módulos de qualidade a serem considerados representam o principal desafio dos testes, englobando a funcionalidade, a usabilidade, o desempenho, a segurança, a interoperabilidade e a confiabilidade \cite{goericke_2020}.
-Diante disso, apesar do aplicativo proposto ser desenvolvido para o sistema Android, não será possível cobrir todos os dispositivos e versões existentes.
-Portanto, os testes de usabilidade serão realizados em um número limitado de aparelhos Android, priorizando os modelos mais utilizados pelo público.
+Diante disso, como o Focus foi desenvolvido para o sistema Android, não foi possível cobrir todos os dispositivos e versões existentes.
+Portanto, os testes de usabilidade foram realizados em um número limitado de aparelhos Android, priorizando os modelos mais utilizados pelo público.
 
 \section{Prototipação}
 

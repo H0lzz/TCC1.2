@@ -2,24 +2,24 @@
 
 \section{Conclusão}
 
-Ao longo do trabalho foram aplicados conceitos fundamentais da engenharia de \textit{software}, desde o levantamento da literatura e a definição de requisitos até a modelagem, a arquitetura e a prototipação de alta fidelidade.
-Conforme dito anteriormente, o objetivo do projeto é o desenvolvimento de um aplicativo \textit{mobile}, voltado à organização da rotina de estudos de estudantes, por meio da integração do cronômetro Pomodoro configurável, \textit{flashcards} com repetição espaçada, gamificação e \textit{check-ins} de humor em uma única plataforma.
+Ao longo do trabalho foram aplicados conceitos fundamentais da engenharia de \textit{software}, desde o levantamento da literatura e a definição de requisitos até a modelagem, a arquitetura, a implementação e os testes do aplicativo.
+Conforme dito anteriormente, o objetivo do projeto foi o desenvolvimento de um aplicativo \textit{mobile}, voltado à organização da rotina de estudos de estudantes universitários, por meio da integração do cronômetro Pomodoro configurável, \textit{flashcards} com repetição espaçada, gamificação e \textit{check-ins} de humor em uma única plataforma.
 
-O levantamento da literatura realizado, com consultas na base científica Scopus, fundamenta a seleção das funcionalidades propostas com base em evidências acadêmicas sobre gestão do tempo, repetição espaçada, gamificação e aprendizagem autorregulada; essa fundamentação teórica, no entanto, embasa a escolha das funcionalidades, e não substitui a validação de sua implementação, usabilidade e efetividade, que deverá ocorrer durante e após a etapa de desenvolvimento.
+O levantamento da literatura realizado, com consultas na base científica Scopus, fundamenta a seleção das funcionalidades implementadas com base em evidências acadêmicas sobre gestão do tempo, repetição espaçada, gamificação e aprendizagem autorregulada; essa fundamentação teórica, no entanto, embasou a escolha das funcionalidades, e não substitui a validação de sua usabilidade e efetividade junto a usuários reais, que permanece como trabalho futuro.
 A literatura consultada indica que a gestão do tempo e a autoavaliação estão entre os fatores mais associados ao desempenho acadêmico, o que motivou a priorização do cronômetro Pomodoro e do algoritmo de repetição espaçada.
 Da mesma forma, os estudos sobre gamificação e aprendizagem autorregulada sustentam, respectivamente, os elementos de engajamento e os \textit{check-ins} de bem-estar emocional como recursos relevantes, ainda que a gamificação, conforme discutido na Seção~\ref{sec:gamificacao}, tenda a impactar sobretudo a motivação do estudante.
 
-A arquitetura em camadas planejada, com \textit{backend} em Node.js e Express, \textit{frontend} em React Native com Expo e banco de dados relacional PostgreSQL, foi projetada com o objetivo de favorecer a escalabilidade, a manutenibilidade e a conformidade com a LGPD, propriedades que também dependerão das decisões tomadas durante a implementação e a fase de testes.
-A condução do \textit{framework} \textit{Lean Inception}, com a participação de duas proto-personas e do autor, contribuiu para explorar e organizar hipóteses sobre as necessidades dos usuários, resultando em um \textit{Canvas} MVP e em um sequenciador de funcionalidades que orientam o desenvolvimento incremental; por se tratar de uma amostra reduzida de participantes, essas hipóteses ainda carecem de validação junto a uma base maior de usuários reais.
-A aplicação combinada das metodologias \textit{Scrum}, Kanban, XP e TDD busca apoiar um ciclo de desenvolvimento ágil, rastreável e orientado à qualidade.
+A arquitetura em camadas implementada, com \textit{backend} em Node.js e Express, \textit{frontend} em React Native com Expo e banco de dados relacional PostgreSQL, foi projetada com o objetivo de favorecer a escalabilidade, a manutenibilidade e a conformidade com a LGPD, propriedades que foram reforçadas pelas decisões tomadas durante a implementação e os testes do sistema.
+A condução do \textit{framework} \textit{Lean Inception}, com a participação de duas proto-personas e do autor, contribuiu para explorar e organizar hipóteses sobre as necessidades dos usuários, resultando em um \textit{Canvas} MVP e em um sequenciador de funcionalidades que orientaram o desenvolvimento incremental; por se tratar de uma amostra reduzida de participantes, essas hipóteses ainda carecem de validação junto a uma base maior de usuários reais.
+A aplicação combinada das metodologias \textit{Scrum}, Kanban, XP e TDD apoiou um ciclo de desenvolvimento ágil, rastreável e orientado à qualidade.
 
-Portanto, esta etapa do projeto entrega uma proposta teoricamente fundamentada e centrada no usuário, incluindo a definição de um escopo de MVP reduzido e rastreável até os requisitos funcionais, servindo de base para a implementação a ser conduzida na próxima etapa.
+Portanto, este trabalho entrega um aplicativo funcional, teoricamente fundamentado e centrado no usuário, resultado da implementação completa do escopo de MVP definido durante o \textit{Lean Inception} e rastreável até os requisitos funcionais estabelecidos.
 
 \section{Trabalhos Futuros}
 \label{sec:trabalhos_futuros}
 
-Diante dos resultados alcançados, torna-se viável a continuidade do desenvolvimento do projeto, no qual serão implementadas as funcionalidades priorizadas no Sequenciador e no \textit{Canvas} MVP, seguindo as ondas de desenvolvimento definidas durante o \textit{Lean Inception}.
-Por se tratar de um projeto gratuito e \textit{open source}, distribuído sob a licença MIT no repositório \url{https://github.com/H0lzz/TCC1.2}, incrementos futuros podem ser propostos e implementados por outros desenvolvedores interessados em contribuir com o aplicativo.
+Diante dos resultados alcançados, com a implementação completa das funcionalidades priorizadas no Sequenciador e no \textit{Canvas} MVP, torna-se viável a continuidade do desenvolvimento do projeto por meio da incorporação dos incrementos identificados durante o \textit{Lean Inception}, mas não priorizados nesta primeira versão.
+Por se tratar de um projeto gratuito e \textit{open source}, com o código-fonte distribuído sob a licença MIT nos repositórios \url{https://github.com/H0lzz/focus-backend} e \url{https://github.com/H0lzz/focus-mobile}, incrementos futuros podem ser propostos e implementados por outros desenvolvedores interessados em contribuir com o aplicativo.
 
 Como trabalhos futuros, destacam-se:
 
@@ -27,5 +27,6 @@ Como trabalhos futuros, destacam-se:
     \item a validação das proto-personas e das hipóteses de necessidade levantadas neste trabalho junto a uma amostra maior de usuários reais, por meio de entrevistas, testes de usabilidade ou pesquisas de campo;
     \item a implementação de um modo \textit{offline-first}, com armazenamento local e sincronização posterior dos dados, funcionalidade identificada como desejável durante o \textit{Lean Inception}, mas classificada fora do escopo do MVP em razão de seu esforço técnico e da baixa prioridade diante do público universitário do produto, que tende a ter acesso mais estável à internet;
     \item a incorporação de Inteligência Artificial para a geração automatizada de \textit{flashcards} a partir de materiais enviados pelo usuário, como PDFs e imagens de anotações, funcionalidade que não faz parte do escopo do MVP, mas que poderia representar um diferencial relevante;
-    \item a implementação de todas as funcionalidades classificadas como incrementos do sequenciador.
+    \item a automação de testes de integração e de sistema para as rotas HTTP e a camada de controladores do \textit{backend}, complementando a cobertura já obtida pelos testes unitários da camada de serviços;
+    \item a implementação das demais funcionalidades classificadas como incrementos no sequenciador, não contempladas nesta versão do MVP.
 \end{itemize}

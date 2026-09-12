@@ -24,10 +24,10 @@ Contudo, essa fragmentação exige que o usuário integre manualmente diferentes
 Portanto, a oportunidade de inovação surge na unificação dessas funcionalidades em um único aplicativo, além de trazer novos campos como a gamificação e análises de estresse.
 A necessidade de incluir a gamificação é incentivada pela comunidade acadêmica, que otimiza o aprendizado e o aumento do engajamento \cite{marengo_2025}.
 
-Portanto, este trabalho visa preencher essa lacuna ao desenvolver um aplicativo integrado e eficiente.
-Dessa maneira, o trabalho propõe o desenvolvimento de um aplicativo \textit{mobile}, \textit{open source} e gratuito para otimização do aprendizado acadêmico, com o objetivo de integrar as metodologias de estudo mais validadas pela comunidade acadêmica em uma única aplicação, já que
+Portanto, este trabalho preenche essa lacuna ao desenvolver um aplicativo integrado e eficiente.
+Dessa maneira, o trabalho apresenta o desenvolvimento de um aplicativo \textit{mobile}, \textit{open source} e gratuito para otimização do aprendizado acadêmico, com o objetivo de integrar as metodologias de estudo mais validadas pela comunidade acadêmica em uma única aplicação, já que
 as estratégias de aprendizado e os hábitos de estudo estão diretamente ligados ao desempenho acadêmico \cite{bickerdike_2016}.
-Assim, o presente trabalho busca desenvolver a engenharia de \textit{software} para uma ferramenta que atenda à demanda por uma preparação eficaz, organizada e psicologicamente saudável.
+Assim, o presente trabalho desenvolve a engenharia de \textit{software} de uma ferramenta que atende à demanda por uma preparação eficaz, organizada e psicologicamente saudável.
 
 \section{Contextualização}
 
@@ -49,7 +49,7 @@ Isso valida o foco em funcionalidades que promovam a prática constante de recup
 
 Finalmente, a qualidade da preparação para provas depende da atenção ao bem-estar e à saúde mental.
 O estudante deve ser tratado como um indivíduo que precisa de suporte para lidar com o estresse.
-Os recursos de autorregistro de humor (\textit{check-ins}) que o aplicativo visa oferecer, a fim de gerar gráficos intuitivos, buscam apoiar o estudante a perceber, ao longo do tempo, possíveis relações entre suas técnicas de estudo e seu nível de estresse.
+Os recursos de autorregistro de humor (\textit{check-ins}) que o aplicativo oferece, a fim de gerar gráficos intuitivos, apoiam o estudante a perceber, ao longo do tempo, possíveis relações entre suas técnicas de estudo e seu nível de estresse.
 Estudos sobre essa área indicam que as três dimensões da resiliência na aprendizagem (autorregulação, sociabilidade e empatia) têm um efeito positivo direto no desempenho acadêmico \cite{liu_2025}.
 Ao fornecer ferramentas para que o estudante monitore e gerencie sua autorregulação e seu estado mental, o aplicativo representa um facilitador de um estudo mais equilibrado e eficiente.
 
@@ -60,14 +60,14 @@ A dedicação à leitura de materiais não garante a retenção nem a aplicaçã
 Nesse sentido, o trabalho propõe transformar o estudo em um processo ativo e estruturado, baseado em evidências da comunidade acadêmica.
 A importância dessa intervenção é reforçada pela pesquisa, que demonstra que o aprimoramento das habilidades de estratégias de estudo está associado ao sucesso acadêmico em provas \cite{khalil_2024}.
 
-O principal princípio que o projeto visa corrigir é a falta de um sistema integrado que promova a organização do estudante, atentando também à sua saúde mental.
-O sucesso acadêmico é influenciado por componentes estratégicos como habilidade, vontade e autorregulação, portanto as funcionalidades de gestão de tempo, cronômetro cíclico e autoavaliação do aplicativo visam apoiar esse último componente.
+O principal princípio que o projeto corrige é a falta de um sistema integrado que promova a organização do estudante, atentando também à sua saúde mental.
+O sucesso acadêmico é influenciado por componentes estratégicos como habilidade, vontade e autorregulação, portanto as funcionalidades de gestão de tempo, cronômetro cíclico e autoavaliação do aplicativo apoiam esse último componente.
 A literatura, ao analisar o LASSI, especifica que as subescalas de gerenciamento do tempo e autoavaliação são fatores mais fortes no desempenho acadêmico em períodos iniciais \cite{zhou_2016}.
 Isso justifica a seleção destas funcionalidades como elementos centrais do \textit{software}.
 
 No mercado atual de ferramentas de otimização de estudo, as opções são normalmente fragmentadas.
 Existem aplicativos de cronômetros cíclicos, gerenciadores de tarefas e plataformas de \textit{flashcards} com repetição espaçada, mas há a ausência de uma plataforma unificada que colete dados de todas essas interações, impedindo uma visão mais completa do progresso.
-A justificativa deste trabalho visa a unificação dessas áreas com a atenção ao bem-estar do estudante, contendo \textit{check-ins} de humor para o autorregistro do nível de ansiedade e estresse percebidos.
+A justificativa deste trabalho está na unificação dessas áreas com a atenção ao bem-estar do estudante, contendo \textit{check-ins} de humor para o autorregistro do nível de ansiedade e estresse percebidos.
 Outra adição do aplicativo é a gamificação, que é uma estratégia validada para a otimização do aprendizado e aumento do engajamento \cite{marengo_2025}.
 
 Finalmente, o desenvolvimento deste trabalho representa uma contribuição ideal para a área de engenharia de \textit{software} e educação.
@@ -100,7 +100,7 @@ São objetivos específicos deste trabalho:
 
 \item Projetar a arquitetura, o modelo de dados e as interfaces do aplicativo;
 
-\item Iniciar a implementação das funcionalidades priorizadas.
+\item Implementar e validar as funcionalidades priorizadas.
 
 \end{itemize}
 
@@ -110,15 +110,15 @@ O presente trabalho está dividido nos seguintes capítulos:
 
 \begin{itemize}
 
-\item \textbf{Capítulo 1 - Introdução:} A função do capítulo introdutório é preparar o leitor ao descrever o cenário em que a proposta será implementada, apresentar o porquê da pesquisa, mostrar a pergunta-chave do trabalho e resumir as estratégias empregadas.
+\item \textbf{Capítulo 1 - Introdução:} A função do capítulo introdutório é preparar o leitor ao descrever o cenário em que o aplicativo foi desenvolvido, apresentar o porquê da pesquisa, mostrar a pergunta-chave do trabalho e resumir as estratégias empregadas.
 
 \item \textbf{Capítulo 2 - Referencial Teórico:} Dividido em tópicos, este capítulo desenvolve a base teórica do estudo, introduzindo conceitos importantes relacionados ao tema.
 Os tópicos abordados englobam desde a gestão de tempo e metodologias de estudo até a gamificação, além de uma revisão sobre aplicativos já existentes.
 
-\item \textbf{Capítulo 3 - Metodologia:} Neste capítulo, é detalhado a metodologia de pesquisa e desenvolvimento do projeto.
-Diante disso, são explicadas as abordagens que visam apoiar a implementação da ferramenta de \textit{software}.
+\item \textbf{Capítulo 3 - Metodologia:} Neste capítulo, é detalhada a metodologia de pesquisa e desenvolvimento do projeto.
+Diante disso, são explicadas as abordagens que apoiaram a implementação da ferramenta de \textit{software}.
 
-\item \textbf{Capítulo 4 - Desenvolvimento:} O capítulo aprofunda os detalhes previstos para a fase de desenvolvimento do \textit{software}, incluindo as otimizações e modificações planejadas para assegurar uma implementação de sucesso.
+\item \textbf{Capítulo 4 - Desenvolvimento:} O capítulo aprofunda os detalhes da fase de desenvolvimento do \textit{software}, incluindo as otimizações e modificações realizadas para assegurar uma implementação de sucesso.
 
 \item \textbf{Capítulo 5 - Considerações Finais:} O capítulo final resume os resultados obtidos pelo trabalho e indica sugestões para projetos ou estudos subsequentes.
 

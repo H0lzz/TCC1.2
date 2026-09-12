@@ -52,12 +52,11 @@
 \contentsline {subsection}{\numberline {4.1.6}PostgreSQL}{67}{subsection.4.1.6}%
 \contentsline {subsection}{\numberline {4.1.7}Git, GitHub e Licenciamento}{67}{subsection.4.1.7}%
 \contentsline {subsection}{\numberline {4.1.8}Trello}{68}{subsection.4.1.8}%
-\contentsline {subsection}{\numberline {4.1.9}SonarQube}{68}{subsection.4.1.9}%
-\contentsline {subsection}{\numberline {4.1.10}BrModelo}{68}{subsection.4.1.10}%
+\contentsline {subsection}{\numberline {4.1.9}BrModelo}{68}{subsection.4.1.9}%
 \contentsline {section}{\numberline {4.2}Arquitetura}{68}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Padrão Arquitetural em Camadas}{69}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.1}Padrão Arquitetural em Camadas}{68}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}\textit {Backend}}{69}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}API RESTful, Segurança e Privacidade}{70}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.3}API RESTful, Segurança e Privacidade}{69}{subsection.4.2.3}%
 \contentsline {subsection}{\numberline {4.2.4}Mapeamento Objeto-Relacional (ORM)}{70}{subsection.4.2.4}%
 \contentsline {subsection}{\numberline {4.2.5}\textit {Frontend}}{70}{subsection.4.2.5}%
 \contentsline {section}{\numberline {4.3}Representação Visual do Sistema}{71}{section.4.3}%
@@ -67,7 +66,7 @@
 \contentsline {subsection}{\numberline {4.4.1}Diagrama Conceitual}{74}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}Diagrama Lógico}{75}{subsection.4.4.2}%
 \contentsline {section}{\numberline {4.5}Testes de Software}{76}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Prototipação}{76}{section.4.6}%
+\contentsline {section}{\numberline {4.6}Prototipação}{77}{section.4.6}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {5}\MakeUppercase []{Considerações Finais}}{78}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Conclusão}{78}{section.5.1}%

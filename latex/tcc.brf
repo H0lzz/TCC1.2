@@ -17,7 +17,7 @@
 \backcite {harvey_2025}{{24}{2.3}{section.2.3}}
 \backcite {amghar_2025}{{24}{2.4}{section.2.4}}
 \backcite {wang_2026}{{24}{2.4}{section.2.4}}
-\backcite {salazar_2026}{{24}{2.4}{section.2.4}}
+\backcite {salazar_2026}{{25}{2.4}{section.2.4}}
 \backcite {hsu_2026}{{25}{2.5}{section.2.5}}
 \backcite {vandenbroek_2026}{{25}{2.5}{section.2.5}}
 \backcite {hsu_2026}{{25}{2.5}{section.2.5}}
@@ -44,7 +44,6 @@
 \backcite {ebbes_2026}{{35}{2.10}{section.2.10}}
 \backcite {ebbes_2026}{{35}{2.10}{section.2.10}}
 \backcite {kidman_2024}{{35}{2.11}{section.2.11}}
-\backcite {polivy_1985}{{35}{2.11}{section.2.11}}
 \backcite {chernev_2015}{{36}{2.11}{section.2.11}}
 \backcite {liu_2025}{{36}{2.11}{section.2.11}}
 \backcite {santos_2024}{{40}{3.2}{section.3.2}}
@@ -73,13 +72,11 @@
 \backcite {drawio_2025}{{66}{4.1.3}{subsection.4.1.3}}
 \backcite {expo_2025}{{67}{4.1.4}{subsection.4.1.4}}
 \backcite {github_2025}{{67}{4.1.7}{subsection.4.1.7}}
-\backcite {gobov_2025}{{68}{4.1.9}{subsection.4.1.9}}
-\backcite {sonarsource_2025}{{68}{4.1.9}{subsection.4.1.9}}
 \backcite {dipompeo_2025}{{68}{4.2}{section.4.2}}
-\backcite {khalid_2025}{{69}{4.2.1}{subsection.4.2.1}}
+\backcite {khalid_2025}{{68}{4.2.1}{subsection.4.2.1}}
 \backcite {dipompeo_2025}{{69}{4.2.1}{subsection.4.2.1}}
 \backcite {dipompeo_2025}{{69}{4.2.2}{subsection.4.2.2}}
-\backcite {gobov_2025}{{70}{4.2.3}{subsection.4.2.3}}
+\backcite {gobov_2025}{{69}{4.2.3}{subsection.4.2.3}}
 \backcite {dipompeo_2025}{{70}{4.2.3}{subsection.4.2.3}}
 \backcite {brasil2018lgpd}{{70}{4.2.3}{subsection.4.2.3}}
 \backcite {gobov_2025}{{70}{4.2.5}{subsection.4.2.5}}
@@ -94,6 +91,6 @@
 \backcite {goericke_2020}{{76}{4.5}{section.4.5}}
 \backcite {goericke_2020}{{76}{4.5}{section.4.5}}
 \backcite {goericke_2020}{{76}{4.5}{section.4.5}}
-\backcite {letaw_2024}{{76}{4.6}{section.4.6}}
+\backcite {letaw_2024}{{77}{4.6}{section.4.6}}
 \backcite {letaw_2024}{{77}{4.6}{section.4.6}}
 \backcite {letaw_2024}{{77}{4.6}{section.4.6}}
