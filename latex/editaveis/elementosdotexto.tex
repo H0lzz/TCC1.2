@@ -1,7 +1,7 @@
 \chapter{Desenvolvimento}
 
 Este capítulo mostra as decisões e os artefatos produzidos para o desenvolvimento do projeto.
-É discutido o suporte tecnológico, a arquitetura do sistema, a representação visual, diagramas, o projeto de dados, a estratégia de testes de \textit{software} e a prototipação de alta fidelidade.
+É discutido o suporte tecnológico, a arquitetura do sistema, a representação visual, diagramas, o projeto de dados, a estratégia de testes de \textit{software}, a prototipação de alta fidelidade e a implantação do aplicativo em produção.
 
 \section{Suporte Tecnológico}
 
@@ -245,4 +245,31 @@ Conforme \citeonline{letaw_2024}, existem três níveis de protótipos: o de bai
 
 Para este projeto, foi utilizado o Figma como ferramenta de criação de protótipos de alta fidelidade.
 Portanto, os requisitos funcionais foram validados, reduzindo o risco de retrabalho durante a fase de desenvolvimento do código.
-O protótipo desenvolvido foi utilizado como base para o desenvolvimento das páginas principais do aplicativo. Essas páginas, capturadas pela ferramenta Expo Go, podem ser vistas no Apêndice~\ref{apendice:prototipo} deste trabalho.
+O protótipo desenvolvido foi utilizado como base para a implementação das páginas principais do aplicativo.
+Como o desenvolvimento do MVP já foi concluído, o Apêndice~\ref{apendice:prototipo} deste trabalho apresenta, em seu lugar, capturas de tela reais do aplicativo finalizado, obtidas em um dispositivo Android por meio da ferramenta Expo Go, demonstrando a aplicação prática das decisões de \textit{design} validadas no protótipo.
+
+\section{Implantação em Produção}
+
+Como um dos objetivos deste trabalho é disponibilizar o Focus como um produto gratuito e de código aberto, acessível a estudantes reais e não apenas executável em ambiente local de desenvolvimento, foi definida uma estratégia de implantação em produção para o \textit{backend}, o banco de dados e o aplicativo \textit{mobile}.
+Todos os serviços utilizados foram operados dentro dos limites de suas camadas gratuitas, mantendo o custo de operação do projeto nulo durante o desenvolvimento e a avaliação deste trabalho.
+
+\subsection{Banco de Dados em Nuvem}
+
+Para a hospedagem do banco de dados em produção, foi utilizado o Neon, um serviço de banco de dados PostgreSQL totalmente gerenciado e sem servidor (\textit{serverless}) \cite{neon_2026}.
+Essa escolha mantém compatibilidade total com o Prisma ORM já utilizado no desenvolvimento, exigindo apenas a configuração da variável de ambiente de conexão (\texttt{DATABASE\_URL}), sem qualquer alteração no código da aplicação.
+Por se tratar de uma camada gratuita, o Neon suspende a instância de computação após um período de inatividade, reativando-a automaticamente na requisição seguinte, o que introduz uma latência adicional nesse primeiro acesso.
+
+\subsection{Hospedagem do \textit{Backend}}
+
+O \textit{backend} Node.js foi implantado no Render, uma plataforma de hospedagem em nuvem com suporte nativo a aplicações Node.js e integração contínua a partir do repositório Git \cite{render_2026}.
+A configuração da implantação foi definida de forma declarativa no arquivo \texttt{render.yaml}, versionado junto ao código-fonte, especificando o ambiente de execução, os comandos de \textit{build} e de inicialização, e as variáveis de ambiente necessárias, como a chave secreta de assinatura do JWT e a cadeia de conexão com o banco de dados, mantidas fora do controle de versão por questões de segurança.
+A cada implantação, o comando de \textit{build} executa automaticamente a geração do cliente Prisma e a aplicação das migrações pendentes do banco de dados por meio do comando \texttt{prisma migrate deploy}, garantindo que o esquema em produção permaneça sempre sincronizado com o modelo de dados do projeto.
+Assim como o banco de dados, o plano gratuito do Render também suspende a aplicação após um período de inatividade, fazendo com que a primeira requisição subsequente acorde o \textit{backend} e, de forma encadeada, o banco de dados, podendo levar dezenas de segundos para ser concluída.
+Para absorver essa latência combinada sem comprometer a experiência do usuário, a tela inicial do aplicativo passou a repetir a verificação de disponibilidade do servidor durante o carregamento, só liberando o acesso às demais telas quando o \textit{backend} responde de fato, em vez de presumir que uma única tentativa seria suficiente.
+
+\subsection{Geração e Distribuição do Aplicativo}
+
+Para a geração do instalável Android, foi utilizado o EAS \textit{Build}, serviço de compilação em nuvem do Expo Application Services \cite{expo_2025}.
+Esse serviço elimina a necessidade de um ambiente local configurado com o Android SDK para gerar o pacote de instalação, compilando a aplicação em servidores remotos a partir do código-fonte do repositório.
+Os perfis de compilação foram definidos no arquivo \texttt{eas.json}, sendo o perfil \texttt{preview} utilizado para gerar um \textit{Android Application Package} (APK) de distribuição interna, assinado e pronto para ser instalado diretamente no dispositivo do usuário, sem a necessidade de publicação em uma loja de aplicativos.
+Essa abordagem é compatível com a proposta deste trabalho de disponibilizar o Focus como um produto gratuito e de código aberto, bastando o compartilhamento do arquivo APK gerado para que qualquer usuário com um dispositivo Android possa instalar e utilizar o aplicativo.

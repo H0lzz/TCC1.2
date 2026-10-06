@@ -67,18 +67,22 @@
 \contentsline {subsection}{\numberline {4.4.2}Diagrama Lógico}{75}{subsection.4.4.2}%
 \contentsline {section}{\numberline {4.5}Testes de Software}{76}{section.4.5}%
 \contentsline {section}{\numberline {4.6}Prototipação}{77}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Implantação em Produção}{77}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Banco de Dados em Nuvem}{77}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Hospedagem do \textit {Backend}}{78}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.7.3}Geração e Distribuição do Aplicativo}{78}{subsection.4.7.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeUppercase []{Considerações Finais}}{78}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Conclusão}{78}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Trabalhos Futuros}{79}{section.5.2}%
+\contentsline {chapter}{\chapternumberline {5}\MakeUppercase []{Considerações Finais}}{80}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Conclusão}{80}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Trabalhos Futuros}{81}{section.5.2}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeUppercase []{Refer\^encias}}{80}{section*.12}%
+\contentsline {chapter}{\MakeUppercase []{Refer\^encias}}{82}{section*.12}%
 \renewcommand *{\cftappendixname }{AP\^ENDICE \space }
 \setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
 \cftinsert {A}
-\contentsline {part}{\uppercase {Ap\^endices}}{84}{section*.13}%
+\contentsline {part}{\uppercase {Ap\^endices}}{86}{section*.13}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeUppercase []{Protótipo}}{85}{appendix.A}%
+\contentsline {appendix}{\chapternumberline {A}\MakeUppercase []{Capturas de Tela do Aplicativo}}{87}{appendix.A}%

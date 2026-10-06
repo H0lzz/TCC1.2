@@ -19,21 +19,23 @@
 \contentsline {figure}{\numberline {18}{\ignorespaces Diagrama de Pacotes do \textit {Frontend}}}{73}{figure.4.18}%
 \contentsline {figure}{\numberline {19}{\ignorespaces Diagrama Entidade-Relacionamento (DE-R) do Projeto}}{74}{figure.4.19}%
 \contentsline {figure}{\numberline {20}{\ignorespaces Diagrama Lógico do Projeto}}{75}{figure.4.20}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Tela de Flashcards sem Cards.}}{85}{figure.A.21}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Tela de Onboarding 1.}}{86}{figure.A.22}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Tela de Onboarding 2.}}{87}{figure.A.23}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Tela de Onboarding 3.}}{88}{figure.A.24}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Tela de Criar Conta.}}{89}{figure.A.25}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Tela de Login.}}{90}{figure.A.26}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Tela de Home.}}{91}{figure.A.27}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Tela do Timer.}}{92}{figure.A.28}%
-\contentsline {figure}{\numberline {29}{\ignorespaces Tela de Configurações do Timer.}}{93}{figure.A.29}%
-\contentsline {figure}{\numberline {30}{\ignorespaces Tela de Novo Flashcard.}}{94}{figure.A.30}%
-\contentsline {figure}{\numberline {31}{\ignorespaces Tela de Flashcards.}}{95}{figure.A.31}%
-\contentsline {figure}{\numberline {32}{\ignorespaces Tela de Exclusão de Flashcard.}}{96}{figure.A.32}%
-\contentsline {figure}{\numberline {33}{\ignorespaces Tela de Revisão — Frente.}}{97}{figure.A.33}%
-\contentsline {figure}{\numberline {34}{\ignorespaces Tela de Revisão — Verso.}}{98}{figure.A.34}%
-\contentsline {figure}{\numberline {35}{\ignorespaces Tela de Sessão Concluída.}}{99}{figure.A.35}%
-\contentsline {figure}{\numberline {36}{\ignorespaces Tela de Progresso.}}{100}{figure.A.36}%
-\contentsline {figure}{\numberline {37}{\ignorespaces Tela de Perfil.}}{101}{figure.A.37}%
-\contentsline {figure}{\numberline {38}{\ignorespaces Tela de Perfil com Check-in Registrado.}}{102}{figure.A.38}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Onboarding — Estude com Foco.}}{88}{figure.A.21}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Onboarding — Memorize de Verdade.}}{89}{figure.A.22}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Onboarding — Cuide do seu Bem-Estar.}}{90}{figure.A.23}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Tela de Criar Conta.}}{91}{figure.A.24}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Tela de Login.}}{92}{figure.A.25}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Tela de Conexão com o Servidor.}}{93}{figure.A.26}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Tela de Home.}}{94}{figure.A.27}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Tela do Timer Pomodoro.}}{95}{figure.A.28}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Tela de Configurações do Timer.}}{96}{figure.A.29}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Tela de Disciplinas (Decks).}}{97}{figure.A.30}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Tela de Flashcards de uma Disciplina.}}{98}{figure.A.31}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Tela de Novo Flashcard.}}{99}{figure.A.32}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Tela de Revisão — Frente.}}{100}{figure.A.33}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Tela de Revisão — Verso.}}{101}{figure.A.34}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Tela de Sessão Concluída.}}{102}{figure.A.35}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Tela de Progresso.}}{103}{figure.A.36}%
+\contentsline {figure}{\numberline {37}{\ignorespaces Tela de Perfil com Check-in do Dia.}}{104}{figure.A.37}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Tela de Perfil com Check-in Registrado e Alertas de Bem-Estar.}}{105}{figure.A.38}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Tela de Alteração de Senha.}}{106}{figure.A.39}%
+\contentsline {figure}{\numberline {40}{\ignorespaces Tela de Perfil — Segurança e Privacidade dos Dados.}}{107}{figure.A.40}%
