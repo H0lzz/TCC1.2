@@ -263,7 +263,7 @@ Este objetivo foi atingido ao implementar o uso da repetição espaçada com os 
 
 \textbf{Minimizar a taxa de abandono}
 
-Este objetivo foi alcançado por meio dos elementos de gamificação e de mecanismos específicos de combate à autossabotagem (Seção~\ref{sec:autossabotagem}): o congelamento semanal de \textit{streak}, a limitação do lote de revisões pendentes exibidas por sessão e os alertas de intervenção emitidos a partir de \textit{check-ins} de bem-estar recorrentemente negativos.
+Este objetivo foi alcançado por meio dos elementos de gamificação e de mecanismos específicos de combate à autossabotagem (Seção~\ref{sec:autossabotagem}): o congelamento semanal de \textit{streak}, a limitação do lote de revisões pendentes exibidas por sessão -- complementada pelo treino livre para os usuários que desejam ir além dela -- e os alertas de intervenção emitidos a partir de \textit{check-ins} de bem-estar recorrentemente negativos.
 Ao utilizar barras de progresso e pontos, o aplicativo transforma o esforço em uma experiência progressiva.
 
 \textbf{Fornecer uma interface intuitiva}
@@ -634,6 +634,34 @@ A seguir, apresentam-se as funcionalidades desenvolvidas usando histórias de us
     \end{itemize}
 \end{itemize}
 
+Além dos épicos elicitados durante o \textit{Lean Inception}, dois incrementos foram adicionados ao MVP após a sua entrega inicial, a partir de testes práticos e do uso real do aplicativo pelo autor.
+Diferentemente dos demais requisitos deste trabalho, esses dois não derivam diretamente do \textit{Canvas} MVP original, mas foram priorizados e implementados posteriormente por apresentarem alto valor percebido em relação ao esforço de implementação necessário.
+
+\textbf{Épico 6 --- Incrementos Pós-MVP}
+
+\begin{itemize}
+    \item \textbf{\textit{Feature} F16: Importação de \textit{Flashcards} via JSON.}
+    \begin{itemize}
+        \item \textit{US16:} Eu, como usuário, desejo colar um texto no formato JSON contendo vários \textit{flashcards} já formatados para que sejam criados de uma só vez, em vez de cadastrar cada um manualmente, para que eu possa popular uma disciplina rapidamente com o auxílio de uma IA generativa externa.
+        \item \textit{Prioridade:} poderia ter.
+    \end{itemize}
+    \item \textbf{\textit{Feature} F17: Treino Livre.}
+    \begin{itemize}
+        \item \textit{US17:} Eu, como usuário, desejo poder revisar \textit{flashcards} adicionais além do lote de revisões pendentes do dia, quando eu já tiver cumprido minha meta diária ou não houver nenhuma revisão vencida, para que eu possa continuar estudando caso tenha tempo e disposição extras.
+        \item \textit{Prioridade:} poderia ter.
+    \end{itemize}
+\end{itemize}
+
+A importação de \textit{flashcards} via JSON (F16) resolve um gargalo observado durante os testes do aplicativo: a criação manual de um volume significativo de \textit{flashcards}, campo a campo, é uma tarefa repetitiva e demorada, sobretudo ao povoar uma disciplina nova do zero.
+Para contornar essa barreira sem exigir nenhuma integração direta com serviços de Inteligência Artificial -- o que adicionaria custos e complexidade de infraestrutura ao \textit{backend} --, o aplicativo oferece um \textit{prompt} pronto que o usuário pode copiar e enviar a uma IA generativa externa de sua preferência (como o Gemini ou o ChatGPT), bastando especificar o tema, a quantidade e a dificuldade desejados.
+A resposta da IA, já formatada como uma lista JSON de perguntas e respostas, é colada de volta no aplicativo, e todos os \textit{flashcards} são criados em lote numa única operação transacional no \textit{backend}.
+Essa abordagem aproveita a disseminação do acesso a ferramentas de IA generativa entre o público universitário sem comprometer o escopo gratuito e de código aberto do projeto, justificando sua priorização mesmo sem ter feito parte do escopo original do MVP.
+
+Já o treino livre (F17) complementa o mecanismo de limitação do lote de revisões pendentes (F13, Seção~\ref{sec:autossabotagem}) sem reabrir o risco de sobrecarga que esse mecanismo foi projetado para evitar.
+Enquanto o lote diário é limitado para proteger o usuário do efeito desencorajador de acumular dezenas de revisões vencidas, essa mesma limitação pode frustrar usuários motivados que já cumpriram sua meta do dia e desejam continuar estudando.
+O treino livre oferece, nesses casos, uma via opcional de continuidade: o usuário pode revisar \textit{flashcards} adicionais -- priorizados pelos que estão mais próximos de vencer --, sempre recalculando o algoritmo de repetição espaçada normalmente a cada resposta, exatamente como ocorre no fluxo principal de revisão.
+Dessa forma, a funcionalidade preserva o propósito protetivo do lote limitado ao mesmo tempo em que concede agência ao usuário que deseja ir além dele.
+
 Portanto, a seguir estão representados todos os requisitos funcionais deste trabalho.
 
 \begin{table}[H]
@@ -673,6 +701,10 @@ FUNC13 & Limitação do lote de \textit{flashcards} pendentes exibidos por sess�
 FUNC14 & Emissão de alertas de intervenção a partir de padrões negativos recorrentes nos \textit{check-ins} de bem-estar. \\
 \hline
 FUNC15 & Agrupamento de \textit{flashcards} em disciplinas (\textit{decks}). \\
+\hline
+FUNC16 & Importação em lote de \textit{flashcards} a partir de um texto colado em formato JSON. \\
+\hline
+FUNC17 & Treino livre de \textit{flashcards} adicionais após o cumprimento da meta diária de revisões. \\
 \hline
 \multicolumn{2}{r}{\small Fonte: autoria própria.} \\
 \end{tabularx}
@@ -717,6 +749,10 @@ Para tornar explícita a relação entre as necessidades levantadas junto às pr
 5 & US13 & F13 -- Limitação do Lote de Revisões Pendentes & FUNC13 & Deveria ter \\
 \hline
 5 & US14 & F14 -- Alertas de Intervenção de Bem-Estar & FUNC14 & Poderia ter \\
+\hline
+6 & US16 & F16 -- Importação de \textit{Flashcards} via JSON & FUNC16 & Poderia ter \\
+\hline
+6 & US17 & F17 -- Treino Livre & FUNC17 & Poderia ter \\
 \hline
 \multicolumn{5}{r}{\small Fonte: autoria própria.} \\
 \end{tabularx}
