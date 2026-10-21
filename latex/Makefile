@@ -1,7 +1,8 @@
 TARGET = TCC_FGA.pdf
 
 BIBTEX = bibtex
-LATEX = pdflatex -shell-escape
+MAKEINDEX = makeindex
+LATEX = pdflatex -shell-escape -interaction=nonstopmode
 
 VERSION = 0.1.0
 
@@ -33,16 +34,23 @@ SOURCES = $(FIXOS_FILES) $(EDITAVEIS_FILES)
 all:
 	@make $(TARGET)
 
+# Os comandos de LaTeX/bibtex/makeindex são prefixados com "-" de propósito:
+# pdflatex costuma terminar com código de saída diferente de zero mesmo em
+# builds bem-sucedidos (por causa de warnings não-fatais, como referências
+# cruzadas pendentes de um rerun). Sem o "-", o make aborta a regra inteira
+# na primeira chamada, e como o "make clean" já apagou o PDF anterior antes
+# disso, o resultado é nenhum PDF gerado — foi exatamente o que aconteceu.
 $(TARGET): $(MAIN_FILE) $(SOURCES) bibliografia.bib
-	$(LATEX) $(MAIN_FILE)
-	$(BIBTEX) $(AUX_FILE)
-	$(LATEX) $(MAIN_FILE)
-	$(LATEX) $(MAIN_FILE)
+	-$(LATEX) $(MAIN_FILE)
+	-$(BIBTEX) $(AUX_FILE)
+	-$(MAKEINDEX) $(basename $(MAIN_FILE)).idx
+	-$(LATEX) $(MAIN_FILE)
+	-$(LATEX) $(MAIN_FILE)
 	@cp $(PDF_FILE) $(TARGET)
 
 clean:
 	rm -f *~ *.dvi *.ps *.backup *.aux *.log
-	rm -f *.lof *.lot *.bbl *.blg *.brf *.toc *.idx
+	rm -f *.lof *.lot *.bbl *.blg *.brf *.toc *.idx *.ind *.ilg
 	rm -f *.pdf
 
 dist: clean
