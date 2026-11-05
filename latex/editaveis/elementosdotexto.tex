@@ -61,6 +61,16 @@ Ele permitiu o acompanhamento das tarefas elicitadas no Sequenciador do \textit{
 A ferramenta BrModelo foi utilizada para fazer o projeto de dados (diagrama entidade-relacionamento e diagrama lógico de dados).
 Através dessa ferramenta, realiza-se a modelagem conceitual e lógica do sistema.
 
+\subsection{Claude (Assistente de IA)}
+
+O Claude, assistente de inteligência artificial desenvolvido pela Anthropic, foi utilizado como ferramenta de apoio ao longo de todo o desenvolvimento deste trabalho, por meio da interface de linha de comando Claude Code \cite{anthropic_2026}.
+
+No desenvolvimento do código-fonte, a ferramenta auxiliou na implementação de funcionalidades do \textit{backend} e do \textit{frontend}, na depuração de problemas (como falhas de configuração do ambiente, migrações do banco de dados e condições de corrida na sincronização de estado da aplicação \textit{mobile}) e na correção de problemas de usabilidade identificados durante os testes manuais do aplicativo.
+No apoio aos testes, a ferramenta colaborou na escrita dos testes unitários automatizados da camada de serviços do \textit{backend}, discutidos na Seção~\ref{sec:testes_software}.
+No levantamento do referencial teórico, o Claude auxiliou na leitura dos artigos selecionados na base Scopus e na síntese de suas contribuições, apoiando a identificação de evidências relevantes para fundamentar as funcionalidades implementadas no aplicativo.
+Por fim, na redação deste documento, a ferramenta colaborou na construção argumentativa do texto, auxiliando na estruturação, revisão e encadeamento das ideias entre as seções.
+Em todas essas frentes, o uso da ferramenta ocorreu sob supervisão direta do autor, responsável pela validação técnica, pela verificação da fidelidade das afirmações em relação à implementação real do projeto e pela decisão final sobre todo o conteúdo produzido.
+
 \section{Arquitetura}
 
 Segundo \citeonline{dipompeo_2025}, a arquitetura é uma abstração de alto nível que funciona como um guia para a implementação, sendo essencial para os aspectos de qualidade, como performance, confiabilidade e manutenibilidade.
@@ -218,6 +228,7 @@ A seguir está representado o diagrama lógico deste projeto.
 \end{figure}
 
 \section{Testes de Software}
+\label{sec:testes_software}
 
 A etapa de testes faz parte do ciclo de vida de desenvolvimento do \textit{software}, sendo definido como o processo que engloba todas as atividades do ciclo de vida, estáticas e dinâmicas, relacionadas ao planejamento, preparação e avaliação do mesmo, com o objetivo de verificar se satisfaz os requisitos especificados, demonstrar que estão aptos para o uso e detectar defeitos \cite{goericke_2020}.
 A falta dessa etapa representa um risco ao projeto, pois \textit{bugs} são significativamente mais fáceis e baratos de corrigir em estágios iniciais do desenvolvimento do que em fases avançadas ou após a entrega ao usuário final \cite{goericke_2020}.
@@ -273,3 +284,7 @@ Para a geração do instalável Android, foi utilizado o EAS \textit{Build}, ser
 Esse serviço elimina a necessidade de um ambiente local configurado com o Android SDK para gerar o pacote de instalação, compilando a aplicação em servidores remotos a partir do código-fonte do repositório.
 Os perfis de compilação foram definidos no arquivo \texttt{eas.json}, sendo o perfil \texttt{preview} utilizado para gerar um \textit{Android Application Package} (APK) de distribuição interna, assinado e pronto para ser instalado diretamente no dispositivo do usuário, sem a necessidade de publicação em uma loja de aplicativos.
 Essa abordagem é compatível com a proposta deste trabalho de disponibilizar o Focus como um produto gratuito e de código aberto, bastando o compartilhamento do arquivo APK gerado para que qualquer usuário com um dispositivo Android possa instalar e utilizar o aplicativo.
+
+O instalável gerado para a versão final deste trabalho está disponível publicamente em \href{https://expo.dev/accounts/h0lzz/projects/focus/builds/f8e69283-1e75-4936-9490-7cdfc346665a}{<https://expo.dev/\allowbreak{}accounts/\allowbreak{}h0lzz/\allowbreak{}projects/\allowbreak{}focus/\allowbreak{}builds/\allowbreak{}f8e69283-\allowbreak{}1e75-\allowbreak{}4936-\allowbreak{}9490-\allowbreak{}7cdfc346665a>}, de onde o arquivo APK pode ser baixado diretamente em um dispositivo Android.
+Como o aplicativo não é distribuído pela \textit{Google Play Store}, o Google Play Protect, mecanismo de verificação de aplicativos nativo do Android, tende a bloquear a instalação de um instalável de origem externa por padrão.
+Para contornar esse bloqueio, é necessário desativar temporariamente a varredura do Play Protect (em \textit{Play Store} $\rightarrow$ ícone de perfil $\rightarrow$ \textit{Play Protect} $\rightarrow$ ícone de configurações $\rightarrow$ desativar a verificação de aplicativos) e, no aviso exibido durante a instalação, selecionar a opção equivalente a "Instalar mesmo assim" para prosseguir.
