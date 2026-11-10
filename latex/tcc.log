@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2026.11.10)  10 NOV 2026 13:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2026.11.10)  10 NOV 2026 21:56
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1857,52 +1857,52 @@ Underfull \vbox (badness 1077) has occurred while \output is active []
 
  [72]
 [73]
-<Imagens/DiagramaClasses.drawio.png, id=812, 1212.53pt x 397.485pt>
+<Imagens/DiagramaClasses.drawio.png, id=812, 1045.9075pt x 467.7475pt>
 File: Imagens/DiagramaClasses.drawio.png Graphic file (type png)
 <use Imagens/DiagramaClasses.drawio.png>
 Package pdftex.def Info: Imagens/DiagramaClasses.drawio.png  used on input line
  154.
-(pdftex.def)             Requested size: 455.0pt x 149.15355pt.
-<Imagens/DiagramaPacotesBackend.png, id=817, 1065.9825pt x 448.67625pt>
-File: Imagens/DiagramaPacotesBackend.png Graphic file (type png)
-<use Imagens/DiagramaPacotesBackend.png>
-Package pdftex.def Info: Imagens/DiagramaPacotesBackend.png  used on input line
- 172.
-(pdftex.def)             Requested size: 455.0pt x 191.50986pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+(pdftex.def)             Requested size: 455.0pt x 203.48279pt.
  [74
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.16})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.178 
+l.174 
        <./Imagens/DiagramaClasses.drawio.png>]
+<Imagens/DiagramaPacotesBackend.png, id=824, 1065.9825pt x 448.67625pt>
+File: Imagens/DiagramaPacotesBackend.png Graphic file (type png)
+<use Imagens/DiagramaPacotesBackend.png>
+Package pdftex.def Info: Imagens/DiagramaPacotesBackend.png  used on input line
+ 178.
+(pdftex.def)             Requested size: 455.0pt x 191.50986pt.
 <Imagens/DiagramaPacotesFrontend.png, id=825, 1096.095pt x 654.445pt>
 File: Imagens/DiagramaPacotesFrontend.png Graphic file (type png)
 <use Imagens/DiagramaPacotesFrontend.png>
 Package pdftex.def Info: Imagens/DiagramaPacotesFrontend.png  used on input lin
-e 182.
+e 188.
 (pdftex.def)             Requested size: 455.0pt x 271.6695pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [75
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.17})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.194 
+l.200 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.18})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.194 
+l.200 
        <./Imagens/DiagramaPacotesBackend.png> <./Imagens/DiagramaPacotesFronten
 d.png>]
-<Imagens/DiagramaConceitual.png, id=834, 761.84625pt x 430.60875pt>
+<Imagens/DiagramaConceitual.png, id=835, 761.84625pt x 430.60875pt>
 File: Imagens/DiagramaConceitual.png Graphic file (type png)
 <use Imagens/DiagramaConceitual.png>
-Package pdftex.def Info: Imagens/DiagramaConceitual.png  used on input line 205
+Package pdftex.def Info: Imagens/DiagramaConceitual.png  used on input line 211
 .
 (pdftex.def)             Requested size: 455.0pt x 257.17139pt.
  [76
@@ -1910,27 +1910,27 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.19})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.219 
+l.225 
        <./Imagens/DiagramaConceitual.png>]
-<Imagens/DiagramaLogico.png, id=843, 652.68843pt x 412.54124pt>
+<Imagens/DiagramaLogico.png, id=844, 652.68843pt x 412.54124pt>
 File: Imagens/DiagramaLogico.png Graphic file (type png)
 <use Imagens/DiagramaLogico.png>
-Package pdftex.def Info: Imagens/DiagramaLogico.png  used on input line 223.
+Package pdftex.def Info: Imagens/DiagramaLogico.png  used on input line 229.
 (pdftex.def)             Requested size: 455.0pt x 287.59976pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [77
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.20})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.235 
+l.241 
        <./Imagens/DiagramaLogico.png>]
-Underfull \vbox (badness 1867) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [78]
-Underfull \vbox (badness 8189) has occurred while \output is active []
-
- [79])
-(./editaveis/elementosdopostexto.tex [80] [81]
+[79] [80]) (./editaveis/elementosdopostexto.tex [81]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [82
@@ -1966,8 +1966,8 @@ Package rerunfilecheck Warning: File `tcc.brf' has changed.
 (rerunfilecheck)                Rerun to get bibliographical references right.
 
 Package rerunfilecheck Info: Checksums for `tcc.brf':
-(rerunfilecheck)             Before: 5C3A952845B50538BD7187C42734E457;5031
-(rerunfilecheck)             After:  B9EA229D7660B42997DF38A8C5FC0046;5031.
+(rerunfilecheck)             Before: 10FBDC28A957A27427D28A5E776D4AB0;5031
+(rerunfilecheck)             After:  97C52BC8E260680E0AAA2531CCC0FC5C;5031.
  ) 
 Here is how much of TeX's memory you used:
  17289 strings out of 478031
@@ -1988,10 +1988,10 @@ b></usr/share/texmf/fonts/type1/public/lm/lmssbo10.pfb></usr/share/texmf/fonts/
 type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso12.pf
 b></usr/share/texmf/fonts/type1/public/lm/lmsso17.pfb></usr/share/texmf/fonts/t
 ype1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on tcc.pdf (88 pages, 5378047 bytes).
+Output written on tcc.pdf (88 pages, 5361428 bytes).
 PDF statistics:
- 1374 PDF objects out of 1440 (max. 8388607)
- 1217 compressed objects within 13 object streams
+ 1375 PDF objects out of 1440 (max. 8388607)
+ 1218 compressed objects within 13 object streams
  253 named destinations out of 1000 (max. 500000)
  734 words of extra memory for PDF output out of 10000 (max. 10000000)
 

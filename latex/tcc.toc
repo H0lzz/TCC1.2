@@ -63,11 +63,11 @@
 \contentsline {section}{\numberline {4.3}Representação Visual do Sistema}{73}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Diagrama de Classes}{73}{subsection.4.3.1}%
 \contentsline {subsection}{\numberline {4.3.2}Diagrama de Pacotes}{74}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Projeto de Dados}{75}{section.4.4}%
+\contentsline {section}{\numberline {4.4}Projeto de Dados}{76}{section.4.4}%
 \contentsline {subsection}{\numberline {4.4.1}Diagrama Conceitual}{76}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Diagrama Lógico}{76}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}Testes de Software}{77}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Prototipação}{78}{section.4.6}%
+\contentsline {subsection}{\numberline {4.4.2}Diagrama Lógico}{77}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Testes de Software}{78}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Prototipação}{79}{section.4.6}%
 \contentsline {section}{\numberline {4.7}Implantação em Produção}{79}{section.4.7}%
 \contentsline {subsection}{\numberline {4.7.1}Banco de Dados em Nuvem}{79}{subsection.4.7.1}%
 \contentsline {subsection}{\numberline {4.7.2}Hospedagem do \textit {Backend}}{80}{subsection.4.7.2}%

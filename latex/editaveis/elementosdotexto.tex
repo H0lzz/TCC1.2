@@ -144,7 +144,7 @@ Através de modelos visuais, busca-se estabelecer um modelo que assegura a integ
 
 \subsection{Diagrama de Classes}
 
-O diagrama de classes do sistema foi estruturado para definir as entidades fundamentais, seus atributos e seus relacionamentos de dependência.
+O diagrama de classes do sistema foi estruturado para definir as entidades fundamentais, seus atributos e seus relacionamentos de associação.
 De acordo com a pesquisa de \citeonline{kim_2024}, a eficácia de um diagrama de classe está diretamente ligada ao seu \textit{layout} e controle de complexidade, uma vez que esses fatores impactam significativamente a compreensibilidade do modelo pelo desenvolvedor.
 Para garantir isso, o diagrama foi organizado seguindo um fluxo lógico de leitura, a seguir está representado o diagrama de classes deste projeto.
 
@@ -157,6 +157,12 @@ Para garantir isso, o diagrama foi organizado seguindo um fluxo lógico de leitu
     \par
     \label{fig:diagrama_classes}
 \end{figure}
+
+As classes representadas no diagrama não possuem métodos, o que decorre de uma decisão de implementação do \textit{backend}.
+O código foi escrito em JavaScript seguindo um estilo funcional, organizado em módulos que exportam funções, e não em classes com comportamento encapsulado.
+Assim, as entidades do diagrama correspondem às estruturas de dados persistidas no PostgreSQL, que apenas armazenam o estado do sistema.
+O comportamento, por sua vez, está concentrado na camada de serviços, como o cálculo do próximo intervalo de revisão pelo algoritmo de repetição espaçada, a atualização da sequência de dias de estudo e a geração de alertas de bem-estar, e na camada de controladores, responsável por receber as requisições e coordenar essas operações.
+Por esse motivo, o diagrama de classes foi utilizado como um modelo de domínio, enquanto a organização dos módulos que implementam o comportamento do sistema é apresentada no Diagrama de Pacotes do \textit{Backend} (Figura~\ref{fig:diagrama_pacotes_backend}).
 
 \subsection{Diagrama de Pacotes}
 
