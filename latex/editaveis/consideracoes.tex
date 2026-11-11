@@ -509,7 +509,7 @@ Finalmente, a metodologia exige atenção às funcionalidades que possuem pré r
 \textbf{\textit{Canvas} MVP}
 
 Finalmente, a última etapa do \textit{Lean Inception} é a elaboração do \textit{Canvas} MVP, que é um quadro visual que resume as decisões das etapas anteriores para garantir o alinhamento sobre o que será construído e como prosseguir.
-De acordo com \citeonline{caroli_2017}, este artefato resume o valor do MVP em sete componentes fundamentais: a definição da proposta do MVP, a identificação das personas atendidas e suas respectivas jornadas, a listagem das funcionalidades prioritárias, os resultados esperados e as métricas para a validação das hipóteses de negócio, finalizando com a estimativa de custos e o cronograma previsto.
+De acordo com \citeonline{caroli_2017}, este artefato resume o valor do MVP em sete componentes fundamentais: a definição da proposta do MVP, a identificação das proto-personas atendidas e suas respectivas jornadas, a listagem das funcionalidades prioritárias, os resultados esperados e as métricas para a validação das hipóteses de negócio, finalizando com a estimativa de custos e o cronograma previsto.
 A seguir está representado o canvas MVP deste trabalho.
 
 \begin{figure}[H]
@@ -561,7 +561,7 @@ A seguir, apresentam-se as funcionalidades desenvolvidas usando histórias de us
     \end{itemize}
     \item \textbf{\textit{Feature} F02: Edição de Perfil.}
     \begin{itemize}
-        \item \textit{US02:} Eu, como usuário, desejo editar meu nome no aplicativo, para que minhas informações pessoais estejam sempre atualizadas.
+        \item \textit{US02:} Eu, como usuário, desejo poder editar minha senha no aplicativo, para trazer mais segurança.
         \item \textit{Prioridade:} deveria ter.
     \end{itemize}
 \end{itemize}
@@ -616,7 +616,7 @@ A seguir, apresentam-se as funcionalidades desenvolvidas usando histórias de us
     \end{itemize}
     \item \textbf{\textit{Feature} F09: Relatórios de Bem-Estar.}
     \begin{itemize}
-        \item \textit{US09:} Eu, como usuário, desejo visualizar na tela de Progresso gráficos que mostrem a evolução do meu humor e seu relacionamento com meu desempenho nos \textit{flashcards} ao longo do tempo.
+        \item \textit{US09:} Eu, como usuário, desejo visualizar na tela de Progresso gráficos que mostrem a evolução do meu humor ao longo do tempo.
         \item \textit{Prioridade:} poderia ter.
     \end{itemize}
 \end{itemize}
@@ -626,12 +626,12 @@ A seguir, apresentam-se as funcionalidades desenvolvidas usando histórias de us
 \begin{itemize}
     \item \textbf{\textit{Feature} F10: Sistema de XP, Níveis e \textit{Streaks}.}
     \begin{itemize}
-        \item \textit{US10:} Eu, como usuário, desejo ganhar pontos de experiência (XP) ao completar ciclos Pomodoro e sessões de revisão de \textit{flashcards}, e visualizar meu nível atual e sequência de dias (\textit{streak}) na tela de Perfil.
+        \item \textit{US10:} Eu, como usuário, desejo ganhar pontos de experiência (XP) ao completar sessões de revisão de \textit{flashcards}, e visualizar meu nível atual e sequência de dias (\textit{streak}) na tela de Perfil.
         \item \textit{Prioridade:} poderia ter.
     \end{itemize}
     \item \textbf{\textit{Feature} F11: Visualização de Progresso.}
     \begin{itemize}
-        \item \textit{US11:} Eu, como usuário, desejo visualizar na tela de Progresso gráficos e indicadores sobre meu desempenho.
+        \item \textit{US11:} Eu, como usuário, desejo visualizar na tela de Progresso gráficos e indicadores sobre meu bem estar.
         \item \textit{Prioridade:} deveria ter.
     \end{itemize}
     \item \textbf{\textit{Feature} F12: Congelamento de \textit{Streak}.}
@@ -676,8 +676,8 @@ Essa abordagem aproveita a disseminação do acesso a ferramentas de IA generati
 
 Já o treino livre (F17) complementa o mecanismo de limitação do lote de revisões pendentes (F13, Seção~\ref{sec:autossabotagem}) sem reabrir o risco de sobrecarga que esse mecanismo foi projetado para evitar.
 Enquanto o lote diário é limitado para proteger o usuário do efeito desencorajador de acumular dezenas de revisões vencidas, essa mesma limitação pode frustrar usuários motivados que já cumpriram sua meta do dia e desejam continuar estudando.
-O treino livre oferece, nesses casos, uma via opcional de continuidade: o usuário pode revisar \textit{flashcards} adicionais -- priorizados pelos que estão mais próximos de vencer --, sempre recalculando o algoritmo de repetição espaçada normalmente a cada resposta, exatamente como ocorre no fluxo principal de revisão.
-Dessa forma, a funcionalidade preserva o propósito protetivo do lote limitado ao mesmo tempo em que concede agência ao usuário que deseja ir além dele.
+O treino livre oferece, nesses casos, uma via opcional de continuidade: o usuário pode revisar \textit{flashcards} adicionais, sempre recalculando o algoritmo de repetição espaçada normalmente a cada resposta, exatamente como ocorre no fluxo principal de revisão.
+Dessa forma, a funcionalidade preserva o propósito protetivo do lote limitado ao mesmo tempo em que concede liberdade ao usuário que deseja ir além dele.
 
 Portanto, a seguir estão representados todos os requisitos funcionais deste trabalho.
 
@@ -691,7 +691,7 @@ Portanto, a seguir estão representados todos os requisitos funcionais deste tra
 \hline
 FUNC01 & Cadastro e autenticação de usuário. \\
 \hline
-FUNC02 & Edição de dados cadastrais do perfil. \\
+FUNC02 & Edição de senha do perfil. \\
 \hline
 FUNC03 & Gerenciamento de ciclos de foco e descanso configuráveis. \\
 \hline
@@ -705,7 +705,7 @@ FUNC07 & Listagem de \textit{flashcards} pendentes de revisão. \\
 \hline
 FUNC08 & Registro de \textit{check-in} de humor e nível de estresse. \\
 \hline
-FUNC09 & Visualização de estatísticas de desempenho. \\
+FUNC09 & Visualização de estatísticas de humor. \\
 \hline
 FUNC10 & Visualização de dados de bem-estar. \\
 \hline
@@ -739,7 +739,7 @@ Para tornar explícita a relação entre as necessidades levantadas junto às pr
 \hline
 1 & US01 & F01 -- Registro e Acesso & FUNC01 & Deve ter \\
 \hline
-1 & US02 & F02 -- Edição de Perfil & FUNC02 & Deveria ter \\
+1 & US02 & F02 -- Edição de Senha do Perfil & FUNC02 & Deveria ter \\
 \hline
 2 & US03 & F03 -- \textit{Timer} Pomodoro & FUNC03 & Deve ter \\
 \hline
@@ -834,7 +834,7 @@ SUPO02 & O código fonte deve ser documentado, modular e organizado. \\
 \hline
 SUPO03 & O sistema deve suportar atualizações do banco de dados sem necessidade de reinstalação do aplicativo. \\
 \hline
-PLUS01 & O aplicativo deve ocupar menos de 100 MB de armazenamento no dispositivo. \\
+PLUS01 & O aplicativo deve ocupar menos de 150 MB de armazenamento no dispositivo. \\
 \hline
 \multicolumn{2}{r}{\small Fonte: autoria própria.} \\
 \end{tabularx}

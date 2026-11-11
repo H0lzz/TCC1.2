@@ -39,42 +39,42 @@
 \contentsline {subsection}{\numberline {3.2.6}\textit {Lean Inception}}{45}{subsection.3.2.6}%
 \contentsline {section}{\numberline {3.3}Requisitos}{59}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Requisitos Funcionais}{60}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Requisitos Não Funcionais}{66}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.2}Requisitos Não Funcionais}{65}{subsection.3.3.2}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeUppercase []{Desenvolvimento}}{69}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Suporte Tecnológico}{69}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Miro}{69}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Figma}{69}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Draw.io}{69}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}React Native e Expo}{70}{subsection.4.1.4}%
-\contentsline {subsection}{\numberline {4.1.5}Node.js e Express}{70}{subsection.4.1.5}%
-\contentsline {subsection}{\numberline {4.1.6}PostgreSQL}{70}{subsection.4.1.6}%
-\contentsline {subsection}{\numberline {4.1.7}Git, GitHub e Licenciamento}{70}{subsection.4.1.7}%
-\contentsline {subsection}{\numberline {4.1.8}Trello}{71}{subsection.4.1.8}%
-\contentsline {subsection}{\numberline {4.1.9}BrModelo}{71}{subsection.4.1.9}%
-\contentsline {subsection}{\numberline {4.1.10}Claude (Assistente de IA)}{71}{subsection.4.1.10}%
-\contentsline {section}{\numberline {4.2}Arquitetura}{72}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Padrão Arquitetural em Camadas}{72}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}\textit {Backend}}{72}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}API RESTful, Segurança e Privacidade}{73}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Mapeamento Objeto-Relacional (ORM)}{74}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}\textit {Frontend}}{74}{subsection.4.2.5}%
-\contentsline {section}{\numberline {4.3}Representação Visual do Sistema}{74}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Diagrama de Classes}{74}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Diagrama de Pacotes}{75}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Projeto de Dados}{77}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Diagrama Conceitual}{77}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Diagrama Lógico}{78}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}Testes de Software}{79}{section.4.5}%
-\contentsline {section}{\numberline {4.6}Prototipação}{80}{section.4.6}%
-\contentsline {section}{\numberline {4.7}Implantação em Produção}{80}{section.4.7}%
-\contentsline {subsection}{\numberline {4.7.1}Banco de Dados em Nuvem}{80}{subsection.4.7.1}%
-\contentsline {subsection}{\numberline {4.7.2}Hospedagem do \textit {Backend}}{81}{subsection.4.7.2}%
-\contentsline {subsection}{\numberline {4.7.3}Geração e Distribuição do Aplicativo}{81}{subsection.4.7.3}%
+\contentsline {chapter}{\chapternumberline {4}\MakeUppercase []{Desenvolvimento}}{68}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Suporte Tecnológico}{68}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Miro}{68}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Figma}{68}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Draw.io}{68}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}React Native e Expo}{69}{subsection.4.1.4}%
+\contentsline {subsection}{\numberline {4.1.5}Node.js e Express}{69}{subsection.4.1.5}%
+\contentsline {subsection}{\numberline {4.1.6}PostgreSQL}{69}{subsection.4.1.6}%
+\contentsline {subsection}{\numberline {4.1.7}Git, GitHub e Licenciamento}{69}{subsection.4.1.7}%
+\contentsline {subsection}{\numberline {4.1.8}Trello}{70}{subsection.4.1.8}%
+\contentsline {subsection}{\numberline {4.1.9}BrModelo}{70}{subsection.4.1.9}%
+\contentsline {subsection}{\numberline {4.1.10}Claude (Assistente de IA)}{70}{subsection.4.1.10}%
+\contentsline {section}{\numberline {4.2}Arquitetura}{71}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Padrão Arquitetural em Camadas}{71}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}\textit {Backend}}{71}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}API RESTful, Segurança e Privacidade}{72}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}Mapeamento Objeto-Relacional (ORM)}{73}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}\textit {Frontend}}{73}{subsection.4.2.5}%
+\contentsline {section}{\numberline {4.3}Representação Visual do Sistema}{73}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Diagrama de Classes}{73}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Diagrama de Pacotes}{74}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Projeto de Dados}{76}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Diagrama Conceitual}{76}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Diagrama Lógico}{77}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Testes de Software}{78}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Prototipação}{79}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Implantação em Produção}{79}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Banco de Dados em Nuvem}{79}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Hospedagem do \textit {Backend}}{80}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.7.3}Geração e Distribuição do Aplicativo}{80}{subsection.4.7.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeUppercase []{Considerações Finais}}{83}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Conclusão}{83}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Trabalhos Futuros}{84}{section.5.2}%
+\contentsline {chapter}{\chapternumberline {5}\MakeUppercase []{Considerações Finais}}{82}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Conclusão}{82}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Trabalhos Futuros}{83}{section.5.2}%
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeUppercase []{Refer\^encias}}{85}{section*.12}%
+\contentsline {chapter}{\MakeUppercase []{Refer\^encias}}{84}{section*.12}%

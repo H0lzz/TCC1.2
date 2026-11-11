@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2026.11.10)  11 NOV 2026 11:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2026.11.10)  11 NOV 2026 20:32
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1809,42 +1809,35 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.15})
                                                   \__shipout_drop_firstpage_...
 l.533 \subsection{Requisitos Funcionais}
                                          <./Imagens/CanvasMVP.jpg>] [60]
-[61] [62] [63]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [64]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [65
+[61] [62] [63] [64
 pdfTeX warning (ext4): destination with the same identifier (name{table.3.5}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.777 
+l.731 
       ]
 Overfull \hbox (10.52487pt too wide) in paragraph at lines 786--788
 []\T1/lmr/m/n/12 Para or-ga-ni-zar os re-qui-si-tos não fun-ci-o-nais do pro-je
 to, utilizou-se o mo-delo FURPS+.
  []
 
-[66
+[65
 pdfTeX warning (ext4): destination with the same identifier (name{table.3.6}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.793     \item \textbf
-                       {\textit{Reliability}:} Trata da confiabilidade, incl...
-]) (./editaveis/textoepostexto.tex) (./editaveis/elementosdotexto.tex
+l.788 
+      ]) (./editaveis/textoepostexto.tex) (./editaveis/elementosdotexto.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [67]
-[68
+ [66]
+[67
 pdfTeX warning (ext4): destination with the same identifier (name{table.3.7}) h
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.1 \chapter
-            {Desenvolvimento}] [69
+            {Desenvolvimento}] [68
 
 ]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 5
@@ -1852,31 +1845,31 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 5
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-[70] [71] [72]
+[69] [70] [71]
 Underfull \vbox (badness 1077) has occurred while \output is active []
 
- [73]
-[74]
-<Imagens/DiagramaClasses.drawio.png, id=814, 1045.9075pt x 467.7475pt>
+ [72]
+[73]
+<Imagens/DiagramaClasses.drawio.png, id=810, 1045.9075pt x 467.7475pt>
 File: Imagens/DiagramaClasses.drawio.png Graphic file (type png)
 <use Imagens/DiagramaClasses.drawio.png>
 Package pdftex.def Info: Imagens/DiagramaClasses.drawio.png  used on input line
  154.
 (pdftex.def)             Requested size: 455.0pt x 203.48279pt.
- [75
+ [74
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.16})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.174 
        <./Imagens/DiagramaClasses.drawio.png>]
-<Imagens/DiagramaPacotesBackend.png, id=826, 1136.245pt x 533.995pt>
+<Imagens/DiagramaPacotesBackend.png, id=822, 1136.245pt x 533.995pt>
 File: Imagens/DiagramaPacotesBackend.png Graphic file (type png)
 <use Imagens/DiagramaPacotesBackend.png>
 Package pdftex.def Info: Imagens/DiagramaPacotesBackend.png  used on input line
  178.
 (pdftex.def)             Requested size: 455.0pt x 213.8305pt.
-<Imagens/DiagramaPacotesFrontend.png, id=827, 1106.1325pt x 644.4075pt>
+<Imagens/DiagramaPacotesFrontend.png, id=823, 1106.1325pt x 644.4075pt>
 File: Imagens/DiagramaPacotesFrontend.png Graphic file (type png)
 <use Imagens/DiagramaPacotesFrontend.png>
 Package pdftex.def Info: Imagens/DiagramaPacotesFrontend.png  used on input lin
@@ -1885,7 +1878,7 @@ e 188.
 
 Underfull \vbox (badness 3780) has occurred while \output is active []
 
- [76
+ [75
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.17})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1899,20 +1892,20 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.18})
 l.200 
        <./Imagens/DiagramaPacotesBackend.png> <./Imagens/DiagramaPacotesFronten
 d.png>]
-<Imagens/DiagramaConceitual.png, id=837, 761.84625pt x 430.60875pt>
+<Imagens/DiagramaConceitual.png, id=833, 761.84625pt x 430.60875pt>
 File: Imagens/DiagramaConceitual.png Graphic file (type png)
 <use Imagens/DiagramaConceitual.png>
 Package pdftex.def Info: Imagens/DiagramaConceitual.png  used on input line 211
 .
 (pdftex.def)             Requested size: 455.0pt x 257.17139pt.
- [77
+ [76
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.19})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.225 
        <./Imagens/DiagramaConceitual.png>]
-<Imagens/DiagramaLogico.png, id=846, 652.68843pt x 412.54124pt>
+<Imagens/DiagramaLogico.png, id=842, 652.68843pt x 412.54124pt>
 File: Imagens/DiagramaLogico.png Graphic file (type png)
 <use Imagens/DiagramaLogico.png>
 Package pdftex.def Info: Imagens/DiagramaLogico.png  used on input line 229.
@@ -1920,7 +1913,7 @@ Package pdftex.def Info: Imagens/DiagramaLogico.png  used on input line 229.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [78
+ [77
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.20})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
@@ -1929,25 +1922,25 @@ l.241
        <./Imagens/DiagramaLogico.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [79]
-[80] [81]) (./editaveis/elementosdopostexto.tex [82]
+ [78]
+[79] [80]) (./editaveis/elementosdopostexto.tex [81]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [83
+ [82
 
 ])
 (./tcc.bbl (./tcc.brf)
 \tf@brf=\write5
 \openout5 = `tcc.brf'.
 
- [84]
+ [83]
 bibitemlist
-[85
+[84
 
-] [86] [87]) (./editaveis/anexos.tex) (./tcc.ind)
+] [85] [86]) (./editaveis/anexos.tex) (./tcc.ind)
 
 AED: lastpage setting LastPage
-[88]
+[87]
 \tf@lof=\write6
 \openout6 = `tcc.lof'.
 
@@ -1966,12 +1959,12 @@ Package rerunfilecheck Warning: File `tcc.brf' has changed.
 (rerunfilecheck)                Rerun to get bibliographical references right.
 
 Package rerunfilecheck Info: Checksums for `tcc.brf':
-(rerunfilecheck)             Before: F58271B76DFC888C5A84C8F81E4CC426;5031
-(rerunfilecheck)             After:  8C03B35C1544C995E3A97669E87352A3;5031.
+(rerunfilecheck)             Before: ACFCB0B9EC42F2EF4AC55E57055E72EC;5031
+(rerunfilecheck)             After:  81BB69344F5EB619930C17725E318250;5031.
  ) 
 Here is how much of TeX's memory you used:
- 17288 strings out of 478031
- 277035 string characters out of 5840161
+ 17287 strings out of 478031
+ 277028 string characters out of 5840161
  1870330 words of memory out of 5000000
  36744 multiletter control sequences out of 15000+600000
  607144 words of font info for 79 fonts, out of 8000000 for 9000
@@ -1988,10 +1981,10 @@ b></usr/share/texmf/fonts/type1/public/lm/lmssbo10.pfb></usr/share/texmf/fonts/
 type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso12.pf
 b></usr/share/texmf/fonts/type1/public/lm/lmsso17.pfb></usr/share/texmf/fonts/t
 ype1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on tcc.pdf (89 pages, 5332051 bytes).
+Output written on tcc.pdf (88 pages, 5331476 bytes).
 PDF statistics:
- 1374 PDF objects out of 1440 (max. 8388607)
- 1216 compressed objects within 13 object streams
- 253 named destinations out of 1000 (max. 500000)
+ 1369 PDF objects out of 1440 (max. 8388607)
+ 1212 compressed objects within 13 object streams
+ 252 named destinations out of 1000 (max. 500000)
  726 words of extra memory for PDF output out of 10000 (max. 10000000)
 
