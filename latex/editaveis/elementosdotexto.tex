@@ -23,7 +23,7 @@ Portanto, o Figma é útil para validar a interface e testar a usabilidade das f
 \subsection{Draw.io}
 
 O Draw.io foi utilizado para a modelagem dos diagramas de classe e diagramas de pacotes.
-A ferramenta permite documentar a arquitetura lógica do aplicativo, essencial para garantir que a integração entre os componentes e o banco de dados seja implementada de forma correta \cite{drawio_2025}.
+A ferramenta permitiu documentar a arquitetura lógica do aplicativo, essencial para garantir que a integração entre os componentes e o banco de dados fosse implementada de forma correta \cite{drawio_2025}.
 
 \subsection{React Native e Expo}
 
@@ -49,7 +49,6 @@ A documentação deste trabalho está disponível no repositório público \url{
 
 Por se tratar de um projeto gratuito e \textit{open source}, conforme definido nos objetivos deste trabalho, o código do aplicativo Focus é distribuído sob a licença permissiva MIT.
 Essa licença permite que qualquer pessoa utilize, copie, modifique e redistribua o código, inclusive para fins comerciais, desde que mantido o aviso de \textit{copyright} original, favorecendo a democratização do acesso às metodologias de estudo implementadas.
-Cada repositório contém um arquivo de licença (\texttt{LICENSE}) e um \texttt{README} com instruções de instalação, configuração do ambiente de desenvolvimento e diretrizes de contribuição, de modo a documentar o projeto para outros desenvolvedores interessados em utilizá-lo ou estendê-lo.
 
 \subsection{Trello}
 
@@ -65,7 +64,7 @@ Através dessa ferramenta, realiza-se a modelagem conceitual e lógica do sistem
 
 O Claude, assistente de inteligência artificial desenvolvido pela Anthropic, foi utilizado como ferramenta de apoio ao longo de todo o desenvolvimento deste trabalho, por meio da interface de linha de comando Claude Code \cite{anthropic_2026}.
 
-No desenvolvimento do código-fonte, a ferramenta auxiliou na implementação de funcionalidades do \textit{backend} e do \textit{frontend}, na depuração de problemas (como falhas de configuração do ambiente, migrações do banco de dados e condições de corrida na sincronização de estado da aplicação \textit{mobile}) e na correção de problemas de usabilidade identificados durante os testes manuais do aplicativo.
+No desenvolvimento do código-fonte, a ferramenta auxiliou na implementação de funcionalidades do \textit{backend} e do \textit{frontend}, na depuração de problemas e na correção de problemas de usabilidade identificados durante os testes manuais do aplicativo.
 No apoio aos testes, a ferramenta colaborou na escrita dos testes unitários automatizados da camada de serviços do \textit{backend}, discutidos na Seção~\ref{sec:testes_software}.
 No levantamento do referencial teórico, o Claude auxiliou na leitura dos artigos selecionados na base Scopus e na síntese de suas contribuições, apoiando a identificação de evidências relevantes para fundamentar as funcionalidades implementadas no aplicativo.
 Por fim, na redação deste documento, a ferramenta colaborou na construção argumentativa do texto, auxiliando na estruturação, revisão e encadeamento das ideias entre as seções.
@@ -77,7 +76,7 @@ Segundo \citeonline{dipompeo_2025}, a arquitetura é uma abstração de alto ní
 Dessa forma, o modelo adotado busca equilibrar as necessidades de negócio e os objetivos técnicos do sistema.
 Foi definido que um modelo de arquitetura em camadas, com processamento centralizado em um \textit{backend} \textit{cliente-servidor}, seria seguido no desenvolvimento, decisão que foi mantida até a implementação final.
 Essa escolha se justifica pela necessidade de centralizar, em um único local, o cálculo do algoritmo de repetição espaçada e a persistência consistente dos dados de progresso e de \textit{check-in} entre diferentes dispositivos do mesmo usuário, o que seria mais difícil de garantir em uma arquitetura totalmente local ao dispositivo.
-Essa opção também é favorecida pela delimitação do público-alvo a estudantes universitários, que, ao contrário de um público mais heterogêneo, tendem a ter acesso a conectividade estável durante boa parte da rotina de estudos (redes \textit{wi-fi} do campus, bibliotecas e residências), reduzindo o impacto da ausência de um modo \textit{offline} nesta primeira versão do produto.
+Essa opção também é favorecida pela delimitação do público-alvo a estudantes universitários, que, ao contrário de um público mais heterogêneo, tendem a ter acesso a conectividade estável durante boa parte da rotina de estudos, reduzindo o impacto da ausência de um modo \textit{offline} nesta primeira versão do produto.
 
 \subsection{Padrão Arquitetural em Camadas}
 
@@ -116,8 +115,8 @@ Essa escolha agrega performance conforme dito por \citeonline{gobov_2025} ao dis
 Para apoiar a confidencialidade e a integridade das informações dos usuários, a arquitetura adota autenticação via \textit{JSON Web Token} (JWT) com expiração configurável, alinhando-se às boas práticas de segurança mencionadas por \citeonline{dipompeo_2025} como técnicas para preservação da qualidade arquitetural.
 
 A privacidade dos usuários é um requisito central deste projeto, dada a natureza sensível dos dados de \textit{check-in} de humor e estresse coletados pelo aplicativo.
-Em conformidade com a LGPD \cite{brasil2018lgpd}, foram adotadas as seguintes medidas técnicas: (i) em produção, toda comunicação entre cliente e servidor ocorre via HTTPS/TLS, protegendo os dados em trânsito; (ii) as senhas dos usuários são armazenadas com funções de \textit{hash} criptográfico (nunca em texto plano); (iii) a coleta de dados é limitada ao estritamente necessário para o funcionamento das funcionalidades descritas nos requisitos (princípio da minimização de dados); e (iv) o usuário pode solicitar, a partir da tela de Perfil, a exportação de todos os seus dados pessoais em formato JSON ou a exclusão definitiva da conta, mediante confirmação de senha, atendendo aos direitos previstos pela lei.
-A exclusão é propagada automaticamente a todos os dados relacionados ao usuário (\textit{flashcards}, disciplinas, revisões, \textit{check-ins} e sessões de foco) por meio de restrições de exclusão em cascata (\textit{cascade delete}) definidas no modelo de dados, dispensando rotinas adicionais de limpeza manual.
+Em conformidade com a LGPD \cite{brasil2018lgpd}, foram adotadas as seguintes medidas técnicas: (i) em produção, toda comunicação entre cliente e servidor ocorre via HTTPS/TLS, protegendo os dados em trânsito; (ii) as senhas dos usuários são armazenadas com funções de \textit{hash} criptográfico; (iii) a coleta de dados é limitada ao estritamente necessário para o funcionamento das funcionalidades descritas nos requisitos (princípio da minimização de dados); e (iv) o usuário pode solicitar, a partir da tela de Perfil, a exportação de todos os seus dados pessoais em formato JSON ou a exclusão definitiva da conta, mediante confirmação de senha, atendendo aos direitos previstos pela lei.
+A exclusão é propagada automaticamente a todos os dados relacionados ao usuário (\textit{flashcards}, disciplinas, revisões, \textit{check-ins} e sessões de foco) por meio de restrições de exclusão em cascata.
 
 \subsection{Mapeamento Objeto-Relacional (ORM)}
 
@@ -263,7 +262,7 @@ Conforme \citeonline{letaw_2024}, existem três níveis de protótipos: o de bai
 Para este projeto, foi utilizado o Figma como ferramenta de criação de protótipos de alta fidelidade.
 Portanto, os requisitos funcionais foram validados, reduzindo o risco de retrabalho durante a fase de desenvolvimento do código.
 O protótipo desenvolvido foi utilizado como base para a implementação das páginas principais do aplicativo.
-Como o desenvolvimento do MVP já foi concluído e o aplicativo Focus está disponível para instalação e uso direto, capturas de tela do produto final não são incluídas como apêndice deste trabalho — a aplicação prática das decisões de \textit{design} validadas no protótipo pode ser verificada diretamente na execução do aplicativo.
+Como o desenvolvimento do MVP já foi concluído e o aplicativo Focus está disponível para instalação e uso direto, capturas de tela do produto final não são incluídas como apêndice deste trabalho.
 
 \section{Implantação em Produção}
 
@@ -274,7 +273,7 @@ Todos os serviços utilizados foram operados dentro dos limites de suas camadas 
 
 Para a hospedagem do banco de dados em produção, foi utilizado o Neon, um serviço de banco de dados PostgreSQL totalmente gerenciado e sem servidor (\textit{serverless}) \cite{neon_2026}.
 Essa escolha mantém compatibilidade total com o Prisma ORM já utilizado no desenvolvimento, exigindo apenas a configuração da variável de ambiente de conexão (\texttt{DATABASE\_URL}), sem qualquer alteração no código da aplicação.
-Por se tratar de uma camada gratuita, o Neon suspende a instância de computação após um período de inatividade, reativando-a automaticamente na requisição seguinte, o que introduz uma latência adicional nesse primeiro acesso.
+Por se tratar de uma camada gratuita, o Neon suspende a instância de computação após um período de inatividade, reativando-a automaticamente na requisição seguinte, o que introduz uma latência adicional no primeiro acesso ao aplicativo.
 
 \subsection{Hospedagem do \textit{Backend}}
 
@@ -282,7 +281,7 @@ O \textit{backend} Node.js foi implantado no Render, uma plataforma de hospedage
 A configuração da implantação foi definida de forma declarativa no arquivo \texttt{render.yaml}, versionado junto ao código-fonte, especificando o ambiente de execução, os comandos de \textit{build} e de inicialização, e as variáveis de ambiente necessárias, como a chave secreta de assinatura do JWT e a cadeia de conexão com o banco de dados, mantidas fora do controle de versão por questões de segurança.
 A cada implantação, o comando de \textit{build} executa automaticamente a geração do cliente Prisma e a aplicação das migrações pendentes do banco de dados por meio do comando \texttt{prisma migrate deploy}, garantindo que o esquema em produção permaneça sempre sincronizado com o modelo de dados do projeto.
 Assim como o banco de dados, o plano gratuito do Render também suspende a aplicação após um período de inatividade, fazendo com que a primeira requisição subsequente acorde o \textit{backend} e, de forma encadeada, o banco de dados, podendo levar dezenas de segundos para ser concluída.
-Para absorver essa latência combinada sem comprometer a experiência do usuário, a tela inicial do aplicativo passou a repetir a verificação de disponibilidade do servidor durante o carregamento, só liberando o acesso às demais telas quando o \textit{backend} responde de fato, em vez de presumir que uma única tentativa seria suficiente.
+Para absorver essa latência combinada sem comprometer a experiência do usuário, a tela inicial do aplicativo passou a repetir a verificação de disponibilidade do servidor durante o carregamento, só liberando o acesso às demais telas quando o \textit{backend} responde de fato.
 
 \subsection{Geração e Distribuição do Aplicativo}
 
