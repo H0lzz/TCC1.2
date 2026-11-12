@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2026.11.10)  11 NOV 2026 21:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2026.11.10)  12 NOV 2026 15:57
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -946,28 +946,6 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 ! Undefined control sequence.
 l.17 .... \imprimirlocal, \imprimirdatadaaprovacao
                                                   .
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \imprimirmembroconvidadoum 
-                                           
-l.22 ...imprimirmembroconvidadoum} \\ Convidado 1}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<recently read> \imprimirmembroconvidadodois 
-                                             
-l.23 ...primirmembroconvidadodois} \\ Convidado 2}
-                                                  
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1982,7 +1960,7 @@ b></usr/share/texmf/fonts/type1/public/lm/lmssbo10.pfb></usr/share/texmf/fonts/
 type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso12.pf
 b></usr/share/texmf/fonts/type1/public/lm/lmsso17.pfb></usr/share/texmf/fonts/t
 ype1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on tcc.pdf (88 pages, 5330034 bytes).
+Output written on tcc.pdf (88 pages, 5330303 bytes).
 PDF statistics:
  1370 PDF objects out of 1440 (max. 8388607)
  1213 compressed objects within 13 object streams
